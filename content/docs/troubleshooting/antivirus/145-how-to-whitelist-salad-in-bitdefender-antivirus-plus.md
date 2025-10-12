@@ -36,13 +36,17 @@ After you have entered the Exceptions tab, click "Add an Exception".
 
 **6. Adding Salad as an Exception**
 
-**Salad 1.0.0. and Later:** After you have clicked "Add an Exception" you will be shown a dialogue box. In that dialogue box you’ll want to navigate to the Salad Miners folder and select it, the filepath for this is “C:\\ProgramData\\Salad\\workloads” (without the quotations). Make sure to enable Antivirus protection for all 3 settings, as well as Online Threat Prevention.
+**Salad 1.0.0. and Later:** After you have clicked "Add an Exception" you will be shown a dialogue box. In that dialogue
+box you’ll want to navigate to the Salad Miners folder and select it, the filepath for this is
+“C:\\ProgramData\\Salad\\workloads” (without the quotations). Make sure to enable Antivirus protection for all 3
+settings, as well as Online Threat Prevention.
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/62557769fc54e76aac36c37d/file-0ojEhmck2r.png)
 
 **7. Click Add**
 
-Once you’ve entered the Salad Miners folder, click "Save", and it will bring you back to the main Bitdefender Exception whitelist page with your newly added exception.
+Once you’ve entered the Salad Miners folder, click "Save", and it will bring you back to the main Bitdefender Exception
+whitelist page with your newly added exception.
 
 **8. Navigate back to the "Protection" page.**
 
@@ -62,8 +66,10 @@ Start Salad, and wait for it to reach the Chopping state. Once the Chopping stat
 
 **11. Head back to "Online Threat Prevention"**
 
-Go back the the page shown in the last few steps of the guide, and now you can re-enable your "Web attack prevention" setting, allowing it to continue protecting you.
+Go back the the page shown in the last few steps of the guide, and now you can re-enable your "Web attack prevention"
+setting, allowing it to continue protecting you.
 
 **12. Salad should now be whitelisted correctly**
 
-Open your Salad widget, and click the play button. Contact support [here](https://support.salad.io/hc/en-us/requests/new) if this issue persists.
+Open your Salad widget, and click the play button. Contact support
+[here](https://support.salad.io/hc/en-us/requests/new) if this issue persists.

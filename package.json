@@ -20,6 +20,8 @@
   "type": "module",
   "scripts": {
     "build": "vite build && tsc --noEmit",
+    "check-formatting": "prettier --check ./content ./src ./.prettierrc.cjs ./cspell.json ./package.json ./source.config.ts ./source.generated.ts ./tsconfig.json ./vite.config.ts",
+    "check-types": "tsc",
     "clean": "rimraf dist",
     "dev": "vite dev",
     "start": "node .output/server/index.mjs"
@@ -45,6 +47,10 @@
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.1",
     "@vitejs/plugin-react": "5.0.4",
+    "prettier": "3.6.2",
+    "prettier-plugin-jsdoc": "1.3.3",
+    "prettier-plugin-packagejson": "2.5.19",
+    "prettier-plugin-tailwindcss": "0.6.14",
     "rimraf": "6.0.1",
     "tailwindcss": "4.1.14",
     "typescript": "5.9.3",

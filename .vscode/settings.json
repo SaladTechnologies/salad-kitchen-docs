@@ -14,6 +14,9 @@
   "cSpell.language": "en,en-US",
   "editor.formatOnSave": true,
   "editor.minimap.maxColumn": 120,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
   "editor.renderWhitespace": "all",
   "editor.rulers": [120],
   "files.associations": {
@@ -23,7 +26,7 @@
     "LICENSE": "plaintext",
     "LICENSE-CODE": "plaintext"
   },
-  "git.branchProtection": ["master"],
+  "git.branchProtection": ["main"],
   "github.copilot.enable": {
     "*": true,
     "plaintext": false,
@@ -37,6 +40,42 @@
   "mdx.validate.validateMarkdownFileLinkFragments": "error",
   "mdx.validate.validateReferences": "error",
   "mdx.validate.validateUnusedLinkDefinitions": "error",
+  "search.exclude": {
+    "node_modules": true,
+    "**/.yarn": true,
+    "**/.pnp.*": true,
+    "**/npm-debug.log*": true,
+    "**/yarn-debug.log*": true,
+    "**/yarn-error.log*": true
+  },
+  "tailwindCSS.includeLanguages": {
+    "css": "css",
+    "html": "html",
+    "javascript": "javascript",
+    "javascriptreact": "javascriptreact",
+    "typescript": "typescript",
+    "typescriptreact": "typescriptreact"
+  },
+  "telemetry.feedback.enabled": false,
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -47,6 +86,20 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[mdx]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit"
+    },
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[yaml]": {

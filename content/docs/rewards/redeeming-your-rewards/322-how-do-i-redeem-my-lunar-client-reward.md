@@ -6,7 +6,7 @@ title: How do I Redeem my Lunar Client Rewards?
 
 Congrats, chef! Looks like your ready to redeem some of our awesome rewards from the Minecraft Lunar shop!
 
-* * *
+---
 
 1. Go to [Lunar Client](https://store.lunarclient.com/) store.
 

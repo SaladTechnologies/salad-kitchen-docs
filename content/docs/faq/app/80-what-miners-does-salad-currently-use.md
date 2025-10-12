@@ -18,4 +18,6 @@ We currently support the following miner plugins:
 - Rigel (For NVIDIA and AMD GPUs)
 - WildRig Multi (For NVIDIA GPUs)
 
-We'll automatically select and run the best available miner for your machine configuration, but we may fall back to another workload or miner combination if we were unable to get it running correctly first time. We'll pop you an in-app error if there's an issue to help you resolve it, and get back to running at your best.
+We'll automatically select and run the best available miner for your machine configuration, but we may fall back to
+another workload or miner combination if we were unable to get it running correctly first time. We'll pop you an in-app
+error if there's an issue to help you resolve it, and get back to running at your best.

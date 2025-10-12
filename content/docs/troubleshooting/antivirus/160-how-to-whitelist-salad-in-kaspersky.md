@@ -38,19 +38,22 @@ After clicking "Manage exclusions" a box will show. Click "Add" as pictured belo
 
 ### 6. Adding Salad as Whitelist
 
-**Salad v1.0.0 and Later:** After clicking "Add", Select the "Browse..." button next to the "File or folder" option. Then enter the path "C:/programdata/salad/workloads", and click Select.
+**Salad v1.0.0 and Later:** After clicking "Add", Select the "Browse..." button next to the "File or folder" option.
+Then enter the path "C:/programdata/salad/workloads", and click Select.
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/6254442e0ecc5b192453680e/file-yHEd4MDQNg.png)
 
 ### 7. Select All components
 
-Once you have added the filepath, scroll down to the Protection Components section, and select All components as shown here.
+Once you have added the filepath, scroll down to the Protection Components section, and select All components as shown
+here.
 
 ![kaspersky6.png](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/619e6a2f9ccf62287e5f9a42/img-406-1637771579-1772139722.png)
 
 ### 8. Click OK
 
-Click OK at the bottom of the page, then OK again, and then finally click "Save" on the Kaspersky window to save your whitelist.
+Click OK at the bottom of the page, then OK again, and then finally click "Save" on the Kaspersky window to save your
+whitelist.
 
 ![kaspersky7.png](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/619e6a2f64e42a671b63a1c4/img-406-1637771580-1523469576.png)
 
@@ -58,4 +61,5 @@ Click OK at the bottom of the page, then OK again, and then finally click "Save"
 
 ### 9. Run Salad
 
-Let Salad run for at least 30 minutes after setting up the whitelist by opening your Salad widget, and clicking the play button. Contact support [here](https://support.salad.io/hc/en-us/requests/new) if this issue persists.
+Let Salad run for at least 30 minutes after setting up the whitelist by opening your Salad widget, and clicking the play
+button. Contact support [here](https://support.salad.io/hc/en-us/requests/new) if this issue persists.

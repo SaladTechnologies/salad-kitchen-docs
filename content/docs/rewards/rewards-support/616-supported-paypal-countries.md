@@ -4,7 +4,8 @@ title: Supported PayPal Countries
 
 # Supported PayPal Countries
 
-Salad uses a third party provider to source PayPal rewards. Some countries are not eligible to purchase PayPal rewards from our vendor. Refer to the list below to understand where PayPal rewards are supported. 
+Salad uses a third party provider to source PayPal rewards. Some countries are not eligible to purchase PayPal rewards
+from our vendor. Refer to the list below to understand where PayPal rewards are supported. 
 
 Note that purchasing PayPal rewards if your country is not listed here may prevent you from receiving the reward.
 
@@ -127,9 +128,11 @@ Supported Countries:
 
 # Supported Currencies
 
-The countries listed above are regions in which the rewards can be claimed. For international (non-US) payments, we are able to directly convert the balance to the following currencies.
+The countries listed above are regions in which the rewards can be claimed. For international (non-US) payments, we are
+able to directly convert the balance to the following currencies.
 
-Note that even if your currency is not present, but your country is listed above, you may still receive the balance. Balance should be delivered in USD.
+Note that even if your currency is not present, but your country is listed above, you may still receive the balance.
+Balance should be delivered in USD.
 
 - AUD - Australian dollar
 - CAD - Canadian dollar

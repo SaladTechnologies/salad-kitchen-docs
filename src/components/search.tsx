@@ -1,4 +1,6 @@
-'use client';
+'use client'
+import { create } from '@orama/orama'
+import { useDocsSearch } from 'fumadocs-core/search/client'
 import {
   SearchDialog,
   SearchDialogClose,
@@ -12,36 +14,29 @@ import {
   TagsList,
   TagsListItem,
   type SharedProps,
-} from 'fumadocs-ui/components/dialog/search';
-import { useDocsSearch } from 'fumadocs-core/search/client';
-import { create } from '@orama/orama';
-import { useI18n } from 'fumadocs-ui/contexts/i18n';
-import { useState } from 'react';
+} from 'fumadocs-ui/components/dialog/search'
+import { useI18n } from 'fumadocs-ui/contexts/i18n'
+import { useState } from 'react'
 
 function initOrama() {
   return create({
     schema: { _: 'string' },
     language: 'english',
-  });
+  })
 }
 
 export default function DefaultSearchDialog(props: SharedProps) {
-  const { locale } = useI18n();
-  const [tag, setTag] = useState<string | undefined>();
+  const { locale } = useI18n()
+  const [tag, setTag] = useState<string | undefined>()
   const { search, setSearch, query } = useDocsSearch({
     type: 'static',
     initOrama,
     locale,
     tag,
-  });
+  })
 
   return (
-    <SearchDialog
-      search={search}
-      onSearchChange={setSearch}
-      isLoading={query.isLoading}
-      {...props}
-    >
+    <SearchDialog search={search} onSearchChange={setSearch} isLoading={query.isLoading} {...props}>
       <SearchDialogOverlay />
       <SearchDialogContent>
         <SearchDialogHeader>
@@ -52,15 +47,11 @@ export default function DefaultSearchDialog(props: SharedProps) {
         <SearchDialogList items={query.data !== 'empty' ? query.data : null} />
         <SearchDialogFooter>
           <TagsList tag={tag} onTagChange={setTag}>
-            <TagsListItem value="antivirus">
-              Anti-Virus
-            </TagsListItem>
-            <TagsListItem value="faq">
-              FAQ
-            </TagsListItem>
+            <TagsListItem value="antivirus">Anti-Virus</TagsListItem>
+            <TagsListItem value="faq">FAQ</TagsListItem>
           </TagsList>
         </SearchDialogFooter>
       </SearchDialogContent>
     </SearchDialog>
-  );
+  )
 }

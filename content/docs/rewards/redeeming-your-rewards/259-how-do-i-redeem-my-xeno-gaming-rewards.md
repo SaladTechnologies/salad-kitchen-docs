@@ -4,7 +4,8 @@ title: How Do I Redeem My Xeno Gaming Rewards?
 
 # How Do I Redeem My Xeno Gaming Rewards?
 
-Redeeming keys (aka coupons) is actually quite simple. The Xeno Gaming rewards on the Salad Storefront have slightly different steps for redemption. 
+Redeeming keys (aka coupons) is actually quite simple. The Xeno Gaming rewards on the Salad Storefront have slightly
+different steps for redemption. 
 
 ## VIP Monthly Package Redemption
 
@@ -14,7 +15,8 @@ Redeeming keys (aka coupons) is actually quite simple. The Xeno Gaming rewards o
 
 3\. On the next screen, enter your customized name tag (this will be displayed in-game) and choose your desired color.
 
-4\. In the checkout screen, paste in the coupon code you received from Salad where it says “Redeem coupons or Gift cards” and select “redeem”.
+4\. In the checkout screen, paste in the coupon code you received from Salad where it says “Redeem coupons or Gift
+cards” and select “redeem”.
 
 5\. Enter your details and agree to the privacy statement and terms and conditions.
 
@@ -30,7 +32,8 @@ Redeeming keys (aka coupons) is actually quite simple. The Xeno Gaming rewards o
 
 4\. On the next screen, click the button that says “Sign in with Steam” and enter your Steam login credentials.
 
-5\. In the checkout screen, paste in the coupon code you received from Salad where it says “Redeem coupons or Gift cards” and select “redeem”.
+5\. In the checkout screen, paste in the coupon code you received from Salad where it says “Redeem coupons or Gift
+cards” and select “redeem”.
 
 6\. Enter your details and agree to the privacy statement and terms and conditions.
 

@@ -4,13 +4,17 @@ title: BT Troubleshooting
 
 # BT Troubleshooting
 
-Some Chefs located in the UK may struggle to run Salad if they use BT as their internet provider. Affected users will not receive Salad Container or mining workloads. Fortunately, there is a workaround for most Chefs. 
+Some Chefs located in the UK may struggle to run Salad if they use BT as their internet provider. Affected users will
+not receive Salad Container or mining workloads. Fortunately, there is a workaround for most Chefs. 
 
 ### BT Virus Protect
 
-BT Virus Protect is a free application that comes with all BT broadband packages. Chef’s can either uninstall Virus Protect entirely, or disable the Personal Firewall settings in the application. To disable Personal Firewall settings, follow these steps. 
+BT Virus Protect is a free application that comes with all BT broadband packages. Chef’s can either uninstall Virus
+Protect entirely, or disable the Personal Firewall settings in the application. To disable Personal Firewall settings,
+follow these steps. 
 
-1. Go to the [Your Security](https://my.bt.com/s/apps/appsmybt/#/packages?redirect=security) page on your BT account and login.
+1. Go to the [Your Security](https://my.bt.com/s/apps/appsmybt/#/packages?redirect=security) page on your BT account and
+   login.
 
 <!--THE END-->
 

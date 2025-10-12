@@ -4,9 +4,10 @@ title: How to Find Your GPU or CPU Specifications
 
 # How to Find Your GPU or CPU Specifications
 
-You can find your GPU or CPU model plus additional specifications (such as VRAM) from either your Task Manager or via the Salad Widget. Here are instructions for both methods.
+You can find your GPU or CPU model plus additional specifications (such as VRAM) from either your Task Manager or via
+the Salad Widget. Here are instructions for both methods.
 
-* * *
+---
 
 ## **How to Check Your GPU and/or CPU Via Task Manager**
 
@@ -28,11 +29,12 @@ You can find your GPU or CPU model plus additional specifications (such as VRAM)
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/67c136c7a0a634459896d06f/file-Jqoek2yHv1.png)
 
-4. You should see all relevant device information displayed prominently within the Task Manager window, including VRAM, device usage, driver version, temperature, and more. See below:
+4. You should see all relevant device information displayed prominently within the Task Manager window, including VRAM,
+   device usage, driver version, temperature, and more. See below:
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/67c13719a0a634459896d070/file-1fGW2FOl8F.png)
 
-* * *
+---
 
 ## **How to Check Your GPU and/or CPU Via the Salad Widget:**
 
@@ -58,4 +60,7 @@ You can find your GPU or CPU model plus additional specifications (such as VRAM)
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/6567ddbc54ed9872bc042fb7/file-R9PTaYBMVH.png)
 
-If you are unable to find your CPU or GPU shown here, make sure you are updated to the latest version of the Salad application and try again. You can download the latest version of the Salad application direct from the website [here](https://salad.com/download). If this still doesn't work, please contact [Salad Support](https://support.salad.com/article/216-how-to-create-a-support-ticket).
+If you are unable to find your CPU or GPU shown here, make sure you are updated to the latest version of the Salad
+application and try again. You can download the latest version of the Salad application direct from the website
+[here](https://salad.com/download). If this still doesn't work, please contact
+[Salad Support](https://support.salad.com/article/216-how-to-create-a-support-ticket).

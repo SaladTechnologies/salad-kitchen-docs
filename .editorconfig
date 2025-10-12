@@ -12,6 +12,18 @@ end_of_line = crlf
 indent_size = 2
 max_line_length = 120
 
+[*.{cjs,js,jsx,mjs,mts,ts,tsx}]
+indent_size = 2
+max_line_length = 120
+
+[*.{css,less,sass,scss,styl}]
+indent_size = 2
+max_line_length = 120
+
+[*.{html,htm,xhtml}]
+indent_size = 2
+max_line_length = 120
+
 [*.json]
 indent_size = 2
 max_line_length = 120
@@ -20,12 +32,23 @@ max_line_length = 120
 indent_size = 2
 max_line_length = 120
 
+[.nvmrc]
+insert_final_newline = false
+
 [*.ps1]
 end_of_line = lf
 max_line_length = 120
 
 [*.sh]
 end_of_line = lf
+indent_size = 2
+max_line_length = 120
+
+[*.svg]
+indent_size = 2
+max_line_length = 120
+
+[*.{xml,xslt}]
 indent_size = 2
 max_line_length = 120
 

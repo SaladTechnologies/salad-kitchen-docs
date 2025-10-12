@@ -8,6 +8,10 @@ Unfortunately, we do not offer refunds or exchanges for keys. As stated on our c
 
 \- Salad plays for keeps, no refunds
 
-Your rewards are sent via digital delivery, this means there is no way to 'return' your key, or for us to invalidate the key. Because of this, we have to operate under a No Refunds policy and we can't offer you your Salad Balance back.
+Your rewards are sent via digital delivery, this means there is no way to 'return' your key, or for us to invalidate the
+key. Because of this, we have to operate under a No Refunds policy and we can't offer you your Salad Balance back.
 
-If you are having an issue activating your key, please check this [FAQ](https://support.salad.com/article/190-my-reward-code-is-invalid) or contact [Salad Support](https://support.salad.com/article/216-how-to-create-a-support-ticket) and we can do our best to assist you.
+If you are having an issue activating your key, please check this
+[FAQ](https://support.salad.com/article/190-my-reward-code-is-invalid) or contact
+[Salad Support](https://support.salad.com/article/216-how-to-create-a-support-ticket) and we can do our best to assist
+you.

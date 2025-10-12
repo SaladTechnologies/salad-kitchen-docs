@@ -4,9 +4,12 @@ title: How Do I Redeem a Metafy Gift Card and Memberships?
 
 # How Do I Redeem a Metafy Gift Card and Memberships?
 
-Once you have purchased a Metafy gift card from the Salad Storefront, you'll receive a gift card code that can be redeemed for Metafy's coaching content. Metafy gift cards can be cashed in when the user books a coach.
+Once you have purchased a Metafy gift card from the Salad Storefront, you'll receive a gift card code that can be
+redeemed for Metafy's coaching content. Metafy gift cards can be cashed in when the user books a coach.
 
-*Please note: In order to use your Metafy gift card, you will need to create a free account at* [https://metafy.gg/](https://metafy.gg/) . *To create an account and use your Metafy gift card, follow the directions below.*
+_Please note: In order to use your Metafy gift card, you will need to create a free account at_
+[https://metafy.gg/](https://metafy.gg/) . _To create an account and use your Metafy gift card, follow the directions
+below._
 
 1. Create a Metafy account.
 
@@ -40,7 +43,7 @@ Once you have purchased a Metafy gift card from the Salad Storefront, you'll rec
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/644bf1ead50b2033bd2419e3/file-6ZG8z8aWCo.png)
 
-6. Enter your Salad gift card code in the ***Have a promo code?*** section.
+6. Enter your Salad gift card code in the **_Have a promo code?_** section.
 
 <!--THE END-->
 
@@ -48,13 +51,15 @@ Once you have purchased a Metafy gift card from the Salad Storefront, you'll rec
 
 7. Check out and wait for your coach to contact you.
 
-A user's gift card balance will never expire and cannot be transferred to another account. Check our Metafy's [Terms and Conditions](https://metafy.notion.site/Metafy-Terms-of-Service-16472ffe2d0443b1bce4ce4ff43b7a1f).
+A user's gift card balance will never expire and cannot be transferred to another account. Check our Metafy's
+[Terms and Conditions](https://metafy.notion.site/Metafy-Terms-of-Service-16472ffe2d0443b1bce4ce4ff43b7a1f).
 
-* * *
+---
 
 ### Metafy Memberships
 
-Chefs can purchase Metafy memberships with their Salad balance and apply them directly to their Metafy account. Once the membership is purchased, chefs will receive an email with a redemption code and link.
+Chefs can purchase Metafy memberships with their Salad balance and apply them directly to their Metafy account. Once the
+membership is purchased, chefs will receive an email with a redemption code and link.
 
 1. Click on the Metafy membership url sent via email, or your Salad reward vault. The URL will take you to this page:
 
@@ -62,8 +67,10 @@ Chefs can purchase Metafy memberships with their Salad balance and apply them di
 
 Click on 'Become a Member'
 
-2. Enter your Salad membership code in the ***Have a Promo Code?*** box and hit apply. Memberships renew monthly, so you will need to enter your Paypal or credit card information in order to complete the process.
+2. Enter your Salad membership code in the **_Have a Promo Code?_** box and hit apply. Memberships renew monthly, so you
+   will need to enter your Paypal or credit card information in order to complete the process.
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/646540282e13a93fff28a535/file-BGcaODOKtk.png)
 
-*Metafy renews monthly, and users can cancel any time. If you do not wish to for an additional month make sure to cancel your membership your Metafy account page.*
+_Metafy renews monthly, and users can cancel any time. If you do not wish to for an additional month make sure to cancel
+your membership your Metafy account page._

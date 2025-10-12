@@ -4,7 +4,8 @@ title: What Is My Machine Actually Mining?
 
 # What Is My Machine Actually Mining?
 
-When you Chop mining workloads, Salad will automatically determine which coin is most profitable for you to mine. Currently we support these blockchain protocols:
+When you Chop mining workloads, Salad will automatically determine which coin is most profitable for you to mine.
+Currently we support these blockchain protocols:
 
 - Ethereum Classic (For 3GB+ GPUs)
 - Autolykos (For 3GB+ GPUs)

@@ -34,7 +34,9 @@ On the popup window, type "coinminer" into the bar at the top right, this will f
 
 **6. Uncheck the "Active" box for all of them**
 
-To ensure all of Salad's miners are able to run, you will need to uncheck the "Active" box for all the items in this list, making sure to scroll all the way through the list to get them all. Once done, click the "OK" button at the bottom.
+To ensure all of Salad's miners are able to run, you will need to uncheck the "Active" box for all the items in this
+list, making sure to scroll all the way through the list to get them all. Once done, click the "OK" button at the
+bottom.
 
 ![norton12.png](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/619e6a4dd3efbe495c3b25d8/img-406-1637771470-1555933532.png)
 
@@ -52,7 +54,9 @@ Click the "Configure \[+]" button next to "Device Trust".
 
 **22. Whitelist each of the miner pools**
 
-Now, you will need to add a whitelist for each of the mining pools that Salad will connect to. You can do this by clicking the "Add" button at the bottom, and filling in the information for the pools. The information for each of the pools is shown below.
+Now, you will need to add a whitelist for each of the mining pools that Salad will connect to. You can do this by
+clicking the "Add" button at the bottom, and filling in the information for the pools. The information for each of the
+pools is shown below.
 
 1. Name: Prohashing IP or Physical Address: prohashing.com Trust Level: Full Trust
 2. Name: NiceHash IP or Physical Address: nicehash.com Trust Level: Full Trust
@@ -63,6 +67,8 @@ Now, you will need to add a whitelist for each of the mining pools that Salad wi
 7. Name: xmrdonation IP or Physical Address: 178.128.242.134 Trust Level: Full Trust
 8. Name: xmrig IP or Physical Address: 199.247.27.41 Trust Level: Full Trust
 
-For all of these, you should enable IPS Exclusion as well. The names provided are recommendations, you can name it something else if you prefer. Once complete, click the "Apply" button at the bottom. Here is a screenshot showing some of these whitelists:
+For all of these, you should enable IPS Exclusion as well. The names provided are recommendations, you can name it
+something else if you prefer. Once complete, click the "Apply" button at the bottom. Here is a screenshot showing some
+of these whitelists:
 
 ![mceclip2.png](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/619e6a4eefc78d0553e5d5ed/img-406-1637771472-837679047.png)

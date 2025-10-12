@@ -2,9 +2,10 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Preview",
+      "label": "npm: dev",
+      "detail": "vite dev",
       "type": "npm",
-      "command": "dev",
+      "script": "dev",
       "problemMatcher": []
     }
   ]

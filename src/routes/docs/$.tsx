@@ -1,30 +1,25 @@
-import { createFileRoute, notFound } from '@tanstack/react-router';
-import { DocsLayout } from 'fumadocs-ui/layouts/docs';
-import { createServerFn } from '@tanstack/react-start';
-import { staticFunctionMiddleware } from '@tanstack/start-static-server-functions';
-import { source } from '@/lib/source';
-import type { PageTree } from 'fumadocs-core/server';
-import { useMemo } from 'react';
-import { docs } from '../../../source.generated';
-import {
-  DocsBody,
-  DocsDescription,
-  DocsPage,
-  DocsTitle,
-} from 'fumadocs-ui/page';
-import defaultMdxComponents from 'fumadocs-ui/mdx';
-import { createClientLoader } from 'fumadocs-mdx/runtime/vite';
-import { baseOptions } from '@/lib/layout.shared';
+import { baseOptions } from '@/lib/layout.shared'
+import { source } from '@/lib/source'
+import { createFileRoute, notFound } from '@tanstack/react-router'
+import { createServerFn } from '@tanstack/react-start'
+import { staticFunctionMiddleware } from '@tanstack/start-static-server-functions'
+import type { PageTree } from 'fumadocs-core/server'
+import { createClientLoader } from 'fumadocs-mdx/runtime/vite'
+import { DocsLayout } from 'fumadocs-ui/layouts/docs'
+import defaultMdxComponents from 'fumadocs-ui/mdx'
+import { DocsBody, DocsDescription, DocsPage, DocsTitle } from 'fumadocs-ui/page'
+import { useMemo } from 'react'
+import { docs } from '../../../source.generated'
 
 export const Route = createFileRoute('/docs/$')({
   component: Page,
   loader: async ({ params }) => {
-    const slugs = params._splat?.split('/') ?? [];
-    const data = await loader({ data: slugs });
-    await clientLoader.preload(data.path);
-    return data;
+    const slugs = params._splat?.split('/') ?? []
+    const data = await loader({ data: slugs })
+    await clientLoader.preload(data.path)
+    return data
   },
-});
+})
 
 const loader = createServerFn({
   method: 'GET',
@@ -32,14 +27,14 @@ const loader = createServerFn({
   .middleware([staticFunctionMiddleware])
   .inputValidator((slugs: string[]) => slugs)
   .handler(async ({ data: slugs }) => {
-    const page = source.getPage(slugs);
-    if (!page) throw notFound();
+    const page = source.getPage(slugs)
+    if (!page) throw notFound()
 
     return {
       tree: source.pageTree as object,
       path: page.path,
-    };
-  });
+    }
+  })
 
 const clientLoader = createClientLoader(docs.doc, {
   id: 'docs',
@@ -56,28 +51,25 @@ const clientLoader = createClientLoader(docs.doc, {
           />
         </DocsBody>
       </DocsPage>
-    );
+    )
   },
-});
+})
 
 function Page() {
-  const data = Route.useLoaderData();
-  const Content = clientLoader.getComponent(data.path);
-  const tree = useMemo(
-    () => transformPageTree(data.tree as PageTree.Folder),
-    [data.tree],
-  );
+  const data = Route.useLoaderData()
+  const Content = clientLoader.getComponent(data.path)
+  const tree = useMemo(() => transformPageTree(data.tree as PageTree.Folder), [data.tree])
 
   return (
     <DocsLayout {...baseOptions()} tree={tree}>
       <Content />
     </DocsLayout>
-  );
+  )
 }
 
 function transformPageTree(tree: PageTree.Folder): PageTree.Folder {
   function transform<T extends PageTree.Item | PageTree.Separator>(item: T) {
-    if (typeof item.icon !== 'string') return item;
+    if (typeof item.icon !== 'string') return item
 
     return {
       ...item,
@@ -88,15 +80,15 @@ function transformPageTree(tree: PageTree.Folder): PageTree.Folder {
           }}
         />
       ),
-    };
+    }
   }
 
   return {
     ...tree,
     index: tree.index ? transform(tree.index) : undefined,
     children: tree.children.map((item) => {
-      if (item.type === 'folder') return transformPageTree(item);
-      return transform(item);
+      if (item.type === 'folder') return transformPageTree(item)
+      return transform(item)
     }),
-  };
+  }
 }
