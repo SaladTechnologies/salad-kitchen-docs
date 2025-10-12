@@ -1,0 +1,53 @@
+{
+  "name": "salad-kitchen-docs",
+  "private": true,
+  "description": "Documentation for Salad Chefs",
+  "homepage": "https://salad.com",
+  "bugs": {
+    "url": "https://support.salad.com",
+    "email": "support@salad.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SaladTechnologies/salad-kitchen-docs.git"
+  },
+  "author": {
+    "name": "Salad Technologies",
+    "email": "dev@salad.com",
+    "url": "https://salad.com"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "build": "vite build && tsc --noEmit",
+    "clean": "rimraf dist",
+    "dev": "vite dev",
+    "start": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "1.132.47",
+    "@tanstack/react-router-devtools": "1.132.51",
+    "@tanstack/react-start": "1.132.54",
+    "@tanstack/start-static-server-functions": "1.132.54",
+    "fumadocs-core": "15.8.5",
+    "fumadocs-mdx": "12.0.3",
+    "fumadocs-ui": "15.8.5",
+    "lucide-static": "0.545.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "tailwind-merge": "3.3.1",
+    "vite": "7.1.9"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.1.14",
+    "@types/mdx": "2.0.13",
+    "@types/node": "22.18.10",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.1",
+    "@vitejs/plugin-react": "5.0.4",
+    "rimraf": "6.0.1",
+    "tailwindcss": "4.1.14",
+    "typescript": "5.9.3",
+    "vite-tsconfig-paths": "5.1.4"
+  }
+}

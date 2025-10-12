@@ -1,0 +1,4 @@
+* @SaladTechnologies/admins @SaladTechnologies/devops @SaladTechnologies/kitchen-cx @SaladTechnologies/kitchen-ux
+
+# Administrators must approve changes to code owners (and other GitHub-specific resources).
+/.github/ @SaladTechnologies/admins
