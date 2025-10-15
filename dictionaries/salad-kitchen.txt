@@ -64,3 +64,6 @@ Gbps
 Ookla
 Ryzen
 dxdiag
+interruptible
+sshot
+harsalad

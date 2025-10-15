@@ -31,7 +31,7 @@ combinations to access BIOS settings on your machine.
 
    ![](./content/images/Guides/Your-PC/Enable-Virtualization-by-Motherboard-Lenovo-2.png)
 
-5. Enable **AMD V(TM) Techhnology** with the left or right arrow key.
+5. Enable **AMD V(TM) Technology** with the left or right arrow key.
 6. Press **F10** once more to save your configuration and exit.
 
 **Ideapad (Intel Processor)**

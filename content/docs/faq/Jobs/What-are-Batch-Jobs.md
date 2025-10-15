@@ -19,5 +19,5 @@ highly-available.
 While Batch Jobs are usually short, most other
 [Container Jobs](https://Community.salad.com/new-feature-container-environments-now-available/) are long-running. These
 longer Container Jobs can often run for weeks or months at a time, and are usually used for workloads that require
-continuous processing power, or regularly recieve new data to work on. It's common to regularly recieve the same Jobs.
+continuous processing power, or regularly receive new data to work on. It's common to regularly receive the same Jobs.
 An example of this is to serve AI Inference or Machine Learning models.

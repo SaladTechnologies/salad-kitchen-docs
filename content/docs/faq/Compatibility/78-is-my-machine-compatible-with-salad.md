@@ -9,7 +9,7 @@ available, and what each entail.
 
 ## **Container Workloads**
 
-For Container Workloads, Salad currently only supports more recent NVIDIA-only GPUs, with a recommended minumum amount
+For Container Workloads, Salad currently only supports more recent NVIDIA-only GPUs, with a recommended minimum amount
 of 8GB of VRAM. This means that you'll need at least an RTX 2070 and up to be able to Chop containers. As containers are
 based on demand from our clients, some older GPUs may work such as the GTX 1650/Ti, though demand is likely to be low
 and fluctuate.

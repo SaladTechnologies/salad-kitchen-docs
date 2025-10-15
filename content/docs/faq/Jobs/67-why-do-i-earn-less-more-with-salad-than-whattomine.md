@@ -14,4 +14,4 @@ such as:
 - Mining 24 hours/day, 7 days/week.
 - Achieving [100% luck rates](https://2miners.com/blog/mining-mining-luck/).
 
-Salad also offers more workloads than just Mining, we also offer Containerised Compute jobs, and Bandwidth sharing.
+Salad also offers more workloads than just Mining, we also offer Containerized Compute jobs, and Bandwidth sharing.

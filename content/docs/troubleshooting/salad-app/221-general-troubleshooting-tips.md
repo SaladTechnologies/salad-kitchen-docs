@@ -6,7 +6,7 @@ If Salad still isn't working quite right after
 [whitelisting in your Antivirus software](/docs/Troubleshooting/Antivirus/), there are a few extra steps to try:
 
 1. Reboot Your Machine.
-   1. Reboot your PC by clicking on your Start Menu, selecing the Power icon, and clicking 'Restart'
+   1. Reboot your PC by clicking on your Start Menu, selecting the Power icon, and clicking 'Restart'
 
 2. Double Check that your PC is Compatible.
    1. There is a chance that your PC is simply incompatible with Salad, you can check the system requirements
@@ -35,7 +35,7 @@ If Salad still isn't working quite right after
    1. If you haven't updated your GPU drivers in a while, it's possible that Salad and its containers might not be
       compatible with the installed version. If Salad has recently stopped working after a recent driver update, you may
       need to try reverting to an older driver version. This can sometimes happen if there was a bug or problem with the
-      latest releas. You can find guides here on how to update your GPU drivers:
+      latest release. You can find guides here on how to update your GPU drivers:
       1. [AMD drivers](/docs/Guides/Your-PC/175-how-to-update-my-amd-drivers) if you own an AMD dedicated GPU
       2. [NVIDIA drivers](/docs/Guides/Your-PC/174-how-to-update-my-nvidia-drivers) if you own an NVIDIA GPU
       3. Intel drivers if you own an Intel dedicated ARC GPU

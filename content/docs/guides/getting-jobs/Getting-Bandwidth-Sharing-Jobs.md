@@ -5,7 +5,7 @@ title: 'Getting Bandwidth Sharing Jobs'
 _Last Updated September 11, 2025_
 
 Salad offers a variety of job types, including [Bandwidth Sharing Jobs](/docs/FAQ/Jobs/253-what-is-bandwidth-sharing).
-These jobs utilise your idle, spare internet connection bandwidth to Chop Salad Balance. They can run alongside other
+These jobs utilize your idle, spare internet connection bandwidth to Chop Salad Balance. They can run alongside other
 Jobs and automatically start whilst Chopping if you're eligible, and it's enabled.
 
 ---

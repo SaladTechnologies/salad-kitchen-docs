@@ -12,7 +12,7 @@ Visa/Mastercards.
 We recommend looking for something cheaper for your first redemption, as you may not have enough Salad Balance yet for
 some of the higher-priced items. For example, you could purchase a
 [$1 Amazon Gift Card](https://salad.com/store/search?q=amazon%20gift%20card&size=n_20_n&filters%5B0%5D%5Bfield%5D=price&filters%5B0%5D%5Bvalues%5D%5B0%5D%5Bto%5D=n_5_n&filters%5B0%5D%5Bvalues%5D%5B0%5D%5Bfrom%5D=n_1_n&filters%5B0%5D%5Bvalues%5D%5B0%5D%5Bname%5D=%241%20to%20%245&filters%5B0%5D%5Btype%5D=all)
-or a [donation to your favourite charity](https://salad.com/store/search?q=Donation&size=n_20_n).
+or a [donation to your favorite charity](https://salad.com/store/search?q=Donation&size=n_20_n).
 
 ![](./content/images/Guides/Getting-Started/Redeeming-your-First-Reward-1.png)
 
@@ -36,5 +36,5 @@ can access your Reward Vault from the Store dropdown menu at the top of the page
 You can find additional information on purchasing rewards
 [here](/docs/Guides/Using-the-Salad-App/124-how-to-make-a-purchase).
 
-Now that you've obtained your first reward, you can optimise Salad and your PC to Chop even more Salad Balance. Check
+Now that you've obtained your first reward, you can optimize Salad and your PC to Chop even more Salad Balance. Check
 out our guides on this topic in [Getting Jobs](/docs/Guides/Getting-Jobs/326-workload-preferences).
