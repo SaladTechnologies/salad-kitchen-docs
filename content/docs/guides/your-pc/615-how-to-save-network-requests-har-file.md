@@ -2,8 +2,6 @@
 title: How to Save Network Requests (HAR File)
 ---
 
-# How to Save Network Requests (HAR File)
-
 You may get prompted by our support agents to send a HAR file in order to help identify and fix your issue.
 
 Most browser Developer Tools have the ability to record network requests made in the browser as well as export them to a

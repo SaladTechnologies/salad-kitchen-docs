@@ -2,8 +2,6 @@
 title: What is Salad’s business model?
 ---
 
-# What is Salad’s business model?
-
 Like any good Salad, our business model has multiple layers that strengthen the whole. Also like any good Salad, none of
 these layers involve selling your data. Here’s how it works.
 
@@ -16,8 +14,8 @@ charge a fraction of the
 [current cloud providers’](https://www.softwaretestinghelp.com/cloud-computing-service-providers/) costs, these jobs
 earn both Salad and our users significantly more than the pennies per hour that mining generates. Of course, the
 availability of these jobs can fluctuate. So we will continue to offer
-[blockchain](https://support.salad.com/article/77-what-is-my-machine-actually-mining) networks as in addition to our
-Container and Bandwidth workloads to pad out Chefs' Salad earnings.
+[blockchain](/docs/FAQ/Salad-App/80-what-miners-does-salad-currently-use) networks as in addition to our Container and
+Bandwidth workloads to pad out Chefs' Salad earnings.
 
 ---
 

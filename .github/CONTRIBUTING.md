@@ -32,7 +32,7 @@ our [security policy][security-page] for more details.
 
 _Please do not use public GitHub issues to report a security vulnerability._
 
-## Changing Code
+## Modifying the Documentation or Updating Code
 
 Interested in changing the world?
 
@@ -46,7 +46,8 @@ Studio Code documentation][vscode-extensions] on recommended extensions to learn
 
 Fourth, create a new branch for your changes, make your modifications, and commit them with a clear message.
 
-Finally, push your changes to your fork and create a pull request against this repository.
+Finally, push your changes to your fork and create a pull request against this repository. We will review your changes
+and provide feedback or merge them as appropriate.
 
 Additionally, please consider taking a moment to read Miguel de Icaza's blog post titled [Open Source Contribution
 Etiquette][etiquette-1] and Ilya Grigorik's blog post titled [Don't "Push" Your Pull Requests][etiquette-2].

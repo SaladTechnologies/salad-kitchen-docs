@@ -2,8 +2,6 @@
 title: Is Salad a Virus?
 ---
 
-# Is Salad a Virus?
-
 If you've tried to run Salad with an antivirus software installed, such as Windows Defender, or Norton Antivirus,
 there's a good chance you might have received a popup letting you know that something from Salad has been blocked.
 
@@ -14,5 +12,4 @@ are unable to differentiate between maliciously installed plugins, and when it's
 balance.
 
 Because of this, you may need to whitelist us in your antivirus program to allow your Salad app to earn. You can learn
-how to whitelist Salad in your antivirus software by following our guides
-[here](https://support.salad.com/hc/en-us/sections/360008458292-Anti-Virus).
+how to whitelist Salad in your antivirus software by following our guides [here](/docs/Troubleshooting/Antivirus/).

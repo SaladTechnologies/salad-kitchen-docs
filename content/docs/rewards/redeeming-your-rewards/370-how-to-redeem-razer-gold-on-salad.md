@@ -2,8 +2,6 @@
 title: How to Redeem Razer Gold on Salad
 ---
 
-# How to Redeem Razer Gold on Salad
-
 Salad Chefs can now redeem Razer Gold on the Salad Storefront! Razer Gold is a digital wallet for gamers, created by
 Razer and accepted by thousands of games and entertainment brands.
 
@@ -21,6 +19,6 @@ can also earn points in Razer Silver, Razer's official rewards program. These po
 such as Razer gear and gift cards.
 
 If you’re having trouble with your Salad confirmation email and/or Reward Vault, please
-[submit a support ticket](https://support.salad.com/article/216-how-to-create-a-support-ticket). If you need help using
-your Razer Gold once it’s redeemed, either check out [Razer Gold’s FAQ](https://gold.razer.com/us/en/help) or
+[submit a support ticket](/docs/Guides/Your-PC/216-how-to-create-a-support-ticket). If you need help using your Razer
+Gold once it’s redeemed, either check out [Razer Gold’s FAQ](https://gold.razer.com/us/en/help) or
 [contact Razer for support](https://gold.razer.com/my/en/help).

@@ -2,8 +2,6 @@
 title: Bandwidth Sharing Quick Troubleshooting Guide
 ---
 
-# Bandwidth Sharing Quick Troubleshooting Guide
-
 **I don't have the option to enable Bandwidth sharing.**
 
 - The Bandwidth Sharing card in Performance tab is only available to chefs in qualified regions. If you don't see the

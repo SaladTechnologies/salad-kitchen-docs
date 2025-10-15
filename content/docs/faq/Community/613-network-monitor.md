@@ -2,8 +2,6 @@
 title: Network Monitor
 ---
 
-# Network Monitor
-
 ### What is the Network Monitor?
 
 The [network monitor](https://salad.com/earn/demand) is a feature that allows Chefs to have a birds eye view on the
@@ -20,25 +18,21 @@ From left to right on the table, here is each entry and what it represents:
   - This part of the table lets you know for each row of the table which GPU is being concerned by the data, as well as
     the hourly rate range that this GPU can expect while Chopping a job from low to high.
 
-    ### Recommended Specs:
-
+- ### Recommended Specs:
   - This item lets you know what specs are currently most seeked out to be paired with your GPU in order to maximize
     your earnings in terms of RAM and storage. Worry not, if you don't meet this criteria it does not mean that you will
     not get jobs, though these recommended specs are a representation of what our clients regularly request for your
     GPU.
 
-    ### Demand:
-
+- ### Demand:
   - Demand for the current GPU, with values being Low, Moderate, or High. A GPU with Low demand means that there are
     many more Chefs with the requested hardware than there are jobs available. If demand is High, then we expect that a
     Chef with this type of hardware should get jobs fairly consistently.
 
-    ### Average Earning Rate, hourly:
-
+- ### Average Earning Rate, hourly:
   - Tracks the average earning rate for all Chefs that have this GPU per hour.
 
-    ### Average Earning Rate Top 25% hourly:
-
+- ### Average Earning Rate Top 25% hourly:
   - Tracks the cumulative average earnings per hour for the top 25% of earners that have this GPU. This column
     represents what our top earners for this GPU are earning per hour.
 
@@ -64,13 +58,11 @@ The demand for any GPU in the table (each line) can be marked with one of the th
   - A GPU marked with Low demand suggests that there are currently more Chefs that are actively Chopping and waiting for
     a job than there are jobs available.
 
-    ### Moderate
-
+- ### Moderate
   - A GPU marked with Moderate demand suggests that jobs are available in the network for this GPU class, but there may
     still be some periods where your machine remains idle since there are more Chefs Chopping than there are jobs.
 
-    ### High
-
+- ### High
   - A GPU marked with High demand suggests that Chefs with this type of hardware should see minimal gaps in their
     earning experience, and the machines should be able to get jobs fairly consistently.
 

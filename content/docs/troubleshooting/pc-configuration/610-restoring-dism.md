@@ -2,8 +2,6 @@
 title: Restoring DISM
 ---
 
-# Restoring DISM
-
 The DISM tool is used to mount virtual system files into the Salad Container Environment. Some Chefs might have a
 corrupted or otherwise non-usable DISM installation, which will prevent Salad from running properly. Let's look into
 restoring DISM to its normal state on your machine.

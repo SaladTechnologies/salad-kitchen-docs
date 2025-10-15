@@ -2,8 +2,6 @@
 title: What is WSL?
 ---
 
-# What is WSL?
-
 WSL (Windows Subsystem for Linux) is a Windows operating system feature that allows a user to run Linux, and Linux
 software, on Windows. It's run in a secure virtual environment that provides a level of security between your PC, and
 what's running inside.
@@ -61,4 +59,4 @@ Updating to the latest Windows 10 or 11 can solve this issue. Check for availabl
 your system is eligible for an operating system update.
 
 If you have any problems going through these setup steps, or have additional questions about WSL in Salad, contact
-[Salad Support](https://support.salad.com/article/216-how-to-create-a-support-ticket).
+[Salad Support](/docs/Guides/Your-PC/216-how-to-create-a-support-ticket).

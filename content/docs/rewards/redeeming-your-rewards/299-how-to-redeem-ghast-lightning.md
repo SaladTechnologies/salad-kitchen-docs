@@ -2,12 +2,10 @@
 title: How to Redeem Ghast Lightning
 ---
 
-# How to Redeem Ghast Lightning
-
 Ghast Lightning provides lifetime access to Ghast’s Minecraft connection optimization software. You can redeem it from
 our Storefront here:
 
-- [Ghast Lightning: $20.00 SB](https://salad.com/store/rewards/f49ef083-a130-4033-b44b-3723b1222e44)
+- [Ghast Lightning: $20.00 SB](https://salad.com/store/Rewards/f49ef083-a130-4033-b44b-3723b1222e44)
 
 After you redeem your reward, follow these steps to activate your new Ghast Lightning:
 

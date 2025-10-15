@@ -12,8 +12,8 @@ Some computers allow you to check with a simple Windows utility. To do so, simpl
 1. Press the **Windows** and **R** keys simultaneously to open Windows Run.
 2. Type “msinfo32” and hit **Enter**.
 
-   ![](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/63518398de258f5018eb6320/file-GXPj0Kujf2.png)
+   ![](./content/images/Guides/Your-PC/Identifying-your-Motherboard-1.png)
 
 3. Refer to the BaseBoard (motherboard) Manufacturer and Product (model) details.
 
-   ![](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/635183ab4d805871ceaa52eb/file-5Fnhczjc3U.png)
+   ![](./content/images/Guides/Your-PC/Identifying-your-Motherboard-2.png)

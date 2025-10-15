@@ -2,8 +2,6 @@
 title: Incompatible Configurations
 ---
 
-# Incompatible Configurations
-
 At Salad, we love a good mix - whether it’s in a fresh garden bowl or a balanced workload on your machine. But when it
 comes to GPUs, some combos just don’t work. If you’re seeing Node Compatibility Workload (NCW) statuses, and your system
 has both a modern NVIDIA GPU (like an RTX 3080 or 2080) and an older model (such as a GT 210, GT 710, or GTX 500
@@ -37,9 +35,8 @@ To restore compatibility and get the most out of your setup, follow these steps:
 3. **Update/Reinstall NVIDIA Drivers:**
    - Visit [NVIDIA’s official site](https://www.nvidia.com/Download/index.aspx) to download the latest drivers for your
      modern GPU.
-   - Use `DDU (Display Driver Uninstaller)` in Safe Mode to completely remove old drivers before reinstalling fresh ones
-     :
-     [https://support.salad.com/article/184-how-to-reinstall-gpu-drivers](https://support.salad.com/article/184-how-to-reinstall-gpu-drivers)
+   - Use `DDU (Display Driver Uninstaller)` in Safe Mode to completely remove old drivers before
+     [reinstalling fresh ones](/docs/Guides/Your-PC/184-how-to-reinstall-gpu-drivers)
 
 4. **Restart Your System:**
    - After removing the old GPU and installing fresh drivers, restart your machine.

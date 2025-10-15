@@ -2,8 +2,6 @@
 title: Is My Machine Compatible With Salad?
 ---
 
-# Is My Machine Compatible With Salad?
-
 # **GPU:**
 
 To understand what Graphics Cards (GPUs) are supported on Salad, let's review the different GPU Chopping modes that are
@@ -17,7 +15,7 @@ based on demand from our clients, some older GPUs may work such as the GTX 1650/
 and fluctuate.
 
 In addition to the GPU, containers require at least 8GB of memory (RAM) and 70GB of free storage space, as well as a 15
-megabit per second internet connection in both uplodad and download.
+megabit per second internet connection in both upload and download.
 
 For best performance while Chopping, we recommend **NVIDIA GPUs 3080 and later with a minimum of 16 GB of RAM and 8 GB
 of VRAM**
@@ -50,15 +48,15 @@ GPUs in the same machine cannot be utilized at the same time. Chefs cannot run G
 Chopping on their secondary GPU, they must Chop Salad while AFK in order to receive the most profitable workloads.
 
 Here’s how to find your GPU if you don’t know what your computer has:
-[How to Find My GPU](https://support.salad.com/article/118-how-to-find-your-gpu-or-cpu).
+[How to Find My GPU](/docs/Guides/Your-PC/118-how-to-find-your-gpu-or-cpu).
 
 ---
 
 ### **CPU:**
 
 Salad supports most 64-bit x86 Central Processing Units (CPUs) from within the past 10 years, providing they support
-[virtualization.](https://support.salad.com/article/270-how-to-enable-virtualization-support-on-your-machine) Quadcore
-and above CPUs will perform optimally while running Salad, users may run dualcore CPUs at their own risk.
+[virtualization.](/docs/Guides/Your-PC/270-how-to-enable-virtualization-support-on-your-machine) Quadcore and above CPUs
+will perform optimally while running Salad, users may run dualcore CPUs at their own risk.
 
 Some examples of supported CPUs:
 
@@ -88,7 +86,7 @@ In addition to compute workloads that utilize your CPU or your GPU, Salad can al
 earn some Salad Balance!
 
 Bandwidth Sharing is currently limited in the supported countries, so you'll need to check if
-[your country is available](https://support.salad.com/article/295-bandwidth-sharing-quick-troubleshooting-guide).
+[your country is available](/docs/Troubleshooting/Bandwidth-Sharing-Jobs/295-bandwidth-sharing-quick-troubleshooting-guide).
 
 While the exact requirements depend on client criteria and decisions, we recommend you have at least a 15 megabit per
 second internet in both upload and download speeds, and less than 100ms latency to the nearest server.

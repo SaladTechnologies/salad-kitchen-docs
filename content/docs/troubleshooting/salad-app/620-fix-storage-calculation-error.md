@@ -2,8 +2,6 @@
 title: How to Fix a Storage Calculation Error
 ---
 
-# How to Fix a Storage Calculation Error
-
 If you're seeing a Storage Calculation Error in Salad, this issue usually requires a support representative to manually
 review. Typically, the error is caused by one of the following issues:
 
@@ -22,8 +20,8 @@ confirm whether PowerShell or DISM is causing the issue.
 Once Support identifies the problem, they will direct you to the appropriate fix:
 
 - **If PowerShell is the issue**, follow this guide:
-  [Re-Enable PowerShell](https://support.salad.com/article/608-re-enable-powershell)
-- **If DISM is the issue**, follow this guide: [Restore DISM](https://support.salad.com/article/610-restoring-dism)
+  [Re-Enable PowerShell](/docs/Troubleshooting/PC-Configuration/608-re-enable-powershell)
+- **If DISM is the issue**, follow this guide: [Restore DISM](/docs/Troubleshooting/PC-Configuration/610-restoring-dism)
 
 ## **Step 3: Test and Resume Chopping**
 

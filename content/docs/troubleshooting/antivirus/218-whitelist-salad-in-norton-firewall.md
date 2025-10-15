@@ -2,35 +2,33 @@
 title: Whitelist Salad in Norton Firewall
 ---
 
-# Whitelist Salad in Norton Firewall
-
 **1. Open Norton and navigate to the Settings at the top right**
 
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/61d30fb56e49f25358bca4be/file-LveSMXpFZB.png)
+![](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Norton-Firewall-1.png)
 
 **2. Select "Firewall"**
 
 Select the "Firewall" option to navigate into the settings for it.
 
-![norton8.png](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/619e6a4cefc78d0553e5d5eb/img-406-1637771466-1426671771.png)
+![norton8.png](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Norton-Firewall-2.png)
 
 **3. Select "Intrusion and Browser Protection"**
 
 Navigate to the "Intrusion and Browser Protection" panel at the top.
 
-![norton9.png](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/619e6a4defc78d0553e5d5ec/img-406-1637771467-1228587118.png)
+![norton9.png](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Norton-Firewall-3.png)
 
 **4. Click "Configure \[+]"**
 
 Click the "Configure \[+]" button next to "Intrusion Signatures".
 
-![norton10.png](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/619e6a4d2b380503dfe08197/img-406-1637771468-547383710.png)
+![norton10.png](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Norton-Firewall-4.png)
 
 **5. Type "coinminer" into the search bar**
 
 On the popup window, type "coinminer" into the bar at the top right, this will filter it to only miner signatures.
 
-![norton11.png](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/619e6a4d9ccf62287e5f9a66/img-406-1637771469-1344667042.png)
+![norton11.png](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Norton-Firewall-5.png)
 
 **6. Uncheck the "Active" box for all of them**
 
@@ -38,19 +36,19 @@ To ensure all of Salad's miners are able to run, you will need to uncheck the "A
 list, making sure to scroll all the way through the list to get them all. Once done, click the "OK" button at the
 bottom.
 
-![norton12.png](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/619e6a4dd3efbe495c3b25d8/img-406-1637771470-1555933532.png)
+![norton12.png](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Norton-Firewall-6.png)
 
 **7. Navigate to "General Settings"**
 
 Now head into the "General Settings" page, and scroll all the way down to the bottom.
 
-![norton13.png](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/619e6a4e9ccf62287e5f9a67/img-406-1637771470-1604030662.png)
+![norton13.png](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Norton-Firewall-7.png)
 
 **8. Click "Configure \[+]"**
 
 Click the "Configure \[+]" button next to "Device Trust".
 
-![norton14.png](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/619e6a4e64e42a671b63a1e0/img-406-1637771471-2008669113.png)
+![norton14.png](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Norton-Firewall-8.png)
 
 **22. Whitelist each of the miner pools**
 
@@ -71,4 +69,4 @@ For all of these, you should enable IPS Exclusion as well. The names provided ar
 something else if you prefer. Once complete, click the "Apply" button at the bottom. Here is a screenshot showing some
 of these whitelists:
 
-![mceclip2.png](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/619e6a4eefc78d0553e5d5ed/img-406-1637771472-837679047.png)
+![mceclip2.png](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Norton-Firewall-9.png)

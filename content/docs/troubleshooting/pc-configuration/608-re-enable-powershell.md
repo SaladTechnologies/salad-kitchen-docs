@@ -2,8 +2,6 @@
 title: Re-enable Powershell
 ---
 
-# Re-enable Powershell
-
 Some Chefs may experience issues with Salad jobs and other subsystems if their PowerShell version is corrupted, or
 otherwise not working as expected. When running into issues with PowerShell or systems that rely on PowerShell, it is
 recommended to verify that it is correctly installed and functional before continuing.
@@ -21,7 +19,7 @@ Once you're on the Optional Features window, follow the following steps:
 - Uncheck the "Windows PowerShell 2.0" feature.
 - Save and apply your changes.
 - Restart your Windows 10 computer.
-- ![](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/671c2a9291230b767524b84e/file-tXUl82MQam.png)
+- ![](./content/images/Troubleshooting/PC-Configuration/Re-enable-Powershell-1.png)
 
 Afterwards, repeat the steps from above and re-enable the Windows PowerShell feature.
 
@@ -34,6 +32,6 @@ repair them automatically. Running these commands can help identify the issue an
 
 1. Open a command prompt as administrator:
 
-   ![](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/671c29eb4d8d375180ed1306/file-ByIDFWOOXb.png)
+   ![](./content/images/Troubleshooting/PC-Configuration/Re-enable-Powershell-2.png)
 
 2. Once open, type the following command and hit Enter: `sfc /scannow`

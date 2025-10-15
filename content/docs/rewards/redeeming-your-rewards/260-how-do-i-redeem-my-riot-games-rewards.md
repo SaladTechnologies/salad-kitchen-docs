@@ -2,8 +2,6 @@
 title: How Do I Redeem My Riot Games Rewards?
 ---
 
-# How Do I Redeem My Riot Games Rewards?
-
 Redeeming keys (aka coupons) is actually quite simple. Valorant or League of Legends gift cards are redeemed in-game and
 can then be used to buy weapons, skins, and emotes from either game’s shop.
 

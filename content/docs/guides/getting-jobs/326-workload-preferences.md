@@ -2,8 +2,6 @@
 title: Adult Workload Preferences
 ---
 
-# Adult Workload Preferences
-
 As chefs, you entrust Salad with your compute power and machine. We want to make sure we honor that trust by giving you
 as much clarity and control over what kinds of workloads run on your machine as possible.
 
@@ -27,16 +25,15 @@ of the content is accessible in your machine.
 ### **Will I be processing adult video streams if I enable Bandwidth sharing?**
 
 No. Bandwidth sharing is exclusively mainstream services like Netflix or Hulu. For more information on Bandwidth
-Sharing, check out this [guide](https://support.salad.com/article/253-what-is-bandwidth-sharing).
+Sharing, check out this [guide](/docs/FAQ/Jobs/253-what-is-bandwidth-sharing).
 
 ---
 
 ### **How do I make sure my computer is not being used for workloads with adult content?**
 
-You can change your workload preferences on the [Settings](https://support.salad.com/article/353-salad-app-settings)
-page of your Salad app, under **Workload Preferences**. We will also prompt you to opt in or out of workload types
-during Salad onboarding after installing the application for the first time, or updating to the latest version of the
-app.
+You can change your workload preferences on the [Settings](/docs/Guides/Using-the-Salad-App/353-Salad-App-settings) page
+of your Salad app, under **Workload Preferences**. We will also prompt you to opt in or out of workload types during
+Salad onboarding after installing the application for the first time, or updating to the latest version of the app.
 
 In countries where possessing adult content is illegal, Salad will automatically block that content from running on your
 PC. The option to opt-in or opt-out of adult content will no longer be available for users who Chop Salad in any country

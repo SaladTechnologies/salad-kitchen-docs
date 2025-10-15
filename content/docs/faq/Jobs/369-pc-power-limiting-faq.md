@@ -2,11 +2,9 @@
 title: How Power Limiting Impacts your Earnings
 ---
 
-# How Power Limiting Impacts your Earnings
-
 Power limiting, or intentionally reducing the wattage, voltage, or power draw of your GPU, will decrease your earnings
 on Salad. Chefs who power limit their PC will receive a Degraded Notification, indicating they cannot run Container
-Workloads. 
+Workloads.
 
 ---
 
@@ -21,7 +19,7 @@ certain workloads, even if it works fine for Gaming.
 # How Do I Fix it?
 
 Here are some steps you can take to make sure your PC performs optimally on Salad. You may need to complete these steps
-in order to resolve the error message (14) you received in the Salad app and resume Chopping as normal. 
+in order to resolve the error message (14) you received in the Salad app and resume Chopping as normal.
 
 ## Laptops
 
@@ -29,9 +27,9 @@ in order to resolve the error message (14) you received in the Salad app and res
    unplugged and this throttles performance on Salad.
 2. Some gaming laptops have performance modes that affect the amount of power your machine outputs. These settings
    cannot be changed via Windows Power saving mode as they are generally found in the proprietary brand software on your
-   laptop. 
+   laptop.
    1. For example, ASUS laptops use
-      [Armory Crate](https://rog.asus.com/articles/guides/armoury-crate-performance-modes-explained-silent-vs-performance-vs-turbo-vs-windows/)
+      [Armory Crate](https://rog.asus.com/articles/Guides/armoury-crate-performance-modes-explained-silent-vs-performance-vs-turbo-vs-windows/)
       to manage performance through four levels of performance modes. Manual Mode, Silent Mode, Performance Mode, and
       Turbo mode. You may need to experiment with each mode to determine which is best for you.
 
@@ -48,5 +46,4 @@ in order to resolve the error message (14) you received in the Salad app and res
       steps to undervolt. Doing so could make them ineligible to receive Container workload*s.
 
 If you're having trouble getting your settings back to normal, or you're still experiencing issues despite resetting it,
-please contact [Salad Support](https://support.salad.com/article/216-how-to-create-a-support-ticket) and we can help
-troubleshoot.
+please contact [Salad Support](/docs/Guides/Your-PC/216-how-to-create-a-support-ticket) and we can help troubleshoot.

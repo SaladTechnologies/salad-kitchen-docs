@@ -2,13 +2,11 @@
 title: How to Redeem and Activate Your solo.to Plan
 ---
 
-# How to Redeem and Activate Your solo.to Plan
-
 The Salad Storefront now features solo.to Personal Plans in two packages, annual and lifetime. Choose one of the
 following plans that suits your goals and budget:
 
-- [Solo.to Personal Plan - 1 Year](https://salad.com/store/rewards/433b6fa8-ec1b-4df9-aff1-98aefe48b4d3)
-- [Solo.to Personal Plan - Lifetime](https://salad.com/store/rewards/defa0392-b6c0-4a44-b972-7c46bd773785)
+- [Solo.to Personal Plan - 1 Year](https://salad.com/store/Rewards/433b6fa8-ec1b-4df9-aff1-98aefe48b4d3)
+- [Solo.to Personal Plan - Lifetime](https://salad.com/store/Rewards/defa0392-b6c0-4a44-b972-7c46bd773785)
 
 The Annual Personal Plan gives your solo.to page access to their [Personal Plan features](https://solo.to/pricing) for
 twelve months. The Lifetime Personal Plan grants the same, but is permanently applied to your account.

@@ -2,8 +2,6 @@
 title: Supported Prepaid Visa Countries
 ---
 
-# Supported Prepaid Visa Countries
-
 Salad uses a third party provider to source Prepaid Visa rewards. Some countries are not eligible to purchase Prepaid
 Visa rewards from our vendor. Refer to the list below to understand where Prepaid Visa rewards are supported. 
 

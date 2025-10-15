@@ -2,8 +2,6 @@
 title: How to Disable ECC
 ---
 
-# How to Disable ECC
-
 ECC (or Error-Correcting Code) memory helps detect and correct memory errors, which is crucial for scientific computing
 and data centers but not always needed for other workloads. The problem? Enabling ECC slightly reduces available VRAM,
 which can dip below the threshold required for Salad's container workloads.

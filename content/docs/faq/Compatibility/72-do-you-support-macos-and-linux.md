@@ -2,8 +2,6 @@
 title: Do you Support MacOS and Linux?
 ---
 
-# Do you Support MacOS and Linux?
-
 ## Windows
 
 Salad is currently only supported on recent versions of Windows 10 and Windows 11.

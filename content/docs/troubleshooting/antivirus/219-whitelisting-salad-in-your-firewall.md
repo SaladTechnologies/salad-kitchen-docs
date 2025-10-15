@@ -2,8 +2,6 @@
 title: Whitelisting Salad in your Firewall
 ---
 
-# Whitelisting Salad in your Firewall
-
 If you have a third party firewall installed on your system, network or router, you may need to add a whitelist if you
 are having troubles connecting to the Salad pools. Due to the large number of possible firewall services and
 configurations, we may not be able to provide a guide specific for your service. If we don't have one for you, we have

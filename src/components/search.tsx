@@ -47,8 +47,8 @@ export default function DefaultSearchDialog(props: SharedProps) {
         <SearchDialogList items={query.data !== 'empty' ? query.data : null} />
         <SearchDialogFooter>
           <TagsList tag={tag} onTagChange={setTag}>
-            <TagsListItem value="antivirus">Anti-Virus</TagsListItem>
-            <TagsListItem value="faq">FAQ</TagsListItem>
+            <TagsListItem value="Antivirus">Anti-Virus</TagsListItem>
+            <TagsListItem value="FAQ">FAQ</TagsListItem>
           </TagsList>
         </SearchDialogFooter>
       </SearchDialogContent>

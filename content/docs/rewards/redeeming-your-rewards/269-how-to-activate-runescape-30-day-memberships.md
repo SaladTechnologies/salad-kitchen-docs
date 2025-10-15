@@ -2,16 +2,14 @@
 title: How to Activate Runescape 30-Day Memberships
 ---
 
-# How to Activate Runescape 30-Day Memberships
-
 Runescape memberships are available in multiple world regions. Before redeeming a Runescape reward from the Salad
 Storefront, it is important to check that you've selected the appropriate membership for your region.
 
-- [Runescape 30 Day Membership \[US\]](https://salad.com/store/rewards/020bb576-49ab-459c-98f5-6806dfa29056)
-- [Runescape 30 Day Membership \[EU\]](https://salad.com/store/rewards/da77ec96-a254-490a-a6ef-3396307ba31e)
+- [Runescape 30 Day Membership \[US\]](https://salad.com/store/Rewards/020bb576-49ab-459c-98f5-6806dfa29056)
+- [Runescape 30 Day Membership \[EU\]](https://salad.com/store/Rewards/da77ec96-a254-490a-a6ef-3396307ba31e)
 
 After redeeming a Runescape reward, you will find a unique redemption code listed within your
-[Salad Reward Vault](https://support.salad.com/article/125-where-to-find-your-reward-redemption-code). You may also find
+[Salad Reward Vault](/docs/Guides/Using-the-Salad-App/125-where-to-find-your-reward-redemption-code). You may also find
 this code listed in the redemption confirmation sent to the email address associated with your Salad account.
 
 Once you have found your code, simply follow these steps to activate your 30-day membership:

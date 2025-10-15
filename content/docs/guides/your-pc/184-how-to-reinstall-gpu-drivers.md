@@ -2,8 +2,6 @@
 title: How to Reinstall your GPU Drivers.
 ---
 
-# How to Reinstall your GPU Drivers.
-
 If you're experiencing problems with your Graphics Card (GPU) whilst running Salad, you may need to reinstall your GPU
 drivers. Your GPU drivers are the software that allows your operating system to communicate with your GPU. Sometimes
 they can become corrupted or outdated, leading to issues with performance or stability.
@@ -37,7 +35,7 @@ Once you are logged back into Windows, we're going to open up your browser, and 
 your GPU's drivers and download the latest version.
 
 1. Before downloading, you need to know whether you have an NVIDIA, AMD or Intel GPU. You can check this by following
-   our guide [here](https://support.salad.com/article/118-how-to-find-your-gpu-or-cpu).
+   our guide [here](/docs/Guides/Your-PC/118-how-to-find-your-gpu-or-cpu).
 
    Open your browser, and head to the official download page for your GPU drivers:
    1. For NVIDIA GPUs, go to [NVIDIA Drivers Download](https://www.nvidia.com/Download/index.aspx).
@@ -51,5 +49,4 @@ your GPU's drivers and download the latest version.
 
 Now that your drivers are reinstalled, you can restart your PC one more time to ensure everything is set up correctly.
 If you're still experiencing issues after reinstalling your GPU drivers, you may want to check for Windows Updates or
-reach out to [Salad Support](https://support.salad.com/article/216-how-to-create-a-support-ticket) for further
-assistance.
+reach out to [Salad Support](/docs/Guides/Your-PC/216-how-to-create-a-support-ticket) for further assistance.

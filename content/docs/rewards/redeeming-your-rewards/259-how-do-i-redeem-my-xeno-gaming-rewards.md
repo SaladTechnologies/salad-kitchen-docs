@@ -2,8 +2,6 @@
 title: How Do I Redeem My Xeno Gaming Rewards?
 ---
 
-# How Do I Redeem My Xeno Gaming Rewards?
-
 Redeeming keys (aka coupons) is actually quite simple. The Xeno Gaming rewards on the Salad Storefront have slightly
 different steps for redemption. 
 

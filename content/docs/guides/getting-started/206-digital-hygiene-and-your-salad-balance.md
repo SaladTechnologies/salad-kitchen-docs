@@ -14,7 +14,7 @@ such as:
 - Keeping the password to your email secure and private.
 - Never sharing your one-time codes.
 - Using a Password Manager, like [1Password](https://1password.com/).
-- Making use of [Salad's Passkey system](https://support.salad.com/article/501-salad-app-passkeys) to secure your
+- Making use of [Salad's Passkey system](/docs/Guides/Using-the-Salad-App/501-Salad-App-passkeys) to secure your
   account.
 - Never, ever, using the same password elsewhere.
 

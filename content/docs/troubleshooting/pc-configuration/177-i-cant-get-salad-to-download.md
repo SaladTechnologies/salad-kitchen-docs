@@ -2,8 +2,6 @@
 title: I Can't Get Salad to Download
 ---
 
-# I Can't Get Salad to Download
-
 Just like any application, sometimes you may run into a few obstacles when downloading Salad. These steps should solve
 the most common issues:
 
@@ -16,5 +14,4 @@ the most common issues:
    [antivirus is blocking the program](https://smallbusiness.chron.com/install-program-avast-blocks-80037.html).
 
 If none of these solutions work, please reach out to
-[Salad Support](https://support.salad.com/article/216-how-to-create-a-support-ticket) and we'll work to resolve your
-problem ASAP.
+[Salad Support](/docs/Guides/Your-PC/216-how-to-create-a-support-ticket) and we'll work to resolve your problem ASAP.

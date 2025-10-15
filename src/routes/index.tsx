@@ -9,7 +9,8 @@ export const Route = createFileRoute('/')({
 function Home() {
   return (
     <HomeLayout {...baseOptions()} className="justify-center py-32 text-center">
-      <h1 className="mb-4 text-xl font-medium">Salad Support website.</h1>
+      <img src="/src/styles/SaladLogo.png" alt="Salad Logo" style={{ height: 64 }} className="mx-auto mb-8" />
+      <h1 className="mb-4 text-xl font-medium">Need help in the Kitchen? Let's Chop to it.</h1>
       <Link
         to="/docs/$"
         params={{
@@ -17,7 +18,7 @@ function Home() {
         }}
         className="bg-fd-primary text-fd-primary-foreground mx-auto rounded-lg px-3 py-2 text-sm font-medium"
       >
-        Open Docs
+        Open Support
       </Link>
     </HomeLayout>
   )

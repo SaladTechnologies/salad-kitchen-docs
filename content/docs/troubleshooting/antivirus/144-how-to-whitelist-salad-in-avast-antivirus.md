@@ -2,32 +2,26 @@
 title: How to Whitelist Salad in Avast Antivirus
 ---
 
-# How to Whitelist Salad in Avast Antivirus
-
 1. Open Avast.
 
-   ![](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/68ac671704ef532c09ac9e56/file-tnZUhE5QKg.png)
+   ![](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Avast-Antivirus-1.png)
 
 2. Click Menu at the top right.
 
-   ![](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/68ac677593262c3e08a4f9d4/file-uYVXzpVYD8.png)
+   ![](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Avast-Antivirus-2.png)
 
 3. Then, click Settings.
 
-   ![](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/68ac678a89cf2c5abd2cb405/file-Qq5fvpkEKY.png)
-
-<!--THE END-->
+   ![](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Avast-Antivirus-3.png)
 
 4. From here, click Exceptions, and then Add Exception.
 
-<!--THE END-->
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/68ac67ac8e97a048e5e61b29/file-ij5DZ0Iu0A.png)
+   ![](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Avast-Antivirus-4.png)
 
 5. On the window that pops up, select File/Folder from the top, then paste in `C:\ProgramData\Salad` and hit Add. This
    will add an exclusion for the Salad folder.
 
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/68ac680b89cf2c5abd2cb406/file-8MpzVKpVV2.png)
+   ![](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Avast-Antivirus-5.png)
 
 ---
 
@@ -44,4 +38,4 @@ If you're still experiencing issues getting Salad to start, you may need to foll
    to download the miners required.
 3. Open your Salad widget, and click the start button.
 
-Contact [Salad Support](https://support.salad.com/article/216-how-to-create-a-support-ticket) if this issue persists.
+Contact [Salad Support](/docs/Guides/Your-PC/216-how-to-create-a-support-ticket) if this issue persists.

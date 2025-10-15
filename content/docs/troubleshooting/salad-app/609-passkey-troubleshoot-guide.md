@@ -2,8 +2,6 @@
 title: Passkey Troubleshooting
 ---
 
-# Passkey Troubleshooting
-
 Some Chefs may have issues while trying to set up or use Salad Passkeys. This is generally caused by a misconfiguration
 in the passkey manager that is being used.
 

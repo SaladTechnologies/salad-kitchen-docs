@@ -2,8 +2,6 @@
 title: Should I buy a GPU/PC for Salad?
 ---
 
-# Should I buy a GPU/PC for Salad?
-
 We're glad to hear that you're interested in helping expand the Salad network! However, we don't recommend that you buy
 a GPU or PC specifically for Salad.
 
@@ -65,7 +63,7 @@ can do to maximize your earnings:
 - Run Salad as often as possible. The longer you run it, the more likely you are to get the best jobs.
 - Keep your PC well-maintained. Regular cleaning and ensuring proper cooling can help your hardware run to its full
   potential.
-- [And other tips.](https://support.salad.com/article/62-how-can-i-earn-more-with-salad)
+- [And other tips.](/docs/FAQ/Jobs/62-how-can-i-earn-more-with-salad)
 
 Ultimately, Salad is a tool to help you monetize your idle compute power. While we’re working to make it as stable and
 reliable as possible, for most Chefs the earnings are firmly in the “nice extra cash” camp and not the “investment

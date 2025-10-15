@@ -2,8 +2,6 @@
 title: My Antivirus isn't Listed Here
 ---
 
-# My Antivirus isn't Listed Here
-
 We have in-depth guides available for many common Antivirus options. If there isn't a guide for you, you can still
 follow the official whitelist guide from your Antivirus manufacturer. When you get to adding an exclusion, you'll need
 to add this path: `C:\ProgramData\Salad\workloads`.
@@ -28,9 +26,9 @@ basic steps below that should still apply to your Antivirus.
 
 If Salad is being blocked by your Antivirus, you'll need to add a whitelist. The folder you need to whitelist is
 `C:\ProgramData\Salad\workloads` . If your Antivirus service does not support folder whitelists, you will need to add a
-whitelist for the individual [miner](https://support.salad.com/article/80-what-miners-does-salad-currently-use) `.exe`
-files. These can be found under `C:\ProgramData\Salad\workloads` . In this directory, you can find all of the folders
-for the miner plugins we use, you'll need to whitelist each of the files within these folders.
+whitelist for the individual [miner](/docs/FAQ/Salad-App/80-what-miners-does-salad-currently-use) `.exe` files. These
+can be found under `C:\ProgramData\Salad\workloads` . In this directory, you can find all of the folders for the miner
+plugins we use, you'll need to whitelist each of the files within these folders.
 
 ---
 

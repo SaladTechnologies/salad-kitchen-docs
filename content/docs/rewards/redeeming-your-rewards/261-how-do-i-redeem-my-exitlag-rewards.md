@@ -2,8 +2,6 @@
 title: How Do I Redeem My ExitLag Rewards?
 ---
 
-# How Do I Redeem My ExitLag Rewards?
-
 Redeeming keys (aka coupons) is actually quite simple. ExitLag subscription keys are redeemed on ExitLag’s website.
 
 ## ExitLag Subscription Redemption

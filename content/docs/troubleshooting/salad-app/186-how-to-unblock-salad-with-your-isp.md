@@ -2,8 +2,6 @@
 title: How to Unblock Salad With Your ISP
 ---
 
-# How to Unblock Salad With Your ISP
-
 We've compiled tips to remedy common issues for **Xfinity** and **BT Broadband** users below, along with useful general
 solutions for other ISPs. If you don't know your internet service provider is, head to
 [WhoIsMyISP](https://whoismyisp.org).

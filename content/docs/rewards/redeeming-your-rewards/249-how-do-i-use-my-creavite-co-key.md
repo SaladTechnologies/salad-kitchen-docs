@@ -2,8 +2,6 @@
 title: How do I use my Creavite.co key?
 ---
 
-# How do I use my Creavite.co key?
-
 ## Redeeming the key
 
 Redeeming keys (aka coupons) is really quite simple, however it does vary a bit depending on the product in question.
