@@ -6,13 +6,13 @@ title: How to Whitelist Salad in McAfee
 
 This is the main page for McAfee
 
-![](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-McAfee-1.png)
+![](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-mcafee-1.png)
 
 **2. Navigate to Real-Time Scanning**
 
 Click the 4 little squares on the left side, and select "Real-Time Scanning" from the opened menu.
 
-![](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-McAfee-2.png)
+![](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-mcafee-2.png)
 
 **3.** **Temporarily disable Real-Time Scanning**
 
@@ -20,7 +20,7 @@ Because the real-time scanning will be deleting the miners before you are able t
 temporarily disable it. No need to worry though, you can turn it back on as soon as we are finished. You can disable it
 for only 15 minutes, or permanently until its been correctly whitelisted.
 
-![](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-McAfee-3.png)
+![](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-mcafee-3.png)
 
 **4. Start Salad again**
 
@@ -35,7 +35,7 @@ Head back to the Real-Time Scanning page, and re-enable Real-Time Scanning.
 
 In this page, you now need to click the "Excluded Files" drop down, and select "Add File" as shown below.
 
-![](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-McAfee-4.png)
+![](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-mcafee-4.png)
 
 **7. Adding Salad as an Exclusion**
 
@@ -45,7 +45,7 @@ folders. These folders are where the miners are stored. Inside each of these fol
 file and whitelist them. As McAfee doesn't support folder exclusion you will need to add every file that has .exe as an
 exclusion. We recommend starting with the versions with the highest version numbers.
 
-![](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-McAfee-5.png)
+![](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-mcafee-5.png)
 
 **8. Click Add**
 
@@ -56,5 +56,5 @@ whitelist the other files within these folders if just the .exe files doesn't wo
 **9. Run Salad**
 
 Let Salad run after setting up the whitelist by opening your Salad widget, and clicking the start button, and see if it
-works! Contact support [here](/docs/Guides/Your-PC/216-how-to-create-a-support-ticket) if this issue persists. When new
+works! Contact support [here](/docs/guides/your-pc/216-how-to-create-a-support-ticket) if this issue persists. When new
 miner versions are released, you may need to follow these steps again to whitelist the new versions.

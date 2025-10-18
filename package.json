@@ -21,6 +21,7 @@
   "scripts": {
     "build": "vite build && tsc --noEmit",
     "check-formatting": "prettier --check ./content ./src ./.prettierrc.cjs ./cspell.json ./package.json ./source.config.ts ./source.generated.ts ./tsconfig.json ./vite.config.ts",
+    "check-spelling": "npx --yes cspell-cli --gitignore .",
     "check-types": "tsc",
     "clean": "rimraf dist",
     "dev": "vite dev",

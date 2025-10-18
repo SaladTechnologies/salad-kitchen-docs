@@ -19,7 +19,7 @@ Once you're on the Optional Features window, follow the following steps:
 - Uncheck the "Windows PowerShell 2.0" feature.
 - Save and apply your changes.
 - Restart your Windows 10 computer.
-- ![](./content/images/Troubleshooting/PC-Configuration/Re-enable-Powershell-1.png)
+- ![](../../../../content/images/troubleshooting/pc-configuration/re-enable-powershell-1.png)
 
 Afterwards, repeat the steps from above and re-enable the Windows PowerShell feature.
 
@@ -32,6 +32,6 @@ repair them automatically. Running these commands can help identify the issue an
 
 1. Open a command prompt as administrator:
 
-   ![](./content/images/Troubleshooting/PC-Configuration/Re-enable-Powershell-2.png)
+   ![](../../../../content/images/troubleshooting/pc-configuration/re-enable-powershell-2.png)
 
 2. Once open, type the following command and hit Enter: `sfc /scannow`

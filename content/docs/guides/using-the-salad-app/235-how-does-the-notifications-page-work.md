@@ -14,14 +14,14 @@ The notifications page can be accessed by:
 
 1. Opening your Salad widget.
 
-   ![](./content/images/Guides/Using-the-Salad-App/Using-the-Notifications-Page-1.png)
+   ![](../../../../content/images/guides/using-the-salad-app/using-the-notifications-page-1.png)
 
 2. Click the notification bell at the top right.
 
-   ![](./content/images/Guides/Using-the-Salad-App/Using-the-Notifications-Page-2.png)
+   ![](../../../../content/images/guides/using-the-salad-app/using-the-notifications-page-2.png)
 
 ---
 
-![](./content/images/Guides/Using-the-Salad-App/Using-the-Notifications-Page-3.png)
+![](../../../../content/images/guides/using-the-salad-app/using-the-notifications-page-3.png)
 
 _Example of a degraded performance notification._

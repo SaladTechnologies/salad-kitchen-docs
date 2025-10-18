@@ -3,7 +3,7 @@ title: Is Salad a Mining Pool?
 ---
 
 No, Salad is not itself a mining pool. Instead, we leverage multiple third-party mining pools to maximize your earnings
-for [Mining workloads](/docs/FAQ/Salad-App/80-what-miners-does-salad-currently-use). We currently use:
+for [Mining workloads](/docs/faq/salad-app/80-what-miners-does-salad-currently-use). We currently use:
 
 - Nicehash
 - Prohashing

@@ -22,7 +22,7 @@ condition that ends when you stop Chopping.
 You will see a temporary GPU Disabled badge over your GPU resource card in the Performance Tab. To remove this badge,
 stop Chopping and disable GPU intensive processes on your PC.
 
-![](./content/images/FAQ/Salad-App/Temporary-Workload-Block-1.png)
+![](../../../../content/images/faq/salad-app/temporary-workload-block-1.png)
 
 ---
 
@@ -38,5 +38,5 @@ to heavy GPU usage, then we can quickly and efficiently assign that workload to 
 
 We have done our best to accurately recognize as many GPU processes as possible but there might be programs and
 applications that trigger a notification incorrectly. If this happens, reach out to
-[Salad Support.](/docs/Guides/Your-PC/216-how-to-create-a-support-ticket) Be sure to include a screenshot of the
+[Salad Support.](/docs/guides/your-pc/216-how-to-create-a-support-ticket) Be sure to include a screenshot of the
 notification and of your Task Manager showing the list of open processes.

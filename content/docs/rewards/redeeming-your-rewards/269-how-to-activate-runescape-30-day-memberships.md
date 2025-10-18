@@ -9,7 +9,7 @@ Storefront, it is important to check that you've selected the appropriate member
 - [Runescape 30 Day Membership \[EU\]](https://salad.com/store/Rewards/da77ec96-a254-490a-a6ef-3396307ba31e)
 
 After redeeming a Runescape reward, you will find a unique redemption code listed within your
-[Salad Reward Vault](/docs/Guides/Using-the-Salad-App/125-where-to-find-your-reward-redemption-code). You may also find
+[Salad Reward Vault](/docs/guides/using-the-salad-app/125-where-to-find-your-reward-redemption-code). You may also find
 this code listed in the redemption confirmation sent to the email address associated with your Salad account.
 
 Once you have found your code, simply follow these steps to activate your 30-day membership:

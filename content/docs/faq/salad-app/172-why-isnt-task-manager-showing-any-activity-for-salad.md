@@ -11,7 +11,7 @@ settings.
 To monitor your GPU usage while running Salad, we recommend checking your Performance tab in the app. Here we'll display
 GPU/CPU usage. This should give you a much more accurate representation of how Salad is using your GPU.
 
-![Salad App showing utilization](./content/images/FAQ/Salad-App/Why-isn't-Task-Manager-Showing-Any-Activity-for-Salad-1.png)
+![Salad App showing utilization](../../../../content/images/faq/salad-app/why-isn't-task-manager-showing-any-activity-for-salad-1.png)
 
 If your CPU is not being utilized fully, see this related article.
-[Why is Salad not fully using my CPU?](/docs/FAQ/Compatibility/237-why-is-salad-not-fully-using-my-cpu)
+[Why is Salad not fully using my CPU?](/docs/faq/compatibility/237-why-is-salad-not-fully-using-my-cpu)

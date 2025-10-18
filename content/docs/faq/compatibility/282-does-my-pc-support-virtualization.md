@@ -9,7 +9,7 @@ are supported on your machine as follows:
 2. Select **Task Manager** from the menu.
 3. Click the **Performance** tab.
 4. If necessary, click **CPU** from the column on the left.
-   ![Screenshot of Task Manager](./content/images/FAQ/Compatibility/Does-my-PC-support-Virtualization-1.png)
+   ![Screenshot of Task Manager](../../../../content/images/faq/compatibility/does-my-pc-support-virtualization-1.png)
 5. Below the chart you should see an attribute labeled "Virtualization" that displays the current status of
    virtualization support as **Enabled** or **Disabled**.
 

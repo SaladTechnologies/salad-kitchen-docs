@@ -7,7 +7,7 @@ settings can be accessed and modified. This guide details common BIOS setup patt
 motherboard manufactured by MSI or American Megatrends.
 
 *If you don't know what kind of motherboard you are using, please
-see* [Identifying Your Motherboard](/docs/Guides/Your-PC/280-identifying-your-motherboard)_._
+see* [Identifying Your Motherboard](/docs/guides/your-pc/280-identifying-your-motherboard)_._
 
 **With Intel Processors**
 
@@ -15,12 +15,12 @@ see* [Identifying Your Motherboard](/docs/Guides/Your-PC/280-identifying-your-m
 2. Immediately press the **Del** to enter the BIOS Setup Utility. You will be directed to a screen that says "Aptio
    Setup Utility – American Megatrends, Inc."
 
-   ![](./content/images/Guides/Your-PC/Enable-Virtualization-by-Motherboard-MSI-1.png)
+   ![](../../../../content/images/guides/your-pc/enable-virtualization-by-motherboard-msi-1.png)
 
 3. Using the arrow keys, navigate to the **Advanced** tab.
 4. Scroll down to find the **Intel Virtualization Technology** setting.
 
-   ![](./content/images/Guides/Your-PC/Enable-Virtualization-by-Motherboard-MSI-2.png)
+   ![](../../../../content/images/guides/your-pc/enable-virtualization-by-motherboard-msi-2.png)
 
 5. Enable this setting with the left or right arrow key.
 6. Press **F10** to save your configuration changes and exit.
@@ -34,15 +34,15 @@ _On most systems equipped with an AMD processor and a motherboard from MSI, virt
 3. Using the arrow keys, navigate to the **Advanced** tab.
 4. Enable IOMMU with the left or right arrow key.
 
-   ![](./content/images/Guides/Your-PC/Enable-Virtualization-by-Motherboard-MSI-3.png)
+   ![](../../../../content/images/guides/your-pc/enable-virtualization-by-motherboard-msi-3.png)
 
 5. Enable SVM Mode with the left or right arrow key.\*
 
-   ![](./content/images/Guides/Your-PC/Enable-Virtualization-by-Motherboard-MSI-4.png)
+   ![](../../../../content/images/guides/your-pc/enable-virtualization-by-motherboard-msi-4.png)
 
    \*_In the utility software of certain MSI motherboards (especially those produced since 2019), these virtualization
    features may be listed under the **Overclocking** tab, within the **Advanced CPU Configuration** submenu._
 
-   ![](./content/images/Guides/Your-PC/Enable-Virtualization-by-Motherboard-MSI-5.png)
+   ![](../../../../content/images/guides/your-pc/enable-virtualization-by-motherboard-msi-5.png)
 
 6. Press **F10** to save your configuration changes and exit.

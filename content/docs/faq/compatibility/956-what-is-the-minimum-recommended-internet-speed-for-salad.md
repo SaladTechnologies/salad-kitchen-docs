@@ -22,7 +22,7 @@ least 10 Mbps **upload speed**.
 
 ## **What is the Minimum Internet Speed for Bandwidth Sharing Jobs on Salad?**
 
-The minimum required network speed for [Bandwidth Sharing Jobs](/docs/FAQ/Jobs/253-what-is-bandwidth-sharing) can vary
+The minimum required network speed for [Bandwidth Sharing Jobs](/docs/faq/jobs/253-what-is-bandwidth-sharing) can vary
 depending on your region. For most regions, a minimum **upload** speed of 8 Mbps is required. We recommend having at
 least 20 Mbps **upload** speed for consistent, and higher, earnings.
 

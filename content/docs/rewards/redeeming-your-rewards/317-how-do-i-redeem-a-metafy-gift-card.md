@@ -13,39 +13,39 @@ below._
 
 <!--THE END-->
 
-![](./content/images/Rewards/Redeeming-your-Rewards/Metafy-Gift-Card-1.png)
+![](../../../../content/images/rewards/redeeming-your-rewards/metafy-gift-card-1.png)
 
 2. Sign up with your email, Discord, Twitch, Gmail, Apple ID or Facebook account.
 
 <!--THE END-->
 
-![](./content/images/Rewards/Redeeming-your-Rewards/Metafy-Gift-Card-2.png)
+![](../../../../content/images/rewards/redeeming-your-rewards/metafy-gift-card-2.png)
 
 3. Select your coach and Book a Session.
 
 <!--THE END-->
 
-![](./content/images/Rewards/Redeeming-your-Rewards/Metafy-Gift-Card-3.png)
+![](../../../../content/images/rewards/redeeming-your-rewards/metafy-gift-card-3.png)
 
 4. Select a session length and proceed to check out.
 
 <!--THE END-->
 
-![](./content/images/Rewards/Redeeming-your-Rewards/Metafy-Gift-Card-4.png)
+![](../../../../content/images/rewards/redeeming-your-rewards/metafy-gift-card-4.png)
 
 5. Chose a time and connect with your coach via Discord.
 
 <!--THE END-->
 
-![](./content/images/Rewards/Redeeming-your-Rewards/Metafy-Gift-Card-5.png)
+![](../../../../content/images/rewards/redeeming-your-rewards/metafy-gift-card-5.png)
 
-![](./content/images/Rewards/Redeeming-your-Rewards/Metafy-Gift-Card-6.png)
+![](../../../../content/images/rewards/redeeming-your-rewards/metafy-gift-card-6.png)
 
 6. Enter your Salad gift card code in the **_Have a promo code?_** section.
 
 <!--THE END-->
 
-![](./content/images/Rewards/Redeeming-your-Rewards/Metafy-Gift-Card-7.png)
+![](../../../../content/images/rewards/redeeming-your-rewards/metafy-gift-card-7.png)
 
 7. Check out and wait for your coach to contact you.
 
@@ -61,14 +61,14 @@ membership is purchased, chefs will receive an email with a redemption code and 
 
 1. Click on the Metafy membership url sent via email, or your Salad reward vault. The URL will take you to this page:
 
-![](./content/images/Rewards/Redeeming-your-Rewards/Metafy-Gift-Card-8.png)
+![](../../../../content/images/rewards/redeeming-your-rewards/metafy-gift-card-8.png)
 
 Click on 'Become a Member'
 
 2. Enter your Salad membership code in the **_Have a Promo Code?_** box and hit apply. Memberships renew monthly, so you
    will need to enter your Paypal or credit card information in order to complete the process.
 
-![](./content/images/Rewards/Redeeming-your-Rewards/Metafy-Gift-Card-9.png)
+![](../../../../content/images/rewards/redeeming-your-rewards/metafy-gift-card-9.png)
 
 _Metafy renews monthly, and users can cancel any time. If you do not wish to for an additional month make sure to cancel
 your membership your Metafy account page._

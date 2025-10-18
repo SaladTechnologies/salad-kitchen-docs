@@ -10,11 +10,11 @@ ticket.
 1. Navigate to [https://support.salad.com](https://support.salad.com) or any page on
    [https://salad.com/store](https://salad.com/store).
 
-   ![](./content/images/Guides/Your-PC/How-to-Create-a-Support-Ticket-1.png)
+   ![](../../../../content/images/guides/your-pc/how-to-create-a-support-ticket-1.png)
 
 2. Click the "Support" widget at the bottom right, this will open a window.
 
-   ![](./content/images/Guides/Your-PC/How-to-Create-a-Support-Ticket-2.png)
+   ![](../../../../content/images/guides/your-pc/how-to-create-a-support-ticket-2.png)
 
 3. Let us know what your issue is, and hit the "Send a message" button to submit your ticket.
 
@@ -29,7 +29,7 @@ issues in order to keep your account secure._
 ---
 
 If you need to upload log files to your ticket, you can do so by following these instructions:
-[How to find your Salad log files](/docs/Guides/Using-the-Salad-App/180-how-to-find-your-salad-log-files).
+[How to find your Salad log files](/docs/guides/using-the-salad-app/180-how-to-find-your-salad-log-files).
 
 You can view your active, and past tickets and chats within the widget by selecting "previous conversations" on the main
 menu if available. You can also reply to your support tickets through here as well.

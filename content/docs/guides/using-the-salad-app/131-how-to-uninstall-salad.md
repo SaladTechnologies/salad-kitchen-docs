@@ -7,15 +7,15 @@ out how to uninstall Salad here.
 
 1. Open Windows Settings, and navigate to "Apps".
 
-   ![](./content/images/Guides/Using-the-Salad-App/How-to-Uninstall-Salad-1.png)
+   ![](../../../../content/images/guides/using-the-salad-app/how-to-uninstall-salad-1.png)
 
 2. Click "Installed apps".
 
-   ![](./content/images/Guides/Using-the-Salad-App/How-to-Uninstall-Salad-2.png)
+   ![](../../../../content/images/guides/using-the-salad-app/how-to-uninstall-salad-2.png)
 
 3. Use the search bar to find Salad.
 
-   ![](./content/images/Guides/Using-the-Salad-App/How-to-Uninstall-Salad-3.png)
+   ![](../../../../content/images/guides/using-the-salad-app/how-to-uninstall-salad-3.png)
 
 4. Once you have located Salad, click on it, and click "Uninstall", then "Uninstall" again.
 5. Allow the uninstaller to run, which will remove the application from your PC.

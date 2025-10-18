@@ -16,4 +16,4 @@ guide to do so.
    Support Assistant.
 
 Your drivers should now be updated to the latest version. You may need to restart your PC to finalize installation.
-Contact [Salad Support](/docs/Guides/Your-PC/216-how-to-create-a-support-ticket) if you need further assistance.
+Contact [Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket) if you need further assistance.

@@ -7,11 +7,12 @@ insight into your particular issue.
 
 ## Get your Salad Logs from the Salad App
 
-1. Open the Salad application![open](./content/images/Guides/Using-the-Salad-App/Where-to-Find-your-Salad-Logs-1.png)
+1. Open the Salad
+   application![open](../../../../content/images/guides/using-the-salad-app/where-to-find-your-salad-logs-1.png)
 2. Click the menu at the top left
-   page![menu](./content/images/Guides/Using-the-Salad-App/Where-to-Find-your-Salad-Logs-2.png)
+   page![menu](../../../../content/images/guides/using-the-salad-app/where-to-find-your-salad-logs-2.png)
 3. Scroll down and click the "Show Logs"
-   button.![show logs](./content/images/Guides/Using-the-Salad-App/Where-to-Find-your-Salad-Logs-3.png)
+   button.![show logs](../../../../content/images/guides/using-the-salad-app/where-to-find-your-salad-logs-3.png)
 4. A file explorer window will then open up showing your log files, which you can then drag and drop into your email to
    send to us, or into the "add attachment" window when creating your ticket, or chat.
 
@@ -24,7 +25,7 @@ the guides below.
 
 1. Browse your computer's directory with the "search programs and files" bar or "File Explorer"
 
-![screenshot](./content/images/Guides/Using-the-Salad-App/Where-to-Find-your-Salad-Logs-4.png)
+![screenshot](../../../../content/images/guides/using-the-salad-app/where-to-find-your-salad-logs-4.png)
 
     2. Locate "C:\\Users\\&lt;username&gt;\\AppData\\Roaming\\Salad\\logs\\main.log"
 

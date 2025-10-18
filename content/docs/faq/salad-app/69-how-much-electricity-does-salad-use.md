@@ -4,7 +4,7 @@ title: How Much Electricity Does Salad Use?
 
 The amount of electricity Salad uses will depend on the hardware in your machine, as well as how you use
 Salad. Generally, the higher end your PC components are, the more power they'll consume. You can find the power draw for
-[your PC components](/docs/Guides/Your-PC/118-how-to-find-your-gpu-or-cpu) by checking the manufacturers pages. The more
+[your PC components](/docs/guides/your-pc/118-how-to-find-your-gpu-or-cpu) by checking the manufacturers pages. The more
 often you run Salad, the more power will be consumed.
 
 ---

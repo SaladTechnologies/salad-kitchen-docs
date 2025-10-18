@@ -11,7 +11,7 @@ Choosing which to run can depend the hardware on your machine, and how you wish 
 ## GPU only:
 
 Your Graphics Card (GPU) is usually the most powerful, and fastest, single component in your PC for running Salad on. If
-you have a [compatible GPU](/docs/FAQ/Compatibility/78-is-my-machine-compatible-with-salad),
+you have a [compatible GPU](/docs/faq/compatibility/78-is-my-machine-compatible-with-salad),
 [enabling](docs/Guides/Using-the-Salad-App/238-how-to-enable-and-disable-hardware) it will usually provide you with the
 most earnings. We don't recommend trying to play games, or anything GPU intensive while running your GPU however, as you
 may experience slowdowns, or crashes, in both Salad and your application or game. You may also experience error
@@ -23,11 +23,11 @@ Salad will block Container workloads until they are resolved.
 ## CPU only:
 
 Your Central Processsing Unit (CPU) will usually be slower for Chopping with Salad than your dedicated GPU, but if you
-have an [incompatible GPU](/docs/FAQ/Compatibility/78-is-my-machine-compatible-with-salad) (such as integrated
+have an [incompatible GPU](/docs/faq/compatibility/78-is-my-machine-compatible-with-salad) (such as integrated
 graphics), or a very low end GPU model (such as a GT 1030 or GTX 1050), you may see higher earnings when running on your
 CPU if it's a mid-range or higher CPU model. Depending on your CPU model, and it's available specifications, you may
 still be able to run some other applications, or CPU-light games at the same time as running Salad, due to
-[some CPU models not being able to use 100% of your available cores](/docs/FAQ/Compatibility/237-why-is-salad-not-fully-using-my-cpu).
+[some CPU models not being able to use 100% of your available cores](/docs/faq/compatibility/237-why-is-salad-not-fully-using-my-cpu).
 If you have no compatible GPU installed, you will only be able to run Salad on your CPU. CPU jobs are usually less
 frequent than GPU jobs however
 
@@ -35,11 +35,11 @@ frequent than GPU jobs however
 
 ## GPU and CPU:
 
-If you have a [compatible GPU and CPU](/docs/FAQ/Compatibility/78-is-my-machine-compatible-with-salad), enabling Salad
+If you have a [compatible GPU and CPU](/docs/faq/compatibility/78-is-my-machine-compatible-with-salad), enabling Salad
 for both can maximize your earnings by allowing Salad to run on both at the same time. When running with both enabled
 however, we strongly recommend leaving your PC fully idle, or enabling both only when you intend to go fully AFK from
 your PC, as it may become slow to use, even for basic tasks, whilst Chopping. The moment you stop Salad though, or move
-your mouse or keyboard [after returning from AFK mode](/docs/Guides/Using-the-Salad-App/How-to-Enable-Auto-Start), Salad
+your mouse or keyboard [after returning from AFK mode](/docs/guides/using-the-salad-app/how-to-enable-auto-start), Salad
 will automatically stop and your PC will return to full performance. With both GPU and CPU enabled, we recommend double
 checking the power draw, and power consumption, of your PC whilst in this state. As your CPU will usually earn less than
 your GPU, you may see a drop in total profit due to the increased power consumption of both devices at the same time if

@@ -18,7 +18,7 @@ setup.
 These are general steps for enabling virtualization in your machine's BIOS. For more specific guides find your hardware
 brand at the bottom of this page.
 
-1. Make sure your machine [supports virtualization](/docs/FAQ/Compatibility/282-does-my-pc-support-virtualization). You
+1. Make sure your machine [supports virtualization](/docs/faq/compatibility/282-does-my-pc-support-virtualization). You
    will need Windows 10 or 11 and have a CPU that is capable of running virtualization.
 2. Restart your PC and press your BIOS Setup key. Each hardware brand will have a slightly different setup key.
    1. Find your hardware at the bottom of this guide for your Setup Key.
@@ -41,10 +41,10 @@ brand at the bottom of this page.
 6. Confirm virtualization is enabled by clicking on the Start button, and search for **Turn Windows Features on or off**
    window. Verify that **Virtual Machine Platform** and **Windows Subsystem for Linux** is enabled.
 
-![](./content/images/Guides/Your-PC/How-to-Enable-Virtualization-Support-on-your-Machine-1.png)
+![](../../../../content/images/guides/your-pc/how-to-enable-virtualization-support-on-your-machine-1.png)
 
 If you are still experiencing problems with enabling Virtualization, please contact
-[Salad Support](/docs/Guides/Your-PC/216-how-to-create-a-support-ticket).
+[Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket).
 
 ---
 
@@ -55,6 +55,6 @@ You can find specific guides for enabling virtualization on your Motherboard in 
 If you still need help and your manufacturer is not listed here, you may wish to consult online documentation to enable
 virtualization support on your machine. Here are some handy resources to aid you in that process:
 
-- [Does My PC Support Virtualization?](/docs/FAQ/Compatibility/282-does-my-pc-support-virtualization)
-- [Identifying Your CPU](/docs/Guides/Your-PC/274-identifying-your-cpu)
-- [Identifying Your Motherboard](/docs/Guides/Your-PC/280-identifying-your-motherboard)
+- [Does My PC Support Virtualization?](/docs/faq/compatibility/282-does-my-pc-support-virtualization)
+- [Identifying Your CPU](/docs/guides/your-pc/274-identifying-your-cpu)
+- [Identifying Your Motherboard](/docs/guides/your-pc/280-identifying-your-motherboard)

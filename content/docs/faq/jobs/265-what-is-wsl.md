@@ -59,4 +59,4 @@ Updating to the latest Windows 10 or 11 can solve this issue. Check for availabl
 your system is eligible for an operating system update.
 
 If you have any problems going through these setup steps, or have additional questions about WSL in Salad, contact
-[Salad Support](/docs/Guides/Your-PC/216-how-to-create-a-support-ticket).
+[Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket).

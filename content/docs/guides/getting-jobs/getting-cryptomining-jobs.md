@@ -14,8 +14,8 @@ costs.
 ## **How do I get Cryptomining Jobs?**
 
 In order to be eligible for Cryptomining Jobs, your machine must have a compatible GPU
-[installed](/docs/Guides/Your-PC/118-how-to-find-your-gpu-or-cpu), and you must have Proof of Work enabled in your
-[Salad App Settings](/docs/Guides/Using-the-Salad-App/353-Salad-App-settings). Proof of Work is enabled by default, but
+[installed](/docs/guides/your-pc/118-how-to-find-your-gpu-or-cpu), and you must have Proof of Work enabled in your
+[Salad App Settings](/docs/guides/using-the-salad-app/353-salad-app-settings). Proof of Work is enabled by default, but
 if you have previously disabled it, you will need to re-enable it in order to receive Cryptomining Jobs.
 
 The minimum compatible GPUs for Cryptomining Jobs are:
@@ -41,6 +41,6 @@ The minimum compatible GPUs for Cryptomining Jobs are:
 Salad is not compatible with GT class NVIDIA GPUs, AMD GPUs older than Polaris, or Intel Integrated Graphics.
 
 You can find additional information on compatible hardware
-[here](/docs/FAQ/Compatibility/78-is-my-machine-compatible-with-salad). If you're experiencing issues getting
-Cryptomining Jobs, please make sure that your [Antivirus](/docs/Troubleshooting/Antivirus) is not blocking Salad, and
-check out our [troubleshooting guide](/docs/Troubleshooting/Salad-App/221-general-troubleshooting-tips).
+[here](/docs/faq/compatibility/78-is-my-machine-compatible-with-salad). If you're experiencing issues getting
+Cryptomining Jobs, please make sure that your [Antivirus](/docs/troubleshooting/antivirus) is not blocking Salad, and
+check out our [troubleshooting guide](/docs/troubleshooting/salad-app/221-general-troubleshooting-tips).

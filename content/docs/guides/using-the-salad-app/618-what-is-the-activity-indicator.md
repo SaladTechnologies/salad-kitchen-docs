@@ -5,7 +5,7 @@ title: What is the Activity Indicator?
 Finished setting up Salad and just started Chopping? Salad will let you know what it's up to, whether it's looking for
 your next workload, downloading, or running.
 
-![](./content/images/Guides/Using-the-Salad-App/What-is-the-Activity-Indicator-1.png)
+![](../../../../content/images/guides/using-the-salad-app/what-is-the-activity-indicator-1.png)
 
 Salad will try its best to let you know what it's doing, so that you have maximum control over the application and your
 machine.
@@ -17,7 +17,7 @@ machine.
 When you're not running anything, Salad will display the "Finding Job" message, meaning that the app is actively
 scouring the network for a workload that matches your machine's hardware. Note that the time it takes to look for a
 workload can vary depending on the amount of workloads available, the amount of other Chefs with similar hardware
-Chopping, as well as your [Salad's Chopping settings](/docs/Guides/Using-the-Salad-App/353-Salad-App-settings) (broader
+Chopping, as well as your [Salad's Chopping settings](/docs/guides/using-the-salad-app/353-salad-app-settings) (broader
 settings such as enabling adult workloads, cryptomining, and bandwidth sharing can increase your earning potential).
 
 ---

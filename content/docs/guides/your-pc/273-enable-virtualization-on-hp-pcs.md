@@ -7,7 +7,7 @@ step-by-step guides will help you access and adjust the BIOS settings on prebuil
 (HP).
 
 If you don't know what kind of CPU you have, please
-see [Identifying Your CPU](/docs/Guides/Your-PC/274-identifying-your-cpu).
+see [Identifying Your CPU](/docs/guides/your-pc/274-identifying-your-cpu).
 
 ---
 
@@ -16,7 +16,7 @@ see [Identifying Your CPU](/docs/Guides/Your-PC/274-identifying-your-cpu).
 1. Restart or boot your computer.
 2. Immediately press the **F10** key to enter the BIOS Setup Utility.
 
-   ![](./content/images/Guides/Your-PC/Enable-Virtualization-by-Motherboard-HP-1.png)
+   ![](../../../../content/images/guides/your-pc/enable-virtualization-by-motherboard-hp-1.png)
 
 3. Using the arrow keys, navigate to the **Configuration** tab.
 4. Select **Virtualization Technology** from the menu.
@@ -30,12 +30,12 @@ see [Identifying Your CPU](/docs/Guides/Your-PC/274-identifying-your-cpu).
 1. Restart or boot your computer.
 2. Immediately press the **F10** key to enter BIOS setup.
 
-   ![](./content/images/Guides/Your-PC/Enable-Virtualization-by-Motherboard-HP-2.png)
+   ![](../../../../content/images/guides/your-pc/enable-virtualization-by-motherboard-hp-2.png)
 
 3. Using the arrow keys, navigate to the **Security** tab.
 4. Select **System Security** from the menu.
 
-   ![](./content/images/Guides/Your-PC/Enable-Virtualization-by-Motherboard-HP-3.png)
+   ![](../../../../content/images/guides/your-pc/enable-virtualization-by-motherboard-hp-3.png)
 
    [(Source)](https://support.hp.com/us-en/document/ish_5637142-5637191-16)
 
@@ -53,7 +53,7 @@ _This guide is for HP PCs manufactured during or after mid-2011. Earlier models 
 2. Immediately and repeatedly press the **Esc** key to open the Startup Menu.
 3. Press the **F10** key to enter the BIOS Setup Utility.
 
-   ![](./content/images/Guides/Your-PC/Enable-Virtualization-by-Motherboard-HP-4.png)
+   ![](../../../../content/images/guides/your-pc/enable-virtualization-by-motherboard-hp-4.png)
 
    ([Source](https://support.hp.com/ca-en/document/c00034791))
 

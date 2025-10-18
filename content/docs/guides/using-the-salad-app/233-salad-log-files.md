@@ -6,20 +6,20 @@ Finding your Salad log files:
 
 1. Open your Salad widget by clicking the Salad icon in your system tray
 
-   ![](./content/images/Guides/Using-the-Salad-App/Where-to-Find-your-Salad-Logs-1.png)
+   ![](../../../../content/images/guides/using-the-salad-app/where-to-find-your-salad-logs-1.png)
 
 2. Click the menu at the top left
 
-   ![](./content/images/Guides/Using-the-Salad-App/Where-to-Find-your-Salad-Logs-2.png)
+   ![](../../../../content/images/guides/using-the-salad-app/where-to-find-your-salad-logs-2.png)
 
 3. Click the "Show Logs" button
 
-   ![](./content/images/Guides/Using-the-Salad-App/Where-to-Find-your-Salad-Logs-3.png)
+   ![](../../../../content/images/guides/using-the-salad-app/where-to-find-your-salad-logs-3.png)
 
 4. This opens up the Salad log directory, containing all of your Salad logs. Follow instructions from Salad Support if
    directed for which logs to upload
 
-   ![](./content/images/Guides/Using-the-Salad-App/Where-to-Find-your-Salad-Logs-4.png)
+   ![](../../../../content/images/guides/using-the-salad-app/where-to-find-your-salad-logs-4.png)
 
 ---
 

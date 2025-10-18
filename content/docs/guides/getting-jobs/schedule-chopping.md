@@ -15,7 +15,7 @@ for when you know you're not at your PC, to ensure you're earning as much Salad 
    No-Mining, and Auto-Start.
    - Paused means Salad will not run during these hours.
    - No-Mining means Salad will run any job during these hours, except
-     [Cryptomining Jobs](/docs/Guides/Getting-Jobs/Getting-Cryptomining-Jobs).
+     [Cryptomining Jobs](/docs/guides/getting-jobs/getting-cryptomining-jobs).
    - Auto-Start means Salad will start Chopping any available job during these hours.
 
 You can adjust your settings at any time if you need to dial it in, or if your PC usage changes.

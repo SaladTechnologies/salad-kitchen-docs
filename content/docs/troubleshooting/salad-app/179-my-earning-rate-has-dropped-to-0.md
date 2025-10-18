@@ -23,7 +23,7 @@ are some things you can do to increase your odds:
 If none of the above works and you never get an earning rate, consider these:
 
 1. Make sure Salad is not being blocked by your antivirus or firewall. You can follow our guide to solve this
-   [here](/docs/Troubleshooting/Antivirus):
+   [here](/docs/troubleshooting/antivirus):
 2. If you're on a laptop, make sure you're plugged into power.
 3. Well, sometimes it's just not meant to be.  We can't offer any money for lost earning time, so if you're
    uncomfortable with this then please don't use Salad.

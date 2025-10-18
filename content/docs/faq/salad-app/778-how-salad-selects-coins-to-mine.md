@@ -13,7 +13,7 @@ Depending on how your machine and environment is set up, it is possible that the
 efficient option available to you. Due to the large number variables involved though, we're not able to calculate this
 for you and you will need to decide whether it is profitable for you or not. If you're not making enough, or if it's not
 efficient for you, we recommend disabling Crypto Mining from the
-[app settings](/docs/Guides/Using-the-Salad-App/353-Salad-App-settings) or setting up your own miners to point at Salad.
+[app settings](/docs/guides/using-the-salad-app/353-salad-app-settings) or setting up your own miners to point at Salad.
 
 If you live in an area with very high electricity bills, or if you have lower end hardware, it's possible you may fit
 that bill of it being inefficient.

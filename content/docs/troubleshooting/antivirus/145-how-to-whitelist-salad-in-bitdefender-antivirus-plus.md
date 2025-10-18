@@ -6,31 +6,31 @@ title: How to Whitelist Salad in Bitdefender Antivirus PLUS
 
 This will be the main screen you are presented within Bitdefender, and is your base of virus-fighting operations.
 
-![screenshot](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Bitdefender-1.png)
+![screenshot](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-1.png)
 
 **2.** **Navigate to Protection**
 
 To access your antivirus related settings on Bitdefender, click the "Protection" button on the left of the main screen.
 
-![bitdefender.png](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Bitdefender-2.png)
+![bitdefender.png](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-2.png)
 
 **3. Navigate to your Antivirus settings**
 
 After clicking on the "Protection" button, click "Open" under "Antivirus".
 
-![bitdefender1.png](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Bitdefender-3.png)
+![bitdefender1.png](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-3.png)
 
 **4. Click on "Settings"**
 
 At the top, select the "Settings" tab, then click "Manage exceptions"
 
-![bitdefender2.png](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Bitdefender-4.png)
+![bitdefender2.png](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-4.png)
 
 **5. Click 'Add'**
 
 After you have entered the Exceptions tab, click "Add an Exception".
 
-![bitdefender3.png](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Bitdefender-5.png)
+![bitdefender3.png](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-5.png)
 
 **6. Adding Salad as an Exception**
 
@@ -39,7 +39,7 @@ box you'll want to navigate to the Salad Miners folder and select it, the filepa
 "C:\\ProgramData\\Salad\\workloads" (without the quotations). Make sure to enable Antivirus protection for all 3
 settings, as well as Online Threat Prevention.
 
-![](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Bitdefender-6.png)
+![](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-6.png)
 
 **7. Click Add**
 
@@ -50,13 +50,13 @@ whitelist page with your newly added exception.
 
 Head back to the "Protection" page, and this time head into the "Online Threat Prevention" tab.
 
-![bitdefender8.png](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Bitdefender-7.png)
+![bitdefender8.png](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-7.png)
 
 **9. Temporarily disable "Web attack prevention"**
 
 Temporarily disable the "Web attack prevention" setting, don't worry, you can turn it back on once we're done.
 
-![bitdefender9.png](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Bitdefender-8.png)
+![bitdefender9.png](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-8.png)
 
 **10. Run Salad to download the miners**
 
@@ -70,4 +70,4 @@ setting, allowing it to continue protecting you.
 **12. Salad should now be whitelisted correctly**
 
 Open your Salad widget, and click the play button. Contact support
-[here](/docs/Guides/Your-PC/216-how-to-create-a-support-ticket) if this issue persists.
+[here](/docs/guides/your-pc/216-how-to-create-a-support-ticket) if this issue persists.

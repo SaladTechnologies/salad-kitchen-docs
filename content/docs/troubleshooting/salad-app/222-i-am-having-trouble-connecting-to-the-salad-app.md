@@ -28,16 +28,16 @@ These, along with other privacy-centric browsers may pose similar problems.
 
 1. Find your Salad Widget in the System Tray or Overflow Tray
 
-![](./content/images/Troubleshooting/Salad-App/I-am-Having-Trouble-Connecting-to-the-salad-app-1.png)
+![](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-1.png)
 
 2. Click the Salad Widget icon and open the Salad Widget Menu at the top left
 
-![](./content/images/Troubleshooting/Salad-App/I-am-Having-Trouble-Connecting-to-the-salad-app-2.png)
+![](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-2.png)
 
 3. Click 'Account' within the Salad Widget Menu, you should be redirected to the Salad Account Summary web browser page,
    within your default web browser.
 
-![](./content/images/Troubleshooting/Salad-App/I-am-Having-Trouble-Connecting-to-the-salad-app-3.png)
+![](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-3.png)
 
 4. From here, you have two options:
    1. If your device's default web browser is unsupported by Salad, simply copy and paste the URL above into a supported
@@ -59,20 +59,20 @@ Sometimes a simple restart can solve common connection issues. Please try these 
 
 1. Open the Windows System Tray or Overflow Tray and find the Salad Widget icon
 
-![](./content/images/Troubleshooting/Salad-App/I-am-Having-Trouble-Connecting-to-the-salad-app-4.png)
+![](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-4.png)
 
 2. Right click the Salad Widget icon, then click "Quit Salad"
 
-![](./content/images/Troubleshooting/Salad-App/I-am-Having-Trouble-Connecting-to-the-salad-app-5.png)
+![](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-5.png)
 
 3. Search for Salad in your Windows Search Bar
 
-![](./content/images/Troubleshooting/Salad-App/I-am-Having-Trouble-Connecting-to-the-salad-app-6.png)
+![](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-6.png)
 
 4. Find the Salad App and click it to restart Salad. If the connection was successful your Salad Widget should
    automatically open.
 
-![](./content/images/Troubleshooting/Salad-App/I-am-Having-Trouble-Connecting-to-the-salad-app-7.png)
+![](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-7.png)
 
 ### Restart your Machine
 
@@ -85,5 +85,5 @@ Simply follow these instructions for safely restarting a Windows machine:
 ## Get in Touch with Support
 
 If your connection issues persist, please
-[**Contact Support**](/docs/Guides/Your-PC/216-how-to-create-a-support-ticket), and our team will get back to you as
+[**Contact Support**](/docs/guides/your-pc/216-how-to-create-a-support-ticket), and our team will get back to you as
 soon as possible.

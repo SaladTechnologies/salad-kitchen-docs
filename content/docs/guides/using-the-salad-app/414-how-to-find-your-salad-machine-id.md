@@ -3,10 +3,10 @@ title: How to Find your Salad Machine ID
 ---
 
 Chefs with multiple PCs on their account are now able to breakdown earnings per machine. This feature can be toggled on
-or off on the [Earning Summary Page](/docs/Guides/Using-the-Salad-App/129-how-to-see-your-earnings-history). Chefs can
+or off on the [Earning Summary Page](/docs/guides/using-the-salad-app/129-how-to-see-your-earnings-history). Chefs can
 list up to 20 machines on the histogram.
 
-![](./content/images/Guides/Using-the-Salad-App/How-to-Find-your-Salad-Machine-ID-1.png)
+![](../../../../content/images/guides/using-the-salad-app/how-to-find-your-salad-machine-id-1.png)
 
 A Salad Machine ID is assigned to each machine registered to the Chef's account and can be located within the Salad app.
 To find the Machine ID, follow these steps.
@@ -16,7 +16,7 @@ To find the Machine ID, follow these steps.
 3. Scroll to the bottom of the Settings page, the machine ID is listed at the bottom of the page next to the current
    Salad version.
 
-![](./content/images/Guides/Using-the-Salad-App/How-to-Find-your-Salad-Machine-ID-2.png)
+![](../../../../content/images/guides/using-the-salad-app/how-to-find-your-salad-machine-id-2.png)
 
 Chefs may find unknown Machine IDs listed. This can happen if one of the Chefs machines is on an older version of Salad
 or after hardware changes.

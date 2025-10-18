@@ -4,7 +4,7 @@ title: 'Getting Bandwidth Sharing Jobs'
 
 _Last Updated September 11, 2025_
 
-Salad offers a variety of job types, including [Bandwidth Sharing Jobs](/docs/FAQ/Jobs/253-what-is-bandwidth-sharing).
+Salad offers a variety of job types, including [Bandwidth Sharing Jobs](/docs/faq/jobs/253-what-is-bandwidth-sharing).
 These jobs utilize your idle, spare internet connection bandwidth to Chop Salad Balance. They can run alongside other
 Jobs and automatically start whilst Chopping if you're eligible, and it's enabled.
 
@@ -14,7 +14,7 @@ Jobs and automatically start whilst Chopping if you're eligible, and it's enable
 
 In order to be eligible for Bandwidth Sharing Jobs, your machine must be in a supported region, have a fast enough
 internet connection, and have Video Streaming enabled in your
-[Salad App Settings](/docs/Guides/Using-the-Salad-App/353-Salad-App-settings). The current compatible regions are:
+[Salad App Settings](/docs/guides/using-the-salad-app/353-salad-app-settings). The current compatible regions are:
 
 - 🇦🇺 Australia
 - 🇦🇹 Austria
@@ -61,4 +61,4 @@ speed of at least 8 Mbps is required. You can check your internet speed using a 
 [Speedtest](https://www.speedtest.net/). If your upload speed is below the minimum requirement, you may not be eligible
 for Bandwidth Sharing Jobs. Your download speed should match or exceed your upload speed. More information about minimum
 network speeds can be found
-[here](/docs/FAQ/Compatibility/956-what-is-the-minimum-recommended-internet-speed-for-salad).
+[here](/docs/faq/compatibility/956-what-is-the-minimum-recommended-internet-speed-for-salad).

@@ -54,7 +54,7 @@ clogging any of your ventilation as well.
 
 Some antivirus programs may flag Salad due to:
 
-- Advanced Windows features we use (like [WSL2](/docs/FAQ/Jobs/265-what-is-wsl)).
+- Advanced Windows features we use (like [WSL2](/docs/faq/jobs/265-what-is-wsl)).
 - Additional verified miner software (if you opt in to mining).
 
 This is a common false positive from antivirus software. Rest assured, Salad does not harm your PC or compromise your
@@ -66,5 +66,5 @@ capabilities.
 ## Still Have Concerns?
 
 If you're worried about hardware safety or antivirus flags, please feel free to contact
-[Salad Support](/docs/Guides/Your-PC/216-how-to-create-a-support-ticket) or join our
+[Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket) or join our
 [Discord Server](https://discord.gg/salad) and we can address your specific situation directly.
