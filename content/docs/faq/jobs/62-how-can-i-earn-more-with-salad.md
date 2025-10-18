@@ -5,11 +5,11 @@ title: How Can I Earn More with Salad?
 There are a number of things you can do to optimize your setup with Salad to Chop more Salad Balance.
 
 - Make sure you're running Salad as often as possible, especially while you're sleeping or away from your computer. To
-  prevent lost earnings, change your [Sleep settings](/docs/guides/using-the-salad-app/244-how-to-disable-sleep-mode) in
-  Salad so your machine won't automatically shut down.
+  prevent lost earnings, change your [Sleep settings](/docs/guides/using-salad/244-how-to-disable-sleep-mode) in Salad
+  so your machine won't automatically shut down.
 - Enable more hardware in Salad, the more you enable, the more you can earn.
-- Set your [Auto-Start](/docs/guides/using-the-salad-app/353-salad-app-settings#auto-start) delay to start after 1-min
-  so that Salad can start chopping as soon as your computer goes idle.
+- Set your [Auto-Start](/docs/guides/using-salad/353-salad-app-settings#auto-start) delay to start after 1-min so that
+  Salad can start chopping as soon as your computer goes idle.
 - The more powerful your GPU or CPU, the faster you earn. If you upgrade your hardware or run Salad on multiple
   high-performance machines, you can significantly increase your earnings. NVIDIA GPUs in the 30 or 40 series with 12 GB
   of VRAM or above have more common jobs.

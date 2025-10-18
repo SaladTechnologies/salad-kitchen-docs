@@ -14,8 +14,8 @@ you can fix this.
 We have a [Network Monitor](/docs/faq/community/613-network-monitor) that shows the current demand for different
 hardware types on the Salad Network. If you're not receiving any Jobs, check the Network Monitor to see if there's low
 demand for your hardware. If there is, you may need to wait longer in the queue to receive a Job. You can also set up a
-[Demand Alert](/docs/guides/using-the-salad-app/how-to-set-up-a-demand-alert) to automatically notify you when demand
-for your hardware increases.
+[Demand Alert](/docs/guides/using-salad/how-to-set-up-a-demand-alert) to automatically notify you when demand for your
+hardware increases.
 
 If there is no demand at all for your hardware, Salad will instead automatically run
 [Bandwidth Sharing Jobs](/docs/guides/getting-jobs/getting-bandwidth-sharing-jobs) or
@@ -31,8 +31,8 @@ up correctly. Make sure to check the following:
 
 - Your machine is [Container-ready](/docs/troubleshooting/container-jobs/346-container-workloads-troubleshooting).
 - Salad is whitelisted in your [Firewall and Antivirus](/docs/troubleshooting/antivirus).
-- You have all workload types enabled in your
-  [Salad App Settings](/docs/guides/using-the-salad-app/353-salad-app-settings), including Proof of Work.
+- You have all workload types enabled in your [Salad App Settings](/docs/guides/using-salad/353-salad-app-settings),
+  including Proof of Work.
 - That you have a solid, stable [internet connection](/docs/guides/your-pc/619-improve-internet-speed-container-jobs).
 - No other [intensive applications](/docs/faq/salad-app/380-temporary-workload-block) are running on your machine, such
   as video games or rendering.

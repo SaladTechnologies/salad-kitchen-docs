@@ -14,7 +14,7 @@ Jobs and automatically start whilst Chopping if you're eligible, and it's enable
 
 In order to be eligible for Bandwidth Sharing Jobs, your machine must be in a supported region, have a fast enough
 internet connection, and have Video Streaming enabled in your
-[Salad App Settings](/docs/guides/using-the-salad-app/353-salad-app-settings). The current compatible regions are:
+[Salad App Settings](/docs/guides/using-salad/353-salad-app-settings). The current compatible regions are:
 
 - 🇦🇺 Australia
 - 🇦🇹 Austria

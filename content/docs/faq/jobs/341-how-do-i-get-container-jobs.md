@@ -11,5 +11,5 @@ following requirements:
 - Ensure your PC is [container-ready](/docs/troubleshooting/container-jobs/346-container-workloads-troubleshooting).
 - Have access to high-bandwidth internet.
 
-Additionally, attaining [Star Chef](/docs/guides/using-the-salad-app/337-star-chef-qualifications-and-benefits) status
-will increase your likelihood for attaining a higher paying container job on Salad.
+Additionally, attaining [Star Chef](/docs/guides/using-salad/337-star-chef-qualifications-and-benefits) status will
+increase your likelihood for attaining a higher paying container job on Salad.

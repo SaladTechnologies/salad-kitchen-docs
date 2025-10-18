@@ -7,9 +7,9 @@ out of Salad. Follow these steps to ensure you're all set to Chop!
 
 1. Make sure that both GPU and CPU are enabled. You can check enabled hardware in the **Performance** tab within the
    Salad app.
-2. Update to the latest version of Salad, [here](/docs/guides/using-the-salad-app/140-how-to-update-salad), and then
-   restart your computer. Only chefs who have upgraded to the latest version of Salad will be considered for the best
-   paying container workloads.
+2. Update to the latest version of Salad, [here](/docs/guides/using-salad/140-how-to-update-salad), and then restart
+   your computer. Only chefs who have upgraded to the latest version of Salad will be considered for the best paying
+   container workloads.
 3. Salad's Container workloads require an updated version of WSL. Make sure that you are up to date by downloading the
    latest version, [here](/docs/guides/your-pc/352-how-to-update-the-wsl-kernel-on-your-machine).
 4. Enable Virtualization. This might require updating your BIOS. For more steps, refer to this

@@ -4,9 +4,9 @@ title: 'Why do Jobs Keep Failing or Restarting?'
 
 If your [Container Jobs](https://Community.salad.com/new-feature-container-environments-now-available/) are regularly
 'failing' or 'restarting', but you're not getting any
-[error messages](/docs/guides/using-the-salad-app/235-how-does-the-notifications-page-work) in the Salad App, this
-usually means the failure was not caused by an issue with the Salad App or your machine. Instead, it's likely that the
-Job itself has encountered an error or is configured incorrectly.
+[error messages](/docs/guides/using-salad/235-how-does-the-notifications-page-work) in the Salad App, this usually means
+the failure was not caused by an issue with the Salad App or your machine. Instead, it's likely that the Job itself has
+encountered an error or is configured incorrectly.
 
 ---
 

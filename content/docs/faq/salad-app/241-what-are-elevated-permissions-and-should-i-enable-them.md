@@ -7,7 +7,7 @@ title: What are Elevated Permissions and Should I Enable Them?
 Enabling Elevated Permissions in your Salad app allows us to run some windows-native workloads as "Admin". Enabling this
 setting may allow us to run certain workloads with increased earnings. If enabled, we'll only run workloads as Admin
 when needed, or if it's going to increase your earnings. You can enable this feature in the
-[Settings page](/docs/guides/using-the-salad-app/353-salad-app-settings) of your Salad app.
+[Settings page](/docs/guides/using-salad/353-salad-app-settings) of your Salad app.
 
 ---
 

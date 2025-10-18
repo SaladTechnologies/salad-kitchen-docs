@@ -29,6 +29,6 @@ Chefs region.
 
 The Chef badge and Chopping Power page should look something like this.
 
-![](../../../../content/images/guides/using-the-salad-app/becoming-a-star-chef-1.png)
+![](../../../../content/images/guides/using-salad/becoming-a-star-chef-1.png)
 
-![](../../../../content/images/guides/using-the-salad-app/becoming-a-star-chef-2.png)
+![](../../../../content/images/guides/using-salad/becoming-a-star-chef-2.png)

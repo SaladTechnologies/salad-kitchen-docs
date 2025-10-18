@@ -13,8 +13,8 @@ different preferences and resources. Read on to discover how you can maximize yo
 Container workloads allow Chefs to share their idle compute power to work containerized processes like the latest Stable
 Diffusion and Speech-To-Text transcription for SaladCloud customers. Containers must be downloaded onto your machine
 before they can run, which requires a stable internet connection and enough storage for the container. Not sure if
-you're machine is set up to work these jobs? Check out the
-[Chopping Power](/docs/guides/using-the-salad-app/333-chopping-power) bar in the Salad app.
+you're machine is set up to work these jobs? Check out the [Chopping Power](/docs/guides/using-salad/333-chopping-power)
+bar in the Salad app.
 
 Container payouts will vary by the day, hour and week. These jobs are not as consistent as Mining workloads, but they
 are usually much more profitable.

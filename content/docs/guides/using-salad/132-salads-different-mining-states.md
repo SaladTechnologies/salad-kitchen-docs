@@ -10,7 +10,7 @@ Salad has 5 available "Running" states. These are:
 
 - Pause Until Idle
   - Selecting this option will pause Salad, until you go idle on your PC. After that, Salad will start automatically
-    based on your [defined auto-start time](/docs/guides/using-the-salad-app/353-salad-app-settings).
+    based on your [defined auto-start time](/docs/guides/using-salad/353-salad-app-settings).
 
 - Pause Until A Set Time
   - This option will allow you to pause Salad until a defined time. After that, Salad will automatically start.

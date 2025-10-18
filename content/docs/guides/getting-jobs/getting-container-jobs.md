@@ -35,5 +35,5 @@ When not running a Container Job, your machine will default to running
 [Cryptomining Jobs](/docs/guides/getting-jobs/getting-cryptomining-jobs) or
 [Bandwidth Sharing Jobs](/docs/guides/getting-jobs/getting-bandwidth-sharing-jobs), if you're opted in and compatible.
 If you're not seeing any demand for your hardware at all, you may want to consider pausing Salad and setting up a
-[Demand Alert](/docs/guides/using-the-salad-app/how-to-set-up-a-demand-alert) in the Network Monitor. This will notify
-you when demand for your hardware increases, so you can start Chopping Salad Balance.
+[Demand Alert](/docs/guides/using-salad/how-to-set-up-a-demand-alert) in the Network Monitor. This will notify you when
+demand for your hardware increases, so you can start Chopping Salad Balance.

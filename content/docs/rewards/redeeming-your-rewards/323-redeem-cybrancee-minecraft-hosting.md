@@ -6,7 +6,7 @@ title: Redeem Cybrancee Minecraft Hosting
 
 Once you have purchased a Cybrancee voucher from the Salad Storefront, you'll receive an activation code that can be
 redeemed for a Cybrancee service plan.
-([How do I find my activation code?](/docs/guides/using-the-salad-app/125-where-to-find-your-reward-redemption-code))
+([How do I find my activation code?](/docs/guides/using-salad/125-where-to-find-your-reward-redemption-code))
 
 If you need help beyond what is supplied in this guide page, please refer to Cybrancee's official help center,
 [here](https://cybrancee.com/learn/).

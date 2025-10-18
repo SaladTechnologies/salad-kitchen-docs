@@ -2,13 +2,12 @@
   "title": "Getting Started",
   "icon": "MyIcon",
   "pages": [
-    "Downloading-Salad",
+    "downloading-salad",
     "133-how-to-register-and-log-into-salad",
-    "Setting-up-the-Salad-App",
-    "Getting-your-First-Job",
-    "Redeeming-your-First-Reward",
-    "135-Getting-Started-with-salad-the-basics",
+    "setting-up-the-salad-app",
+    "getting-your-first-job",
+    "redeeming-your-first-reward",
+    "135-getting-started-with-salad-the-basics",
     "206-digital-hygiene-and-your-salad-balance"
-  ],
-  "defaultOpen": true
+  ]
 }

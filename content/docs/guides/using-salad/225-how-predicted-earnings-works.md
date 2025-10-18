@@ -9,11 +9,10 @@ While Chopping, Salad will automatically calculate Estimated Earnings for the am
 
 We calculate the earnings by taking the amount you earned over the last 5 minutes and multiplying it out to 24 hours.
 Due to the variability of jobs it is expected to see this number go up and down over the course of the day. It is
-advised to monitor earnings via the
-[Earning History](/docs/guides/using-the-salad-app/129-how-to-see-your-earnings-history) on the Salad web app. This will
-give you a more accurate view of your earnings over time.
+advised to monitor earnings via the [Earning History](/docs/guides/using-salad/129-how-to-see-your-earnings-history) on
+the Salad web app. This will give you a more accurate view of your earnings over time.
 
-![](../../../../content/images/guides/using-the-salad-app/how-estimated-earnings-work.png)
+![](../../../../content/images/guides/using-salad/how-estimated-earnings-work.png)
 
 Your Estimated Earnings figure is for your local machine only. If you have multiple machines connected to your Salad
 account, they'll provide independent Predicted Earnings. Your earnings are combined across all connected machines.

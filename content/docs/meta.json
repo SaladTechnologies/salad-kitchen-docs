@@ -1,7 +1,4 @@
 {
-  "title": "Documentation",
-  "Description": "Helpful resources to get you started with Salad",
-  "icon": "BadgeQuestionMark",
-  "pages": ["index", "Guides", "Rewards", "FAQ", "Troubleshooting"],
-  "defaultOpen": true
+  "defaultOpen": true,
+  "pages": ["index", "guides", "rewards", "faq", "troubleshooting"]
 }

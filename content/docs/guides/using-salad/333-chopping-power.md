@@ -8,7 +8,7 @@ Chopping Power shows your earning efficiency on the Salad network. We determine 
 you make available to Salad. There are some tasks for you to complete, like enabling your GPU, and some conditions that
 increase you Chopping Power if they are met.
 
-![](../../../../content/images/guides/using-the-salad-app/chopping-power-1.png)
+![](../../../../content/images/guides/using-salad/chopping-power-1.png)
 
 ---
 
@@ -21,7 +21,7 @@ efficiently their machine earns balance, not a set of requirements.
 Chefs should also note that they will see different options depending on what they have enabled during setup, or their
 machine settings and capabilities.
 
-![](../../../../content/images/guides/using-the-salad-app/chopping-power-2.png)
+![](../../../../content/images/guides/using-salad/chopping-power-2.png)
 
 ### Enable GPU + CPU
 
@@ -56,10 +56,10 @@ NVIDIA GPUs with at least 12GB of VRAM.
 
 Chefs who Chop Salad for more than 50 hours a week will be awarded Star Chef status. That means you are a trusted
 machine on the Salad network and will be prioritized for our highest paying jobs. Learn more about Star Chef,
-[here](/docs/guides/using-the-salad-app/337-star-chef-qualifications-and-benefits).
+[here](/docs/guides/using-salad/337-star-chef-qualifications-and-benefits).
 
 Don't worry if you don't meet all Chopping Power conditions. The Chopping Power bar is a great way to see if you're
 machine is optimized to earn, but there are plenty of jobs available to chefs who don't have in-demand hardware or
 Bandwidth sharing available in their area.
 
-![](../../../../content/images/guides/using-the-salad-app/chopping-power-3.png)
+![](../../../../content/images/guides/using-salad/chopping-power-3.png)

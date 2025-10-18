@@ -14,8 +14,7 @@ such as:
 - Keeping the password to your email secure and private.
 - Never sharing your one-time codes.
 - Using a Password Manager, like [1Password](https://1password.com/).
-- Making use of [Salad's Passkey system](/docs/guides/using-the-salad-app/501-salad-app-passkeys) to secure your
-  account.
+- Making use of [Salad's Passkey system](/docs/guides/using-salad/501-salad-app-passkeys) to secure your account.
 - Never, ever, using the same password elsewhere.
 
 These steps and others will help protect the Balance that your computer worked so hard to earn, and ensure that you're

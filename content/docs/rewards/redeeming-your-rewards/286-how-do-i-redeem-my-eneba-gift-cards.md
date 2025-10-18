@@ -4,7 +4,7 @@ title: How Do I Redeem My Eneba Gift Cards?
 
 Once you have purchased an Eneba gift card from the Salad Storefront, you'll receive an activation code to use on
 Eneba's global marketplace.
-[How do I find my activation code?](/docs/guides/using-the-salad-app/125-where-to-find-your-reward-redemption-code)
+[How do I find my activation code?](/docs/guides/using-salad/125-where-to-find-your-reward-redemption-code)
 
 If you have an existing Eneba account, head to
 [https://www.eneba.com/redeem-gift-card](https://www.eneba.com/redeem-gift-card) and enter the activation code to add
@@ -39,5 +39,5 @@ profile" to confirm your contact details and select your preferred method of two
 ![](../../../../content/images/rewards/redeeming-your-rewards/eneba-gift-cards-3.png)
 
 9. Enter the gift card code associated with your Eneba reward. You may find this listed in the
-[Reward Vault](/docs/guides/using-the-salad-app/125-where-to-find-your-reward-redemption-code), or in the receipt sent
-to the email associated with your Salad account.
+[Reward Vault](/docs/guides/using-salad/125-where-to-find-your-reward-redemption-code), or in the receipt sent to the
+email associated with your Salad account.

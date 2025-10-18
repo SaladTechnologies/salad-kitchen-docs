@@ -25,16 +25,15 @@ top right to proceed to checkout, and then confirm your purchase,
 ![](../../../../content/images/guides/getting-started/redeeming-your-first-reward-2.png)
 
 Once redeemed, your reward will be delivered to your
-[Reward Vault](/docs/guides/using-the-salad-app/125-where-to-find-your-reward-redemption-code) and email address. You
-can access your Reward Vault from the Store dropdown menu at the top of the page.
+[Reward Vault](/docs/guides/using-salad/125-where-to-find-your-reward-redemption-code) and email address. You can access
+your Reward Vault from the Store dropdown menu at the top of the page.
 
 > Please note that some rewards, such as PayPal and Prepaid Visa/Mastercards require additional steps, you will need to
 > check your email for further instructions.
 
 ---
 
-You can find additional information on purchasing rewards
-[here](/docs/guides/using-the-salad-app/124-how-to-make-a-purchase).
+You can find additional information on purchasing rewards [here](/docs/guides/using-salad/124-how-to-make-a-purchase).
 
 Now that you've obtained your first reward, you can optimize Salad and your PC to Chop even more Salad Balance. Check
 out our guides on this topic in [Getting Jobs](/docs/guides/getting-jobs/326-workload-preferences).

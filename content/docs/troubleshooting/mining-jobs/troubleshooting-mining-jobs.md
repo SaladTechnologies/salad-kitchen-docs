@@ -15,8 +15,8 @@ some troubleshooting steps you can take to resolve it.
    [AMD](/docs/guides/your-pc/175-how-to-update-my-amd-drivers), and
    [Intel](/docs/guides/your-pc/how-to-update-your-intel-drivers) GPUs.
 3. Check that you have Proof of Work enabled in your
-   [Salad App Settings](/docs/guides/using-the-salad-app/353-salad-app-settings). Proof of Work is required to run
-   Cryptomining Jobs.
+   [Salad App Settings](/docs/guides/using-salad/353-salad-app-settings). Proof of Work is required to run Cryptomining
+   Jobs.
 4. Ensure that your GPU is [compatible](/docs/faq/compatibility/78-is-my-machine-compatible-with-salad) with
    Cryptomining Jobs.
 5. Install the latest MSVC++ Redistributable package. This is required for some of our miner libraries to run properly.

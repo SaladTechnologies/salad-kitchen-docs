@@ -6,4 +6,4 @@ When a new Salad widget update is available, we'll let you know with a push noti
 button to start installation. You can click the "Learn More" button to take you to our What's New page containing change
 logs.
 
-![](../../../../content/images/guides/using-the-salad-app/how-to-update-salad-1.png)
+![](../../../../content/images/guides/using-salad/how-to-update-salad-1.png)
