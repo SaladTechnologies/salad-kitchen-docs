@@ -69,4 +69,4 @@ For all of these, you should enable IPS Exclusion as well. The names provided ar
 something else if you prefer. Once complete, click the "Apply" button at the bottom. Here is a screenshot showing some
 of these whitelists:
 
-![mceclip2.png](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Norton-Firewall-9.png)
+![screenshot](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Norton-Firewall-9.png)

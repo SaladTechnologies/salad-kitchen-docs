@@ -5,7 +5,7 @@ title: Enable Virtualization on Asus PCs
 Many commercially available PCs allow users to manage their BIOS configuration directly from the startup screen. These
 step-by-step guides will help you access and adjust the BIOS settings on prebuilt PCs manufactured by Asus.
 
-If you don’t know what kind of CPU you have, please see
+If you don't know what kind of CPU you have, please see
 [Identifying Your CPU](/docs/Guides/Your-PC/274-identifying-your-cpu).
 
 **With Intel Processors**
@@ -24,7 +24,7 @@ If you don’t know what kind of CPU you have, please see
 
    ![](./content/images/Guides/Your-PC/Enable-Virtualization-by-Motherboard-Asus-4.png)([Source)](https://www.asus.com/us/support/FAQ/1045141/#C)
 
-6. Press **F10** and click “OK” (#6) to save your configuration and exit.
+6. Press **F10** and click "OK" (#6) to save your configuration and exit.
 
    ![](./content/images/Guides/Your-PC/Enable-Virtualization-by-Motherboard-Asus-5.png)([Source)](https://www.asus.com/us/support/FAQ/1045141/#C)
 
@@ -47,6 +47,6 @@ If you don’t know what kind of CPU you have, please see
 
    ![](./content/images/Guides/Your-PC/Enable-Virtualization-by-Motherboard-Asus-8.png)([Source](https://www.asus.com/us/support/FAQ/1045141/#C))
 
-6. Press **F10** and click “OK” to save your configuration and exit.
+6. Press **F10** and click "OK" to save your configuration and exit.
 
    ![](./content/images/Guides/Your-PC/Enable-Virtualization-by-Motherboard-Asus-9.png)([Source)](https://www.asus.com/us/support/FAQ/1045141/#C)

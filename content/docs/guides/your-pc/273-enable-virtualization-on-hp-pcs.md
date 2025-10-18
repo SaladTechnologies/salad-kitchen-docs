@@ -6,7 +6,7 @@ Many commercially available PCs allow users to manage their BIOS configuration d
 step-by-step guides will help you access and adjust the BIOS settings on prebuilt PCs manufactured by Hewlett-Packard
 (HP).
 
-If you don’t know what kind of CPU you have, please
+If you don't know what kind of CPU you have, please
 see [Identifying Your CPU](/docs/Guides/Your-PC/274-identifying-your-cpu).
 
 ---

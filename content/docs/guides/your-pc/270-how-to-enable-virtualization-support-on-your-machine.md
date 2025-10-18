@@ -2,7 +2,7 @@
 title: How to enable Virtualization Support on your machine
 ---
 
-To configure [Job Environments](https://salad.com/blog/container-workloads/) on your PC and chop Salad’s highest paying
+To configure [Job Environments](https://salad.com/blog/container-workloads/) on your PC and chop Salad's highest paying
 jobs, you'll need to enable virtualization support in the BIOS of your CPU. The details vary between hardware
 configurations and the manufacturer of your CPU or motherboard.
 

@@ -8,7 +8,7 @@ title: How to Whitelist Salad in Kaspersky
 
 This will be the main screen you are presented within Kaspersky, and is your base of virus-fighting operations.
 
-![mceclip0.png](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Kaspersky-1.png)
+![screenshot](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Kaspersky-1.png)
 
 ### 2. Navigate to Settings
 
@@ -28,7 +28,7 @@ After clicking "Threats and Exclusions", scroll down the page to the very bottom
 
 ![kaspersky3.png](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Kaspersky-4.png)
 
-### 5. Click on ‘Add’
+### 5. Click on 'Add'
 
 After clicking "Manage exclusions" a box will show. Click "Add" as pictured below.
 

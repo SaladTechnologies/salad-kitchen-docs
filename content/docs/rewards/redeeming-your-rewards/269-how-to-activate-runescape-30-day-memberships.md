@@ -16,15 +16,15 @@ Once you have found your code, simply follow these steps to activate your 30-day
 
 1. Navigate to the Runescape activation page:
    [https://www.runescape.com/store_locator](https://www.runescape.com/store_locator)
-2. Click the gold button named “Activate Card,” located in the “About Pre-Paid Cards” section on the left.
+2. Click the gold button named "Activate Card," located in the "About Pre-Paid Cards" section on the left.
 3. Log in with your Runescape account, or create a new account\*.
-4. You should be redirected towards a Jagex page, where you will see a prompt titled “Enter Pre-Paid Card Code."
-5. Copy and paste or type your unique redemption code into the text box, then hit the yellow button labeled “Redeem”
+4. You should be redirected towards a Jagex page, where you will see a prompt titled "Enter Pre-Paid Card Code."
+5. Copy and paste or type your unique redemption code into the text box, then hit the yellow button labeled "Redeem"
    directly below.
-6. Bingo! You’ve hit paydirt. The 30-day membership will be applied to your account, and you’re now free to level skills
+6. Bingo! You've hit paydirt. The 30-day membership will be applied to your account, and you're now free to level skills
    and stack buffs in Runescape.
 
-Don’t forget that these are month-long memberships. Once they expire, you’ll need to redeem another 30-day membership
+Don't forget that these are month-long memberships. Once they expire, you'll need to redeem another 30-day membership
 reward from the Salad Storefront and follow the same steps to reactivate your membership.
 
 ---

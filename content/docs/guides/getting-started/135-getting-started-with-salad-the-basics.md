@@ -42,7 +42,7 @@ take a few minutes to work this out, by looking at your current earnings. More i
 A. Some antivirus programs may flag Salad because we use Advanced Windows features (like
 [WSL2](/docs/FAQ/Jobs/265-what-is-wsl)) and additional verified miner software (if you opt in to mining). This is a
 common false positive from antivirus software. Rest assured, Salad does not harm your PC or compromise your privacy.
-Antivirus tools often use a “zero-trust” approach that can flag safe applications simply for having certain
+Antivirus tools often use a "zero-trust" approach that can flag safe applications simply for having certain
 capabilities. You will need to whitelist Salad by following our collection of guides available here:
 [How to whitelist Salad](/docs/Troubleshooting/Antivirus/)
 

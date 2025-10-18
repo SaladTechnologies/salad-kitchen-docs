@@ -2,11 +2,11 @@
 title: 'Enable Virtualization by Motherboard: Gigabyte'
 ---
 
-Depending on your hardware configuration, your motherboard manufacturer’s software may dictate how and where BIOS
+Depending on your hardware configuration, your motherboard manufacturer's software may dictate how and where BIOS
 settings can be accessed and modified. This guide details common BIOS setup patterns on machines equipped with a
 motherboard manufactured by Gigabyte.
 
-*If you don’t know what kind of motherboard you are using, please
+*If you don't know what kind of motherboard you are using, please
 see* [Identifying Your Motherboard](/docs/Guides/Your-PC/280-identifying-your-motherboard)_._
 
 **With Intel Processors**
@@ -20,7 +20,7 @@ see* [Identifying Your Motherboard](/docs/Guides/Your-PC/280-identifying-your-m
    under the **Chipset** tab._
 
 4. Scroll through the menu to find **Intel Virtualization Technology, Intel Virtualization Technology (VT-x)**, **Intel
-   VT**, **VT-d**, or generic terms such as “Virtualization\*\*.”\*\*
+   VT**, **VT-d**, or generic terms such as "Virtualization\*\*."\*\*
 
    ![](./content/images/Guides/Your-PC/Enable-Virtualization-by-Motherboard-Gigabyte-1.png)([Source](https://www.ldplayer.net/blog/enable-virtualization-technology-on-gigabyte-computer-and-motherboard.html))
    ![](./content/images/Guides/Your-PC/Enable-Virtualization-by-Motherboard-Gigabyte-2.png)([Source](https://www.ldplayer.net/blog/enable-virtualization-technology-on-gigabyte-computer-and-motherboard.html))

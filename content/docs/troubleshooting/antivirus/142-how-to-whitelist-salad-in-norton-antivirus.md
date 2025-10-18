@@ -4,7 +4,7 @@ title: How to Whitelist Salad in Norton Antivirus
 
 **1. Open Norton360.**
 
-![mceclip0.png](././content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Norton-Antivirus-1.png)
+![screenshot](././content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Norton-Antivirus-1.png)
 
 **2. From the main menu, click Settings on the left navigation bar.**
 

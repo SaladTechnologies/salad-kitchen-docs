@@ -2,18 +2,18 @@
 title: 'Enable Virtualization by Motherboard: MSI (American Megatrends)'
 ---
 
-Depending on your hardware configuration, your motherboard manufacturer’s software may dictate how and where BIOS
+Depending on your hardware configuration, your motherboard manufacturer's software may dictate how and where BIOS
 settings can be accessed and modified. This guide details common BIOS setup patterns on machines equipped with a
 motherboard manufactured by MSI or American Megatrends.
 
-*If you don’t know what kind of motherboard you are using, please
+*If you don't know what kind of motherboard you are using, please
 see* [Identifying Your Motherboard](/docs/Guides/Your-PC/280-identifying-your-motherboard)_._
 
 **With Intel Processors**
 
 1. Restart or boot your computer.
-2. Immediately press the **Del** to enter the BIOS Setup Utility. You will be directed to a screen that says “Aptio
-   Setup Utility – American Megatrends, Inc.”
+2. Immediately press the **Del** to enter the BIOS Setup Utility. You will be directed to a screen that says "Aptio
+   Setup Utility – American Megatrends, Inc."
 
    ![](./content/images/Guides/Your-PC/Enable-Virtualization-by-Motherboard-MSI-1.png)
 

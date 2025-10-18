@@ -18,7 +18,7 @@ subscription will activate once the Cybrancee team has approved your request._
 ---
 
 1. Navigate to the
-Cybrancee’s [custom redemption page](https://cybrancee.com/client/index.php?rp=%2Fstore%2Fsponsorship-hosting) for Salad
+Cybrancee's [custom redemption page](https://cybrancee.com/client/index.php?rp=%2Fstore%2Fsponsorship-hosting) for Salad
 Chefs.
 
 ![](./content/images/Rewards/Redeeming-your-Rewards/Cybrancee-Domain-1.png)

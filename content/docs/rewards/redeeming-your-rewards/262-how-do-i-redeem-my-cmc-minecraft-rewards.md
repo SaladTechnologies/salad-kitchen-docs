@@ -2,7 +2,7 @@
 title: How Do I Redeem My CMC Minecraft Rewards?
 ---
 
-Redeeming keys (aka coupons) is actually quite simple. CMC reward keys are redeemed on CMC’s website.
+Redeeming keys (aka coupons) is actually quite simple. CMC reward keys are redeemed on CMC's website.
 
 ## CMC Cosmetic Redemption
 
@@ -12,9 +12,9 @@ Redeeming keys (aka coupons) is actually quite simple. CMC reward keys are redee
 2. If you already have an account, go to the login page on
    [https://cm-pack.pl/panel/sign-in.php](https://cm-pack.pl/panel/sign-in.php) and log in using your email or nickname
    and password.
-3. Go to the “Activate Code” page [https://cm-pack.pl/panel/activate.php](https://cm-pack.pl/panel/activate.php) enter
-   the key you received from Salad in the field “Activation Code” and click “Activate”.
-4. Add the cosmetic to your nickname on the “Cosmetics” page
+3. Go to the "Activate Code" page [https://cm-pack.pl/panel/activate.php](https://cm-pack.pl/panel/activate.php) enter
+   the key you received from Salad in the field "Activation Code" and click "Activate".
+4. Add the cosmetic to your nickname on the "Cosmetics" page
    [https://cm-pack.pl/panel/cosmetic](https://cm-pack.pl/panel/cosmetics.php).
 
 ## Experiencing Issues with Your Reward?

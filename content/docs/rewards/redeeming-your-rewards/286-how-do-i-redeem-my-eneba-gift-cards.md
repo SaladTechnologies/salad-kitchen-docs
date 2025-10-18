@@ -27,14 +27,14 @@ Please follow the steps below to create your account.
 
 5. In a separate tab, check your email inbox for a one-time activation code.
 
-6. On the Eneba signup page, enter the activation code to verify your email address.
+6. On the Eneba sign-up page, enter the activation code to verify your email address.
 
 7. Once logged in, click your username (at top right) and select "Redeem gift card" from the dropdown menu.
 
 ![](./content/images/Rewards/Redeeming-your-Rewards/Eneba-Gift-Cards-2.png)
 
-8. Before adding funds to your Eneba wallet, you may be required to complete your account profile. Click “Update
-profile” to confirm your contact details and select your preferred method of two-factor authentication.
+8. Before adding funds to your Eneba wallet, you may be required to complete your account profile. Click "Update
+profile" to confirm your contact details and select your preferred method of two-factor authentication.
 
 ![](./content/images/Rewards/Redeeming-your-Rewards/Eneba-Gift-Cards-3.png)
 

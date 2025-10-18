@@ -6,7 +6,7 @@ title: How to Whitelist Salad in Bitdefender Antivirus PLUS
 
 This will be the main screen you are presented within Bitdefender, and is your base of virus-fighting operations.
 
-![mceclip1.png](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Bitdefender-1.png)
+![screenshot](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Bitdefender-1.png)
 
 **2.** **Navigate to Protection**
 
@@ -26,7 +26,7 @@ At the top, select the "Settings" tab, then click "Manage exceptions"
 
 ![bitdefender2.png](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Bitdefender-4.png)
 
-**5. Click ‘Add’**
+**5. Click 'Add'**
 
 After you have entered the Exceptions tab, click "Add an Exception".
 
@@ -35,15 +35,15 @@ After you have entered the Exceptions tab, click "Add an Exception".
 **6. Adding Salad as an Exception**
 
 **Salad 1.0.0. and Later:** After you have clicked "Add an Exception" you will be shown a dialogue box. In that dialogue
-box you’ll want to navigate to the Salad Miners folder and select it, the filepath for this is
-“C:\\ProgramData\\Salad\\workloads” (without the quotations). Make sure to enable Antivirus protection for all 3
+box you'll want to navigate to the Salad Miners folder and select it, the filepath for this is
+"C:\\ProgramData\\Salad\\workloads" (without the quotations). Make sure to enable Antivirus protection for all 3
 settings, as well as Online Threat Prevention.
 
 ![](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Bitdefender-6.png)
 
 **7. Click Add**
 
-Once you’ve entered the Salad Miners folder, click "Save", and it will bring you back to the main Bitdefender Exception
+Once you've entered the Salad Miners folder, click "Save", and it will bring you back to the main Bitdefender Exception
 whitelist page with your newly added exception.
 
 **8. Navigate back to the "Protection" page.**

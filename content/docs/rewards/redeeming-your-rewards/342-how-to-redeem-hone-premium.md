@@ -3,7 +3,7 @@ title: How to Redeem Hone Premium
 ---
 
 Once you've received your Hone Premium code from either your Reward Vault or your Redemption Email (sent to your Salad
-signup email inbox), the following steps will apply Hone Premium to your Hone Account:
+sign-up email inbox), the following steps will apply Hone Premium to your Hone Account:
 
 1. If you haven't already, sign up for Hone [here](http://hone.gg/)
 2. Go to the [Premium Redemption page](https://hone.gg/app/redeem)

@@ -10,25 +10,25 @@ title: How to Whitelist Salad in AVG
 
 ### 2. Navigate to Settings
 
-**You’ll want to click on the menu button at the top right corner, and then click on the settings tab from the list.**
+**You'll want to click on the menu button at the top right corner, and then click on the settings tab from the list.**
 
 **![avg1.png](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-AVG-2.png)**
 
 ### 3. Click Exceptions
 
-**You’ll want to navigate to the Exceptions tab  and click on "Add Exception", as shown
+**You'll want to navigate to the Exceptions tab  and click on "Add Exception", as shown
 below.![avg4.png](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-AVG-3.png)**
 
 ### 4. Add the whitelist
 
-**A dialogue box will appear once you have clicked ‘Add Exception’. In the opened window, enter the path
+**A dialogue box will appear once you have clicked 'Add Exception'. In the opened window, enter the path
 "C:\\ProgramData\\Salad\\workloads", without the quotes.**
 
 **![avg3.png](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-AVG-4.png)**
 
 ### 5. Click 'Add Exception'
 
-**Once you’ve entered the Salad folder click "ADD EXCEPTION", and it will bring you back to the main AVG "Exception"
+**Once you've entered the Salad folder click "ADD EXCEPTION", and it will bring you back to the main AVG "Exception"
 page with your newly added Exception.**
 
 ### 6. Run Salad

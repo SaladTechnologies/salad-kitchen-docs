@@ -49,8 +49,8 @@ You can also view a video walkthrough [here](https://vimeo.com/574423693).
 
    ![](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Windows-Defender-7.png)
 
-5. After you have clicked on ‘Add or remove exclusions", select "Add an exclusion", then select "Folder",  and navigate
-   to the Salad folder by pasting “C:\\ProgramData\\Salad\\workloads" into the bar at the top that shows your filepath,
+5. After you have clicked on 'Add or remove exclusions", select "Add an exclusion", then select "Folder",  and navigate
+   to the Salad folder by pasting "C:\\ProgramData\\Salad\\workloads" into the bar at the top that shows your filepath,
    as shown below.
 
    ![](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-Windows-Defender-1.png)

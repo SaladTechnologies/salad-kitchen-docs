@@ -17,12 +17,12 @@ subscription will activate once the Cybrancee team has approved your request._
 
 ---
 
-1\. Navigate to the Cybrancee’s
+1\. Navigate to the Cybrancee's
 [custom redemption page](https://cybrancee.com/client/index.php?rp=%2Fstore%2Fsponsorship-hosting) for Salad Chefs.
 
 ![](./content/images/Rewards/Redeeming-your-Rewards/Cybrancee-Web-Hosting-1.png)
 
-2. Select “Salad – Website Hosting” from the available choices and click “Order Now.”
+2. Select "Salad – Website Hosting" from the available choices and click "Order Now."
 
 3. On the next page, choose whether to register a new domain,\* transfer an existing one, or create a free subdomain on
 Cybrancee, and then enter the appropriate URL in the text field.
@@ -33,9 +33,9 @@ required to input a valid credit card or authorize a PayPal account to finalize 
 ![](./content/images/Rewards/Redeeming-your-Rewards/Cybrancee-Web-Hosting-2.png)
 
 4. Click the submit button to proceed. (Depending on which option you selected in Step #3, the button will be labeled
-either ”Check,” “Transfer,” or “Use.”)
+either "Check," "Transfer," or "Use.")
 
-5. Enter your redemption code in the text field (under “Promotion”) and click “Validate Code.”
+5. Enter your redemption code in the text field (under "Promotion") and click "Validate Code."
 
 ![](./content/images/Rewards/Redeeming-your-Rewards/Cybrancee-Web-Hosting-3.png)
 
@@ -47,13 +47,13 @@ either ”Check,” “Transfer,” or “Use.”)
 
 ![](./content/images/Rewards/Redeeming-your-Rewards/Cybrancee-Web-Hosting-5.png)
 
-8. Under “Payment Method,” select the “No Payment Method” option. (Do not select this option when registering a new
+8. Under "Payment Method," select the "No Payment Method" option. (Do not select this option when registering a new
 premium domain. Your order will be rejected.)
 
 ![](./content/images/Rewards/Redeeming-your-Rewards/Cybrancee-Web-Hosting-6.png)
 
-9. Read and agree to Cybrancee’s Terms of Service.
+9. Read and agree to Cybrancee's Terms of Service.
 
-10. Click “Checkout” in the checkout pane at the right to complete your order.
+10. Click "Checkout" in the checkout pane at the right to complete your order.
 
 ![](./content/images/Rewards/Redeeming-your-Rewards/Cybrancee-Web-Hosting-7.png)

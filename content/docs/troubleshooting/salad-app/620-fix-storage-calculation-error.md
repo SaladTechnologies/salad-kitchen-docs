@@ -10,7 +10,7 @@ review. Typically, the error is caused by one of the following issues:
 
 ## **Step 1: Contact Salad Support**
 
-You’ll need to reach out to Salad Support to properly diagnose this issue. Our team will analyze your widget logs and
+You'll need to reach out to Salad Support to properly diagnose this issue. Our team will analyze your widget logs and
 confirm whether PowerShell or DISM is causing the issue.
 
 📩 [**Contact Salad Support**](https://support.salad.com/)

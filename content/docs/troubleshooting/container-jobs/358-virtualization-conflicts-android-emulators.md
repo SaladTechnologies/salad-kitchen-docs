@@ -2,7 +2,7 @@
 title: Virtualization Conflicts with Android Emulators
 ---
 
-Some Android emulators have been known to interfere with Salad’s virtualization set-up. These programs run competing
+Some Android emulators have been known to interfere with Salad's virtualization set-up. These programs run competing
 virtualization processes next to Salad which prevents Containerization from setting up successfully. These emulators are
 known to conflict with Salad
 

@@ -1,5 +1,5 @@
 ---
-title: I Redeemed an item and Haven’t Gotten it Yet. What’s Going On?
+title: I Redeemed an item and Haven't Gotten it Yet. What's Going On?
 ---
 
 Most store redemptions are automatic and usually immediate, however some are issued through third party systems and can

@@ -171,7 +171,7 @@ Supported Countries:
 - 🇷🇪 Reunion
 - 🇷🇴 Romania
 - 🇷🇼 Rwanda
-- 🇧🇱 Saint Barthelemy
+- 🇧🇱 Saint Barthélemy
 - 🇸🇭 Saint Helena
 - 🇰🇳 Saint Kitts and Nevis
 - 🇱🇨 Saint Lucia

@@ -10,7 +10,7 @@ order to search online for additional support.
 Some computers allow you to check with a simple Windows utility. To do so, simply:
 
 1. Press the **Windows** and **R** keys simultaneously to open Windows Run.
-2. Type “msinfo32” and hit **Enter**.
+2. Type "msinfo32" and hit **Enter**.
 
    ![](./content/images/Guides/Your-PC/Identifying-your-Motherboard-1.png)
 

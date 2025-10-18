@@ -10,32 +10,32 @@ solutions for other ISPs. If you don't know your internet service provider is, h
 
 There are a few tactics Xfinity users can try to get unstuck. For starters:
 
-1. Type “10.0.0.1” into your browser’s search bar.
-2. Hit “Enter” to head to the Xfinity login page
+1. Type "10.0.0.1" into your browser's search bar.
+2. Hit "Enter" to head to the Xfinity login page
 3. Log in using your Xfinity account credentials.
 
 _Step #1 uses the default IP address for Xfinity routers. If you use a different static IP, swap in that address there.
 You'll need to be connected to your home network for this to work. To try from elsewhere, log in at the_
 [_MyXFi_](https://login.xfinity.com/login)_portal instead._
 
-Once you’re in, try disabling any
+Once you're in, try disabling any
 [parental control](https://www.xfinity.com/support/articles/set-up-parental-controls-with-comcast-networking) settings
-you may have turned on. If that doesn’t help, consider temporarily deactivating your
+you may have turned on. If that doesn't help, consider temporarily deactivating your
 [Xfinity Gateway firewall](https://www.xfinity.com/support/articles/advanced-xfinity-wireless-gateway-features).
 
 ### **BT (British Telecom)**
 
-BT broadband users can usually fix connection issues by deactivating the “Personal Firewall” in
+BT broadband users can usually fix connection issues by deactivating the "Personal Firewall" in
 [BT Protect](https://www.bt.com/help/security/what-security-and-protection-do-i-get-with-bt-broadband-#bt-navbar:~:text=BT%20Virus%20Protect,-BT),
 an optional antivirus program that comes free with some subscriptions. Check to see if you have it installed on your
 computer to adjust these settings.
 
-Alternatively, you can turn off your BT Smart Hub’s firewall like so:
+Alternatively, you can turn off your BT Smart Hub's firewall like so:
 
-1. Type “192.168.1.254” into your browser’s search bar.
-2. Hit “Enter” to head to the Smart Hub dashboard.
+1. Type "192.168.1.254" into your browser's search bar.
+2. Hit "Enter" to head to the Smart Hub dashboard.
 3. Log in using your BT Broadband account credentials.
-4. Navigate to “Advanced Settings” and then choose “Firewall”.
+4. Navigate to "Advanced Settings" and then choose "Firewall".
 5. Disable your firewall using the toggle on this screen.
 
 _Step #1 uses the default IP address for current-gen BT Smart Hub devices. If you use a static IP for port forwarding,
@@ -49,7 +49,7 @@ If you disable your firewall, you may be vulnerable to intrusion on the web. Goo
 [outlined here](https://salad.com/blogs/what-is-a-botnet)) will thwart most bad actors, but you should always be mindful
 of the risks when changing your default protection settings.
 
-**We recommend that all users follow the “Contact Your ISP” guide below**.
+**We recommend that all users follow the "Contact Your ISP" guide below**.
 
 ---
 
@@ -67,13 +67,13 @@ below. To access those settings:
 **Windows**
 
 1. Open the Start menu (or press the Windows key).
-2. Type “Network Status” and click through to your settings.
-3. Click on “Change Adapter Settings”.
+2. Type "Network Status" and click through to your settings.
+3. Click on "Change Adapter Settings".
 4. Right-click on your active network connection.
-5. Click on “Properties".
-6. Click on the table entry labeled “Internet Protocol Version 4 (TCP/IPv4)”.
-7. Click on “Properties.” (If you use IPv6, change those settings as well.)
-8. Click on “Use the following DNS server addresses”.
+5. Click on "Properties".
+6. Click on the table entry labeled "Internet Protocol Version 4 (TCP/IPv4)".
+7. Click on "Properties." (If you use IPv6, change those settings as well.)
+8. Click on "Use the following DNS server addresses".
 9. Type in one of the public DNS server addresses below.
 
 ---
@@ -92,7 +92,7 @@ make an informed choice:
 ---
 
 **Why this works:** a DNS resolver interprets text-based URLs and converts them into their corollary IP addresses. Your
-network is configured to route through your ISP’s resolver by default. Using a third-party resolver avoids any traffic
+network is configured to route through your ISP's resolver by default. Using a third-party resolver avoids any traffic
 blockers they may have set up.
 
 ### **Virtual Private Networks**
@@ -100,7 +100,7 @@ blockers they may have set up.
 A [virtual private network](https://www.pcmag.com/picks/the-best-vpn-services) (VPN) may not be enabled while Chopping
 Salad. Chefs who use a VPN or Proxy will not be assigned workloads on the Salad network.
 
-**We don’t recommend going this route before trying to contact your ISP directly.**
+**We don't recommend going this route before trying to contact your ISP directly.**
 
 ## **Contact Your ISP**
 

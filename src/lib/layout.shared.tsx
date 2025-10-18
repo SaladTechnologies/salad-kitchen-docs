@@ -6,22 +6,21 @@ export function baseOptions(): BaseLayoutProps {
     githubUrl: 'https://github.com/SaladTechnologies/salad-kitchen-docs',
     links: [
       {
-        type: 'icon',
-        label: 'Join Discord', // `aria-label`
         icon: <MessageSquareMore />,
+        label: 'Join Discord',
         text: 'Join Discord',
+        type: 'icon',
         url: 'https://discord.gg/salad',
       },
       {
-        text: 'Download Salad',
         icon: <Download />,
-        url: 'https://salad.com/download',
-        // secondary items will be displayed differently on navbar
         secondary: true,
+        text: 'Download Salad',
+        url: 'https://salad.com/download',
       },
     ],
     nav: {
-      title: <img src="/src/styles/SaladLogo.png" alt="Salad Logo" style={{ height: 48 }} />,
+      title: <img src="/src/styles/logo.png" alt="Salad logo" style={{ height: 48 }} />,
     },
   }
 }

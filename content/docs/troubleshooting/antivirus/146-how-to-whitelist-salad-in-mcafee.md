@@ -39,17 +39,17 @@ In this page, you now need to click the "Excluded Files" drop down, and select "
 
 **7. Adding Salad as an Exclusion**
 
-**Salad v1.0.0 and Later:** After clicking on "Add file", you’ll want to paste "C:\\ProgramData\\Salad\\workloads" into
+**Salad v1.0.0 and Later:** After clicking on "Add file", you'll want to paste "C:\\ProgramData\\Salad\\workloads" into
 your filepath bar at the very top of the popped up File Explorer window. Inside this folder, you should see several more
 folders. These folders are where the miners are stored. Inside each of these folders, you will need to select the .exe
-file and whitelist them. As McAfee doesn’t support folder exclusion you will need to add every file that has .exe as an
+file and whitelist them. As McAfee doesn't support folder exclusion you will need to add every file that has .exe as an
 exclusion. We recommend starting with the versions with the highest version numbers.
 
 ![](./content/images/Troubleshooting/Antivirus/How-to-Whitelist-Salad-in-McAfee-5.png)
 
 **8. Click Add**
 
-Once you’ve found the .exe files and clicked it, hit ‘Open’, and it will bring you back to the main McAfee Exclusion
+Once you've found the .exe files and clicked it, hit 'Open', and it will bring you back to the main McAfee Exclusion
 whitelist page with your newly added exclusions. Repeat this process for all remaining files. You may need to also
 whitelist the other files within these folders if just the .exe files doesn't work
 

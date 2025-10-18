@@ -33,4 +33,4 @@ your machine may qualify for. Here's our recommendations for improving your inte
 ## Run a Speed Test
 
 - Use Speedtest.net or a similar tool to check your download, upload, and latency.
-- If your speeds don’t match your ISP’s advertised rate, contact them for troubleshooting.
+- If your speeds don't match your ISP's advertised rate, contact them for troubleshooting.

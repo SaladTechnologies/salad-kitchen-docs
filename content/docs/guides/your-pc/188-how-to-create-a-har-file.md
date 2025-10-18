@@ -28,14 +28,14 @@ It should look something like this.
 
 At the top of the Developer Console, select the "Network" tab. It should look like this.
 
-![mceclip1.png](./content/images/Guides/Your-PC/How-to-Create-a-HAR-File-3.png)
+![network](./content/images/Guides/Your-PC/How-to-Create-a-HAR-File-3.png)
 
 **4. Enable logging**
 
 To ensure your logs are created, ensure that the little circle at the top left is red, and the "Preserve log" checkbox
 is ticked, like here.
 
-![harsalad2.png](./content/images/Guides/Your-PC/How-to-Create-a-HAR-File-4.png)
+![preserve log](./content/images/Guides/Your-PC/How-to-Create-a-HAR-File-4.png)
 
 **5. Reproduce your issue**
 
@@ -46,7 +46,7 @@ reproduce the issue you are experiencing. If your problem happens automatically,
 
 Once you have reproduced the issue, click the "Export HAR" button on the right, and save it to your system. 
 
-![harsalad3.png](./content/images/Guides/Your-PC/How-to-Create-a-HAR-File-5.png)
+![export HAR](./content/images/Guides/Your-PC/How-to-Create-a-HAR-File-5.png)
 
 **7. Upload your log file**
 

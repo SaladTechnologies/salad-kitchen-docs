@@ -14,7 +14,7 @@ export function NotFound() {
         <h2 className="text-2xl font-semibold">Page Not Found</h2>
         <p className="text-fd-muted-foreground max-w-md">
           The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.
-          Contact us at support@salad.com.
+          Feel free to <Link to="/contact">contact us</Link> if you think this is an error.
         </p>
         <Link
           to="/"

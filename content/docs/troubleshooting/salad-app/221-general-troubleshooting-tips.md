@@ -46,7 +46,7 @@ If Salad still isn't working quite right after
       [Microsoft's guide](https://support.microsoft.com/en-us/windows/update-windows-3c5ae7fc-9fb6-9af1-1984-b5e0412c556a)
       to update your Windows install.
 
-9. Try installing additional Microsoft Redistributables.
+9. Try installing additional Microsoft Redistributable packages.
    1. Normally these will have been installed already by previous applications or games on your PC, but it's possible
-      you may be missing some. You can install the required Official Microsoft Redistributables from the
+      you may be missing some. You can install the required Official Microsoft Redistributable packages from the
       [Microsoft Website](https://aka.ms/vs/17/release/vc_redist.x64.exe).
