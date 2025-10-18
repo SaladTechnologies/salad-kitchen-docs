@@ -1,0 +1,6 @@
+{
+  "title": "Guides",
+  "description": "Guides on how to use Salad",
+  "icon": "MyIcon",
+  "pages": ["getting-started", "getting-jobs", "using-salad", "your-pc"]
+}

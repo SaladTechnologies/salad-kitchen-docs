@@ -14,7 +14,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - name: Install Extra Dictionaries
+      - name: Install Dependencies
         run: npm install
       - name: Run Spellcheck
         uses: streetsidesoftware/cspell-action@v6

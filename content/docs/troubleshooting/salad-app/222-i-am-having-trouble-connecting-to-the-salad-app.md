@@ -2,8 +2,6 @@
 title: Troubleshooting Salad App Connection Issues
 ---
 
-# Troubleshooting Salad App Connection Issues
-
 Warning!
 
 - Salad does not offer support for Chefs running Salad in Virtual Machines (VMWare, VirtualBox, Proxmox, etc), which can
@@ -30,22 +28,16 @@ These, along with other privacy-centric browsers may pose similar problems.
 
 1. Find your Salad Widget in the System Tray or Overflow Tray
 
-<!--THE END-->
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/67cefe205d8f1b76e633ba9d/file-Wy0O8TQYKA.png)
+![](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-1.png)
 
 2. Click the Salad Widget icon and open the Salad Widget Menu at the top left
 
-<!--THE END-->
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/67cefe6aa3344f0338be1a5a/file-QszMoeBTr1.png)
+![](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-2.png)
 
 3. Click 'Account' within the Salad Widget Menu, you should be redirected to the Salad Account Summary web browser page,
    within your default web browser.
 
-<!--THE END-->
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/67ceff54ed7bc20b64ad98cd/file-MTcAFdse4V.png)
+![](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-3.png)
 
 4. From here, you have two options:
    1. If your device's default web browser is unsupported by Salad, simply copy and paste the URL above into a supported
@@ -67,37 +59,31 @@ Sometimes a simple restart can solve common connection issues. Please try these 
 
 1. Open the Windows System Tray or Overflow Tray and find the Salad Widget icon
 
-<!--THE END-->
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/67cf024794f7167bb22d0292/file-1y52lvGgA8.png)
+![](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-4.png)
 
 2. Right click the Salad Widget icon, then click "Quit Salad"
 
-<!--THE END-->
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/67cf02b094f7167bb22d0294/file-PnGvkUA9UY.png)
+![](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-5.png)
 
 3. Search for Salad in your Windows Search Bar
 
-<!--THE END-->
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/67cf0319a3344f0338be1a6f/file-DXAyLltP9V.png)
+![](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-6.png)
 
 4. Find the Salad App and click it to restart Salad. If the connection was successful your Salad Widget should
    automatically open.
 
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/615b47bfca9e0011a4434693/images/67cf0378eec08f278f337638/file-SPzLHFYTRI.png)
+![](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-7.png)
 
 ### Restart your Machine
 
 Simply follow these instructions for safely restarting a Windows machine:
 
-- [How to Restart (Reboot) Your Windows Machine](https://support.microsoft.com/en-us/windows/restart-reboot-your-pc-110262aa-fc79-1c33-7b00-c140ae3a6dac)
+- [How to Restart (Reboot) Your Windows Machine](https://support.microsoft.com/en-us/windows/restart-reboot-Your-PC-110262aa-fc79-1c33-7b00-c140ae3a6dac)
 
 ---
 
 ## Get in Touch with Support
 
 If your connection issues persist, please
-[**Contact Support**](https://support.salad.com/article/216-how-to-create-a-support-ticket), and our team will get back
-to you as soon as possible.
+[**Contact Support**](/docs/guides/your-pc/216-how-to-create-a-support-ticket), and our team will get back to you as
+soon as possible.

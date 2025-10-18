@@ -1,7 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
-  "version": "0.2",
-  "language": "en,en-US",
+  "allowCompoundWords": true,
   "dictionaries": ["salad-kitchen", "softwareTerms", "companies", "filetypes"],
   "dictionaryDefinitions": [
     {
@@ -9,5 +8,7 @@
       "path": "./dictionaries/salad-kitchen.txt"
     }
   ],
-  "allowCompoundWords": true
+  "ignorePaths": ["dictionaries/**", "node_modules/**", "public/_headers", "public/_redirects"],
+  "language": "en,en-US",
+  "version": "0.2"
 }

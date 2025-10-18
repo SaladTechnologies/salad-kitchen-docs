@@ -2,20 +2,18 @@
 title: How to Disable ECC
 ---
 
-# How to Disable ECC
-
 ECC (or Error-Correcting Code) memory helps detect and correct memory errors, which is crucial for scientific computing
 and data centers but not always needed for other workloads. The problem? Enabling ECC slightly reduces available VRAM,
 which can dip below the threshold required for Salad's container workloads.
 
-Disabling ECC can ensure you get the most out of your GPU, and are eligible to all workloads in the network. Let’s dig
+Disabling ECC can ensure you get the most out of your GPU, and are eligible to all workloads in the network. Let's dig
 in and clear out that extra seasoning!
 
 ---
 
 ## Step 1: Check if ECC is Enabled on Your GPU
 
-Before we start tossing things out, let’s make sure your GPU actually has ECC enabled. Here’s how to check:
+Before we start tossing things out, let's make sure your GPU actually has ECC enabled. Here's how to check:
 
 ### Windows &amp; Linux (NVIDIA GPUs):
 
@@ -34,7 +32,7 @@ nvidia-smi --query-gpu=ecc.mode.current --format=csv
 
 ## Step 2: Disable ECC via NVIDIA-SMI
 
-Now, let’s get into the kitchen and start making adjustments!
+Now, let's get into the kitchen and start making adjustments!
 
 1. Open a terminal or Command Prompt as an administrator.
 2. Run the following command:
@@ -50,7 +48,7 @@ nvidia-smi -e 0
 
 ## Step 3: Verify ECC is Disabled
 
-Just like tasting your dressing before pouring it over the salad, you’ll want to double-check your work:
+Just like tasting your dressing before pouring it over the salad, you'll want to double-check your work:
 
 1. Run the same command from **Step 1**:
 

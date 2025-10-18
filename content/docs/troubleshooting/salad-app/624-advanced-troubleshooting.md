@@ -2,8 +2,6 @@
 title: Advanced Troubleshooting
 ---
 
-# Advanced Troubleshooting
-
 Your machine, with its operating system, applications, and services, is a very complex ecosystem. In this ecosystem,
 some failures are bound to happen which can disrupt the normal cycle of software currently running.
 
@@ -11,15 +9,14 @@ Let's review the steps you can take to re-initialize your machine's ecosystem to
 
 ## Try Following our Basic Guides First:
 
-- [General Troubleshooting](https://support.salad.com/article/221-general-troubleshooting-tips)
-- [Container Workloads Troubleshooting](https://support.salad.com/article/346-container-workloads-troubleshooting)
+- [General Troubleshooting](/docs/troubleshooting/salad-app/221-general-troubleshooting-tips)
+- [Container Workloads Troubleshooting](/docs/troubleshooting/container-jobs/346-container-workloads-troubleshooting)
 
 ---
 
 ## If that didn't Work?
 
-Try fulling removing your Salad installation from your machine, along with
-[WSL](https://support.salad.com/article/265-what-is-wsl).
+Try fulling removing your Salad installation from your machine, along with [WSL](/docs/faq/jobs/265-what-is-wsl).
 
 1. Fully uninstall Salad using our
    [Obliterator](https://drive.google.com/file/d/1KprjK8zmlT4hEWcQTthTlYoR_bkt_cs1/view?usp=sharing).
@@ -28,5 +25,5 @@ Try fulling removing your Salad installation from your machine, along with
 
 ---
 
-If issues still persist, contact [Salad Support](https://support.salad.com/article/216-how-to-create-a-support-ticket)
-so we can investigate the issue further.
+If issues still persist, contact [Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket) so we can
+investigate the issue further.

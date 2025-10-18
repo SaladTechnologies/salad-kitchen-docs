@@ -2,15 +2,13 @@
 title: How to Redeem Prepaid Mastercards on Salad
 ---
 
-# How to Redeem Prepaid Mastercards on Salad
-
 Prepaid Mastercards are now available on the Salad Storefront, unlocking greater flexibility for Chefs to use their
 Salad Balance.
 
-Here’s how to get started once you redeem your Prepaid Mastercard on the Salad Storefront:
+Here's how to get started once you redeem your Prepaid Mastercard on the Salad Storefront:
 
 1. **Redeem your Reward from Salad**
-   1. After redeeming your reward from the Salad Storefront, check your Salad signup email and locate the redemption
+   1. After redeeming your reward from the Salad Storefront, check your Salad sign-up email and locate the redemption
       link and instructions
 
 2. **Redeem your Prepaid Mastercard**

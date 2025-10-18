@@ -2,8 +2,6 @@
 title: Prepaid Mastercard FAQ
 ---
 
-# Prepaid Mastercard FAQ
-
 Prepaid Mastercards are a digital card independent from your personal card services or bank. Digital Prepaid Mastercards
 come with their own card number, security pin, and expiry date. Prepaid Mastercard balance comes in denominations of USD
 $5, $10, $50 and $100. You can use a Prepaid digital Mastercard almost anywhere regular Mastercards are accepted. To

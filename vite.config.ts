@@ -21,11 +21,16 @@ export default defineConfig({
           path: '/',
         },
         {
+          path: '/404',
+        },
+        {
           path: '/api/search',
+        },
+        {
+          path: '/contact',
         },
       ],
       prerender: {
-        autoSubfolderIndex: true,
         crawlLinks: true,
         enabled: true,
       },
