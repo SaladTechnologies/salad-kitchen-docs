@@ -28,10 +28,10 @@
     "start": "node .output/server/index.mjs"
   },
   "dependencies": {
-    "@tanstack/react-router": "1.133.13",
-    "@tanstack/react-router-devtools": "1.133.13",
-    "@tanstack/react-start": "1.133.13",
-    "@tanstack/start-static-server-functions": "1.133.13",
+    "@tanstack/react-router": "1.133.20",
+    "@tanstack/react-router-devtools": "1.133.20",
+    "@tanstack/react-start": "1.133.20",
+    "@tanstack/start-static-server-functions": "1.133.20",
     "fumadocs-core": "15.8.5",
     "fumadocs-mdx": "12.0.3",
     "fumadocs-ui": "15.8.5",
@@ -43,9 +43,9 @@
     "vite": "7.1.11"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "4.1.14",
+    "@tailwindcss/vite": "4.1.15",
     "@types/mdx": "2.0.13",
-    "@types/node": "22.18.11",
+    "@types/node": "22.18.12",
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.2",
     "@vitejs/plugin-react": "5.0.4",
@@ -54,7 +54,7 @@
     "prettier-plugin-packagejson": "2.5.19",
     "prettier-plugin-tailwindcss": "0.7.1",
     "rimraf": "6.0.1",
-    "tailwindcss": "4.1.14",
+    "tailwindcss": "4.1.15",
     "typescript": "5.9.3",
     "vite-tsconfig-paths": "5.1.4"
   }
