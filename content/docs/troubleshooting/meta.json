@@ -1,0 +1,6 @@
+{
+  "title": "Troubleshooting",
+  "description": "Guides on how to use Salad",
+  "icon": "MyIcon",
+  "pages": ["antivirus", "container-jobs", "bandwidth-sharing-jobs", "mining-jobs", "salad-app", "pc-configuration"]
+}

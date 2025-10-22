@@ -1,0 +1,29 @@
+{
+  "title": "Your PC",
+  "icon": "MyIcon",
+  "pages": [
+    "118-how-to-find-your-gpu-or-cpu.md",
+    "130-how-to-enable-compute-mode-on-amd-drivers.md",
+    "174-how-to-update-my-nvidia-drivers.md",
+    "175-how-to-update-my-amd-drivers.md",
+    "184-how-to-reinstall-gpu-drivers.md",
+    "188-how-to-create-a-har-file.md",
+    "216-how-to-create-a-support-ticket.md",
+    "224-how-to-check-if-your-salad-installer-is-safe.md",
+    "270-how-to-enable-virtualization-support-on-your-machine.md",
+    "273-enable-virtualization-on-hp-pcs.md",
+    "274-identifying-your-cpu.md",
+    "275-enable-virtualization-on-lenovo-pcs.md",
+    "276-enable-virtualization-on-acer-pcs.md",
+    "277-enable-virtualization-on-asus-pcs.md",
+    "278-enable-virtualization-on-dell-pcs.md",
+    "279-enable-virtualization-by-motherboard-msi-american-megatrends.md",
+    "280-identifying-your-motherboard.md",
+    "281-enable-virtualization-by-motherboard-gigabyte.md",
+    "352-how-to-update-the-wsl-kernel-on-your-machine.md",
+    "615-how-to-save-network-requests-har-file.md",
+    "619-improve-internet-speed-container-jobs.md",
+    "626-how-to-disable-ecc.md",
+    "how-to-update-your-intel-drivers.md"
+  ]
+}

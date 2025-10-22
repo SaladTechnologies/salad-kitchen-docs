@@ -1,0 +1,16 @@
+{
+  "title": "Getting Jobs",
+  "icon": "MyIcon",
+  "pages": [
+    "configure-auto-start.md",
+    "326-workload-preferences.md",
+    "close-games-and-other-programs.md",
+    "disable-sleep-mode.md",
+    "enable-all-hardware.md",
+    "getting-bandwidth-sharing-jobs.md",
+    "getting-container-jobs.md",
+    "getting-cryptomining-jobs.md",
+    "restarting-salad-for-new-jobs.md",
+    "schedule-chopping.md"
+  ]
+}
