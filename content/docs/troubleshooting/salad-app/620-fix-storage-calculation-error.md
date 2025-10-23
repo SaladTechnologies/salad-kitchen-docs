@@ -2,6 +2,8 @@
 title: How to Fix a Storage Calculation Error
 ---
 
+_Last Updated: 23rd October 2025_
+
 If you're seeing a Storage Calculation Error in Salad, this issue usually requires a support representative to manually
 review. Typically, the error is caused by one of the following issues:
 

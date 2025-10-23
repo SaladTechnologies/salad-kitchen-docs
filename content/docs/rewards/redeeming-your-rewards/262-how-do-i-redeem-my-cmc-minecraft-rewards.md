@@ -2,6 +2,8 @@
 title: How Do I Redeem My CMC Minecraft Rewards?
 ---
 
+_Last Updated: 23rd October 2025_
+
 Redeeming keys (aka coupons) is actually quite simple. CMC reward keys are redeemed on CMC's website.
 
 ## CMC Cosmetic Redemption

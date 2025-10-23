@@ -2,6 +2,8 @@
 title: Identifying Your CPU
 ---
 
+_Last Updated: 23rd October 2025_
+
 To determine what kind of CPU is installed on your machine, simply do the following:
 
 1. With your computer on, hit the **Windows** key to expand the Start menu.

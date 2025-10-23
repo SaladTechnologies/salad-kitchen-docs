@@ -2,6 +2,8 @@
 title: How To Find Your Salad Log Files
 ---
 
+_Last Updated: 23rd October 2025_
+
 When troubleshooting with a support representative, you'll often be asked to provide your log files so we can get more
 insight into your particular issue.
 

@@ -2,6 +2,8 @@
 title: How to Make a Purchase
 ---
 
+_Last Updated: 23rd October 2025_
+
 To redeem a reward on Salad, you just need to have the Salad balance needed, and search for your reward on the
 storefront.
 

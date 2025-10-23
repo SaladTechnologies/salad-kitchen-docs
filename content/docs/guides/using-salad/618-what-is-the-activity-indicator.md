@@ -2,6 +2,8 @@
 title: What is the Activity Indicator?
 ---
 
+_Last Updated: 23rd October 2025_
+
 Finished setting up Salad and just started Chopping? Salad will let you know what it's up to, whether it's looking for
 your next workload, downloading, or running.
 

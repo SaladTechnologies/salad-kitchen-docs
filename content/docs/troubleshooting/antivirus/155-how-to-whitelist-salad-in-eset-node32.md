@@ -2,6 +2,8 @@
 title: How to Whitelist Salad in ESET-NODE32
 ---
 
+_Last Updated: 23rd October 2025_
+
 ### 1. Open ESET-NODE32
 
 This will be the main screen you are presented within ESET-NODE32, and is your base of virus-fighting operations.

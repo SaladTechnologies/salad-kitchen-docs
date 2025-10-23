@@ -2,7 +2,7 @@
 title: 'Redeeming your First Reward'
 ---
 
-_Last Updated September 8, 2025_
+_Last Updated: 23rd October 2025_
 
 Now that you've earned some Salad Balance, it's time to redeem your first reward from the storefront! To get started,
 open up your web browser and head to the [Salad Storefront](https://salad.com/store). From here, you can browse through

@@ -2,6 +2,8 @@
 title: How to Improve Internet Speed for Container Jobs
 ---
 
+_Last Updated: 23rd October 2025_
+
 Container Jobs require a minimum amount of bandwidth to run properly, and the better your internet speed, the more jobs
 your machine may qualify for. Here's our recommendations for improving your internet speed.
 

@@ -2,6 +2,8 @@
 title: How to Update your AMD Drivers
 ---
 
+_Last Updated: 23rd October 2025_
+
 If you're running on old, or out of date drivers you may need to update them to the latest version. You can follow this
 guide to do so.
 

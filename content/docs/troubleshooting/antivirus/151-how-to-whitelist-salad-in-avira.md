@@ -2,6 +2,8 @@
 title: How to Whitelist Salad in Avira
 ---
 
+_Last Updated: 23rd October 2025_
+
 ### 1. Open Avira
 
 **This will be the main screen you are presented within Avira, and is your base of virus-fighting operations.**

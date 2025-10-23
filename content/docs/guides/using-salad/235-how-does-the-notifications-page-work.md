@@ -2,6 +2,8 @@
 title: Using the Notifications Page
 ---
 
+_Last Updated: 23rd October 2025_
+
 The notifications page contains all the notifications, errors, or messages you have received. If you run into an issue
 whilst running Salad, we'll send a notification to your desktop, as well as the "EARN" page of your Salad widget.
 Clicking into the notification, or navigating to the Notifications page, will show more details about the received

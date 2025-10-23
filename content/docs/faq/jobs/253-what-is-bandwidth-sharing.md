@@ -2,6 +2,8 @@
 title: What is Bandwidth Sharing?
 ---
 
+_Last Updated: 23rd October 2025_
+
 Bandwidth sharing is one of three workloads you can run on Salad. Bandwidth workloads process video content from premium
 streaming platforms. We roll out bandwidth jobs depending on demand in your region. That means whether or not you
 receive bandwidth jobs depends on your internet speeds and your location.

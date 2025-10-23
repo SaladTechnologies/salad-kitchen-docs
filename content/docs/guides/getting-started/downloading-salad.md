@@ -2,7 +2,7 @@
 title: 'Downloading Salad'
 ---
 
-_Last Updated September 8, 2025_
+_Last Updated: 23rd October 2025_
 
 The first step in your Salad journey is to download the Salad application. To run Salad, you will need a
 [Windows 10 or Windows 11](/docs/faq/compatibility/72-do-you-support-macos-and-linux) PC. Additional information on the

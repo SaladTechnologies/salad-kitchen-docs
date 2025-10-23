@@ -2,6 +2,8 @@
 title: Temporary Workload Block
 ---
 
+_Last Updated: 23rd October 2025_
+
 Salad is meant to chop while you are AFK. Gaming and some other heavy compute processes could negatively impact jobs.
 SaladCloud Customers pay for your hardware, if you're busy gaming they aren't getting what they're paying for so we
 automatically pause Salad when we detect this.

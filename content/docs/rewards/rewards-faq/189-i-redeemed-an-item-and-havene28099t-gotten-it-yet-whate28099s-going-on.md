@@ -2,6 +2,8 @@
 title: I Redeemed an item and Haven't Gotten it Yet. What's Going On?
 ---
 
+_Last Updated: 23rd October 2025_
+
 Most store redemptions are automatic and usually immediate, however some are issued through third party systems and can
 take a few hours. If you haven't received your reward yet, you can check the status of your redemption in your
 [Reward Vault](/docs/guides/using-salad/125-where-to-find-your-reward-redemption-code). In here you can find the status

@@ -2,6 +2,8 @@
 title: How Does my Machine Earn Salad balance?
 ---
 
+_Last Updated: 23rd October 2025_
+
 Salad offers a range of opportunities to earn rewards. There are three primary types of workloads available: Container
 Workloads, Bandwidth sharing, and Mining. Each of these workloads has its unique benefits and requirements, catering to
 different preferences and resources. Read on to discover how you can maximize your earnings with Salad.

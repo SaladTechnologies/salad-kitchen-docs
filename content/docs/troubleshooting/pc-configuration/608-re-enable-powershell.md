@@ -2,6 +2,8 @@
 title: Re-enable Powershell
 ---
 
+_Last Updated: 23rd October 2025_
+
 Some Chefs may experience issues with Salad jobs and other subsystems if their PowerShell version is corrupted, or
 otherwise not working as expected. When running into issues with PowerShell or systems that rely on PowerShell, it is
 recommended to verify that it is correctly installed and functional before continuing.

@@ -2,6 +2,8 @@
 title: How to Enable and Disable Hardware
 ---
 
+_Last Updated: 23rd October 2025_
+
 When running Salad, we give you the option to choose which hardware Salad will share to earn you Salad Balance. You can
 use the following guide to learn how to enable, or disable certain hardware.
 

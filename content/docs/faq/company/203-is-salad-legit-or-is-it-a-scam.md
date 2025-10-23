@@ -2,6 +2,8 @@
 title: Is Salad Legit? Or is it a Scam?
 ---
 
+_Last Updated: 23rd October 2025_
+
 Salad is legit, but thanks to the actions of a few bad apples in the crypto space, people have become hesitant to trust
 new ventures in the industry. Our business model puts us in a unique position, where crypto-mining made up the core of
 our business in the past. It was never the source of our profit, and we have since added two non-crypto workloads for

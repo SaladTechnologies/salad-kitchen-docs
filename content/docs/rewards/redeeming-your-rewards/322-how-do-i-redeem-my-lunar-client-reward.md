@@ -2,6 +2,8 @@
 title: How do I Redeem my Lunar Client Rewards?
 ---
 
+_Last Updated: 23rd October 2025_
+
 Congrats, chef! Looks like your ready to redeem some of our awesome rewards from the Minecraft Lunar shop!
 
 ---

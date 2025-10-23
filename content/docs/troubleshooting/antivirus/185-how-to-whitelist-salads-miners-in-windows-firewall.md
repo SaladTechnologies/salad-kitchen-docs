@@ -2,6 +2,8 @@
 title: Whitelisting Salad in Windows Firewall
 ---
 
+_Last Updated: 23rd October 2025_
+
 1. Open Windows Security.
 
    ![Screenshot of windows security app](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-windows-firewall-1.png)

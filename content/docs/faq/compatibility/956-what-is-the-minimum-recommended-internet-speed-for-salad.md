@@ -2,6 +2,8 @@
 title: What is the Minimum Recommended Internet Speed for Salad?
 ---
 
+_Last Updated: 23rd October 2025_
+
 In order to be eligible for Salad's
 [Container Jobs](https://Community.salad.com/new-feature-container-environments-now-available/), you'll need a required
 minimum **download** speed of 10 Megabits per second (Mbps). We recommend having at least 100 Mbps **download** speed to

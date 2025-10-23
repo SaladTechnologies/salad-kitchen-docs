@@ -2,7 +2,7 @@
 title: 'Getting Bandwidth Sharing Jobs'
 ---
 
-_Last Updated September 11, 2025_
+_Last Updated: 23rd October 2025_
 
 Salad offers a variety of job types, including [Bandwidth Sharing Jobs](/docs/faq/jobs/253-what-is-bandwidth-sharing).
 These jobs utilize your idle, spare internet connection bandwidth to Chop Salad Balance. They can run alongside other

@@ -2,7 +2,7 @@
 title: 'How to Set Up a Demand Alert'
 ---
 
-_Last Updated September 9, 2025_
+_Last Updated: 23rd October 2025_
 
 You can set up a Demand Alert to automatically notify you when demand for your hardware increases or decreases on the
 Salad Network through our [Network Monitor](/docs/faq/community/613-network-monitor). This is useful if you're not

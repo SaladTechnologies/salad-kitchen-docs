@@ -2,6 +2,8 @@
 title: How to Disable Sleep Mode
 ---
 
+_Last Updated: 23rd October 2025_
+
 Disabling Sleep Mode on your PC will prevent your PC from automatically going to sleep whilst Chopping Salad. Disabling
 this will maximise your PCs chopping potential, so we recommend turning it off.
 

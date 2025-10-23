@@ -2,6 +2,8 @@
 title: Digital Hygiene and Your Salad Balance
 ---
 
+_Last Updated: 23rd October 2025_
+
 Sadly, the internet can be a dangerous place. While Salad certainly isn't one of them, there are malicious actors like
 botnets, hackers, and others who're after your accounts. Salad is a particularly tempting target, as you have Salad
 Balance held in your account and instant liquidity.

@@ -2,6 +2,8 @@
 title: Getting Container Workloads Troubleshooting
 ---
 
+_Last Updated: 23rd October 2025_
+
 Are you eligible to get Salad's sweetest workloads but have yet to see that balance? You might not be getting the most
 out of Salad. Follow these steps to ensure you're all set to Chop!
 

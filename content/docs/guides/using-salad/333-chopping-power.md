@@ -2,6 +2,8 @@
 title: Chopping Power
 ---
 
+_Last Updated: 23rd October 2025_
+
 Want to know if your machine is optimized to earn the most balance on Salad? Increase your Chopping Power!
 
 Chopping Power shows your earning efficiency on the Salad network. We determine Chopping Power based on what resources

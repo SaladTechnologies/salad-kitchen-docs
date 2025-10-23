@@ -2,6 +2,8 @@
 title: Salad App Passkeys
 ---
 
+_Last Updated: 23rd October 2025_
+
 As the Salad network expands into more profitable jobs, we've introduced Passkeys to enhance the security of Chef
 accounts. Passkeys work differently from passwords or one-time authentication codes. Instead, they use authentication
 for your device, often biometrics or unlock pins. Chefs must manually add Passkeys within the Salad app.

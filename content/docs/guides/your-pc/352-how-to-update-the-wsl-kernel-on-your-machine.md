@@ -2,6 +2,8 @@
 title: How to Update the WSL Kernel on your PC
 ---
 
+_Last Updated: 23rd October 2025_
+
 It looks like you have experienced an error that will require you to re-install the WSL kernel on your machine. Follow
 these steps to resolve it.
 

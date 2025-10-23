@@ -2,6 +2,8 @@
 title: How to Whitelist Salad in Norton Antivirus
 ---
 
+_Last Updated: 23rd October 2025_
+
 **1. Open Norton360.**
 
 ![opening Norton Antivirus](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-norton-antivirus-1.png)

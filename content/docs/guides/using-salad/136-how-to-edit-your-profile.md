@@ -2,6 +2,8 @@
 title: How to Edit Your Profile
 ---
 
+_Last Updated: 23rd October 2025_
+
 You can access your Salad profile by:
 
 1. Opening your favorite Web Browser

@@ -2,6 +2,8 @@
 title: Unable to Detect Hardware
 ---
 
+_Last Updated: 23rd October 2025_
+
 If you have received a "Problem Detecting Hardware" error like this, then it means Salad was unable to detect the
 hardware in your PC correctly.
 

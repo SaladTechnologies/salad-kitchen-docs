@@ -2,6 +2,8 @@
 title: How to Create a Support Ticket
 ---
 
+_Last Updated: 23rd October 2025_
+
 ## Salad Ticket Requirements
 
 Help us help you, Chef! Make sure you include your Salad account email address and your CPU/GPU model info on every

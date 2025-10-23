@@ -2,6 +2,8 @@
 title: BT Troubleshooting
 ---
 
+_Last Updated: 23rd October 2025_
+
 Some Chefs located in the UK may struggle to run Salad if they use BT as their internet provider. Affected users will
 not receive Salad Container or mining workloads. Fortunately, there is a workaround for most Chefs.
 

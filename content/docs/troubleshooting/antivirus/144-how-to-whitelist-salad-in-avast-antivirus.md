@@ -2,6 +2,8 @@
 title: How to Whitelist Salad in Avast Antivirus
 ---
 
+_Last Updated: 23rd October 2025_
+
 1. Open Avast.
 
    ![opening avast antivirus](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-avast-antivirus-1.png)

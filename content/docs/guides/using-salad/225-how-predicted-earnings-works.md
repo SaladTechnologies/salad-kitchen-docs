@@ -2,6 +2,8 @@
 title: How Estimated Earnings Work
 ---
 
+_Last Updated: 23rd October 2025_
+
 ## **How are my Estimated Earnings Calculated?**
 
 While Chopping, Salad will automatically calculate Estimated Earnings for the amount of Salad Balance you would earn for

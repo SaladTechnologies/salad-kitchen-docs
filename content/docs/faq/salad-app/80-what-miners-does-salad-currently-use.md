@@ -2,6 +2,8 @@
 title: Which Miners do Salad Actually Use?
 ---
 
+_Last Updated: 23rd October 2025_
+
 We currently support the following miner plugins:
 
 ### GPU:

@@ -2,6 +2,8 @@
 title: How to Redeem and Activate Your solo.to Plan
 ---
 
+_Last Updated: 23rd October 2025_
+
 The Salad Storefront now features solo.to Personal Plans in two packages, annual and lifetime. Choose one of the
 following plans that suits your goals and budget:
 

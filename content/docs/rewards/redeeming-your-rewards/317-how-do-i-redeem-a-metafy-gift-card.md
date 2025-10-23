@@ -2,6 +2,8 @@
 title: How Do I Redeem a Metafy Gift Card and Memberships?
 ---
 
+_Last Updated: 23rd October 2025_
+
 Once you have purchased a Metafy gift card from the Salad Storefront, you'll receive a gift card code that can be
 redeemed for Metafy's coaching content. Metafy gift cards can be cashed in when the user books a coach.
 

@@ -2,6 +2,8 @@
 title: 'Enable Virtualization by Motherboard: Gigabyte'
 ---
 
+_Last Updated: 23rd October 2025_
+
 Depending on your hardware configuration, your motherboard manufacturer's software may dictate how and where BIOS
 settings can be accessed and modified. This guide details common BIOS setup patterns on machines equipped with a
 motherboard manufactured by Gigabyte.

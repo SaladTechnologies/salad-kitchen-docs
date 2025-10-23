@@ -2,6 +2,8 @@
 title: What is Salad's business model?
 ---
 
+_Last Updated: 23rd October 2025_
+
 Like any good Salad, our business model has multiple layers that strengthen the whole. Also like any good Salad, none of
 these layers involve selling your data. Here's how it works.
 

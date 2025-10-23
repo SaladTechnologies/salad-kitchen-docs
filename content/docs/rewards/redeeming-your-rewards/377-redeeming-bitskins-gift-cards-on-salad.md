@@ -2,6 +2,8 @@
 title: Redeeming BitSkins Gift Cards on Salad
 ---
 
+_Last Updated: 23rd October 2025_
+
 Chefs can now redeem BitSkins Gift Cards on the Salad Storefront. To redeem your specific product code follow these
 instructions:
 

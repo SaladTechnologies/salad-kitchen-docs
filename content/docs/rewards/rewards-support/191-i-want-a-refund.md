@@ -2,6 +2,8 @@
 title: I Want a Refund
 ---
 
+_Last Updated: 23rd October 2025_
+
 Unfortunately, we do not offer refunds or exchanges for keys. As stated on our checkout window:
 
 \- Salad plays for keeps, no refunds

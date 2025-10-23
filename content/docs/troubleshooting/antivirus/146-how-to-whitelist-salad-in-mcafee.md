@@ -2,6 +2,8 @@
 title: How to Whitelist Salad in McAfee
 ---
 
+_Last Updated: 23rd October 2025_
+
 **1. Open McAfee**
 
 This is the main page for McAfee

@@ -2,6 +2,8 @@
 title: Why Is My Earning Rate Sporadic/Random?
 ---
 
+_Last Updated: 23rd October 2025_
+
 Salad offers three types of workloads for chefs to share their compute resources and earn rewards: Container workloads,
 Bandwidth sharing, and GPU crypto mining. Depending on the quality of your hardware, the needs of the Salad network, and
 your internet connection, Chefs may be able to get one or a combination of all three workloads.

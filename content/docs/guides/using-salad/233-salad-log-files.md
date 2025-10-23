@@ -2,6 +2,8 @@
 title: Where to Find your Salad Logs
 ---
 
+_Last Updated: 23rd October 2025_
+
 Finding your Salad log files:
 
 1. Open your Salad widget by clicking the Salad icon in your system tray

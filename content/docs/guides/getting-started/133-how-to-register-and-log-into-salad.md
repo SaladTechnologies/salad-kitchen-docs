@@ -2,6 +2,8 @@
 title: How to Register and Log Into Salad
 ---
 
+_Last Updated: 23rd October 2025_
+
 1. Open your Salad Widget.
 
    ![Opening Salad](../../../../content/images/guides/getting-started/how-to-register-and-log-into-salad-1.png)

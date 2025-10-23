@@ -2,6 +2,8 @@
 title: How to Whitelist Salad in Bitdefender Antivirus PLUS
 ---
 
+_Last Updated: 23rd October 2025_
+
 **1. Open Bitdefender**
 
 This will be the main screen you are presented within Bitdefender, and is your base of virus-fighting operations.

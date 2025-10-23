@@ -2,6 +2,8 @@
 title: 'Using Remote Desktop with Salad'
 ---
 
+_Last Updated: 23rd October 2025_
+
 _Last Updated September 4, 2025_
 
 Salad is incompatible with any Remote Desktop solutions that utilize Remote Desktop Protocol (RDP). This includes, but
