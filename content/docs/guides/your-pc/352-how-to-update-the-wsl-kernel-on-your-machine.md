@@ -9,7 +9,7 @@ these steps to resolve it.
    1. Click on the start menu and search for **Windows Powershell** or **Command Prompt**. Be sure to click _Run as
       Administrator_ on the window.
 
-      ![](../../../../content/images/guides/your-pc/how-to-update-the-wsl-kernel-on-your-pc-1.png)
+      ![Screenshow of Windows search opening Windows Powershell as admin](../../../../content/images/guides/your-pc/how-to-update-the-wsl-kernel-on-your-pc-1.png)
 
 2. Run the update command:
    1. Type `wsl --update` into the open Powershell window and hit enter to update the WSL kernel.

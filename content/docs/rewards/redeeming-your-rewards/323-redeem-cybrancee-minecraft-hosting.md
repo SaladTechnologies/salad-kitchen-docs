@@ -21,11 +21,11 @@ subscription will activate once the Cybrancee team has approved your request._
    page, [here](https://cybrancee.com/client/index.php?rp=%2Fstore%2Fsponsorship-hosting%2F).
 
 2. Select the Minecraft loader you intend to use with your server and press Continue.
-   ![](../../../../content/images/rewards/redeeming-your-rewards/cybrancee-minecraft-1.png)
+   ![Screenshot of Cybrancee checkout choosing a Minecraft Mod Loader](../../../../content/images/rewards/redeeming-your-rewards/cybrancee-minecraft-1.png)
 
 3. You should be on the checkout page. Apply the promo code you purchased from Salad. You can find your promo code the
    redemption email sent shortly after your purchase.
-   ![](../../../../content/images/rewards/redeeming-your-rewards/cybrancee-minecraft-2.png)
+   ![SCreenshot of Cybrancee checkout page entering promo code](../../../../content/images/rewards/redeeming-your-rewards/cybrancee-minecraft-2.png)
 
 4. Enter your Cybrancee account details, or create an account before checking out.
 5. An email will arrive shortly with further instructions on how to access and manage your new Minecraft server.

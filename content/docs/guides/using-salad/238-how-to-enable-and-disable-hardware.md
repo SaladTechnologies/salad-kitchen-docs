@@ -9,21 +9,21 @@ use the following guide to learn how to enable, or disable certain hardware.
 
 1. Open up your Salad app.
 
-   ![](../../../../content/images/guides/using-salad/how-to-enable-and-disable-hardware-1.png)
+   ![Opening the Salad app](../../../../content/images/guides/using-salad/how-to-enable-and-disable-hardware-1.png)
 
 2. Click onto your Salad profile.
 
-   ![](../../../../content/images/guides/using-salad/how-to-enable-and-disable-hardware-2.png)
+   ![Selecting your profile in the Salad app](../../../../content/images/guides/using-salad/how-to-enable-and-disable-hardware-2.png)
 
 3. Open Settings from the dropdown list.
 4. Then, Scroll down and open Workload Preferences.
 
-   ![](../../../../content/images/guides/using-salad/how-to-enable-and-disable-hardware-3.png)
+   ![finding workload preferences in Salad settings](../../../../content/images/guides/using-salad/how-to-enable-and-disable-hardware-3.png)
 
 5. On this page, you'll be able to select whether Salad can use your CPU, or your GPU. Simply enable or disable them
    from the dropdown menus.
 
-   ![](../../../../content/images/guides/using-salad/how-to-enable-and-disable-hardware-4.png)
+   ![screenshot showing options for hardware usage in Salad](../../../../content/images/guides/using-salad/how-to-enable-and-disable-hardware-4.png)
 
 ---
 

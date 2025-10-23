@@ -8,11 +8,11 @@ usually store that code in your "Reward Vault".
 You can find your redemption codes, and past purchases, by navigating to your Reward Vault. You can find it by hovering
 over the store navigation page, and then selecting "Reward Vault".
 
-![](../../../../content/images/guides/using-salad/where-to-find-your-reward-redemption-code-1.png)
+![Selecting reward vault](../../../../content/images/guides/using-salad/where-to-find-your-reward-redemption-code-1.png)
 
 On this page, you can find a history of your redemptions, with the redemption date, and transaction status.
 
-![](../../../../content/images/guides/using-salad/where-to-find-your-reward-redemption-code-2.png)
+![Image showing redemption history](../../../../content/images/guides/using-salad/where-to-find-your-reward-redemption-code-2.png)
 
 If your reward offers a code directly within your Reward Vault, simply copy the code with the clipboard icon and then
 paste it into Steam, Amazon, or wherever the code needs activation. For some rewards, you may need to check your email

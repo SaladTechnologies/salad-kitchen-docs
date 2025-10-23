@@ -10,13 +10,13 @@ guide to do so.
 1. First, open up your AMD drivers by right clicking your desktop, or searching "AMD" into your Windows Search, it
    should look something like this:
 
-   ![unknown.png](../../../../content/images/guides/your-pc/how-to-update-my-amd-drivers-1.png)
+   ![Screenshot of AMD driver app](../../../../content/images/guides/your-pc/how-to-update-my-amd-drivers-1.png)
 
 2. On the right hand side of the app there should be a settings gear icon. Click it and it will take you to the main
    settings page. On this page there should be a Red "Download" button, with text above stating that there is a new
    Driver Version.
 
-   ![Screenshot_2020-11-16_195723.png](../../../../content/images/guides/your-pc/how-to-update-my-amd-drivers-2.png)
+   ![Screenshot of AMD driver update page](../../../../content/images/guides/your-pc/how-to-update-my-amd-drivers-2.png)
 
 3. After you have clicked on "Download" it will download and install your Driver Update. Simply wait for it to finish.
 4. After your installation has finished, restart your PC to ensure the proper installation of your drivers.

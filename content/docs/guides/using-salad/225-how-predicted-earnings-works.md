@@ -12,7 +12,7 @@ Due to the variability of jobs it is expected to see this number go up and down 
 advised to monitor earnings via the [Earning History](/docs/guides/using-salad/129-how-to-see-your-earnings-history) on
 the Salad web app. This will give you a more accurate view of your earnings over time.
 
-![](../../../../content/images/guides/using-salad/how-estimated-earnings-work.png)
+![SCreenshot of the Salad app showing estimated earnings](../../../../content/images/guides/using-salad/how-estimated-earnings-work.png)
 
 Your Estimated Earnings figure is for your local machine only. If you have multiple machines connected to your Salad
 account, they'll provide independent Predicted Earnings. Your earnings are combined across all connected machines.

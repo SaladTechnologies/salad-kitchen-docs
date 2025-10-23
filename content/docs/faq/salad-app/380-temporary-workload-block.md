@@ -22,7 +22,7 @@ condition that ends when you stop Chopping.
 You will see a temporary GPU Disabled badge over your GPU resource card in the Performance Tab. To remove this badge,
 stop Chopping and disable GPU intensive processes on your PC.
 
-![](../../../../content/images/faq/salad-app/temporary-workload-block-1.png)
+![screenshot showing temporarily disabled hardware](../../../../content/images/faq/salad-app/temporary-workload-block-1.png)
 
 ---
 

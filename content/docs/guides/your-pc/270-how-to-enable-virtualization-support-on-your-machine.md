@@ -41,7 +41,7 @@ brand at the bottom of this page.
 6. Confirm virtualization is enabled by clicking on the Start button, and search for **Turn Windows Features on or off**
    window. Verify that **Virtual Machine Platform** and **Windows Subsystem for Linux** is enabled.
 
-![](../../../../content/images/guides/your-pc/how-to-enable-virtualization-support-on-your-machine-1.png)
+![Screenshot enabling Virtual Machine Platform and Windows Subsystem for Linux in Windows Features](../../../../content/images/guides/your-pc/how-to-enable-virtualization-support-on-your-machine-1.png)
 
 If you are still experiencing problems with enabling Virtualization, please contact
 [Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket).

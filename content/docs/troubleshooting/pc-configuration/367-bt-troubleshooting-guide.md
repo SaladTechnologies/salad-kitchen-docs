@@ -14,11 +14,11 @@ follow these steps.
 1. Go to the [Your Security](https://my.bt.com/s/apps/appsmybt/#/packages?redirect=security) page on your BT account and
    login.
 
-   ![](../../../../content/images/troubleshooting/pc-configuration/bt-troubleshooting-1.png)
+   ![Screenshot of the BT Security page](../../../../content/images/troubleshooting/pc-configuration/bt-troubleshooting-1.png)
 
 2. Locate the BT Web Protect section on the Security page.
 
-   ![](../../../../content/images/troubleshooting/pc-configuration/bt-troubleshooting-2.png)
+   ![Screenshot of the BT Web Protect options on the BT Security page](../../../../content/images/troubleshooting/pc-configuration/bt-troubleshooting-2.png)
 
 3. Disable, or Switch Off BT's Web Protect feature.
 

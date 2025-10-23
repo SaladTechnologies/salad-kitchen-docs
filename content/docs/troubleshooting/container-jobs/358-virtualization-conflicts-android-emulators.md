@@ -9,7 +9,7 @@ known to conflict with Salad
 - Bluestacks
 - Nox Player
 
-![](../../../../content/images/troubleshooting/container-jobs/virtualization-conflicts-with-android-emulators-1.png)
+![Screenshot of Salad Container Setup page showing error for Android Emulators installed](../../../../content/images/troubleshooting/container-jobs/virtualization-conflicts-with-android-emulators-1.png)
 
 ---
 

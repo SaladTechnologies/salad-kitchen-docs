@@ -4,24 +4,24 @@ title: How to Whitelist Salad in Avast Antivirus
 
 1. Open Avast.
 
-   ![](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-avast-antivirus-1.png)
+   ![opening avast antivirus](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-avast-antivirus-1.png)
 
 2. Click Menu at the top right.
 
-   ![](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-avast-antivirus-2.png)
+   ![selecting menu in avast](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-avast-antivirus-2.png)
 
 3. Then, click Settings.
 
-   ![](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-avast-antivirus-3.png)
+   ![selecting settings in avast](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-avast-antivirus-3.png)
 
 4. From here, click Exceptions, and then Add Exception.
 
-   ![](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-avast-antivirus-4.png)
+   ![exceptions options in avast](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-avast-antivirus-4.png)
 
 5. On the window that pops up, select File/Folder from the top, then paste in `C:\ProgramData\Salad` and hit Add. This
    will add an exclusion for the Salad folder.
 
-   ![](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-avast-antivirus-5.png)
+   ![entering salad file path in avast exclusion](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-avast-antivirus-5.png)
 
 ---
 

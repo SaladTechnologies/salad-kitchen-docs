@@ -15,11 +15,10 @@ funds to your Eneba wallet.
 If you have not created an existing Eneba account, you will need to create one in order to store your gift card funds.
 Please follow the steps below to create your account.
 
-1\. Visit [https://eneba.com](https://eneba.com/).
+1. Visit [https://eneba.com](https://eneba.com/).
 
-2\. Click "Register" at the top right of the screen.
-
-![](../../../../content/images/rewards/redeeming-your-rewards/eneba-gift-cards-1.png)
+2. Click "Register" at the top right of the screen.
+   ![Screenshot of the Eneba website](../../../../content/images/rewards/redeeming-your-rewards/eneba-gift-cards-1.png)
 
 3. Enter your email and desired password.
 
@@ -30,13 +29,12 @@ Please follow the steps below to create your account.
 6. On the Eneba sign-up page, enter the activation code to verify your email address.
 
 7. Once logged in, click your username (at top right) and select "Redeem gift card" from the dropdown menu.
-
-![](../../../../content/images/rewards/redeeming-your-rewards/eneba-gift-cards-2.png)
+![Screenshot showing the Redeem Gift Card option on the Eneba website](../../../../content/images/rewards/redeeming-your-rewards/eneba-gift-cards-2.png)
 
 8. Before adding funds to your Eneba wallet, you may be required to complete your account profile. Click "Update
 profile" to confirm your contact details and select your preferred method of two-factor authentication.
 
-![](../../../../content/images/rewards/redeeming-your-rewards/eneba-gift-cards-3.png)
+![Screenshot of the Eneba website saying to update your profile](../../../../content/images/rewards/redeeming-your-rewards/eneba-gift-cards-3.png)
 
 9. Enter the gift card code associated with your Eneba reward. You may find this listed in the
 [Reward Vault](/docs/guides/using-salad/125-where-to-find-your-reward-redemption-code), or in the receipt sent to the

@@ -6,25 +6,25 @@ title: How to Whitelist Salad in AVG
 
 **This will be the main screen you are presented within AVG and is your base of virus-fighting operations.**
 
-**![unnamed__2_.png](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-avg-1.png)**
+**![screenshot of AVG main page](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-avg-1.png)**
 
 ### 2. Navigate to Settings
 
 **You'll want to click on the menu button at the top right corner, and then click on the settings tab from the list.**
 
-**![avg1.png](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-avg-2.png)**
+**![opening AVG settings](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-avg-2.png)**
 
 ### 3. Click Exceptions
 
 **You'll want to navigate to the Exceptions tab  and click on "Add Exception", as shown
-below.![avg4.png](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-avg-3.png)**
+below.![opening AVG exception settings](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-avg-3.png)**
 
 ### 4. Add the whitelist
 
 **A dialogue box will appear once you have clicked 'Add Exception'. In the opened window, enter the path
 "C:\\ProgramData\\Salad\\workloads", without the quotes.**
 
-**![avg3.png](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-avg-4.png)**
+**![adding an exception](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-avg-4.png)**
 
 ### 5. Click 'Add Exception'
 

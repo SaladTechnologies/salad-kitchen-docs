@@ -10,7 +10,7 @@ prioritizes Star Chefs to receive the most profitable jobs available at a given 
 
 ---
 
-# **How Do I Become a Star Chef?**
+## **How Do I Become a Star Chef?**
 
 In short, Chop a lot of Salad. **_Chefs who Chop for 3000 minutes (~50 hours) a week will receive priority for
 high-paying jobs_**, provided that they have the hardware to handle the job.
@@ -29,6 +29,6 @@ Chefs region.
 
 The Chef badge and Chopping Power page should look something like this.
 
-![](../../../../content/images/guides/using-salad/becoming-a-star-chef-1.png)
+![screenshot showing the Star Chef badge in the Salad app](../../../../content/images/guides/using-salad/becoming-a-star-chef-1.png)
 
-![](../../../../content/images/guides/using-salad/becoming-a-star-chef-2.png)
+![screenshot showing the completed Chopping Bar saying Star Chef](../../../../content/images/guides/using-salad/becoming-a-star-chef-2.png)

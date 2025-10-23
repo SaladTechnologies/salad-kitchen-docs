@@ -31,23 +31,23 @@ It is also important to make sure to **Turn Off Salad Before Starting.**
 1. Pause Salad by clicking the Pause button in your Salad widget
 2. Open Radeon Settings, and click the Gear icon at the top right
 
-   ![step1.png](../../../../content/images/guides/your-pc/how-to-enable-compute-mode-on-amd-drivers-1.png)
+   ![screenshot of amd driver app](../../../../content/images/guides/your-pc/how-to-enable-compute-mode-on-amd-drivers-1.png)
 
 3. Click Graphics on the top left
 
-   ![step2.png](../../../../content/images/guides/your-pc/how-to-enable-compute-mode-on-amd-drivers-2.png)
+   ![screenshot of graphics tab](../../../../content/images/guides/your-pc/how-to-enable-compute-mode-on-amd-drivers-2.png)
 
 4. Scroll down and click Advanced
 
-   ![step3.png](../../../../content/images/guides/your-pc/how-to-enable-compute-mode-on-amd-drivers-3.png)
+   ![screenshot of advanced options](../../../../content/images/guides/your-pc/how-to-enable-compute-mode-on-amd-drivers-3.png)
 
 5. Scroll down and select GPU Workload, and set it to "Compute"
 
-   ![step4.png](../../../../content/images/guides/your-pc/how-to-enable-compute-mode-on-amd-drivers-4.png)
+   ![screenshot of enabling compute mode](../../../../content/images/guides/your-pc/how-to-enable-compute-mode-on-amd-drivers-4.png)
 
 6. Click OK to restart your GPU Drivers
 
-   ![step5.png](../../../../content/images/guides/your-pc/how-to-enable-compute-mode-on-amd-drivers-5.png)
+   ![screenshot of clicking okay](../../../../content/images/guides/your-pc/how-to-enable-compute-mode-on-amd-drivers-5.png)
 
 Your screen will turn off and back on again, and then your Drivers should now be in Compute Mode. Starting Salad back up
 you should see Salad Chopping at full speed.

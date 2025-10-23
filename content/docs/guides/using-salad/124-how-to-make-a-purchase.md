@@ -10,10 +10,7 @@ storefront.
 1. Open your web browser and navigate to the [Store page](https://salad.com/store).
 2. Search for the reward you're looking for by either scrolling through the Storefront or using the Search bar. Once you
    locate the reward you want, simply click it.
-
-<!--THE END-->
-
-![](../../../../content/images/guides/using-salad/how-to-make-a-purchase-1.png)
+   ![Selecting a reward](../../../../content/images/guides/using-salad/how-to-make-a-purchase-1.png)
 
 3. Now you should see the Reward page, where you'll find additional information about the item. You can find the "BUY
    NOW" button at the top right, If you wish to purchase a reward, select this.
@@ -23,7 +20,7 @@ storefront.
 4. Now you should see the SaladPay transaction screen. Please note that Salad plays for keeps! We
    [do not offer refunds](/docs/rewards/rewards-support/191-i-want-a-refund) on purchases, so please ensure that the
    information and reward is correct before selecting "Pay with Salad." Once you've verified everything, click away.
-   ![store2.png](../../../../content/images/guides/using-salad/how-to-make-a-purchase-2.png)
+   ![checkout page](../../../../content/images/guides/using-salad/how-to-make-a-purchase-2.png)
 
 5. Once clicked, the transaction should process and then you'll see a notification at the bottom left appear verifying
    your purchase and prompting you to check the Reward Vault where you'll find your reward code, if applicable.

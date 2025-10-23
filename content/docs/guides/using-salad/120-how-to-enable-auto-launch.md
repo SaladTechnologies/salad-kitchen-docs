@@ -8,16 +8,16 @@ whenever you go AFK from your PC. By default this option is **enabled**, however
 
 1. Open your Salad Widget
 
-   ![](../../../../content/images/guides/using-salad/how-to-enable-or-disable-auto-launch-1.png)
+   ![Opening Salad](../../../../content/images/guides/using-salad/how-to-enable-or-disable-auto-launch-1.png)
 
 2. Click your Profile Picture at the top left
 
-   ![](../../../../content/images/guides/using-salad/how-to-enable-or-disable-auto-launch-2.png)
+   ![Clicking your profile picture](../../../../content/images/guides/using-salad/how-to-enable-or-disable-auto-launch-2.png)
 
 3. Click the "Settings" button
 
-   ![](../../../../content/images/guides/using-salad/how-to-enable-or-disable-auto-launch-3.png)
+   ![Opening settings](../../../../content/images/guides/using-salad/how-to-enable-or-disable-auto-launch-3.png)
 
 4. Look near the bottom of the page for "Auto Launch" and click "Disable Auto Launch"
 
-   ![](../../../../content/images/guides/using-salad/how-to-enable-or-disable-auto-launch-4.png)
+   ![Finding Auto Launch](../../../../content/images/guides/using-salad/how-to-enable-or-disable-auto-launch-4.png)

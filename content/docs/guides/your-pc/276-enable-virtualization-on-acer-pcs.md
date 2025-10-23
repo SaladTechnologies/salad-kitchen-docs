@@ -13,7 +13,7 @@ If you don't know what kind of CPU you have, please see
 1. Restart or boot your computer.
 2. Immediately press **F2** to enter the BIOS Setup Utility.
 
-   ![](../../../../content/images/guides/your-pc/enable-virtualization-by-motherboard-acer-1.png)
+   ![Screenshot of BIOS](../../../../content/images/guides/your-pc/enable-virtualization-by-motherboard-acer-1.png)
 
 3. Using the arrow keys, navigate to the **Advanced** tab.
 4. Using the arrow keys, enable both **Intel VTX** and **Intel VTXD.** _(Some models require you to press **Ctrl + S**
@@ -25,7 +25,7 @@ If you don't know what kind of CPU you have, please see
 1. Restart or boot your computer.
 2. Immediately press **F2** to enter the BIOS Setup Utility.
 
-   ![](../../../../content/images/guides/your-pc/enable-virtualization-by-motherboard-acer-2.png)
+   ![Screenshot of BIOS](../../../../content/images/guides/your-pc/enable-virtualization-by-motherboard-acer-2.png)
 
 3. Using the arrow keys, navigate to the **Advanced** tab.
 4. Using the arrow keys, enable both **AMD-SVM** and **AMD-IOMMU**. _(Some models require you to press **Ctrl + S** to
