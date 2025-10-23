@@ -1,0 +1,15 @@
+{
+  "title": "Your Account",
+  "icon": "MyIcon",
+  "pages": [
+    "335-salad-balance-expiration.md",
+    "45-how-can-i-delete-my-account.md",
+    "46-can-i-create-multiple-accounts.md",
+    "47-can-i-change-the-email-address-for-my-account.md",
+    "48-is-there-a-withdrawal-limit.md",
+    "51-can-i-convert-my-earnings-into-cryptocurrency.md",
+    "56-can-i-deposit-or-withdraw-cryptocurrency-to-my-salad-account.md",
+    "187-ive-received-a-suspicious-login-attempt.md",
+    "204-does-the-application-use-my-data-in-any-way.md"
+  ]
+}
