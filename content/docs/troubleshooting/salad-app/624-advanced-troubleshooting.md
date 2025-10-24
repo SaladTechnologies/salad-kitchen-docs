@@ -27,5 +27,4 @@ Try fulling removing your Salad installation from your machine, along with [WSL]
 
 ---
 
-If issues still persist, contact [Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket) so we can
-investigate the issue further.
+If issues still persist, contact [Salad Support](/contact) so we can investigate the issue further.

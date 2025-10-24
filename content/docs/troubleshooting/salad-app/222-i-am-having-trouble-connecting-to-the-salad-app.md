@@ -86,6 +86,5 @@ Simply follow these instructions for safely restarting a Windows machine:
 
 ## Get in Touch with Support
 
-If your connection issues persist, please
-[**Contact Support**](/docs/guides/your-pc/216-how-to-create-a-support-ticket), and our team will get back to you as
-soon as possible.
+If your connection issues persist, please [**Contact Support**](/contact), and our team will get back to you as soon as
+possible.

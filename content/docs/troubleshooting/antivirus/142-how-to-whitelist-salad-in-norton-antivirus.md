@@ -28,4 +28,4 @@ _Last Updated: 23rd October 2025_
 
 ![Screenshot of Salad file path entered as an exclusion](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-norton-antivirus-6.png)
 
-Contact [Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket) if this issue persists.
+Contact [Salad Support](/contact) if this issue persists.

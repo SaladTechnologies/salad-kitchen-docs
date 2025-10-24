@@ -21,6 +21,5 @@ can also earn points in Razer Silver, Razer's official rewards program. These po
 such as Razer gear and gift cards.
 
 If you're having trouble with your Salad confirmation email and/or Reward Vault, please
-[submit a support ticket](/docs/guides/your-pc/216-how-to-create-a-support-ticket). If you need help using your Razer
-Gold once it's redeemed, either check out [Razer Gold's FAQ](https://gold.razer.com/us/en/help) or
-[contact Razer for support](https://gold.razer.com/my/en/help).
+[submit a support ticket](/contact). If you need help using your Razer Gold once it's redeemed, either check out
+[Razer Gold's FAQ](https://gold.razer.com/us/en/help) or [contact Razer for support](https://gold.razer.com/my/en/help).

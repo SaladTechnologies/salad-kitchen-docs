@@ -35,5 +35,4 @@ page with your newly added Exception.**
 
 ### 6. Run Salad
 
-**Open up your Salad widget and click the start button. Contact support
-[here](/docs/guides/your-pc/216-how-to-create-a-support-ticket) if this issue persists.**
+**Open up your Salad widget and click the start button. Contact support [here](/contact) if this issue persists.**

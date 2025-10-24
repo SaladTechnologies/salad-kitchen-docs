@@ -28,5 +28,4 @@ guide to do so.
    ![screenshot of nvidia driver installation options](../../../../content/images/guides/your-pc/how-to-update-your-nvidia-drivers-2.png)
 
 8. After your installation has finished, restart your PC to make sure that your drivers are properly installed.
-9. Open Salad and let it run for 30-40mins. Contact
-   [Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket) if your issue persists.
+9. Open Salad and let it run for 30-40mins. Contact [Salad Support](/contact) if your issue persists.

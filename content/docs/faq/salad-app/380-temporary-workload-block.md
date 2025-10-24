@@ -39,6 +39,5 @@ to heavy GPU usage, then we can quickly and efficiently assign that workload to 
 ## **What if I get a notification while I'm AFK?**
 
 We have done our best to accurately recognize as many GPU processes as possible but there might be programs and
-applications that trigger a notification incorrectly. If this happens, reach out to
-[Salad Support.](/docs/guides/your-pc/216-how-to-create-a-support-ticket) Be sure to include a screenshot of the
-notification and of your Task Manager showing the list of open processes.
+applications that trigger a notification incorrectly. If this happens, reach out to [Salad Support.](/contact) Be sure
+to include a screenshot of the notification and of your Task Manager showing the list of open processes.

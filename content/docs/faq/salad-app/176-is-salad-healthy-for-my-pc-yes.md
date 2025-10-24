@@ -67,6 +67,5 @@ capabilities.
 
 ## Still Have Concerns?
 
-If you're worried about hardware safety or antivirus flags, please feel free to contact
-[Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket) or join our
-[Discord Server](https://discord.gg/salad) and we can address your specific situation directly.
+If you're worried about hardware safety or antivirus flags, please feel free to contact [Salad Support](/contact) or
+join our [Discord Server](https://discord.gg/salad) and we can address your specific situation directly.

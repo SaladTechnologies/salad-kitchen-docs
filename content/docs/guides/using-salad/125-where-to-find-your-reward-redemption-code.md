@@ -24,4 +24,4 @@ to receive your activation details and information. This includes PayPal, as wel
 
 Please note that rewards can take up to 24 hours to arrive in your reward vault, so please allow this time to pass
 before you contact Support or submit a bug report. If you need additional help with your reward redemption codes, please
-contact [Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket).
+contact [Salad Support](/contact).

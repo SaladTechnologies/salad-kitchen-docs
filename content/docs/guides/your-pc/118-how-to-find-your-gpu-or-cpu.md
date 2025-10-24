@@ -50,5 +50,4 @@ the Salad Widget. Here are instructions for both methods.
 
 If you are unable to find your CPU or GPU shown here, make sure you are updated to the latest version of the Salad
 application and try again. You can download the latest version of the Salad application direct from the website
-[here](https://salad.com/download). If this still doesn't work, please contact
-[Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket).
+[here](https://salad.com/download). If this still doesn't work, please contact [Salad Support](/contact).

@@ -39,4 +39,4 @@ Chefs with Nox Player installed will also need to remove Nox Player's registry k
 7. Reboot your machine.
 
 Uninstalling the emulator should resolve the error message. If uninstalling does not help, contact
-[Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket).
+[Salad Support](/contact).

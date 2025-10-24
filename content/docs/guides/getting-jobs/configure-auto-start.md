@@ -2,7 +2,7 @@
 title: 'Configure Auto-Start'
 ---
 
-_Last Updated: 23rd October 2025_
+_Last Updated: 24th October 2025_
 
 For Salad to work most effectively, you need to configure Salad to automatically start Chopping when you go AFK. By
 default, it's configured to start Chopping after 10 minutes, but you should adjust this to your PC usage habits.
@@ -15,5 +15,5 @@ default, it's configured to start Chopping after 10 minutes, but you should adju
    Salad starts Chopping.
    ![Adjusting the 'Start After' slider](../../../../content/images/guides/getting-jobs/configure-auto-start-2.png)
 
-Idleness is determined by mouse or keyboard activity. You can find a more in-depth guide on Auto-Start [here](insert
-link).
+Idleness is determined by mouse or keyboard activity. You can find a more in-depth guide on
+[Auto-Start here](/docs/guides/using-salad/how-to-enable-auto-start).

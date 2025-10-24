@@ -26,5 +26,5 @@ some troubleshooting steps you can take to resolve it.
    Cryptomining Jobs from running correctly. If you have overclocked your GPU, try resetting it to its default settings.
    We do not support overclocked hardware.
 
-If you're still experiencing issues after trying these steps, please reach out to
-[Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket) for further assistance.
+If you're still experiencing issues after trying these steps, please reach out to [Salad Support](/contact) for further
+assistance.

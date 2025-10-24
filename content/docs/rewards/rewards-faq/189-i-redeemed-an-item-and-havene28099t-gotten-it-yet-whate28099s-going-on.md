@@ -22,5 +22,4 @@ reasons behind this.
 
 If your purchase should fail, you will get automatically refunded the full amount, allowing you to try purchasing the
 item again, or to purchase something else if. If you don't see your refund, make sure to refresh the application. If you
-never receive your refund, you can contact [Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket) and
-we can help you get your Salad Balance back.
+never receive your refund, you can contact [Salad Support](/contact) and we can help you get your Salad Balance back.

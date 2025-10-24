@@ -38,5 +38,4 @@ After doing that, you will see your Salad exclusion on the main Avira Exclusion 
 
 ### 6. Run Salad
 
-**Open your Salad widget and click the play button. Contact support
-[here](/docs/guides/your-pc/216-how-to-create-a-support-ticket) if this issue persists**
+**Open your Salad widget and click the play button. Contact support [here](/contact) if this issue persists**

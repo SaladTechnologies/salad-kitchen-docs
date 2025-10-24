@@ -36,6 +36,5 @@ Here are a few tips to safeguard your account:
 
 If you want to learn more about keeping your Salad account and Salad Balance secure, check out our
 [Digital Hygiene](/docs/guides/getting-started/206-digital-hygiene-and-your-salad-balance) article. If you have
-additional concerns or think someone has access to your Salad account already, please contact
-[Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket) or emailing us at
-[support@salad.com.](mailto:support@salad.com)
+additional concerns or think someone has access to your Salad account already, please contact [Salad Support](/contact)
+or emailing us at [support@salad.com.](mailto:support@salad.com)

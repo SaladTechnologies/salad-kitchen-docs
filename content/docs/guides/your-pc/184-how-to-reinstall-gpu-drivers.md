@@ -51,4 +51,4 @@ your GPU's drivers and download the latest version.
 
 Now that your drivers are reinstalled, you can restart your PC one more time to ensure everything is set up correctly.
 If you're still experiencing issues after reinstalling your GPU drivers, you may want to check for Windows Updates or
-reach out to [Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket) for further assistance.
+reach out to [Salad Support](/contact) for further assistance.

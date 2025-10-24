@@ -40,4 +40,4 @@ If you're still experiencing issues getting Salad to start, you may need to foll
    to download the miners required.
 3. Open your Salad widget, and click the start button.
 
-Contact [Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket) if this issue persists.
+Contact [Salad Support](/contact) if this issue persists.

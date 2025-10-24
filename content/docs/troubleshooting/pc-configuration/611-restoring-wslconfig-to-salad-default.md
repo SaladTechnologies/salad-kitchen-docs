@@ -91,5 +91,4 @@ types of settings.
    8. **Note:** do not forget to add the "MB" at the end of the line. For example:
       1. On a System with 196GB RAM , set to **98000MB** (196/2 = 98GB, so 98000MB)
 
-That's it Chef! If you're experiencing issues, contact
-[Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket).
+That's it Chef! If you're experiencing issues, contact [Salad Support](/contact).

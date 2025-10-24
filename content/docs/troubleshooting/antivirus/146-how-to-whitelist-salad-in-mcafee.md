@@ -58,5 +58,5 @@ whitelist the other files within these folders if just the .exe files doesn't wo
 **9. Run Salad**
 
 Let Salad run after setting up the whitelist by opening your Salad widget, and clicking the start button, and see if it
-works! Contact support [here](/docs/guides/your-pc/216-how-to-create-a-support-ticket) if this issue persists. When new
-miner versions are released, you may need to follow these steps again to whitelist the new versions.
+works! Contact support [here](/contact) if this issue persists. When new miner versions are released, you may need to
+follow these steps again to whitelist the new versions.

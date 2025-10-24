@@ -22,5 +22,4 @@ guide to do so.
 
 3. After you have clicked on "Download" it will download and install your Driver Update. Simply wait for it to finish.
 4. After your installation has finished, restart your PC to ensure the proper installation of your drivers.
-5. Open Salad and let it run for 30-40 minutes, contact
-   [Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket) if the issue persists.
+5. Open Salad and let it run for 30-40 minutes, contact [Salad Support](/contact) if the issue persists.

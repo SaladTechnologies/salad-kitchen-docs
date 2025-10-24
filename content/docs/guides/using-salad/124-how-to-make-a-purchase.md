@@ -29,5 +29,4 @@ storefront.
 
 ---
 
-If you have an issue with your reward, or have any questions, please contact
-[Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket).
+If you have an issue with your reward, or have any questions, please contact [Salad Support](/contact).

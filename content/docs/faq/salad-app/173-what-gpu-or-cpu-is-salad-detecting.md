@@ -18,6 +18,5 @@ Follow these simple steps to see the detected GPU or CPU in Salad:
 
    ![screnshot showing detected hardware](../../../../content/images/faq/salad-app/what-gpu-or-cpu-is-salad-detecting_-3.png)
 
-If your GPU or CPU is not correctly detected by Salad, please contact
-[Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket) and we can assist you with your machine
-information detection.
+If your GPU or CPU is not correctly detected by Salad, please contact [Salad Support](/contact) and we can assist you
+with your machine information detection.
