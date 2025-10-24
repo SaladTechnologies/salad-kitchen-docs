@@ -83,7 +83,12 @@ function Contact() {
               <h2 className="mt-8 mb-4 text-lg font-bold xl:text-5xl">Send us an email!</h2>
               <p>Contact the Salad Support team directly via email. We aim to respond within 24 business hours.</p>
               <a
-                href="mailto:support@salad.com?subject=I Need Help with Salad?&body=Hi, I'm having an issue with Salad and would like some assistance."
+                href={
+                  'mailto:support@salad.com?subject=' +
+                  encodeURIComponent('I Need Help with Salad') +
+                  '&body=' +
+                  encodeURIComponent("Hi, I'm having an issue with Salad and would like some assistance.")
+                }
                 className="text-m mt-12 flex items-center gap-1 font-medium text-[#53a626] duration-150 hover:scale-110"
               >
                 Send an email
