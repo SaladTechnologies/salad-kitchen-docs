@@ -70,4 +70,4 @@ setting, allowing it to continue protecting you.
 
 **12. Salad should now be whitelisted correctly**
 
-Open your Salad widget, and click the play button. Contact support [here](/contact) if this issue persists.
+Open your Salad widget, and click the play button. If this issue persists, contact [Salad Support](/contact).
