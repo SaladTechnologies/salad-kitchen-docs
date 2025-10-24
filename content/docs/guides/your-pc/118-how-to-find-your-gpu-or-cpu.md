@@ -49,5 +49,5 @@ the Salad Widget. Here are instructions for both methods.
    ![example of CPUs in the performance tab](../../../../content/images/guides/your-pc/how-to-find-your-gpu-or-cpu-specifications-8.png)
 
 If you are unable to find your CPU or GPU shown here, make sure you are updated to the latest version of the Salad
-application and try again. You can download the latest version of the Salad application direct from the website
-[here](https://salad.com/download). If this still doesn't work, please contact [Salad Support](/contact).
+application and try again. You can download the latest version of the Salad application direct from the
+[download website](https://salad.com/download). If this still doesn't work, please contact [Salad Support](/contact).
