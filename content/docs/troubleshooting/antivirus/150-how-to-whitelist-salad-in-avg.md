@@ -35,4 +35,4 @@ page with your newly added Exception.**
 
 ### 6. Run Salad
 
-**Open up your Salad widget and click the start button. Contact support [here](/contact) if this issue persists.**
+**Open up your Salad widget and click the start button. If this issue persists, contact [Salad Support](/contact).
