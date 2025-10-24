@@ -2,10 +2,9 @@
 title: How Can I Delete my Account?
 ---
 
-_Last Updated: 23rd October 2025_
+_Last Updated: 24th October 2025_
 
-To delete your account, you must submit a request to [Salad Support](/contact) or by sending an email to
-[support@salad.com](mailto:support@salad.com).
+To delete your account, you must submit a request to [Salad Support](/contact).
 
 > **Note**: Deleting your account is irreversible. All balance and account data will be lost forever as soon as the
 > deletion is completed.

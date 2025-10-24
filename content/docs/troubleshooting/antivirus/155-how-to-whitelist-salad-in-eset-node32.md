@@ -52,4 +52,4 @@ bring you back to the main ESET-NODE32 Exclusion whitelist page with your newly 
 
 ### 8. Run Salad
 
-Open your Salad widget and click the play button. **Contact support [here](/contact) if this issue persists**
+Open your Salad widget and click the play button. If this issue persists, contact [Salad Support](/contact)

@@ -60,4 +60,4 @@ whitelist.
 ### 9. Run Salad
 
 Let Salad run for at least 30 minutes after setting up the whitelist by opening your Salad widget, and clicking the play
-button. Contact support [here](/contact) if this issue persists.
+button. If this issue persists, contact [Salad Support](/contact).
