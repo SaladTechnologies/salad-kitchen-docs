@@ -2,6 +2,8 @@
 title: How Do I Redeem My Xbox Rewards?
 ---
 
+_Last Updated: 23rd October 2025_
+
 Digital Xbox gift cards feature unique, 25-character redemption codes. Once you have purchased an Xbox reward from the
 Salad Storefront, you should find this code listed in your
 [Reward Vault](/docs/guides/using-salad/125-where-to-find-your-reward-redemption-code) within a few minutes. This code
@@ -18,11 +20,11 @@ _Redeeming online is the simplest way to apply gift card balance to a Microsoft 
 
 1. Visit [https://redeem.microsoft.com](https://redeem.microsoft.com).
 
-   ![](../../../../content/images/rewards/redeeming-your-rewards/xbox-rewards-1.png)
+   ![Screenshot of Microsoft Login page](../../../../content/images/rewards/redeeming-your-rewards/xbox-rewards-1.png)
 
 2. When prompted, log in to an existing Microsoft account (or create a new one).
 
-   ![](../../../../content/images/rewards/redeeming-your-rewards/xbox-rewards-2.png)
+   ![Screenshot of Microsoft Gift Card redemption page](../../../../content/images/rewards/redeeming-your-rewards/xbox-rewards-2.png)
 
 3. Enter your 25-character redemption code on the next screen.
 4. Click "Next" and follow the remaining prompts

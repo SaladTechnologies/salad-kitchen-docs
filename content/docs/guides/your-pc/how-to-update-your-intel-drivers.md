@@ -2,7 +2,7 @@
 title: 'How to Update your Intel Drivers'
 ---
 
-_Last Updated September 11, 2025_
+_Last Updated: 23rd October 2025_
 
 If you're running on old, or out of date drivers you may need to update them to the latest version. You can follow this
 guide to do so.
@@ -16,4 +16,4 @@ guide to do so.
    Support Assistant.
 
 Your drivers should now be updated to the latest version. You may need to restart your PC to finalize installation.
-Contact [Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket) if you need further assistance.
+Contact [Salad Support](/contact) if you need further assistance.

@@ -2,6 +2,8 @@
 title: Adult Workload Preferences
 ---
 
+_Last Updated: 23rd October 2025_
+
 As chefs, you entrust Salad with your compute power and machine. We want to make sure we honor that trust by giving you
 as much clarity and control over what kinds of workloads run on your machine as possible.
 

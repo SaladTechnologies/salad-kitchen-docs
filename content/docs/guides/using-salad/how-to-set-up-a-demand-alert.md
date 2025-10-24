@@ -2,7 +2,7 @@
 title: 'How to Set Up a Demand Alert'
 ---
 
-_Last Updated September 9, 2025_
+_Last Updated: 23rd October 2025_
 
 You can set up a Demand Alert to automatically notify you when demand for your hardware increases or decreases on the
 Salad Network through our [Network Monitor](/docs/faq/community/613-network-monitor). This is useful if you're not
@@ -10,13 +10,14 @@ receiving any Jobs due to low demand for your hardware, and want to be notified 
 Chopping again.
 
 1. Open the [Network Monitor](https://salad.com/earn/demand) in your web browser.
-   ![](../../../../content/images/guides/using-salad/how-to-set-up-a-demand-alert-1.png)
+   ![Screenshot of the Salad Network Monitor in a web browser](../../../../content/images/guides/using-salad/how-to-set-up-a-demand-alert-1.png)
 2. Log in with your Salad account if you haven't already.
 3. At the top of the page, select 'Get Notified'.
-   ![](../../../../content/images/guides/using-salad/how-to-set-up-a-demand-alert-2.png)
+   ![finding the Get Notified button on the Salad Network Monitor](../../../../content/images/guides/using-salad/how-to-set-up-a-demand-alert-2.png)
 4. Select the hardware type you want to be notified about from the dropdown menu.
 5. And then select the demand level you want to be notified about. You can choose from 'Low', 'Moderate', or 'High'
-   demand levels. ![](../../../../content/images/guides/using-salad/how-to-set-up-a-demand-alert-3.png)
+   demand levels.
+   ![Screenshot showing the Demand Alert configuration options](../../../../content/images/guides/using-salad/how-to-set-up-a-demand-alert-3.png)
 6. Click 'Add Alert' to save your Demand Alert. You can add multiple Demand Alerts for different hardware types and
    demand levels.
 

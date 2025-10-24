@@ -2,6 +2,8 @@
 title: 'Why am I Not Receiving Any Jobs?'
 ---
 
+_Last Updated: 23rd October 2025_
+
 If you're not receiving any Jobs, there may be [low demand](/docs/faq/community/613-network-monitor) for your hardware
 on the Salad Network, or your machine may not be set up correctly to run Jobs. If there's low demand for your hardware,
 you may need to wait longer in the queue to receive a Job. Thankfully, if your machine is just incorrectly configured,

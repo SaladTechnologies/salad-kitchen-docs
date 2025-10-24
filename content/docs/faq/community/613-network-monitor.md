@@ -2,6 +2,8 @@
 title: Network Monitor
 ---
 
+_Last Updated: 23rd October 2025_
+
 ### What is the Network Monitor?
 
 The [network monitor](https://salad.com/earn/demand) is a feature that allows Chefs to have a birds eye view on the

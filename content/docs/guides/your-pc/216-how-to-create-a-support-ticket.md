@@ -2,6 +2,8 @@
 title: How to Create a Support Ticket
 ---
 
+_Last Updated: 23rd October 2025_
+
 ## Salad Ticket Requirements
 
 Help us help you, Chef! Make sure you include your Salad account email address and your CPU/GPU model info on every
@@ -10,11 +12,11 @@ ticket.
 1. Navigate to [https://support.salad.com](https://support.salad.com) or any page on
    [https://salad.com/store](https://salad.com/store).
 
-   ![](../../../../content/images/guides/your-pc/how-to-create-a-support-ticket-1.png)
+   ![Screenshot of Salad Support website](../../../../content/images/guides/your-pc/how-to-create-a-support-ticket-1.png)
 
 2. Click the "Support" widget at the bottom right, this will open a window.
 
-   ![](../../../../content/images/guides/your-pc/how-to-create-a-support-ticket-2.png)
+   ![Screenshot of Salad Support contact widget](../../../../content/images/guides/your-pc/how-to-create-a-support-ticket-2.png)
 
 3. Let us know what your issue is, and hit the "Send a message" button to submit your ticket.
 

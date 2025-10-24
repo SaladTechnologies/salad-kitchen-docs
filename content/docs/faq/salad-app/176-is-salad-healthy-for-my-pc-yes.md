@@ -2,6 +2,8 @@
 title: Is Salad Safe for my PC?
 ---
 
+_Last Updated: 23rd October 2025_
+
 ## Is Salad Safe to Run?
 
 Salad is safe to run on any well-maintained consumer PC. Graphics Cards (GPUs) and Central Processing Units (CPUs) are
@@ -65,6 +67,5 @@ capabilities.
 
 ## Still Have Concerns?
 
-If you're worried about hardware safety or antivirus flags, please feel free to contact
-[Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket) or join our
-[Discord Server](https://discord.gg/salad) and we can address your specific situation directly.
+If you're worried about hardware safety or antivirus flags, please feel free to contact [Salad Support](/contact) or
+join our [Discord Server](https://discord.gg/salad) and we can address your specific situation directly.

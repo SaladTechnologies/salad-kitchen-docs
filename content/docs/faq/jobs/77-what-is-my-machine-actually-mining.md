@@ -2,6 +2,8 @@
 title: What Is My Machine Actually Mining?
 ---
 
+_Last Updated: 23rd October 2025_
+
 When you Chop mining workloads, Salad will automatically determine which coin is most profitable for you to mine.
 Currently we support these blockchain protocols:
 

@@ -2,44 +2,45 @@
 title: How to Whitelist Salad in Bitdefender Antivirus PLUS
 ---
 
+_Last Updated: 23rd October 2025_
+
 **1. Open Bitdefender**
 
 This will be the main screen you are presented within Bitdefender, and is your base of virus-fighting operations.
 
-![screenshot](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-1.png)
+![screenshot of the bitdefender main screen](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-1.png)
 
 **2.** **Navigate to Protection**
 
 To access your antivirus related settings on Bitdefender, click the "Protection" button on the left of the main screen.
 
-![bitdefender.png](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-2.png)
+![screenshot selecting protection options](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-2.png)
 
 **3. Navigate to your Antivirus settings**
 
 After clicking on the "Protection" button, click "Open" under "Antivirus".
 
-![bitdefender1.png](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-3.png)
+![screenshot of antivirus options](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-3.png)
 
 **4. Click on "Settings"**
 
 At the top, select the "Settings" tab, then click "Manage exceptions"
 
-![bitdefender2.png](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-4.png)
+![selecting settings panel](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-4.png)
 
 **5. Click 'Add'**
 
 After you have entered the Exceptions tab, click "Add an Exception".
 
-![bitdefender3.png](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-5.png)
+![option to add an exception](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-5.png)
 
 **6. Adding Salad as an Exception**
 
-**Salad 1.0.0. and Later:** After you have clicked "Add an Exception" you will be shown a dialogue box. In that dialogue
-box you'll want to navigate to the Salad Miners folder and select it, the filepath for this is
-"C:\\ProgramData\\Salad\\workloads" (without the quotations). Make sure to enable Antivirus protection for all 3
-settings, as well as Online Threat Prevention.
+After you have clicked "Add an Exception" you will be shown a dialogue box. In that dialogue box you'll want to navigate
+to the Salad Miners folder and select it, the filepath for this is "C:\\ProgramData\\Salad\\workloads" (without the
+quotations). Make sure to enable Antivirus protection for all 3 settings, as well as Online Threat Prevention.
 
-![](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-6.png)
+![adding salad file path](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-6.png)
 
 **7. Click Add**
 
@@ -50,13 +51,13 @@ whitelist page with your newly added exception.
 
 Head back to the "Protection" page, and this time head into the "Online Threat Prevention" tab.
 
-![bitdefender8.png](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-7.png)
+![online threat protection settings](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-7.png)
 
 **9. Temporarily disable "Web attack prevention"**
 
 Temporarily disable the "Web attack prevention" setting, don't worry, you can turn it back on once we're done.
 
-![bitdefender9.png](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-8.png)
+![disabling web attack protection](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-8.png)
 
 **10. Run Salad to download the miners**
 
@@ -69,5 +70,4 @@ setting, allowing it to continue protecting you.
 
 **12. Salad should now be whitelisted correctly**
 
-Open your Salad widget, and click the play button. Contact support
-[here](/docs/guides/your-pc/216-how-to-create-a-support-ticket) if this issue persists.
+Open your Salad widget, and click the play button. If this issue persists, contact [Salad Support](/contact).

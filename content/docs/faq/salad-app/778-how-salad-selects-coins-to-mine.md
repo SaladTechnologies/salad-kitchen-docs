@@ -2,6 +2,8 @@
 title: How Salad Chooses Miners and Coins for Backup Earnings
 ---
 
+_Last Updated: 23rd October 2025_
+
 # Our Miner Selection Logic
 
 When choosing what combination of miner and algorithm to run on your GPU, we prioritize options with the highest $/24Hrs

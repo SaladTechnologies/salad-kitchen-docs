@@ -2,6 +2,8 @@
 title: How Power Limiting Impacts your Earnings
 ---
 
+_Last Updated: 23rd October 2025_
+
 Power limiting, or intentionally reducing the wattage, voltage, or power draw of your GPU, will decrease your earnings
 on Salad. Chefs who power limit their PC will receive a Degraded Notification, indicating they cannot run Container
 Workloads.
@@ -46,4 +48,4 @@ in order to resolve the error message (14) you received in the Salad app and res
       steps to undervolt. Doing so could make them ineligible to receive Container workload*s.
 
 If you're having trouble getting your settings back to normal, or you're still experiencing issues despite resetting it,
-please contact [Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket) and we can help troubleshoot.
+please contact [Salad Support](/contact) and we can help troubleshoot.

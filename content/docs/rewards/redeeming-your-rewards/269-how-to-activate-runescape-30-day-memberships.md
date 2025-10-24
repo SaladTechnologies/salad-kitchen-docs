@@ -2,6 +2,8 @@
 title: How to Activate Runescape 30-Day Memberships
 ---
 
+_Last Updated: 23rd October 2025_
+
 Runescape memberships are available in multiple world regions. Before redeeming a Runescape reward from the Salad
 Storefront, it is important to check that you've selected the appropriate membership for your region.
 

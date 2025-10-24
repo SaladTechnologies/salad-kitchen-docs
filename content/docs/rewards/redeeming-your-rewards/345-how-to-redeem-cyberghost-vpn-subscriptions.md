@@ -2,6 +2,8 @@
 title: How to Redeem CyberGhost VPN Subscriptions
 ---
 
+_Last Updated: 23rd October 2025_
+
 First you will need a CyberGhost account. They are free to create, and you can follow their account creation guide
 [here](https://support.cyberghostvpn.com/hc/en-us/articles/5382058040988-How-to-create-a-CyberGhost-Account).
 

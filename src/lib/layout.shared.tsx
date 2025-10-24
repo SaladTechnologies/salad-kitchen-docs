@@ -1,6 +1,6 @@
 import logoPng from '@/styles/logo.png'
 import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared'
-import { Download } from 'lucide-react'
+import { Download, Mail } from 'lucide-react'
 
 const DiscordIcon = () => (
   <svg role="img" viewBox="0 0 24 24" fill="currentColor">
@@ -13,6 +13,13 @@ export function baseOptions(): BaseLayoutProps {
   return {
     githubUrl: 'https://github.com/SaladTechnologies/salad-kitchen-docs',
     links: [
+      {
+        icon: <Mail />,
+        text: 'Contact Us',
+        label: 'Contact Us',
+        type: 'icon',
+        url: '/contact',
+      },
       {
         icon: <Download />,
         label: 'Download Salad',

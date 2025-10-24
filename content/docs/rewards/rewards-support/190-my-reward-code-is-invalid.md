@@ -2,6 +2,8 @@
 title: My Reward Code is Invalid
 ---
 
+_Last Updated: 23rd October 2025_
+
 If a reward you have purchased is showing as invalid, there are a few things you can double check.
 
 - Make sure you are redeeming it in the right place. The correct storefront, app section, or website, will be listed in
@@ -14,5 +16,4 @@ If a reward you have purchased is showing as invalid, there are a few things you
 - If you have purchased DLC, you need to own the base game already to activate it.
 
 If your reward is still showing as invalid when entered in the correct location in the correct region, there may be an
-issue with the key we delivered. Please contact [Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket)
-and we can do our best to assist.
+issue with the key we delivered. Please contact [Salad Support](/contact) and we can do our best to assist.

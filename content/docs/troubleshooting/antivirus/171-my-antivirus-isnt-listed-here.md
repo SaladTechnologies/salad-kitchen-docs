@@ -2,6 +2,8 @@
 title: My Antivirus isn't Listed Here
 ---
 
+_Last Updated: 23rd October 2025_
+
 We have in-depth guides available for many common Antivirus options. If there isn't a guide for you, you can still
 follow the official whitelist guide from your Antivirus manufacturer. When you get to adding an exclusion, you'll need
 to add this path: `C:\ProgramData\Salad\workloads`.

@@ -2,6 +2,8 @@
 title: My Earning Rate has Dropped to 0
 ---
 
+_Last Updated: 23rd October 2025_
+
 You may see intermittent drop-outs in earnings. This is expected on Salad as job availability varies. For example, you
 might see higher earning rates one day when certain Container jobs are in demand, and see lower earning rates a few days
 later when those jobs are no longer needed. You are not guaranteed to get a CPU or GPU Container 24/7. That said, there

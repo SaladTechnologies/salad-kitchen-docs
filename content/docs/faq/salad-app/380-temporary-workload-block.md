@@ -2,6 +2,8 @@
 title: Temporary Workload Block
 ---
 
+_Last Updated: 23rd October 2025_
+
 Salad is meant to chop while you are AFK. Gaming and some other heavy compute processes could negatively impact jobs.
 SaladCloud Customers pay for your hardware, if you're busy gaming they aren't getting what they're paying for so we
 automatically pause Salad when we detect this.
@@ -22,7 +24,7 @@ condition that ends when you stop Chopping.
 You will see a temporary GPU Disabled badge over your GPU resource card in the Performance Tab. To remove this badge,
 stop Chopping and disable GPU intensive processes on your PC.
 
-![](../../../../content/images/faq/salad-app/temporary-workload-block-1.png)
+![screenshot showing temporarily disabled hardware](../../../../content/images/faq/salad-app/temporary-workload-block-1.png)
 
 ---
 
@@ -37,6 +39,5 @@ to heavy GPU usage, then we can quickly and efficiently assign that workload to 
 ## **What if I get a notification while I'm AFK?**
 
 We have done our best to accurately recognize as many GPU processes as possible but there might be programs and
-applications that trigger a notification incorrectly. If this happens, reach out to
-[Salad Support.](/docs/guides/your-pc/216-how-to-create-a-support-ticket) Be sure to include a screenshot of the
-notification and of your Task Manager showing the list of open processes.
+applications that trigger a notification incorrectly. If this happens, reach out to [Salad Support.](/contact) Be sure
+to include a screenshot of the notification and of your Task Manager showing the list of open processes.

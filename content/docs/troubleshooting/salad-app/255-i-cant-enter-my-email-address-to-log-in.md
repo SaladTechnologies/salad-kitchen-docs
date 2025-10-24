@@ -2,6 +2,8 @@
 title: I Can't Enter my Email Address to Log In
 ---
 
+_Last Updated: 23rd October 2025_
+
 If you're seeing any of the below errors/issues, it means that we were unable to send you an email containing your
 one-time login code.
 
@@ -24,7 +26,7 @@ spam, or told our mailing server to not send you any emails from the address. Yo
 another email from us via the same address. In order to regain access to your account, you will need to re opt-in to
 receiving emails. You can do so by following these steps:
 
-1. Open a [new ticket](/docs/guides/your-pc/216-how-to-create-a-support-ticket)
+1. Open a [new ticket](/contact)
 2. Inform us in your ticket that you are unable to access your account and need to opt-in to receiving emails
 3. Provide the email address of your account in your ticket, the email address you provide **MUST** match the email
    address you are contacting us from

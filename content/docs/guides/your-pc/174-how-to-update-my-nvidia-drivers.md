@@ -2,6 +2,8 @@
 title: How to Update your Nvidia Drivers
 ---
 
+_Last Updated: 23rd October 2025_
+
 If you're running on old, or out of date drivers you may need to update them to the latest version. You can follow this
 guide to do so.
 
@@ -16,15 +18,14 @@ guide to do so.
 5. After you have clicked 'Download', your driver's installation file will start downloading. After it has downloaded,
    open the .exe file and let it load up a bit. After a few mins, you will be presented with this screen.
 
-   ![screenshot](../../../../content/images/guides/your-pc/how-to-update-your-nvidia-drivers-1.png)
+   ![screenshot of NVIDIA driver installation page](../../../../content/images/guides/your-pc/how-to-update-your-nvidia-drivers-1.png)
 
 6. After you are presented with the screen, click 'AGREE AND CONTINUE'.
 7. After you have clicked on 'AGREE AND CONTINUE', you will be presented with some installation ways. Select 'Express'
    for the default installation or Select 'Custom' if you want to customize your installation. After that, select 'Next'
    and your installation your begin.
 
-   ![screenshot](../../../../content/images/guides/your-pc/how-to-update-your-nvidia-drivers-2.png)
+   ![screenshot of nvidia driver installation options](../../../../content/images/guides/your-pc/how-to-update-your-nvidia-drivers-2.png)
 
 8. After your installation has finished, restart your PC to make sure that your drivers are properly installed.
-9. Open Salad and let it run for 30-40mins. Contact
-   [Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket) if your issue persists.
+9. Open Salad and let it run for 30-40mins. Contact [Salad Support](/contact) if your issue persists.

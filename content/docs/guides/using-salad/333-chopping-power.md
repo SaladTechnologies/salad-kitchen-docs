@@ -2,13 +2,15 @@
 title: Chopping Power
 ---
 
+_Last Updated: 23rd October 2025_
+
 Want to know if your machine is optimized to earn the most balance on Salad? Increase your Chopping Power!
 
 Chopping Power shows your earning efficiency on the Salad network. We determine Chopping Power based on what resources
 you make available to Salad. There are some tasks for you to complete, like enabling your GPU, and some conditions that
 increase you Chopping Power if they are met.
 
-![](../../../../content/images/guides/using-salad/chopping-power-1.png)
+![Screenshot showing the Chopping Power bar](../../../../content/images/guides/using-salad/chopping-power-1.png)
 
 ---
 
@@ -21,7 +23,7 @@ efficiently their machine earns balance, not a set of requirements.
 Chefs should also note that they will see different options depending on what they have enabled during setup, or their
 machine settings and capabilities.
 
-![](../../../../content/images/guides/using-salad/chopping-power-2.png)
+![Screenshot showing the full Chopping Power bar requirements](../../../../content/images/guides/using-salad/chopping-power-2.png)
 
 ### Enable GPU + CPU
 
@@ -62,4 +64,4 @@ Don't worry if you don't meet all Chopping Power conditions. The Chopping Power 
 machine is optimized to earn, but there are plenty of jobs available to chefs who don't have in-demand hardware or
 Bandwidth sharing available in their area.
 
-![](../../../../content/images/guides/using-salad/chopping-power-3.png)
+![Screenshot of a completed Chopping Power bar](../../../../content/images/guides/using-salad/chopping-power-3.png)

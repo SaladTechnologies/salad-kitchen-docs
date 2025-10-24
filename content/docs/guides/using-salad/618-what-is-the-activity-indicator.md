@@ -2,10 +2,12 @@
 title: What is the Activity Indicator?
 ---
 
+_Last Updated: 23rd October 2025_
+
 Finished setting up Salad and just started Chopping? Salad will let you know what it's up to, whether it's looking for
 your next workload, downloading, or running.
 
-![](../../../../content/images/guides/using-salad/what-is-the-activity-indicator-1.png)
+![Screenshot of the activity indicator in the Salad app](../../../../content/images/guides/using-salad/what-is-the-activity-indicator-1.png)
 
 Salad will try its best to let you know what it's doing, so that you have maximum control over the application and your
 machine.

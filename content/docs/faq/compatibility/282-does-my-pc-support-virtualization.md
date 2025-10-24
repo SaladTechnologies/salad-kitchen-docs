@@ -2,6 +2,8 @@
 title: Does My PC Support Virtualization?
 ---
 
+_Last Updated: 23rd October 2025_
+
 Many modern computers support virtualization, and enable these features by default. You may check whether these features
 are supported on your machine as follows:
 

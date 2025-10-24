@@ -2,6 +2,8 @@
 title: How Can I Earn More with Salad?
 ---
 
+_Last Updated: 23rd October 2025_
+
 There are a number of things you can do to optimize your setup with Salad to Chop more Salad Balance.
 
 - Make sure you're running Salad as often as possible, especially while you're sleeping or away from your computer. To

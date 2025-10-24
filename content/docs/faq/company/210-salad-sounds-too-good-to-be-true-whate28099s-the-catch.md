@@ -2,6 +2,8 @@
 title: Salad Sounds Too Good to be True. What's the Catch?
 ---
 
+_Last Updated: 23rd October 2025_
+
 While we offer high value rewards and an easy way to monetize your idle processing power, there are some definite
 limitations to Salad right now. We want to be as transparent about these limitations as possible, so our users can make
 an informed decision about choosing Salad.

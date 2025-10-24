@@ -2,8 +2,10 @@
 title: Supported PayPal Countries
 ---
 
+_Last Updated: 23rd October 2025_
+
 Salad uses a third party provider to source PayPal rewards. Some countries are not eligible to purchase PayPal rewards
-from our vendor. Refer to the list below to understand where PayPal rewards are supported. 
+from our vendor. Refer to the list below to understand where PayPal rewards are supported.
 
 Note that purchasing PayPal rewards if your country is not listed here may prevent you from receiving the reward.
 

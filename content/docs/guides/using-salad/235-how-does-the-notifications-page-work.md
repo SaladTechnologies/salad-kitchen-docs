@@ -2,6 +2,8 @@
 title: Using the Notifications Page
 ---
 
+_Last Updated: 23rd October 2025_
+
 The notifications page contains all the notifications, errors, or messages you have received. If you run into an issue
 whilst running Salad, we'll send a notification to your desktop, as well as the "EARN" page of your Salad widget.
 Clicking into the notification, or navigating to the Notifications page, will show more details about the received
@@ -14,14 +16,14 @@ The notifications page can be accessed by:
 
 1. Opening your Salad widget.
 
-   ![](../../../../content/images/guides/using-salad/using-the-notifications-page-1.png)
+   ![opening the salad app](../../../../content/images/guides/using-salad/using-the-notifications-page-1.png)
 
 2. Click the notification bell at the top right.
 
-   ![](../../../../content/images/guides/using-salad/using-the-notifications-page-2.png)
+   ![selecting the notifications page in the salad app](../../../../content/images/guides/using-salad/using-the-notifications-page-2.png)
 
 ---
 
-![](../../../../content/images/guides/using-salad/using-the-notifications-page-3.png)
+![example screenshot of an error in the salad app](../../../../content/images/guides/using-salad/using-the-notifications-page-3.png)
 
 _Example of a degraded performance notification._

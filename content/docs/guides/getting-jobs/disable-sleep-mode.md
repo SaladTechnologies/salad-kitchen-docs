@@ -2,7 +2,7 @@
 title: 'Disable Sleep Mode'
 ---
 
-_Last Updated September 8, 2025_
+_Last Updated: 23rd October 2025_
 
 By default, Windows configures your PC to sleep after a short period of inactivity. This will interrupt Salad from
 Chopping Salad Balance as programs cannot run while your computer is in Sleep Mode. Disabling sleep mode will ensure

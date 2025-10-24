@@ -2,6 +2,8 @@
 title: Virtualization Conflicts with Android Emulators
 ---
 
+_Last Updated: 23rd October 2025_
+
 Some Android emulators have been known to interfere with Salad's virtualization set-up. These programs run competing
 virtualization processes next to Salad which prevents Containerization from setting up successfully. These emulators are
 known to conflict with Salad
@@ -9,7 +11,7 @@ known to conflict with Salad
 - Bluestacks
 - Nox Player
 
-![](../../../../content/images/troubleshooting/container-jobs/virtualization-conflicts-with-android-emulators-1.png)
+![Screenshot of Salad Container Setup page showing error for Android Emulators installed](../../../../content/images/troubleshooting/container-jobs/virtualization-conflicts-with-android-emulators-1.png)
 
 ---
 
@@ -37,4 +39,4 @@ Chefs with Nox Player installed will also need to remove Nox Player's registry k
 7. Reboot your machine.
 
 Uninstalling the emulator should resolve the error message. If uninstalling does not help, contact
-[Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket).
+[Salad Support](/contact).

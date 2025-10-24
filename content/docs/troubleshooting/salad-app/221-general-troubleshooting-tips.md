@@ -2,6 +2,8 @@
 title: General Troubleshooting Tips
 ---
 
+_Last Updated: 23rd October 2025_
+
 If Salad still isn't working quite right after
 [whitelisting in your Antivirus software](/docs/troubleshooting/antivirus/), there are a few extra steps to try:
 

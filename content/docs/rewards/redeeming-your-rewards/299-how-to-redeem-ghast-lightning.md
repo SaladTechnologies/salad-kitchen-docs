@@ -2,6 +2,8 @@
 title: How to Redeem Ghast Lightning
 ---
 
+_Last Updated: 23rd October 2025_
+
 Ghast Lightning provides lifetime access to Ghast's Minecraft connection optimization software. You can redeem it from
 our Storefront here:
 

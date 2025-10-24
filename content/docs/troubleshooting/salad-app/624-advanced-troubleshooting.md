@@ -2,6 +2,8 @@
 title: Advanced Troubleshooting
 ---
 
+_Last Updated: 23rd October 2025_
+
 Your machine, with its operating system, applications, and services, is a very complex ecosystem. In this ecosystem,
 some failures are bound to happen which can disrupt the normal cycle of software currently running.
 
@@ -25,5 +27,4 @@ Try fulling removing your Salad installation from your machine, along with [WSL]
 
 ---
 
-If issues still persist, contact [Salad Support](/docs/guides/your-pc/216-how-to-create-a-support-ticket) so we can
-investigate the issue further.
+If issues still persist, contact [Salad Support](/contact) so we can investigate the issue further.

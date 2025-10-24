@@ -2,6 +2,8 @@
 title: Does my Salad Balance Expire?
 ---
 
+_Last Updated: 23rd October 2025_
+
 Your Salad balance is a valuable resource that allows you to earn epic loot from the Salad store. However, it's
 essential to be aware that your balance comes with an expiration date. Don't worry! Keeping your balance is pretty
 straight forward. Read on for more information.

@@ -2,6 +2,8 @@
 title: How Much Can I Earn with Salad?
 ---
 
+_Last Updated: 23rd October 2025_
+
 Your earnings on Salad are currently determined by several variables:
 
 - Your [GPU or CPU processing power](https://www.tomshardware.com/reviews/gpu-hierarchy,4388.html), the more powerful

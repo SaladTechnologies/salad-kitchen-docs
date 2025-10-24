@@ -2,6 +2,8 @@
 title: 'Why do my Earnings Look Different than the Network Monitor?'
 ---
 
+_Last Updated: 23rd October 2025_
+
 The [Salad Network Monitor](/docs/faq/community/613-network-monitor) provides a near-real-time overview of the demand
 for different hardware types on the Salad Network, and their earnings. The earning rates shown are based on the overall
 average earnings for machines with that hardware installed. This includes all earnings from

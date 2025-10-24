@@ -2,25 +2,27 @@
 title: How to Whitelist Salad in ESET-NODE32
 ---
 
+_Last Updated: 23rd October 2025_
+
 ### 1. Open ESET-NODE32
 
 This will be the main screen you are presented within ESET-NODE32, and is your base of virus-fighting operations.
 
-![unnamed__4_.png](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-eset-node32-1.png)
+![eset-node32 main screen](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-eset-node32-1.png)
 
 ### 2. Navigate to Settings
 
 To navigate to ESET-NODE32 antivirus settings, select the 'Setup' option situated on the bottom-left of the main screen
 just under 'Tools'.
 
-![unnamed__3_.png](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-eset-node32-2.png)
+![screenshot showing how to open tools](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-eset-node32-2.png)
 
 ### 3. Click on 'Computer protection'
 
 After you have clicked on 'Setup' you will be presented with your antivirus protection settings. From there, select
 'Computer protection' as pictured below
 
-![unnamed__2_.png](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-eset-node32-3.png)
+![screenshot showing computer protection settings](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-eset-node32-3.png)
 
 ### 4. Adding an Exclusion
 
@@ -28,14 +30,14 @@ After clicking on the 'Computer protection' option, you will be presented with y
 your computer. From there, click on the little gear button situated on the same line as 'Real-time file system
 protection' and select 'Edit Exclusion' from the drop-down list.
 
-![unnamed__1_.png](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-eset-node32-4.png)
+![screenshot showing how to add an exclusion](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-eset-node32-4.png)
 
 ### 5. Click on 'Add'
 
 After you have clicked on 'Edit exclusions' you will be presented with a list of your exclusions. From there, select
 'Add' as pictured below
 
-![unnamed.png](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-eset-node32-5.png)
+![clicking add](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-eset-node32-5.png)
 
 ### 6. Adding Salad as an exception
 
@@ -50,5 +52,4 @@ bring you back to the main ESET-NODE32 Exclusion whitelist page with your newly 
 
 ### 8. Run Salad
 
-Open your Salad widget and click the play button. **Contact support
-[here](/docs/guides/your-pc/216-how-to-create-a-support-ticket) if this issue persists**
+Open your Salad widget and click the play button. If this issue persists, contact [Salad Support](/contact)

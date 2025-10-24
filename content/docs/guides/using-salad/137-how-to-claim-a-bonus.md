@@ -2,32 +2,34 @@
 title: How to Claim a Bonus
 ---
 
+_Last Updated: 23rd October 2025_
+
 # Claiming your most recent Bonus:
 
 1\. Hover your mouse over your profile at the top right to open the dropdown navigation menu.
 
-![bonus.png](../../../../content/images/guides/using-salad/how-to-claim-a-bonus-1.png)
+![selecting your profile from the Salad web app](../../../../content/images/guides/using-salad/how-to-claim-a-bonus-1.png)
 
 2\. If you only have one bonus sitting waiting to be claimed, you can claim it directly from this popup by clicking
 "Claim" on it on the far right.
 
-![bonus2.png](../../../../content/images/guides/using-salad/how-to-claim-a-bonus-2.png)
+![clicking claim on a bonus](../../../../content/images/guides/using-salad/how-to-claim-a-bonus-2.png)
 
 # **Claiming other bonuses, or viewing your full Bonus page:**
 
 1\. To navigate to the full bonuses page, hover over your profile.
 
-![](../../../../content/images/guides/using-salad/how-to-claim-a-bonus-3.png)
+![selecting your profile from the Salad web app](../../../../content/images/guides/using-salad/how-to-claim-a-bonus-3.png)
 
 2\. With the navigation bar open, click the "Bonuses" page in the middle column. If you already have a bonus lined up in
 the navigation menu, you can also click "See All" underneath it, to navigate to the same page.
 
-![](../../../../content/images/guides/using-salad/how-to-claim-a-bonus-4.png)
+![clicking "see all" on the bonuses screen](../../../../content/images/guides/using-salad/how-to-claim-a-bonus-4.png)
 
 3\. On this page you can view all the available bonuses for you to claim, and you can claim one by simply clicking
 "Claim". This will instantly apply it to your account.
 
-![bonus4.png](../../../../content/images/guides/using-salad/how-to-claim-a-bonus-5.png)
+![clicking claim on a bonus](../../../../content/images/guides/using-salad/how-to-claim-a-bonus-5.png)
 
 ---
 
