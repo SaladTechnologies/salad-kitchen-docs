@@ -68,7 +68,7 @@ function Page() {
 }
 
 function transformPageTree(tree: PageTree.Folder): PageTree.Folder {
-  function transform<T extends PageTree.Item | PageTree.Separator>(item: T) {
+  function transform<T extends PageTree.Node>(item: T): T {
     if (typeof item.icon !== 'string') return item
 
     return {
@@ -83,6 +83,7 @@ function transformPageTree(tree: PageTree.Folder): PageTree.Folder {
     }
   }
 
+  tree = transform(tree)
   return {
     ...tree,
     index: tree.index ? transform(tree.index) : undefined,
