@@ -20,10 +20,10 @@
   "type": "module",
   "scripts": {
     "build": "vite build && tsc --noEmit",
-    "check-formatting": "prettier --check ./content ./src ./.prettierrc.cjs ./cspell.json ./package.json ./source.config.ts ./source.generated.ts ./tsconfig.json ./vite.config.ts",
+    "check-formatting": "prettier --check ./content ./src ./.prettierrc.cjs ./cspell.json ./package.json ./source.config.ts ./tsconfig.json ./vite.config.ts",
     "check-spelling": "npx --yes cspell-cli --gitignore .",
     "check-types": "tsc",
-    "clean": "rimraf dist",
+    "clean": "rimraf .source dist src/routeTree.gen.ts",
     "dev": "vite dev",
     "start": "node .output/server/index.mjs"
   },
