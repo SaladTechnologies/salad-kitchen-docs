@@ -1,5 +1,4 @@
 {
-  "include": ["**/*.ts", "**/*.tsx"],
   "compilerOptions": {
     "allowJs": true,
     "allowUnreachableCode": false,
@@ -22,7 +21,8 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@/.source": [".source"]
     },
     "resolveJsonModule": true,
     "skipLibCheck": true,
@@ -30,5 +30,6 @@
     "target": "es2022",
     "types": ["vite/client"],
     "useDefineForClassFields": true
-  }
+  },
+  "include": ["**/*.ts", "**/*.tsx"]
 }

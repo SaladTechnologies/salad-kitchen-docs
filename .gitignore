@@ -235,3 +235,7 @@ $RECYCLE.BIN/
 *.lnk
 
 ## Custom Rules
+
+.tanstack
+/.source
+/src/routeTree.gen.ts
