@@ -2,19 +2,19 @@
   "title": "Salad App",
   "icon": "MyIcon",
   "pages": [
-    "61-how-much-do-my-earnings-rely-on-the-market.md",
-    "69-how-much-electricity-does-salad-use.md",
-    "71-can-i-adjust-how-much-of-my-gpu-is-used.md",
-    "73-does-salad-use-all-of-my-gaming-pce28099s-resources.md",
-    "76-what-are-the-dev-fees-in-my-logs.md",
-    "80-what-miners-does-salad-currently-use.md",
-    "172-why-isnt-task-manager-showing-any-activity-for-salad.md",
-    "173-what-gpu-or-cpu-is-salad-detecting.md",
-    "176-is-salad-healthy-for-my-pc-yes.md",
-    "241-what-are-elevated-permissions-and-should-i-enable-them.md",
-    "325-top-three-salad-questions.md",
-    "356-how-does-my-machine-earn-salad-balance.md",
-    "380-temporary-workload-block.md",
-    "778-how-salad-selects-coins-to-mine.md"
+    "how-much-do-my-earnings-rely-on-the-market",
+    "how-much-electricity-does-salad-use",
+    "can-i-adjust-how-much-of-my-gpu-is-used",
+    "does-salad-use-all-of-my-gaming-pce28099s-resources",
+    "what-are-the-dev-fees-in-my-logs",
+    "what-miners-does-salad-currently-use",
+    "why-isnt-task-manager-showing-any-activity-for-salad",
+    "what-gpu-or-cpu-is-salad-detecting",
+    "is-salad-healthy-for-my-pc-yes",
+    "what-are-elevated-permissions-and-should-i-enable-them",
+    "top-three-salad-questions",
+    "how-does-my-machine-earn-salad-balance",
+    "temporary-workload-block",
+    "how-salad-selects-coins-to-mine"
   ]
 }

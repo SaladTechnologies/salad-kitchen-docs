@@ -2,8 +2,8 @@
   "title": "Container Jobs",
   "icon": "MyIcon",
   "pages": [
-    "346-container-workloads-troubleshooting.md",
-    "358-virtualization-conflicts-android-emulators.md",
-    "376-unable-to-start-container-faq.md"
+    "container-workloads-troubleshooting",
+    "virtualization-conflicts-android-emulators",
+    "unable-to-start-container-faq"
   ]
 }

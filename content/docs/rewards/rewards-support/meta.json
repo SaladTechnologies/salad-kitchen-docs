@@ -2,11 +2,11 @@
   "title": "Rewards Support",
   "icon": "MyIcon",
   "pages": [
-    "189-i-redeemed-an-item-and-havene28099t-gotten-it-yet-whate28099s-going-on.md",
-    "190-my-reward-code-is-invalid.md",
-    "191-i-want-a-refund.md",
-    "192-i-bought-an-item-for-the-wrong-region.md",
-    "193-my-reward-says-its-already-been-claimed.md",
-    "616-supported-paypal-countries.md"
+    "i-redeemed-an-item-and-havene28099t-gotten-it-yet-whate28099s-going-on",
+    "my-reward-code-is-invalid",
+    "i-want-a-refund",
+    "i-bought-an-item-for-the-wrong-region",
+    "my-reward-says-its-already-been-claimed",
+    "supported-paypal-countries"
   ]
 }
