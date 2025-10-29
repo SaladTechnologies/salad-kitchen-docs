@@ -35,11 +35,11 @@ the navigation menu, you can also click "See All" underneath it, to navigate to 
 
 If you have claimed a Profile Avatar, you can enable it by following this guide here:
 
-[How to edit your profile](/docs/guides/using-salad/136-how-to-edit-your-profile)
+[How to edit your profile](/docs/guides/using-salad/how-to-edit-your-profile)
 
 If you try to claim a bonus multiplier whilst you have one already active, it will replace your existing bonus rather
 than stacking. You will be asked if you are sure when trying to do this.
 
 If you have claimed a game key or reward as your bonus, you can find it by navigating to your Reward Vault.
 
-[Where to find your Reward Redemption Code](/docs/guides/using-salad/125-where-to-find-your-reward-redemption-code)
+[Where to find your Reward Redemption Code](/docs/guides/using-salad/where-to-find-your-reward-redemption-code)

@@ -8,7 +8,7 @@ _Last Updated: 23rd October 2025_
 
 Once you have purchased a Cybrancee voucher from the Salad Storefront, you'll receive an activation code that can be
 redeemed for a Cybrancee service plan.
-([How do I find my activation code?](/docs/guides/using-salad/125-where-to-find-your-reward-redemption-code))
+([How do I find my activation code?](/docs/guides/using-salad/where-to-find-your-reward-redemption-code))
 
 _Please note: In order to manage your Cybrancee service plan, you will need to create a free account at_
 [_cybrancee.com_](https://cybrancee.com/)_. Because new account creations are subject to a manual review period, your

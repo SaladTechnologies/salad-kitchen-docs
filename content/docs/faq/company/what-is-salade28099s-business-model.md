@@ -16,7 +16,7 @@ charge a fraction of the
 [current cloud providers'](https://www.softwaretestinghelp.com/cloud-computing-service-providers/) costs, these jobs
 earn both Salad and our users significantly more than the pennies per hour that mining generates. Of course, the
 availability of these jobs can fluctuate. So we will continue to offer
-[blockchain](/docs/faq/salad-app/80-what-miners-does-salad-currently-use) networks as in addition to our Container and
+[blockchain](/docs/faq/salad-app/what-miners-does-salad-currently-use) networks as in addition to our Container and
 Bandwidth workloads to pad out Chefs' Salad earnings.
 
 ---

@@ -6,8 +6,8 @@ _Last Updated: 23rd October 2025_
 
 Digital Xbox gift cards feature unique, 25-character redemption codes. Once you have purchased an Xbox reward from the
 Salad Storefront, you should find this code listed in your
-[Reward Vault](/docs/guides/using-salad/125-where-to-find-your-reward-redemption-code) within a few minutes. This code
-will also appear in the automated receipt sent to the email address associated with your Salad account.
+[Reward Vault](/docs/guides/using-salad/where-to-find-your-reward-redemption-code) within a few minutes. This code will
+also appear in the automated receipt sent to the email address associated with your Salad account.
 
 When you have found your redemption code, you may use it to apply your gift card balance to a Microsoft account in any
 of the ways detailed below.

@@ -9,7 +9,7 @@ step-by-step guides will help you access and adjust the BIOS settings on prebuil
 (HP).
 
 If you don't know what kind of CPU you have, please
-see [Identifying Your CPU](/docs/guides/your-pc/274-identifying-your-cpu).
+see [Identifying Your CPU](/docs/guides/your-pc/identifying-your-cpu).
 
 ---
 

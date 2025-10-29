@@ -27,13 +27,13 @@ Here are a few tips to safeguard your account:
   xyz.salad.io is a Salad domain.)
 - Never grant other people access to your email account.
 - Always use a unique, long password for your email account.
-- Use our [PassKey](/docs/guides/using-salad/501-salad-app-passkeys) login option to secure your Salad account. PassKeys
-  are a more secure alternative to passwords and one-time login codes.
+- Use our [PassKey](/docs/guides/using-salad/salad-app-passkeys) login option to secure your Salad account. PassKeys are
+  a more secure alternative to passwords and one-time login codes.
 
 ---
 
 ## **Still have concerns?**
 
 If you want to learn more about keeping your Salad account and Salad Balance secure, check out our
-[Digital Hygiene](/docs/guides/getting-started/206-digital-hygiene-and-your-salad-balance) article. If you have
-additional concerns or think someone has access to your Salad account already, please contact [Salad Support](/contact).
+[Digital Hygiene](/docs/guides/getting-started/digital-hygiene-and-your-salad-balance) article. If you have additional
+concerns or think someone has access to your Salad account already, please contact [Salad Support](/contact).

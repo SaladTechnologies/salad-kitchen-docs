@@ -65,7 +65,7 @@ can do to maximize your earnings:
 - Run Salad as often as possible. The longer you run it, the more likely you are to get the best jobs.
 - Keep your PC well-maintained. Regular cleaning and ensuring proper cooling can help your hardware run to its full
   potential.
-- [And other tips.](/docs/faq/jobs/62-how-can-i-earn-more-with-salad)
+- [And other tips.](/docs/faq/jobs/how-can-i-earn-more-with-salad)
 
 Ultimately, Salad is a tool to help you monetize your idle compute power. While we're working to make it as stable and
 reliable as possible, for most Chefs the earnings are firmly in the "nice extra cash" camp and not the "investment

@@ -12,5 +12,5 @@ Your rewards are sent via digital delivery, this means there is no way to 'retur
 key. Because of this, we have to operate under a No Refunds policy and we can't offer you your Salad Balance back.
 
 If you are having an issue activating your key, please check this
-[FAQ](/docs/rewards/rewards-support/190-my-reward-code-is-invalid) or contact [Salad Support](/contact) and we can do
-our best to assist you.
+[FAQ](/docs/rewards/rewards-support/my-reward-code-is-invalid) or contact [Salad Support](/contact) and we can do our
+best to assist you.

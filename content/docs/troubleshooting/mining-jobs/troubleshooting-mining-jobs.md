@@ -11,14 +11,13 @@ some troubleshooting steps you can take to resolve it.
    blocked by your firewall or antivirus, it may not be able to run Cryptomining Jobs properly.
 2. Ensure your GPU drivers are up to date. Outdated drivers can cause performance issues and may prevent Cryptomining
    Jobs from running correctly. You can find guides here for
-   [NVIDIA](/docs/guides/your-pc/174-how-to-update-my-nvidia-drivers),
-   [AMD](/docs/guides/your-pc/175-how-to-update-my-amd-drivers), and
+   [NVIDIA](/docs/guides/your-pc/how-to-update-my-nvidia-drivers),
+   [AMD](/docs/guides/your-pc/how-to-update-my-amd-drivers), and
    [Intel](/docs/guides/your-pc/how-to-update-your-intel-drivers) GPUs.
-3. Check that you have Proof of Work enabled in your
-   [Salad App Settings](/docs/guides/using-salad/353-salad-app-settings). Proof of Work is required to run Cryptomining
+3. Check that you have Proof of Work enabled in your [Salad App Settings](/docs/guides/using-salad/salad-app-settings).
+   Proof of Work is required to run Cryptomining Jobs.
+4. Ensure that your GPU is [compatible](/docs/faq/compatibility/is-my-machine-compatible-with-salad) with Cryptomining
    Jobs.
-4. Ensure that your GPU is [compatible](/docs/faq/compatibility/78-is-my-machine-compatible-with-salad) with
-   Cryptomining Jobs.
 5. Install the latest MSVC++ Redistributable package. This is required for some of our miner libraries to run properly.
    You can download it from the official Microsoft website
    [here](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170).

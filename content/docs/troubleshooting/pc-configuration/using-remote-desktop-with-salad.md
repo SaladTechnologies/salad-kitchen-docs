@@ -14,7 +14,7 @@ is not limited to:
 - Any other third-party RDP-based Remote Desktop solutions
 
 Using any of these applications while running Salad will prevent Salad from functioning correctly, as they interfere
-with [WSL](/docs/faq/jobs/265-what-is-wsl).
+with [WSL](/docs/faq/jobs/what-is-wsl).
 
 ---
 

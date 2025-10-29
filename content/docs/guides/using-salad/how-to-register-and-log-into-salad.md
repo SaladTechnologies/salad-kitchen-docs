@@ -24,4 +24,4 @@ _Last Updated: 23rd October 2025_
 5. Once completed, you'll be logged into the website, as well as your Salad Widget.
 
 If you are having trouble logging in, try checking this troubleshooting guide out.
-[I am having trouble connecting to the Salad app](/docs/troubleshooting/salad-app/222-i-am-having-trouble-connecting-to-the-salad-app)
+[I am having trouble connecting to the Salad app](/docs/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app)

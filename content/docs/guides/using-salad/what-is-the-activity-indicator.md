@@ -19,7 +19,7 @@ machine.
 When you're not running anything, Salad will display the "Finding Job" message, meaning that the app is actively
 scouring the network for a workload that matches your machine's hardware. Note that the time it takes to look for a
 workload can vary depending on the amount of workloads available, the amount of other Chefs with similar hardware
-Chopping, as well as your [Salad's Chopping settings](/docs/guides/using-salad/353-salad-app-settings) (broader settings
+Chopping, as well as your [Salad's Chopping settings](/docs/guides/using-salad/salad-app-settings) (broader settings
 such as enabling adult workloads, cryptomining, and bandwidth sharing can increase your earning potential).
 
 ---

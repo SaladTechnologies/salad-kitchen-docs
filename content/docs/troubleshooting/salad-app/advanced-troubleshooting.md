@@ -11,14 +11,14 @@ Let's review the steps you can take to re-initialize your machine's ecosystem to
 
 ## Try Following our Basic Guides First:
 
-- [General Troubleshooting](/docs/troubleshooting/salad-app/221-general-troubleshooting-tips)
-- [Container Workloads Troubleshooting](/docs/troubleshooting/container-jobs/346-container-workloads-troubleshooting)
+- [General Troubleshooting](/docs/troubleshooting/salad-app/general-troubleshooting-tips)
+- [Container Workloads Troubleshooting](/docs/troubleshooting/container-jobs/container-workloads-troubleshooting)
 
 ---
 
 ## If that didn't Work?
 
-Try fulling removing your Salad installation from your machine, along with [WSL](/docs/faq/jobs/265-what-is-wsl).
+Try fulling removing your Salad installation from your machine, along with [WSL](/docs/faq/jobs/what-is-wsl).
 
 1. Fully uninstall Salad using our
    [Obliterator](https://drive.google.com/file/d/1KprjK8zmlT4hEWcQTthTlYoR_bkt_cs1/view?usp=sharing).

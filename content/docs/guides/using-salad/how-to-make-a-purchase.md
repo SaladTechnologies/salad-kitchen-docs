@@ -17,10 +17,10 @@ storefront.
 3. Now you should see the Reward page, where you'll find additional information about the item. You can find the "BUY
    NOW" button at the top right, If you wish to purchase a reward, select this.
    - We recommend double checking the name of the reward, the product description to ensure you are purchasing the right
-     item, and [ensuring it's for your region](/docs/rewards/rewards-faq/243-what-region-is-this-reward-for).
+     item, and [ensuring it's for your region](/docs/rewards/rewards-faq/what-region-is-this-reward-for).
 
 4. Now you should see the SaladPay transaction screen. Please note that Salad plays for keeps! We
-   [do not offer refunds](/docs/rewards/rewards-support/191-i-want-a-refund) on purchases, so please ensure that the
+   [do not offer refunds](/docs/rewards/rewards-support/i-want-a-refund) on purchases, so please ensure that the
    information and reward is correct before selecting "Pay with Salad." Once you've verified everything, click away.
    ![checkout page](../../../../content/images/guides/using-salad/how-to-make-a-purchase-2.png)
 

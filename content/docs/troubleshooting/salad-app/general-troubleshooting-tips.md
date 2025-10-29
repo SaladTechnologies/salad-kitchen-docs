@@ -12,10 +12,10 @@ If Salad still isn't working quite right after
 
 2. Double Check that your PC is Compatible.
    1. There is a chance that your PC is simply incompatible with Salad, you can check the system requirements
-      [on this article here](/docs/faq/compatibility/78-is-my-machine-compatible-with-salad).
+      [on this article here](/docs/faq/compatibility/is-my-machine-compatible-with-salad).
 
 3. Try Updating WSL.
-   1. Follow [this guide](/docs/guides/your-pc/352-how-to-update-the-wsl-kernel-on-your-machine) to update WSL on your
+   1. Follow [this guide](/docs/guides/your-pc/how-to-update-the-wsl-kernel-on-your-machine) to update WSL on your
       machine.
 
 4. Manually Install WSL.
@@ -38,8 +38,8 @@ If Salad still isn't working quite right after
       compatible with the installed version. If Salad has recently stopped working after a recent driver update, you may
       need to try reverting to an older driver version. This can sometimes happen if there was a bug or problem with the
       latest release. You can find guides here on how to update your GPU drivers:
-      1. [AMD drivers](/docs/guides/your-pc/175-how-to-update-my-amd-drivers) if you own an AMD dedicated GPU
-      2. [NVIDIA drivers](/docs/guides/your-pc/174-how-to-update-my-nvidia-drivers) if you own an NVIDIA GPU
+      1. [AMD drivers](/docs/guides/your-pc/how-to-update-my-amd-drivers) if you own an AMD dedicated GPU
+      2. [NVIDIA drivers](/docs/guides/your-pc/how-to-update-my-nvidia-drivers) if you own an NVIDIA GPU
       3. Intel drivers if you own an Intel dedicated ARC GPU
 
 8. Try Updating Windows.
