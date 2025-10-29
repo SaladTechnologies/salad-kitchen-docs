@@ -38,9 +38,21 @@ const loader = createServerFn({
 
 const clientLoader = createClientLoader(docs.doc, {
   id: 'docs',
-  component({ toc, frontmatter, default: MDX }) {
+  component({ toc, frontmatter, default: MDX }, { path }: { path?: string }) {
     return (
-      <DocsPage toc={toc}>
+      <DocsPage
+        toc={toc}
+        editOnGithub={
+          path
+            ? {
+                owner: 'SaladTechnologies',
+                repo: 'salad-kitchen-docs',
+                sha: 'main',
+                path: `content/docs/${path}`,
+              }
+            : undefined
+        }
+      >
         <DocsTitle>{frontmatter.title}</DocsTitle>
         <DocsDescription>{frontmatter.description}</DocsDescription>
         <DocsBody>
@@ -62,7 +74,7 @@ function Page() {
 
   return (
     <DocsLayout {...baseOptions()} tree={tree}>
-      <Content />
+      <Content path={data.path} />
     </DocsLayout>
   )
 }
