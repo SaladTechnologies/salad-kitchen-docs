@@ -2,8 +2,6 @@
 title: Should I enable my GPU, my CPU, or both?
 ---
 
-_Last Updated: 23rd October 2025_
-
 When running Salad, you have the option to
 [enable either GPU mode, CPU mode, or both](/docs/guides/using-salad/how-to-enable-and-disable-hardware). Choosing which
 to run can depend the hardware on your machine, and how you wish to use Salad.

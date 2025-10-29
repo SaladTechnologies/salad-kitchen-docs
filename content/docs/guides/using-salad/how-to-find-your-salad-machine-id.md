@@ -2,8 +2,6 @@
 title: How to Find your Salad Machine ID
 ---
 
-_Last Updated: 23rd October 2025_
-
 Chefs with multiple PCs on their account are now able to breakdown earnings per machine. This feature can be toggled on
 or off on the [Earning Summary Page](/docs/guides/using-salad/how-to-see-your-earnings-history). Chefs can list up to 20
 machines on the histogram.

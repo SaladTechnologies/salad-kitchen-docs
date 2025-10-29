@@ -2,8 +2,6 @@
 title: Incompatible Configurations
 ---
 
-_Last Updated: 23rd October 2025_
-
 At Salad, we love a good mix - whether it's in a fresh garden bowl or a balanced workload on your machine. But when it
 comes to GPUs, some combos just don't work. If you're seeing Node Compatibility Workload (NCW) statuses, and your system
 has both a modern NVIDIA GPU (like an RTX 3080 or 2080) and an older model (such as a GT 210, GT 710, or GTX 500

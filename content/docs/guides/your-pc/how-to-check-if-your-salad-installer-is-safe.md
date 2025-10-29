@@ -2,8 +2,6 @@
 title: How to Check if your Salad Installer is Safe
 ---
 
-_Last Updated: 23rd October 2025_
-
 It's important to make sure you've downloaded Salad from the right source, and that you have your hands on a legitimate
 bit of Salad Chopping software. Using third party builds of Salad, or downloading Salad from non-official sources, could
 result in your earnings being skimmed by bad actors, your account being breached, or possibly worse.

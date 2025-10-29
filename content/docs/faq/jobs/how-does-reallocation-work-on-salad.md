@@ -2,8 +2,6 @@
 title: How does Re-allocation Work on Salad?
 ---
 
-_Last Updated: 23rd October 2025_
-
 Re-allocation happens when a SaladCloud customer decides to move their Job from one machine to another. When this
 happens, your machine will stop running the Job, and someone else will start running it instead. Your machine will then
 be automatically put back in the queue to receive the next available Container Job.

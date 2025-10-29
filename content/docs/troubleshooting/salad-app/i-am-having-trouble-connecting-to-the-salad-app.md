@@ -2,8 +2,6 @@
 title: Troubleshooting Salad App Connection Issues
 ---
 
-_Last Updated: 23rd October 2025_
-
 Warning!
 
 - Salad does not offer support for Chefs running Salad in Virtual Machines (VMWare, VirtualBox, Proxmox, etc), which can

@@ -2,8 +2,6 @@
 title: How Do I Redeem My Xbox Rewards?
 ---
 
-_Last Updated: 23rd October 2025_
-
 Digital Xbox gift cards feature unique, 25-character redemption codes. Once you have purchased an Xbox reward from the
 Salad Storefront, you should find this code listed in your
 [Reward Vault](/docs/guides/using-salad/where-to-find-your-reward-redemption-code) within a few minutes. This code will

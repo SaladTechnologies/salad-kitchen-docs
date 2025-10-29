@@ -2,8 +2,6 @@
 title: 'Getting Container Jobs'
 ---
 
-_Last Updated: 23rd October 2025_
-
 Salad offers a variety of job types, including
 [Container Jobs](https://Community.salad.com/new-feature-container-environments-now-available/). These jobs run in
 [isolated environments](/docs/faq/jobs/what-is-wsl) on your machine, allowing you to safely run different workloads

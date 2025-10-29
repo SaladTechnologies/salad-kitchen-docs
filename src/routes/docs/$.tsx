@@ -38,7 +38,7 @@ const loader = createServerFn({
 
 const clientLoader = createClientLoader(docs.doc, {
   id: 'docs',
-  component({ toc, frontmatter, default: MDX }, { path }: { path?: string }) {
+  component({ toc, frontmatter, default: MDX, lastModified }, { path }: { path?: string }) {
     return (
       <DocsPage
         toc={toc}
@@ -52,6 +52,7 @@ const clientLoader = createClientLoader(docs.doc, {
               }
             : undefined
         }
+        lastUpdate={lastModified}
       >
         <DocsTitle>{frontmatter.title}</DocsTitle>
         <DocsDescription>{frontmatter.description}</DocsDescription>

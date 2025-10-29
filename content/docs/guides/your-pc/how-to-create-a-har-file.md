@@ -2,8 +2,6 @@
 title: How to Create a HAR File
 ---
 
-_Last Updated: 23rd October 2025_
-
 If you have contacted Salad Support regarding an issue or bug with the application, we may ask for a HAR file. This file
 contains a log of the network exchanges between your Salad app, and the servers and web-app. We can use this to
 investigate what caused your issue.

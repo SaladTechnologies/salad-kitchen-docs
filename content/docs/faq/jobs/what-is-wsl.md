@@ -2,8 +2,6 @@
 title: What is WSL?
 ---
 
-_Last Updated: 23rd October 2025_
-
 WSL (Windows Subsystem for Linux) is a Windows operating system feature that allows a user to run Linux, and Linux
 software, on Windows. It's run in a secure virtual environment that provides a level of security between your PC, and
 what's running inside.

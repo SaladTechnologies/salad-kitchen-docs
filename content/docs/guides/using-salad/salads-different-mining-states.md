@@ -2,8 +2,6 @@
 title: Salad's Running States
 ---
 
-_Last Updated: 23rd October 2025_
-
 Salad has 5 available "Running" states. These are:
 
 - Chop Now

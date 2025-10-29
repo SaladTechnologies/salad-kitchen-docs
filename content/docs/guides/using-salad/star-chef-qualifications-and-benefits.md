@@ -2,8 +2,6 @@
 title: 'Becoming a Star Chef: Qualifications and Benefits'
 ---
 
-_Last Updated: 23rd October 2025_
-
 ## **What is a Star Chef?**
 
 Star Chefs are a cut above, as they represent the most trusted Chefs in the Salad Kitchen. These users have proven their

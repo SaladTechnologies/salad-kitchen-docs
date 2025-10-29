@@ -2,8 +2,6 @@
 title: Identifying your Motherboard
 ---
 
-_Last Updated: 23rd October 2025_
-
 # Identifying your Motherboard
 
 Though not required to configure a Job Environment on your machine, you may wish to look up your motherboard model in

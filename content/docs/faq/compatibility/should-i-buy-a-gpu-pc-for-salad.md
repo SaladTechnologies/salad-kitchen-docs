@@ -2,8 +2,6 @@
 title: Should I buy a GPU/PC for Salad?
 ---
 
-_Last Updated: 23rd October 2025_
-
 We're glad to hear that you're interested in helping expand the Salad network! However, we don't recommend that you buy
 a GPU or PC specifically for Salad.
 

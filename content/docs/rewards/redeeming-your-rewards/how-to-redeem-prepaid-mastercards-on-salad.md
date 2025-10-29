@@ -2,8 +2,6 @@
 title: How to Redeem Prepaid Mastercards on Salad
 ---
 
-_Last Updated: 23rd October 2025_
-
 Prepaid Mastercards are now available on the Salad Storefront, unlocking greater flexibility for Chefs to use their
 Salad Balance.
 

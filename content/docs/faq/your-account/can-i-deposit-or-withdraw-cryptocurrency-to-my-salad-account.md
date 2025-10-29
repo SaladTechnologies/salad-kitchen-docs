@@ -2,8 +2,6 @@
 title: Can I deposit or Withdraw Cryptocurrency to my Salad Account?
 ---
 
-_Last Updated: 23rd October 2025_
-
 You are not able to withdraw, or deposit, Cryptocurrency into your Salad account. This is because your Salad account is
 not a wallet, and there is no address to withdraw it from, or deposit into.
 

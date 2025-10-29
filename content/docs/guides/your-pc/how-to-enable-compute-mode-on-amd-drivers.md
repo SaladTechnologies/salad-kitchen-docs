@@ -2,8 +2,6 @@
 title: How to Enable Compute Mode on AMD Drivers
 ---
 
-_Last Updated: 23rd October 2025_
-
 If you are using an AMD Graphics card from the RX 400/500 series, we advise that you enable Compute Mode in your AMD
 Radeon Settings, or you may suffer extremely reduced earnings. We advise turning this back to Graphics mode when
 intended to game, or you may see slightly reduced FPS in some titles.

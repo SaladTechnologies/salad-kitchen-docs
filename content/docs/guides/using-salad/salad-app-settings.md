@@ -2,8 +2,6 @@
 title: Salad App Settings
 ---
 
-_Last Updated: 23rd October 2025_
-
 Chop the way you want with the Salad app. Below is a breakdown of all the ways you can customize your Salad app and
 profit off of sharing your PC's resources with the Salad network. Share as much, or as little as you want.
 

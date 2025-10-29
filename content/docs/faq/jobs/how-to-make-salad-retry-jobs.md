@@ -2,8 +2,6 @@
 title: Can You Restart or Retry Failed Jobs on Salad?
 ---
 
-_Last Updated: 23rd October 2025_
-
 Salad automatically takes care of retrying failed
 [Container Jobs](https://Community.salad.com/new-feature-container-environments-now-available/). However, what may
 appear to be a "failed job," could also be a successful and intended "workload exit." Here are some examples of normal

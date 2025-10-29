@@ -2,8 +2,6 @@
 title: 'Getting Started with Salad: The Basics'
 ---
 
-_Last Updated: 23rd October 2025_
-
 ## **How do I get started with Salad?**
 
 Getting started with Salad is super easy! Simply head to the [download page](https://salad.com/download) and download

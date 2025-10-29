@@ -2,8 +2,6 @@
 title: Why isn't Task Manager Showing any Activity for Salad
 ---
 
-_Last Updated: 23rd October 2025_
-
 Task Manager inconsistently reports Salad's activity. This is due to how Task Manager displays GPU usage, and which stat
 to show. Often, Salad will be using other parts of your GPU that do not register in Task Manager without adjusting
 settings.

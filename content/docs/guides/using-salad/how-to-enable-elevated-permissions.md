@@ -2,8 +2,6 @@
 title: How to Enable Elevated Permissions
 ---
 
-_Last Updated: 23rd October 2025_
-
 Enabling Elevated Permissions in your Salad app allows us to run some jobs as "Admin". Enabling this setting may allow
 us to run certain jobs with increased earnings. You can
 [learn more here](https://support.salad.com/article/241-what-are-elevated-permissions-and-should-i-enable-them).

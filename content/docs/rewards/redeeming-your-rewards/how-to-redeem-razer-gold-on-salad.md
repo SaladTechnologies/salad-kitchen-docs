@@ -2,8 +2,6 @@
 title: How to Redeem Razer Gold on Salad
 ---
 
-_Last Updated: 23rd October 2025_
-
 Salad Chefs can now redeem Razer Gold on the Salad Storefront! Razer Gold is a digital wallet for gamers, created by
 Razer and accepted by thousands of games and entertainment brands.
 

@@ -2,8 +2,6 @@
 title: Top Three Salad Questions
 ---
 
-_Last Updated: 23rd October 2025_
-
 ## How do I Know Salad is Earning me Balance?
 
 Once Salad is installed and set up you can leave it to run when you're AFK. To ensure maximum earning potential,

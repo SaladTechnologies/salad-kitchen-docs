@@ -2,8 +2,6 @@
 title: How to Redeem PayPal
 ---
 
-_Last Updated: 23rd October 2025_
-
 Ensure you are located in one of the supported countries before purchasing the reward:
 
 - [https://support.salad.com/article/616-supported-paypal-countries](https://support.salad.com/article/616-supported-paypal-countries)

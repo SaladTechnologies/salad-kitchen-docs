@@ -2,8 +2,6 @@
 title: Correct System Time Error
 ---
 
-_Last Updated: 23rd October 2025_
-
 Some Chefs may experience issues with Salad workloads if their PC clock is set to the wrong time. Chefs should confirm
 that their PC is set to automatically update the time and date. If that does not resolve the issue, check that your PC
 is synchronized properly to your internet time server.

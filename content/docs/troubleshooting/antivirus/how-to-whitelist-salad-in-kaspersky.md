@@ -2,8 +2,6 @@
 title: How to Whitelist Salad in Kaspersky
 ---
 
-_Last Updated: 23rd October 2025_
-
 # KASPERSKY HAS A KNOWN INCOMPATIBILITY ISSUE WITH SALAD, YOU MAY NEED TO FULLY DISABLE IF THE BELOW STEPS DO NOT RESOLVE THE ISSUE.
 
 ### 1. Open Kaspersky

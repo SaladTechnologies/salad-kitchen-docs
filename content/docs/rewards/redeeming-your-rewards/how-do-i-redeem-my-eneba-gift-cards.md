@@ -2,8 +2,6 @@
 title: How Do I Redeem My Eneba Gift Cards?
 ---
 
-_Last Updated: 23rd October 2025_
-
 Once you have purchased an Eneba gift card from the Salad Storefront, you'll receive an activation code to use on
 Eneba's global marketplace.
 [How do I find my activation code?](/docs/guides/using-salad/where-to-find-your-reward-redemption-code)

@@ -2,8 +2,6 @@
 title: Redeem a Cybrancee Domain Reward
 ---
 
-_Last Updated: 23rd October 2025_
-
 ## **How Do I Redeem Cybrancee Rewards?**
 
 Once you have purchased a Cybrancee voucher from the Salad Storefront, you'll receive an activation code that can be

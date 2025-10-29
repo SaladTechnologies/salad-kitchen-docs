@@ -2,8 +2,6 @@
 title: How Power Limiting Impacts your Earnings
 ---
 
-_Last Updated: 23rd October 2025_
-
 Power limiting, or intentionally reducing the wattage, voltage, or power draw of your GPU, will decrease your earnings
 on Salad. Chefs who power limit their PC will receive a Degraded Notification, indicating they cannot run Container
 Workloads.

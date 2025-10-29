@@ -2,8 +2,6 @@
 title: I Love Salad and Would Like to Partner/Work With You. How Can I Reach Out?
 ---
 
-_Last Updated: 23rd October 2025_
-
 We love working with passionate members of our community and/or interested third parties. The best way to reach us is
 via our affiliates page at [https://salad.com/affiliate](https://salad.com/affiliate).  You can also contact us on
 our [Discord](https://discord.gg/salad), then send a message to either the moderators, or the admin accounts there. You

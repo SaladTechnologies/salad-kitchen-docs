@@ -2,8 +2,6 @@
 title: Supported Venmo Countries
 ---
 
-_Last Updated: 23rd October 2025_
-
 Salad uses a third party provider to source Venmo rewards. Some countries are not eligible to purchase Venmo rewards
 from our vendor. Refer to the list below where Venmo rewards are supported.
 

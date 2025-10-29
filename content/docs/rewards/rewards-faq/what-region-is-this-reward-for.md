@@ -2,8 +2,6 @@
 title: What Region is this Reward for?
 ---
 
-_Last Updated: 23rd October 2025_
-
 We stock rewards from many regions on our storefront, so it's important to make sure you are redeeming a reward that is
 valid in your region as we do **not** [offer refunds](/docs/rewards/rewards-support/i-want-a-refund). You can check the
 region of your reward by looking for a country code, or the name of the country on the reward title. Below is a list of

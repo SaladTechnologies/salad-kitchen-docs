@@ -2,8 +2,6 @@
 title: How to Claim a Bonus
 ---
 
-_Last Updated: 23rd October 2025_
-
 # Claiming your most recent Bonus:
 
 1\. Hover your mouse over your profile at the top right to open the dropdown navigation menu.

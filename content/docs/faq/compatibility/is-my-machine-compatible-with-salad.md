@@ -2,8 +2,6 @@
 title: Is My Machine Compatible With Salad?
 ---
 
-_Last Updated: 23rd October 2025_
-
 # **GPU:**
 
 To understand what Graphics Cards (GPUs) are supported on Salad, let's review the different GPU Chopping modes that are

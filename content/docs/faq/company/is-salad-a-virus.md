@@ -2,8 +2,6 @@
 title: Is Salad a Virus?
 ---
 
-_Last Updated: 23rd October 2025_
-
 If you've tried to run Salad with an antivirus software installed, such as Windows Defender, or Norton Antivirus,
 there's a good chance you might have received a popup letting you know that something from Salad has been blocked.
 

@@ -2,8 +2,6 @@
 title: How to Uninstall Salad
 ---
 
-_Last Updated: 23rd October 2025_
-
 Whether you're looking to reinstall Salad because of a problem, or looking to leave us (we'll miss you!), you can find
 out how to uninstall Salad here.
 

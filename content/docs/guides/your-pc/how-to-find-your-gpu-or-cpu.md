@@ -2,8 +2,6 @@
 title: How to Find Your GPU or CPU Specifications
 ---
 
-_Last Updated: 23rd October 2025_
-
 You can find your GPU or CPU model plus additional specifications (such as VRAM) from either your Task Manager or via
 the Salad Widget. Here are instructions for both methods.
 

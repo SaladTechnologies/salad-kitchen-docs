@@ -2,8 +2,6 @@
 title: 'Restarting Salad for New Jobs'
 ---
 
-_Last Updated: 23rd October 2025_
-
 We highly discourage restarting Salad in an attempt to get new
 [Container Jobs](https://Community.salad.com/new-feature-container-environments-now-available/). Doing so can harm your
 ability to get Jobs in the future, and it also harms the overall health of the Salad network. Salad will automatically

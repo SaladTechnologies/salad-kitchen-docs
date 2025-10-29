@@ -2,8 +2,6 @@
 title: How to See your Earnings History
 ---
 
-_Last Updated: 23rd October 2025_
-
 1. Open your Salad Widget
 
    ![Opening the Salad App](../../../../content/images/guides/using-salad/how-to-see-your-earnings-history-1.png)

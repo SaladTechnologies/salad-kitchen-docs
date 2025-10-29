@@ -2,8 +2,6 @@
 title: 'Getting your First Job'
 ---
 
-_Last Updated: 23rd October 2025_
-
 Now that you've [downloaded Salad](/docs/guides/getting-started/downloading-salad),
 [registered your account](/docs/guides/getting-started/how-to-register-and-log-into-salad), and
 [set up the application](/docs/guides/getting-started/setting-up-the-salad-app), you're ready to get your first job and

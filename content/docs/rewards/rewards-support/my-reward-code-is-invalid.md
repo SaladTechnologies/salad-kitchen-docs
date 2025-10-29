@@ -2,8 +2,6 @@
 title: My Reward Code is Invalid
 ---
 
-_Last Updated: 23rd October 2025_
-
 If a reward you have purchased is showing as invalid, there are a few things you can double check.
 
 - Make sure you are redeeming it in the right place. The correct storefront, app section, or website, will be listed in

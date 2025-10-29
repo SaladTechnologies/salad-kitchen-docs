@@ -2,8 +2,6 @@
 title: I Bought an Item for the Wrong Region
 ---
 
-_Last Updated: 23rd October 2025_
-
 If you have bought an item for the wrong region, unfortunately we won't be able to provide a refund. We run a
 [No Refund policy](/docs/rewards/rewards-support/i-want-a-refund), which means you will not be able to refund, or
 exchange your reward with us once it's been purchased.

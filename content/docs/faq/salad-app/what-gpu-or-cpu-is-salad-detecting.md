@@ -2,8 +2,6 @@
 title: What GPU or CPU is Salad Detecting?
 ---
 
-_Last Updated: 23rd October 2025_
-
 Follow these simple steps to see the detected GPU or CPU in Salad:
 
 1. Go to the Salad App

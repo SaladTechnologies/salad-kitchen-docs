@@ -2,8 +2,6 @@
 title: 'Why do Jobs Keep Failing or Restarting?'
 ---
 
-_Last Updated: 23rd October 2025_
-
 If your [Container Jobs](https://Community.salad.com/new-feature-container-environments-now-available/) are regularly
 'failing' or 'restarting', but you're not getting any
 [error messages](/docs/guides/using-salad/how-does-the-notifications-page-work) in the Salad App, this usually means the

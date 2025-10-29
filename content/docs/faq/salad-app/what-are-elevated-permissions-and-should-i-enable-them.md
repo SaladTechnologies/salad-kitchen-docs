@@ -2,8 +2,6 @@
 title: What are Elevated Permissions and Should I Enable Them?
 ---
 
-_Last Updated: 23rd October 2025_
-
 # What are Elevated permissions?
 
 Enabling Elevated Permissions in your Salad app allows us to run some windows-native workloads as "Admin". Enabling this

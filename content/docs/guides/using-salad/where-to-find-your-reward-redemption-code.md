@@ -2,8 +2,6 @@
 title: Where to Find Your Reward Redemption Code
 ---
 
-_Last Updated: 23rd October 2025_
-
 If you redeem a game, Discord Nitro, Amazon Gift Card, or other reward that requires an activation code, Salad will
 usually store that code in your "Reward Vault".
 

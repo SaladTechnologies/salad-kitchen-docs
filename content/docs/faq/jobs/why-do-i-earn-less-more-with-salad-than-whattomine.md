@@ -2,8 +2,6 @@
 title: Why Do I Earn Less/More Mining With Salad Than WhatToMine?
 ---
 
-_Last Updated: 23rd October 2025_
-
 The 'Earning Rates' given by sites like WhatToMine or Nicehash are guesstimates, anything as inherently random as
 cryptomining will never yield constant flat rates. Furthermore, their estimates are based on the "best possible
 circumstances," meaning that they reflect the _maximum_ that a give GPU _could_ earn, if certain conditions are met,

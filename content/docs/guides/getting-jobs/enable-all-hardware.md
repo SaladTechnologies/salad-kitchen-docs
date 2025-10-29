@@ -2,8 +2,6 @@
 title: 'Enable All Hardware'
 ---
 
-_Last Updated: 23rd October 2025_
-
 To maximize your earnings with Salad, it's important to ensure that all of your hardware is enabled and available for
 Chopping. This includes your processor (CPU), Graphics Card (GPU), and Bandwidth.
 

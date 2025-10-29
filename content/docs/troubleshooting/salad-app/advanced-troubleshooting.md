@@ -2,8 +2,6 @@
 title: Advanced Troubleshooting
 ---
 
-_Last Updated: 23rd October 2025_
-
 Your machine, with its operating system, applications, and services, is a very complex ecosystem. In this ecosystem,
 some failures are bound to happen which can disrupt the normal cycle of software currently running.
 

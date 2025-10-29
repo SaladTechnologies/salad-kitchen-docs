@@ -2,8 +2,6 @@
 title: I Can't Get Salad to Download
 ---
 
-_Last Updated: 23rd October 2025_
-
 Just like any application, sometimes you may run into a few obstacles when downloading Salad. These steps should solve
 the most common issues:
 

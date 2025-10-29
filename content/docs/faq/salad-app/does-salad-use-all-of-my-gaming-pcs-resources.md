@@ -2,8 +2,6 @@
 title: Does Salad use all of my PC's Resources?
 ---
 
-_Last Updated: 23rd October 2025_
-
 Salad may use all of your PCs resources whilst running, depending on the job you're currently working.
 
 ## Does Salad use all of my GPU?

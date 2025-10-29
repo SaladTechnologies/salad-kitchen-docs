@@ -2,8 +2,6 @@
 title: I Can't Enter my Email Address to Log In
 ---
 
-_Last Updated: 23rd October 2025_
-
 If you're seeing any of the below errors/issues, it means that we were unable to send you an email containing your
 one-time login code.
 

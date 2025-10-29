@@ -2,8 +2,6 @@
 title: Enable Virtualization on Acer PCs
 ---
 
-_Last Updated: 23rd October 2025_
-
 Many commercially available PCs allow users to manage their BIOS configuration directly from the startup screen. These
 step-by-step guides will help you access and adjust the BIOS settings on prebuilt PCs manufactured by Acer.
 

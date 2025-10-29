@@ -2,8 +2,6 @@
 title: 'Troubleshooting Mining Jobs'
 ---
 
-_Last Updated: 23rd October 2025_
-
 If you're experiencing issues running [Cryptomining Jobs](/docs/guides/getting-jobs/getting-cryptomining-jobs), here are
 some troubleshooting steps you can take to resolve it.
 

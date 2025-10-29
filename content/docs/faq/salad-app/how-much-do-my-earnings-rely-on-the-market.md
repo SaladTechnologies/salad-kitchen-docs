@@ -2,8 +2,6 @@
 title: How Much do my Earnings Rely on the Market?
 ---
 
-_Last Updated: 23rd October 2025_
-
 Salad's earnings depend on a few factors:
 
 - The availability of [Container Workloads](https://salad.com/earn/demand).

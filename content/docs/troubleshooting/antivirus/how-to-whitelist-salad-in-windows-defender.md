@@ -2,8 +2,6 @@
 title: How to Whitelist Salad in Windows Defender
 ---
 
-_Last Updated: 23rd October 2025_
-
 Even if you have disabled Windows Security/Defender, it may still be blocking Salad from getting your miners up and
 running, and you'll need to add a whitelist as well.
 

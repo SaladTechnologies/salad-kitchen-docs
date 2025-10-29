@@ -2,8 +2,6 @@
 title: 'Getting Cryptomining Jobs'
 ---
 
-_Last Updated: 23rd October 2025_
-
 Salad offers a variety of job types, including Cryptomining Jobs. These Jobs are automatically offered as a backup
 option when no other Jobs are available for your machine so you can keep earning Salad Balance. These Jobs typically
 have a lower payout rate than other Jobs, but they can still be profitable depending on your hardware and electricity

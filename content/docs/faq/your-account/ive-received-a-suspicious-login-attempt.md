@@ -2,8 +2,6 @@
 title: I've Received a Suspicious Login Attempt
 ---
 
-_Last Updated: 23rd October 2025_
-
 ## Why Did I Receive a One-Time Login Code that I did not Request?
 
 One of Salad's available login workflows is driven by a unique, one-time login code delivered by email. It's possible
