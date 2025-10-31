@@ -1,11 +1,8 @@
 import type { FunctionComponent, ReactNode } from 'react'
 
 export interface ModalProps {
-  /** The children that will show as the content inside the `Modal`. */
   children: ReactNode
-  /** A callback function that will be called when the user clicks anywhere outside of the `Modal`. */
   onClose?: () => void
-  /** The title describing the `Modal`. This will be used to properly label the dialog for screen readers. */
   title: string
 }
 
