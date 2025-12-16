@@ -2,8 +2,6 @@
 title: 'Enable All Hardware'
 ---
 
-_Last Updated: 23rd October 2025_
-
 To maximize your earnings with Salad, it's important to ensure that all of your hardware is enabled and available for
 Chopping. This includes your processor (CPU), Graphics Card (GPU), and Bandwidth.
 
@@ -17,4 +15,4 @@ To enable all of your hardware:
 3. On the same page, scroll down to Workload Types, and ensure that all available options are toggled on.
 
 You can find an in-depth guide on the settings menu and what each of them do in
-[Salad App Settings](/docs/guides/using-salad/353-salad-app-settings).
+[Salad App Settings](/docs/guides/using-salad/salad-app-settings).

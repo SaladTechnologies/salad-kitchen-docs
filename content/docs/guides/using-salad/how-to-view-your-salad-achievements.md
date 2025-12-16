@@ -2,8 +2,6 @@
 title: 'How to View your Salad Achievements'
 ---
 
-_Last Updated: 23rd October 2025_
-
 Salad has Achievements that you can earn by completing certain tasks or goals while using the Salad App. You can view
 your Achievements and when you obtained them on the Salad web app.
 

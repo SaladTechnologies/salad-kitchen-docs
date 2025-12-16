@@ -1,15 +1,15 @@
+import { docs } from '@/.source'
 import { baseOptions } from '@/lib/layout.shared'
 import { source } from '@/lib/source'
 import { createFileRoute, notFound } from '@tanstack/react-router'
 import { createServerFn } from '@tanstack/react-start'
 import { staticFunctionMiddleware } from '@tanstack/start-static-server-functions'
-import type { PageTree } from 'fumadocs-core/server'
+import type * as PageTree from 'fumadocs-core/page-tree'
 import { createClientLoader } from 'fumadocs-mdx/runtime/vite'
 import { DocsLayout } from 'fumadocs-ui/layouts/docs'
 import defaultMdxComponents from 'fumadocs-ui/mdx'
 import { DocsBody, DocsDescription, DocsPage, DocsTitle } from 'fumadocs-ui/page'
 import { useMemo } from 'react'
-import { docs } from '../../../source.generated'
 
 export const Route = createFileRoute('/docs/$')({
   component: Page,
@@ -24,8 +24,8 @@ export const Route = createFileRoute('/docs/$')({
 const loader = createServerFn({
   method: 'GET',
 })
-  .middleware([staticFunctionMiddleware])
   .inputValidator((slugs: string[]) => slugs)
+  .middleware([staticFunctionMiddleware])
   .handler(async ({ data: slugs }) => {
     const page = source.getPage(slugs)
     if (!page) throw notFound()
@@ -38,9 +38,22 @@ const loader = createServerFn({
 
 const clientLoader = createClientLoader(docs.doc, {
   id: 'docs',
-  component({ toc, frontmatter, default: MDX }) {
+  component({ toc, frontmatter, default: MDX, lastModified }, { path }: { path?: string }) {
     return (
-      <DocsPage toc={toc}>
+      <DocsPage
+        toc={toc}
+        editOnGithub={
+          path
+            ? {
+                owner: 'SaladTechnologies',
+                repo: 'salad-kitchen-docs',
+                sha: 'main',
+                path: `content/docs/${path}`,
+              }
+            : undefined
+        }
+        lastUpdate={lastModified}
+      >
         <DocsTitle>{frontmatter.title}</DocsTitle>
         <DocsDescription>{frontmatter.description}</DocsDescription>
         <DocsBody>
@@ -62,33 +75,40 @@ function Page() {
 
   return (
     <DocsLayout {...baseOptions()} tree={tree}>
-      <Content />
+      <Content path={data.path} />
     </DocsLayout>
   )
 }
 
-function transformPageTree(tree: PageTree.Folder): PageTree.Folder {
-  function transform<T extends PageTree.Item | PageTree.Separator>(item: T) {
-    if (typeof item.icon !== 'string') return item
-
-    return {
-      ...item,
-      icon: (
-        <span
-          dangerouslySetInnerHTML={{
-            __html: item.icon,
-          }}
-        />
-      ),
+function transformPageTree(root: PageTree.Root): PageTree.Root {
+  function mapNode<T extends PageTree.Node>(item: T): T {
+    if (typeof item.icon === 'string') {
+      item = {
+        ...item,
+        icon: (
+          <span
+            dangerouslySetInnerHTML={{
+              __html: item.icon,
+            }}
+          />
+        ),
+      }
     }
+
+    if (item.type === 'folder') {
+      return {
+        ...item,
+        index: item.index ? mapNode(item.index) : undefined,
+        children: item.children.map(mapNode),
+      }
+    }
+
+    return item
   }
 
   return {
-    ...tree,
-    index: tree.index ? transform(tree.index) : undefined,
-    children: tree.children.map((item) => {
-      if (item.type === 'folder') return transformPageTree(item)
-      return transform(item)
-    }),
+    ...root,
+    children: root.children.map(mapNode),
+    fallback: root.fallback ? transformPageTree(root.fallback) : undefined,
   }
 }

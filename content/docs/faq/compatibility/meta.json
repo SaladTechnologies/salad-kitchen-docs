@@ -2,13 +2,13 @@
   "title": "Compatibility",
   "icon": "MyIcon",
   "pages": [
-    "956-what-is-the-minimum-recommended-internet-speed-for-salad.md",
-    "72-do-you-support-macos-and-linux.md",
-    "78-is-my-machine-compatible-with-salad.md",
-    "237-why-is-salad-not-fully-using-my-cpu.md",
-    "247-should-i-enable-my-gpu-my-cpu-or-both.md",
-    "282-does-my-pc-support-virtualization.md",
-    "749-incompatible-configurations.md",
-    "779-should-i-buy-a-gpu-pc-for-salad.md"
+    "what-is-the-minimum-recommended-internet-speed-for-salad",
+    "do-you-support-macos-and-linux",
+    "is-my-machine-compatible-with-salad",
+    "why-is-salad-not-fully-using-my-cpu",
+    "should-i-enable-my-gpu-my-cpu-or-both",
+    "does-my-pc-support-virtualization",
+    "incompatible-configurations",
+    "should-i-buy-a-gpu-pc-for-salad"
   ]
 }

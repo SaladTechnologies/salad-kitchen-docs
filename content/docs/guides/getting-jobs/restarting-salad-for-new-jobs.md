@@ -2,8 +2,6 @@
 title: 'Restarting Salad for New Jobs'
 ---
 
-_Last Updated: 23rd October 2025_
-
 We highly discourage restarting Salad in an attempt to get new
 [Container Jobs](https://Community.salad.com/new-feature-container-environments-now-available/). Doing so can harm your
 ability to get Jobs in the future, and it also harms the overall health of the Salad network. Salad will automatically
@@ -21,4 +19,4 @@ overall number of Jobs available for you to run, and the overall earning potenti
 
 Keep running Salad as normal. If a new, more profitable, Container Job becomes available, Salad will automatically
 assign it to you. If you're not making enough to be profitable for you, consider pausing Salad until there is higher
-[Demand](/docs/faq/community/613-network-monitor) for your machine.
+[Demand](/docs/faq/community/network-monitor) for your machine.

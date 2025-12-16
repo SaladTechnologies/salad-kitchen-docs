@@ -2,8 +2,6 @@
 title: 'Getting Cryptomining Jobs'
 ---
 
-_Last Updated: 23rd October 2025_
-
 Salad offers a variety of job types, including Cryptomining Jobs. These Jobs are automatically offered as a backup
 option when no other Jobs are available for your machine so you can keep earning Salad Balance. These Jobs typically
 have a lower payout rate than other Jobs, but they can still be profitable depending on your hardware and electricity
@@ -14,9 +12,9 @@ costs.
 ## **How do I get Cryptomining Jobs?**
 
 In order to be eligible for Cryptomining Jobs, your machine must have a compatible GPU
-[installed](/docs/guides/your-pc/118-how-to-find-your-gpu-or-cpu), and you must have Proof of Work enabled in your
-[Salad App Settings](/docs/guides/using-salad/353-salad-app-settings). Proof of Work is enabled by default, but if you
-have previously disabled it, you will need to re-enable it in order to receive Cryptomining Jobs.
+[installed](/docs/guides/your-pc/how-to-find-your-gpu-or-cpu), and you must have Proof of Work enabled in your
+[Salad App Settings](/docs/guides/using-salad/salad-app-settings). Proof of Work is enabled by default, but if you have
+previously disabled it, you will need to re-enable it in order to receive Cryptomining Jobs.
 
 The minimum compatible GPUs for Cryptomining Jobs are:
 
@@ -41,6 +39,6 @@ The minimum compatible GPUs for Cryptomining Jobs are:
 Salad is not compatible with GT class NVIDIA GPUs, AMD GPUs older than Polaris, or Intel Integrated Graphics.
 
 You can find additional information on compatible hardware
-[here](/docs/faq/compatibility/78-is-my-machine-compatible-with-salad). If you're experiencing issues getting
-Cryptomining Jobs, please make sure that your [Antivirus](/docs/troubleshooting/antivirus) is not blocking Salad, and
-check out our [troubleshooting guide](/docs/troubleshooting/salad-app/221-general-troubleshooting-tips).
+[here](/docs/faq/compatibility/is-my-machine-compatible-with-salad). If you're experiencing issues getting Cryptomining
+Jobs, please make sure that your [Antivirus](/docs/troubleshooting/antivirus) is not blocking Salad, and check out our
+[troubleshooting guide](/docs/troubleshooting/salad-app/general-troubleshooting-tips).

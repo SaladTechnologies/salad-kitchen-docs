@@ -2,12 +2,10 @@
 title: 'Close Games and Other Programs'
 ---
 
-_Last Updated: 23rd October 2025_
-
 When Chopping with Salad, it's important to ensure that other intensive applications are closed. Salad needs your entire
 Graphics Card (GPU), and required Processor (CPU) and Memory (RAM) resources to run Jobs. If you have other programs
 running that are using these resources, Salad will automatically
-[pause Chopping](/docs/faq/salad-app/380-temporary-workload-block). This includes:
+[pause Chopping](/docs/faq/salad-app/temporary-workload-block). This includes:
 
 - Video Games.
 - Applications that use GPU Acceleration (e.g. Web Browsers, Discord).

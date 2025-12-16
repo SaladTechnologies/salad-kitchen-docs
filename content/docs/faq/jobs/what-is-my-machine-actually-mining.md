@@ -12,6 +12,7 @@ Currently we support these blockchain protocols:
 - Monero (For All supported GPUs)
 - Zhash (For 2GB+ GPUs)
 - BeamV3 (For 2GB+ GPUs)
+- ZelHash (For 3GB+ GPUs)
 - x16r (For 1GB+ GPUs)
 - Neoscrypt (For 3GB+ GPUs)
 - NexaPow (for 8GB+ GPUs)

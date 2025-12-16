@@ -2,10 +2,6 @@
 title: 'Using Remote Desktop with Salad'
 ---
 
-_Last Updated: 23rd October 2025_
-
-_Last Updated September 4, 2025_
-
 Salad is incompatible with any Remote Desktop solutions that utilize Remote Desktop Protocol (RDP). This includes, but
 is not limited to:
 
@@ -14,7 +10,7 @@ is not limited to:
 - Any other third-party RDP-based Remote Desktop solutions
 
 Using any of these applications while running Salad will prevent Salad from functioning correctly, as they interfere
-with [WSL](/docs/faq/jobs/265-what-is-wsl).
+with [WSL](/docs/faq/jobs/what-is-wsl).
 
 ---
 

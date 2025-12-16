@@ -2,8 +2,6 @@
 title: 'Will Installing Updates Lose my Jobs?'
 ---
 
-_Last Updated: 23rd October 2025_
-
 When you update your Salad application, any currently running jobs will be stopped. Once the update is complete, you can
 start Chopping again and search for new jobs.
 

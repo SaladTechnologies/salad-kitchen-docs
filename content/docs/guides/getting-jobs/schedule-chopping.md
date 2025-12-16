@@ -2,8 +2,6 @@
 title: 'Schedule Chopping'
 ---
 
-_Last Updated: 23rd October 2025_
-
 You can automate when Salad will start, and stop, Chopping with our Schedule Chopping feature. You should set this up
 for when you know you're not at your PC, to ensure you're earning as much Salad Balance as possible.
 

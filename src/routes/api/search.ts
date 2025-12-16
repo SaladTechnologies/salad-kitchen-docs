@@ -9,7 +9,7 @@ const server = createFromSource(source, {
 export const Route = createFileRoute('/api/search')({
   server: {
     handlers: {
-      GET: async () => server.staticGET(),
+      GET: () => server.staticGET(),
     },
   },
 })
