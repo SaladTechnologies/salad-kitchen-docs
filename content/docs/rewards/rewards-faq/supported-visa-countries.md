@@ -1,0 +1,224 @@
+---
+title: Supported Prepaid Visa Countries
+---
+
+Salad uses a third party provider to source Prepaid Visa rewards. Some countries are not eligible to purchase Prepaid
+Visa rewards from our vendor. Refer to the list below to understand where Prepaid Visa rewards are supported.
+
+Note that purchasing Prepaid Visa rewards if your country is not listed here may prevent you from receiving the reward.
+
+Supported Countries:
+
+- 🇦🇱 Albania
+- 🇩🇿 Algeria
+- 🇦🇸 American Samoa
+- 🇦🇩 Andorra
+- 🇦🇴 Angola
+- 🇦🇮 Anguilla
+- 🇦🇶 Antarctica
+- 🇦🇬 Antigua and Barbuda
+- 🇦🇷 Argentina
+- 🇦🇲 Armenia
+- 🇦🇼 Aruba
+- 🇦🇺 Australia
+- 🇦🇹 Austria
+- 🇦🇿 Azerbaijan
+- 🇧🇸 Bahamas
+- 🇧🇭 Bahrain
+- 🇧🇩 Bangladesh
+- 🇧🇧 Barbados
+- 🇧🇪 Belgium
+- 🇧🇿 Belize
+- 🇧🇯 Benin
+- 🇧🇲 Bermuda
+- 🇧🇹 Bhutan
+- 🇧🇴 Bolivia
+- 🇧🇶 Bonaire
+- 🇧🇦 Bosnia and Herzegovina
+- 🇧🇼 Botswana
+- 🇧🇻 Bouvet Island
+- 🇧🇷 Brazil
+- 🇮🇴 British Indian Ocean
+- 🇻🇬 British Virgin Islands
+- 🇧🇳 Brunei Darussalam
+- 🇧🇬 Bulgaria
+- 🇧🇫 Burkina Faso
+- 🇧🇮 Burundi
+- 🇰🇭 Cambodia
+- 🇨🇲 Cameroon
+- 🇨🇦 Canada
+- 🇨🇻 Cape Verde
+- 🇰🇾 Cayman Islands
+- 🇹🇩 Chad
+- 🇨🇱 Chile
+- 🇨🇽 Christmas Island
+- 🇨🇨 Cocos (Keeling) Islands
+- 🇨🇴 Colombia
+- 🇰🇲 Comoros
+- 🇨🇩 Congo
+- 🇨🇰 Cook Islands
+- 🇨🇷 Costa Rica
+- 🇨🇮 Côte d'Ivoire
+- 🇭🇷 Croatia
+- 🇨🇼 Curacao
+- 🇨🇾 Cyprus
+- 🇨🇿 Czech Republic
+- 🇩🇰 Denmark
+- 🇩🇯 Djibouti
+- 🇩🇲 Dominica
+- 🇩🇴 Dominican Republic
+- 🇹🇱 East Timor
+- 🇪🇨 Ecuador
+- 🇪🇬 Egypt
+- 🇸🇻 El Salvador
+- 🇬🇶 Equatorial Guinea
+- 🇪🇷 Eritrea
+- 🇪🇪 Estonia
+- 🇸🇿 Eswatini
+- 🇫🇰 Falkland Islands (Malvinas)
+- 🇫🇴 Faroe Islands
+- 🇫🇯 Fiji
+- 🇫🇮 Finland
+- 🇫🇷 France
+- 🇬🇫 French Guiana
+- 🇵🇫 French Polynesia
+- 🇹🇫 French Southern Territories
+- 🇬🇦 Gabon
+- 🇬🇲 Gambia
+- 🇬🇪 Georgia
+- 🇩🇪 Germany
+- 🇬🇭 Ghana
+- 🇬🇮 Gibraltar
+- 🇬🇷 Greece
+- 🇬🇱 Greenland
+- 🇬🇩 Grenada
+- 🇬🇵 Guadeloupe
+- 🇬🇺 Guam
+- 🇬🇹 Guatemala
+- 🇬🇬 Guernsey
+- 🇬🇳 Guinea
+- 🇬🇼 Guinea-Bissau
+- 🇬🇾 Guyana
+- 🇭🇹 Haiti
+- 🇭🇲 Heard Island and McDonald Islands
+- 🇭🇳 Honduras
+- 🇭🇺 Hungary
+- 🇮🇸 Iceland
+- 🇮🇪 Ireland
+- 🇮🇲 Isle of Man
+- 🇮🇱 Israel
+- 🇮🇹 Italy
+- 🇯🇲 Jamaica
+- 🇯🇵 Japan
+- 🇯🇪 Jersey
+- 🇯🇴 Jordan
+- 🇰🇿 Kazakhstan
+- 🇰🇪 Kenya
+- 🇰🇮 Kiribati
+- 🇰🇼 Kuwait
+- 🇰🇬 Kyrgyzstan
+- 🇱🇦 Laos
+- 🇱🇻 Latvia
+- 🇱🇸 Lesotho
+- 🇱🇷 Liberia
+- 🇱🇮 Liechtenstein
+- 🇱🇹 Lithuania
+- 🇱🇺 Luxembourg
+- 🇲🇴 Macao
+- 🇲🇬 Madagascar
+- 🇲🇼 Malawi
+- 🇲🇻 Maldives
+- 🇲🇹 Malta
+- 🇲🇭 Marshall Islands
+- 🇲🇶 Martinique
+- 🇲🇷 Mauritania
+- 🇲🇺 Mauritius
+- 🇾🇹 Mayotte
+- 🇲🇽 Mexico
+- 🇫🇲 Micronesia
+- 🇲🇩 Moldova
+- 🇲🇨 Monaco
+- 🇲🇳 Mongolia
+- 🇲🇪 Montenegro
+- 🇲🇸 Montserrat
+- 🇲🇦 Morocco
+- 🇲🇿 Mozambique
+- 🇳🇦 Namibia
+- 🇳🇷 Nauru
+- 🇳🇵 Nepal
+- 🇳🇱 Netherlands
+- 🇳🇨 New Caledonia
+- 🇳🇿 New Zealand
+- 🇳🇪 Niger
+- 🇳🇬 Nigeria
+- 🇳🇺 Niue
+- 🇳🇫 Norfolk Island
+- 🇲🇰 North Macedonia
+- 🇲🇵 Northern Mariana Islands
+- 🇳🇴 Norway
+- 🇴🇲 Oman
+- 🇵🇰 Pakistan
+- 🇵🇼 Palau
+- 🇵🇸 Palestine
+- 🇵🇦 Panama
+- 🇵🇾 Paraguay
+- 🇵🇪 Peru
+- 🇵🇳 Pitcairn
+- 🇵🇱 Poland
+- 🇵🇹 Portugal
+- 🇵🇷 Puerto Rico
+- 🇶🇦 Qatar
+- 🇷🇪 Reunion
+- 🇷🇴 Romania
+- 🇷🇼 Rwanda
+- 🇧🇱 Saint Barthélemy
+- 🇸🇭 Saint Helena
+- 🇰🇳 Saint Kitts and Nevis
+- 🇱🇨 Saint Lucia
+- 🇲🇫 Saint Martin
+- 🇵🇲 Saint Pierre et Miquelon
+- 🇻🇨 Saint Vincent and the Grenadines
+- 🇼🇸 Samoa
+- 🇸🇲 San Marino
+- 🇸🇹 Sao Tome and Principe
+- 🇸🇦 Saudi Arabia
+- 🇸🇳 Senegal
+- 🇷🇸 Serbia
+- 🇸🇨 Seychelles
+- 🇸🇱 Sierra Leone
+- 🇸🇬 Singapore
+- 🇸🇽 Sint Maarten
+- 🇸🇰 Slovakia
+- 🇸🇮 Slovenia
+- 🇸🇧 Solomon Islands
+- 🇿🇦 South Africa
+- 🇬🇸 South Georgia and the South Sandwich Islands
+- 🇰🇷 South Korea
+- 🇪🇸 Spain
+- 🇱🇰 Sri Lanka
+- 🇸🇷 Suriname
+- 🇸🇯 Svalbard and Jan Mayen
+- 🇸🇪 Sweden
+- 🇨🇭 Switzerland
+- 🇹🇼 Taiwan
+- 🇹🇯 Tajikistan
+- 🇹🇿 Tanzania
+- 🇹🇬 Togo
+- 🇹🇰 Tokelau
+- 🇹🇴 Tonga
+- 🇹🇹 Trinidad and Tobago
+- 🇹🇳 Tunisia
+- 🇹🇷 Turkey
+- 🇹🇲 Turkmenistan
+- 🇹🇨 Turks and Caicos Islands
+- 🇹🇻 Tuvalu
+- 🇦🇪 United Arab Emirates
+- 🇬🇧 United Kingdom
+- 🇺🇸 United States
+- 🇺🇾 Uruguay
+- 🇺🇿 Uzbekistan
+- 🇻🇦 Vatican City
+- 🇻🇳 Vietnam
+- 🇼🇫 Wallis and Futuna
+- 🇪🇭 Western Sahara
+- 🇿🇲 Zambia

@@ -2,8 +2,6 @@
 title: 'How to Enable Auto-Start'
 ---
 
-_Last Updated: 23rd October 2025_
-
 To ensure that the Salad App starts automatically when you go idle from your PC, you'll need to configure Auto Start in
 the Salad App settings. This will allow you to start earning Salad Balance automatically when you go away from your PC.
 

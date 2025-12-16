@@ -2,8 +2,6 @@
 title: 'Setting up the Salad App'
 ---
 
-_Last Updated: 23rd October 2025_
-
 Now that you're logged in, it's time to set-up the Salad application for the first time. When you open the application,
 you'll be greeted with a setup wizard to help you get started. Follow the steps in the wizard to configure your machine
 and preferences.

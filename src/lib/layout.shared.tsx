@@ -1,4 +1,7 @@
-import logoPng from '@/styles/logo.png'
+import logoDark2xPng from '@/styles/logo-dark-2x.png'
+import logoDarkPng from '@/styles/logo-dark.png'
+import logoLight2xPng from '@/styles/logo-light-2x.png'
+import logoLightPng from '@/styles/logo-light.png'
 import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared'
 import { Download, Mail } from 'lucide-react'
 
@@ -36,7 +39,24 @@ export function baseOptions(): BaseLayoutProps {
       },
     ],
     nav: {
-      title: <img src={logoPng} alt="Salad logo" style={{ height: 48 }} />,
+      title: (
+        <>
+          <img
+            srcSet={`${logoLightPng}, ${logoLight2xPng} 2x`}
+            src={logoLightPng}
+            alt="Salad logo"
+            style={{ height: 40 }}
+            className="dark:hidden"
+          />
+          <img
+            srcSet={`${logoDarkPng}, ${logoDark2xPng} 2x`}
+            src={logoDarkPng}
+            alt="Salad logo"
+            style={{ height: 40 }}
+            className="hidden dark:block"
+          />
+        </>
+      ),
     },
   }
 }

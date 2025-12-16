@@ -2,8 +2,6 @@
 title: 'What are Batch Jobs in Salad, and How are they Different?'
 ---
 
-_Last Updated: 23rd October 2025_
-
 A Batch Job is a type of [Container Job](https://Community.salad.com/new-feature-container-environments-now-available/)
 that is short-lived on the network. These are jobs that typically only run for a few hours or days, and then complete.
 Once a Batch Job is complete, that Job will not be available on the network again.
