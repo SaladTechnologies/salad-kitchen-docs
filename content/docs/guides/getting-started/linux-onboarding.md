@@ -12,12 +12,16 @@ plan on expanding it.
 - No other containerd (docker) packages installed as we need the latest containerd and use the official package from
   containerd.io. We build this package from official sources but host it locally in our repo.
 
+---
+
 ## Account Authentication
 
 1. Contact Salad at support@salad.com and request a Linux client JWT token.
 
 We use a (JWT) token to authenticate a client and are provisioning these manually at this time. Please contact us and
 ask for a Linux Token or JWT.
+
+---
 
 ## Installation
 
@@ -93,6 +97,8 @@ To remove them as well use this command:
 apt-get autopurge salad-platform salad-public
 ```
 
+---
+
 ## Nvidia Drivers and Toolkit
 
 We only support Nvidia hardware for GPU loads at the present time and you will need to install the drivers and toolkit
@@ -147,6 +153,8 @@ apt-get update
 apt-get install --yes --no-install-recommends nvidia-container-toolkit cuda-toolkit
 ```
 
+---
+
 ## Auto-Updating Addendum
 
 If you'd like to have our applications auto-update and don't have other automation, we suggest using your platform's
@@ -177,6 +185,8 @@ EOF
 Default config path: /etc/apt/apt.conf.d/50unattended-upgrades
 
 Package documenation: /usr/share/doc/unattended-upgrades/README.md.gz
+
+---
 
 ## Security Addendum
 
