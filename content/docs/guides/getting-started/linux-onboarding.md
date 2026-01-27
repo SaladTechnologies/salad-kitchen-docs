@@ -172,7 +172,7 @@ Configure unattended-upgrades to update our packages along with critical bug fix
 config or package documentation for more. We include the defaults as we are overriding the default configuration.
 
 ```sh
-cat > /etc/apt/apt.conf.d/52unattended-upgrades-local << EOF
+cat > /etc/apt/apt.conf.d/52unattended-upgrades-local << 'EOF'
 Unattended-Upgrade::Origins-Pattern {
         "origin=Debian,codename=${distro_codename},label=Debian";
         "origin=Debian,codename=${distro_codename},label=Debian-Security";
