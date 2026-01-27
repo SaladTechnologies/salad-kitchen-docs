@@ -184,7 +184,7 @@ EOF
 
 Default config path: /etc/apt/apt.conf.d/50unattended-upgrades
 
-Package documenation: /usr/share/doc/unattended-upgrades/README.md.gz
+Package documentation: /usr/share/doc/unattended-upgrades/README.md.gz
 
 ---
 
