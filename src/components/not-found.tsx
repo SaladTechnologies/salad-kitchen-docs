@@ -21,7 +21,8 @@ export function NotFound() {
           if you think this is an error.
         </p>
         <Link
-          to="/"
+          to="/$"
+          params={{ _splat: '' }}
           className="bg-fd-primary text-fd-primary-foreground mt-4 rounded-lg px-4 py-2 text-sm font-medium transition-opacity hover:opacity-90"
         >
           Back to Home
