@@ -6,12 +6,16 @@ Now that you're logged in, it's time to set-up the Salad application for the fir
 you'll be greeted with a setup wizard to help you get started. Follow the steps in the wizard to configure your machine
 and preferences.
 
-1. Click 'Setup PC' from the Salad App. [insert image]
-2. Have a look at your system specs, and potential earning rates, then click 'Continue'. [insert image]
-3. Set Salad to automatically configure the best workloads, and then 'Continue'. [insert image]
-4. Select a target reward you'd like to aim for if you want from the Storefront, otherwise click 'Skip For Now'. [insert
-   image]
-5. Click 'Finish Setup', and then open Salad from your System Tray. [insert image]
+1. Click 'Setup PC' from the Salad App.
+   ![setup pc button](../../../../content/images/guides/getting-started/setting-up-the-salad-app-1.png)
+2. Have a look at your system specs, and potential earning rates, then click 'Continue'.
+   ![checking system specs](../../../../content/images/guides/getting-started/setting-up-the-salad-app-2.png)
+3. Set Salad to automatically configure the best workloads, and then 'Continue'.
+   ![configure workloads](../../../../content/images/guides/getting-started/setting-up-the-salad-app-3.png)
+4. Select a target reward you'd like to aim for if you want from the Storefront, otherwise click 'Skip For Now'.
+   ![select a target reward](../../../../content/images/guides/getting-started/setting-up-the-salad-app-4.png)
+5. Click 'Finish Setup', and then open Salad from your System Tray.
+   ![finishing setup](../../../../content/images/guides/getting-started/setting-up-the-salad-app-5.png)
 
 ---
 
