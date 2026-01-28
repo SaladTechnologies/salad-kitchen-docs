@@ -15,6 +15,7 @@ steps:
   - template: ../tasks/install-node-task.yaml
     parameters:
       projectDirectory: ${{ parameters.workingDirectory }}
+      authenticateNpm: false
       authenticateYarn: false
   - template: ../tasks/pwsh-task.yaml
     parameters:
