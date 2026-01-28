@@ -24,10 +24,6 @@ steps:
     parameters:
       projectDirectory: ${{ parameters.workingDirectory }}
       scriptFile: build.ps1
-      # TODO: Reinstate if needed, remove if not
-      # env:
-      #   NETLIFY_AUTH_TOKEN: $(NETLIFY_AUTH_TOKEN)
-      #   NETLIFY_SITE_ID: ${{ parameters.siteId }}
   - template: ../tasks/pwsh-task.yaml
     parameters:
       projectDirectory: ${{ parameters.workingDirectory }}
