@@ -16,4 +16,4 @@ and preferences.
 ---
 
 Now that you've completed setting up Salad, you're ready to
-[get your first Job](/docs/guides/getting-started/getting-your-first-job) and start earning Salad Balance!
+[get your first Job](/guides/getting-started/getting-your-first-job) and start earning Salad Balance!

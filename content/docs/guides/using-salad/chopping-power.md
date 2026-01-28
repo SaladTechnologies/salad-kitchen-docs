@@ -29,18 +29,18 @@ Enable both CPU and GPU in Resource Preferences. Salad Jobs require both CPU and
 
 ### Set Bandwidth Settings
 
-One of the jobs available to chefs on the Salad network is
-[Bandwidth sharing](/docs/faq/jobs/what-is-bandwidth-sharing). Chefs can maximize their earnings by enabling sharing.
+One of the jobs available to chefs on the Salad network is [Bandwidth sharing](/faq/jobs/what-is-bandwidth-sharing).
+Chefs can maximize their earnings by enabling sharing.
 
 ### Become Job-Ready
 
-Jobs on the Salad Network require [WSL](/docs/faq/jobs/what-is-wsl) and
-[Virtualization](/docs/guides/your-pc/how-to-enable-virtualization-support-on-your-machine) on the Chef's machine.
+Jobs on the Salad Network require [WSL](/faq/jobs/what-is-wsl) and
+[Virtualization](/guides/your-pc/how-to-enable-virtualization-support-on-your-machine) on the Chef's machine.
 
 ### Update WSL (If Prompted)
 
-Some chefs may need to [update WSL](/docs/guides/your-pc/how-to-update-the-wsl-kernel-on-your-machine) on their
-machines. If so, Salad will walk you through the update as a Chopping Power condition.
+Some chefs may need to [update WSL](/guides/your-pc/how-to-update-the-wsl-kernel-on-your-machine) on their machines. If
+so, Salad will walk you through the update as a Chopping Power condition.
 
 ### Have Enough Free Storage
 
@@ -55,7 +55,7 @@ NVIDIA GPUs with at least 12GB of VRAM.
 
 Chefs who Chop Salad for more than 50 hours a week will be awarded Star Chef status. That means you are a trusted
 machine on the Salad network and will be prioritized for our highest paying jobs. Learn more about Star Chef,
-[here](/docs/guides/using-salad/star-chef-qualifications-and-benefits).
+[here](/guides/using-salad/star-chef-qualifications-and-benefits).
 
 Don't worry if you don't meet all Chopping Power conditions. The Chopping Power bar is a great way to see if you're
 machine is optimized to earn, but there are plenty of jobs available to chefs who don't have in-demand hardware or

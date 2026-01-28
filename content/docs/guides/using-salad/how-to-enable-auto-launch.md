@@ -3,8 +3,8 @@ title: How to Enable or Disable Auto Launch
 ---
 
 Keeping Auto Launch enabled allows Salad to start-up when your PC boots. Enabling this along with
-[Auto Start](/docs/guides/using-salad/how-to-enable-auto-start) will allow Salad to start Chopping automatically
-whenever you go AFK from your PC. By default this option is **enabled**, however you can turn it off.
+[Auto Start](/guides/using-salad/how-to-enable-auto-start) will allow Salad to start Chopping automatically whenever you
+go AFK from your PC. By default this option is **enabled**, however you can turn it off.
 
 1. Open your Salad Widget
 

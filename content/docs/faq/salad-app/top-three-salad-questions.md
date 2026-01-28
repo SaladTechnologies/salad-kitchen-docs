@@ -16,10 +16,10 @@ used. You'll start to see Salad Balance entering your account.
 The amount of Salad Balance you can Chop using Salad will depend on a few things. Firstly, the hardware you have in your
 PC. The more powerful your PC is, the more jobs there are likely to be available. Secondly, how many jobs there are on
 the network can fluctuate, so you may see periods with no earnings. Check out our
-[Network Monitor](/docs/faq/community/network-monitor) to see current stats, including earning rates. Thirdly, it can
-depend on your region. Some workloads are restricted to certain regions like
-[Bandwidth Sharing](/docs/faq/jobs/what-is-bandwidth-sharing) or
-[Adult Workloads](/docs/guides/getting-jobs/workload-preferences).
+[Network Monitor](/faq/community/network-monitor) to see current stats, including earning rates. Thirdly, it can depend
+on your region. Some workloads are restricted to certain regions like
+[Bandwidth Sharing](/faq/jobs/what-is-bandwidth-sharing) or
+[Adult Workloads](/guides/getting-jobs/workload-preferences).
 
 ---
 

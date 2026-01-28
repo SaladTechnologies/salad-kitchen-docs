@@ -15,15 +15,15 @@ These GPUs require Compute Mode to be enabled
 - RX 590
 
 To enable this feature, you will need to ensure you are updated to the most Recent AMD Drivers. If you are on older
-drivers, you can follow our guide here to [update your drivers](/docs/guides/your-pc/how-to-update-my-amd-drivers). It
-is also important to make sure to **Turn Off Salad Before Starting.**
+drivers, you can follow our guide here to [update your drivers](/guides/your-pc/how-to-update-my-amd-drivers). It is
+also important to make sure to **Turn Off Salad Before Starting.**
 
 ---
 
 ### Option 1:
 
 1. Pause Salad by clicking the Pause button in your Salad widget
-2. [Enable elevated permissions](/docs/faq/salad-app/what-are-elevated-permissions-and-should-i-enable-them)
+2. [Enable elevated permissions](/faq/salad-app/what-are-elevated-permissions-and-should-i-enable-them)
 3. Click Start again in your Salad widget
 
 ### Option 2:

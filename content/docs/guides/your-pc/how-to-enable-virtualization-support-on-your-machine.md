@@ -18,8 +18,8 @@ setup.
 These are general steps for enabling virtualization in your machine's BIOS. For more specific guides find your hardware
 brand at the bottom of this page.
 
-1. Make sure your machine [supports virtualization](/docs/faq/compatibility/does-my-pc-support-virtualization). You will
-   need Windows 10 or 11 and have a CPU that is capable of running virtualization.
+1. Make sure your machine [supports virtualization](/faq/compatibility/does-my-pc-support-virtualization). You will need
+   Windows 10 or 11 and have a CPU that is capable of running virtualization.
 2. Restart your PC and press your BIOS Setup key. Each hardware brand will have a slightly different setup key.
    1. Find your hardware at the bottom of this guide for your Setup Key.
    2. Some common Setup Keys are : F10, F2, or Del
@@ -54,6 +54,6 @@ You can find specific guides for enabling virtualization on your Motherboard in 
 If you still need help and your manufacturer is not listed here, you may wish to consult online documentation to enable
 virtualization support on your machine. Here are some handy resources to aid you in that process:
 
-- [Does My PC Support Virtualization?](/docs/faq/compatibility/does-my-pc-support-virtualization)
-- [Identifying Your CPU](/docs/guides/your-pc/identifying-your-cpu)
-- [Identifying Your Motherboard](/docs/guides/your-pc/identifying-your-motherboard)
+- [Does My PC Support Virtualization?](/faq/compatibility/does-my-pc-support-virtualization)
+- [Identifying Your CPU](/guides/your-pc/identifying-your-cpu)
+- [Identifying Your Motherboard](/guides/your-pc/identifying-your-motherboard)

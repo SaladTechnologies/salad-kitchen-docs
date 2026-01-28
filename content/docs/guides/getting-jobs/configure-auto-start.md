@@ -14,4 +14,4 @@ default, it's configured to start Chopping after 10 minutes, but you should adju
    ![Adjusting the 'Start After' slider](../../../../content/images/guides/getting-jobs/configure-auto-start-2.png)
 
 Idleness is determined by mouse or keyboard activity. You can find a more in-depth guide on
-[Auto-Start here](/docs/guides/using-salad/how-to-enable-auto-start).
+[Auto-Start here](/guides/using-salad/how-to-enable-auto-start).

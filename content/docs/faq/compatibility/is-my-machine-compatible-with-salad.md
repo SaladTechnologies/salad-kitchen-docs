@@ -48,15 +48,15 @@ GPUs in the same machine cannot be utilized at the same time. Chefs cannot run G
 Chopping on their secondary GPU, they must Chop Salad while AFK in order to receive the most profitable workloads.
 
 Here's how to find your GPU if you don't know what your computer has:
-[How to Find My GPU](/docs/guides/your-pc/how-to-find-your-gpu-or-cpu).
+[How to Find My GPU](/guides/your-pc/how-to-find-your-gpu-or-cpu).
 
 ---
 
 ### **CPU:**
 
 Salad supports most 64-bit x86 Central Processing Units (CPUs) from within the past 10 years, providing they support
-[virtualization.](/docs/guides/your-pc/how-to-enable-virtualization-support-on-your-machine) Quadcore and above CPUs
-will perform optimally while running Salad, users may run dualcore CPUs at their own risk.
+[virtualization.](/guides/your-pc/how-to-enable-virtualization-support-on-your-machine) Quadcore and above CPUs will
+perform optimally while running Salad, users may run dualcore CPUs at their own risk.
 
 Some examples of supported CPUs:
 
@@ -86,7 +86,7 @@ In addition to compute workloads that utilize your CPU or your GPU, Salad can al
 earn some Salad Balance!
 
 Bandwidth Sharing is currently limited in the supported countries, so you'll need to check if
-[your country is available](/docs/troubleshooting/bandwidth-sharing-jobs/bandwidth-sharing-quick-troubleshooting-guide).
+[your country is available](/troubleshooting/bandwidth-sharing-jobs/bandwidth-sharing-quick-troubleshooting-guide).
 
 While the exact requirements depend on client criteria and decisions, we recommend you have at least a 15 megabit per
 second internet in both upload and download speeds, and less than 100ms latency to the nearest server.

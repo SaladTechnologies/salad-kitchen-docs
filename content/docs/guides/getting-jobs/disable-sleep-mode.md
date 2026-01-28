@@ -15,4 +15,4 @@ You can disable Sleep Mode from directly within the Salad App. To do this:
    going to sleep.
 
 If you need more in-depth instructions, you can follow our guide on
-[How to Disable Sleep Mode](/docs/guides/using-salad/how-to-disable-sleep-mode).
+[How to Disable Sleep Mode](/guides/using-salad/how-to-disable-sleep-mode).

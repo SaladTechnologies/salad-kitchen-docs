@@ -36,7 +36,7 @@ To restore compatibility and get the most out of your setup, follow these steps:
    - Visit [NVIDIA's official site](https://www.nvidia.com/Download/index.aspx) to download the latest drivers for your
      modern GPU.
    - Use `DDU (Display Driver Uninstaller)` in Safe Mode to completely remove old drivers before
-     [reinstalling fresh ones](/docs/guides/your-pc/how-to-reinstall-gpu-drivers)
+     [reinstalling fresh ones](/guides/your-pc/how-to-reinstall-gpu-drivers)
 
 4. **Restart Your System:**
    - After removing the old GPU and installing fresh drivers, restart your machine.

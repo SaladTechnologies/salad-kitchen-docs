@@ -17,7 +17,7 @@ Cards and much, much more.
 
 A. You can register, and log in, by clicking the "login" button when you open your Salad widget, and following the
 on-screen steps in your browser. You can find an in detail guide for registering and logging in here:
-[How to register and log into Salad](/docs/guides/getting-started/how-to-register-and-log-into-salad)
+[How to register and log into Salad](/guides/getting-started/how-to-register-and-log-into-salad)
 
 ---
 
@@ -25,7 +25,7 @@ on-screen steps in your browser. You can find an in detail guide for registering
 
 A. You can start Salad by opening your Salad widget and selecting Chop Now. We'll scan your hardware, and figure out the
 best workloads for your machine. An in-detail guide for starting Salad can be found here:
-[How to start Salad](/docs/guides/using-salad/how-to-start-salad)
+[How to start Salad](/guides/using-salad/how-to-start-salad)
 
 ---
 
@@ -33,18 +33,17 @@ best workloads for your machine. An in-detail guide for starting Salad can be fo
 
 After you start Chopping, Salad will calculate how much you can expect to earn if you run for the next 24 hours. We'll
 take a few minutes to work this out, by looking at your current earnings. More information can be found here:
-[How Estimated Earnings Work](/docs/guides/using-salad/how-predicted-earnings-works)
+[How Estimated Earnings Work](/guides/using-salad/how-predicted-earnings-works)
 
 ---
 
 **Q. Why does my Antivirus block Salad?**
 
-A. Some antivirus programs may flag Salad because we use Advanced Windows features (like
-[WSL2](/docs/faq/jobs/what-is-wsl)) and additional verified miner software (if you opt in to mining). This is a common
-false positive from antivirus software. Rest assured, Salad does not harm your PC or compromise your privacy. Antivirus
-tools often use a "zero-trust" approach that can flag safe applications simply for having certain capabilities. You will
-need to whitelist Salad by following our collection of guides available here:
-[How to whitelist Salad](/docs/troubleshooting/antivirus/)
+A. Some antivirus programs may flag Salad because we use Advanced Windows features (like [WSL2](/faq/jobs/what-is-wsl))
+and additional verified miner software (if you opt in to mining). This is a common false positive from antivirus
+software. Rest assured, Salad does not harm your PC or compromise your privacy. Antivirus tools often use a "zero-trust"
+approach that can flag safe applications simply for having certain capabilities. You will need to whitelist Salad by
+following our collection of guides available here: [How to whitelist Salad](/troubleshooting/antivirus/)
 
 ---
 
@@ -52,7 +51,7 @@ need to whitelist Salad by following our collection of guides available here:
 
 A. Running Salad will not harm or damage your PC. Your PC components are designed to run at 100% usage for extended
 periods of time, and will automatically shut off or throttle themselves safely if it gets too hot. You can read more
-here: [Is Salad Healthy for My PC?](/docs/faq/salad-app/is-salad-healthy-for-my-pc-yes)
+here: [Is Salad Healthy for My PC?](/faq/salad-app/is-salad-healthy-for-my-pc-yes)
 
 ---
 
@@ -75,14 +74,14 @@ all machines.
 
 A. You can find your balance just below the start button in your Salad widget, as well  at the top right of the Salad
 web-app. A more detailed breakdown of your earnings in the summary page. You can read more about the summary page here:
-[How do I see my earning history?](/docs/guides/using-salad/how-to-see-your-earnings-history)
+[How do I see my earning history?](/guides/using-salad/how-to-see-your-earnings-history)
 
 ---
 
 **Q. How can I earn more with Salad?**
 
 A. There are a number of things you can do to increase your profits with Salad, please read this article for more
-information: [How do I earn more with Salad?](/docs/faq/jobs/how-can-i-earn-more-with-salad)
+information: [How do I earn more with Salad?](/faq/jobs/how-can-i-earn-more-with-salad)
 
 ---
 
@@ -96,4 +95,4 @@ within the application.
 **Q. Does Salad support PayPal redemptions?**
 
 Yes, we offer PayPal rewards on our store. More information regarding PayPal rewards can be found here:
-[FAQ on PayPal rewards](/docs/rewards/redeeming-your-rewards/how-to-redeem-paypal)
+[FAQ on PayPal rewards](/rewards/redeeming-your-rewards/how-to-redeem-paypal)

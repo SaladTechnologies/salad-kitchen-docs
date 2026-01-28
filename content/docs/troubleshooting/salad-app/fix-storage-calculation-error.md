@@ -20,8 +20,8 @@ confirm whether PowerShell or DISM is causing the issue.
 Once Support identifies the problem, they will direct you to the appropriate fix:
 
 - **If PowerShell is the issue**, follow this guide:
-  [Re-Enable PowerShell](/docs/troubleshooting/pc-configuration/re-enable-powershell)
-- **If DISM is the issue**, follow this guide: [Restore DISM](/docs/troubleshooting/pc-configuration/restoring-dism)
+  [Re-Enable PowerShell](/troubleshooting/pc-configuration/re-enable-powershell)
+- **If DISM is the issue**, follow this guide: [Restore DISM](/troubleshooting/pc-configuration/restoring-dism)
 
 ## **Step 3: Test and Resume Chopping**
 

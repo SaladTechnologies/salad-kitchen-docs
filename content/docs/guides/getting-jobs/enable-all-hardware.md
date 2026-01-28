@@ -15,4 +15,4 @@ To enable all of your hardware:
 3. On the same page, scroll down to Workload Types, and ensure that all available options are toggled on.
 
 You can find an in-depth guide on the settings menu and what each of them do in
-[Salad App Settings](/docs/guides/using-salad/salad-app-settings).
+[Salad App Settings](/guides/using-salad/salad-app-settings).
