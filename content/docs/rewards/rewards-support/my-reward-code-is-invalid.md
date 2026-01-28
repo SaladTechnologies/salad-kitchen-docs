@@ -8,7 +8,7 @@ If a reward you have purchased is showing as invalid, there are a few things you
   the product name or description. If you are having trouble redeeming your item, make sure to check where it is valid
   for.
 - Make sure you are in the correct region. Some keys are region locked, and will only work in certain locations. The
-  [correct region](/docs/rewards/rewards-faq/what-region-is-this-reward-for) will be listed in the product title or
+  [correct region](/rewards/rewards-faq/what-region-is-this-reward-for) will be listed in the product title or
   description, make sure to double check where your key is valid for.
 - You may have typed your key in wrong, make sure to double check it, or copy paste it if you aren't sure.
 - If you have purchased DLC, you need to own the base game already to activate it.

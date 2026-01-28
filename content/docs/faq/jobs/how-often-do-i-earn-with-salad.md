@@ -7,6 +7,6 @@ However, it's important to note that you may not earn Salad Balance during each 
 your balance update for up to an hour. But don't worry your average earnings should be close to the expected
 daily/hourly crypto earning rate for your GPU.
 
-Crypto mining workloads are available for any
-[compatible GPU](/docs/faq/compatibility/is-my-machine-compatible-with-salad), and if there are no
-[Containers](https://www.youtube.com/watch?v=Ts2CrvnaxvY) available to chop, Salad will default to these workloads.
+Crypto mining workloads are available for any [compatible GPU](/faq/compatibility/is-my-machine-compatible-with-salad),
+and if there are no [Containers](https://www.youtube.com/watch?v=Ts2CrvnaxvY) available to chop, Salad will default to
+these workloads.

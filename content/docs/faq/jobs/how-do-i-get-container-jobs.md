@@ -8,8 +8,8 @@ following requirements:
 - Have an [in-demand](https://salad.com/earn/demand) GPU.
 - Have 32 GB+ System RAM.
 - Have 50 GB+ hard drive storage available.
-- Ensure your PC is [container-ready](/docs/troubleshooting/container-jobs/container-workloads-troubleshooting).
+- Ensure your PC is [container-ready](/troubleshooting/container-jobs/container-workloads-troubleshooting).
 - Have access to high-bandwidth internet.
 
-Additionally, attaining [Star Chef](/docs/guides/using-salad/star-chef-qualifications-and-benefits) status will increase
-your likelihood for attaining a higher paying container job on Salad.
+Additionally, attaining [Star Chef](/guides/using-salad/star-chef-qualifications-and-benefits) status will increase your
+likelihood for attaining a higher paying container job on Salad.

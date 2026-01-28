@@ -22,4 +22,4 @@ title: How to Register and Log Into Salad
 5. Once completed, you'll be logged into the website, as well as your Salad Widget.
 
 If you are having trouble logging in, try checking this troubleshooting guide out.
-[I am having trouble connecting to the Salad app](/docs/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app)
+[I am having trouble connecting to the Salad app](/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app)

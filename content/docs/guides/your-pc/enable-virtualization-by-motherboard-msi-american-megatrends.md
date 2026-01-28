@@ -7,7 +7,7 @@ settings can be accessed and modified. This guide details common BIOS setup patt
 motherboard manufactured by MSI or American Megatrends.
 
 *If you don't know what kind of motherboard you are using, please
-see* [Identifying Your Motherboard](/docs/guides/your-pc/identifying-your-motherboard)_._
+see* [Identifying Your Motherboard](/guides/your-pc/identifying-your-motherboard)_._
 
 **With Intel Processors**
 

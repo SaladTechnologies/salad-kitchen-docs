@@ -2,18 +2,18 @@
 title: 'Why do my Earnings Look Different than the Network Monitor?'
 ---
 
-The [Salad Network Monitor](/docs/faq/community/network-monitor) provides a near-real-time overview of the demand for
+The [Salad Network Monitor](/faq/community/network-monitor) provides a near-real-time overview of the demand for
 different hardware types on the Salad Network, and their earnings. The earning rates shown are based on the overall
 average earnings for machines with that hardware installed. This includes all earnings from
 [Container Jobs](https://Community.salad.com/new-feature-container-environments-now-available/),
-[Bandwidth Sharing Jobs](/docs/guides/getting-jobs/getting-bandwidth-sharing-jobs), and
-[Cryptomining Jobs](/docs/guides/getting-jobs/getting-cryptomining-jobs).
+[Bandwidth Sharing Jobs](/guides/getting-jobs/getting-bandwidth-sharing-jobs), and
+[Cryptomining Jobs](/guides/getting-jobs/getting-cryptomining-jobs).
 
 It's normal for your earnings to look different from the Network Monitor if you're only running one type of Job. For
-example, a machine earning only from [Cryptomining Jobs](/docs/guides/getting-jobs/getting-cryptomining-jobs) will
-likely earn less than the average shown in the Network Monitor, as these are typically a lower paying Job type.
-Similarly, if you've got a Container Job and Bandwidth Sharing on the go at the same time, you may see higher earnings.
-The Network Monitor displays a range, your earnings should fall inside this range.
+example, a machine earning only from [Cryptomining Jobs](/guides/getting-jobs/getting-cryptomining-jobs) will likely
+earn less than the average shown in the Network Monitor, as these are typically a lower paying Job type. Similarly, if
+you've got a Container Job and Bandwidth Sharing on the go at the same time, you may see higher earnings. The Network
+Monitor displays a range, your earnings should fall inside this range.
 
 ---
 

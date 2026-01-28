@@ -14,4 +14,4 @@ GPU/CPU usage. This should give you a much more accurate representation of how S
 ![Salad App showing utilization](../../../../content/images/faq/salad-app/why-isn't-task-manager-showing-any-activity-for-salad-1.png)
 
 If your CPU is not being utilized fully, see this related article.
-[Why is Salad not fully using my CPU?](/docs/faq/compatibility/why-is-salad-not-fully-using-my-cpu)
+[Why is Salad not fully using my CPU?](/faq/compatibility/why-is-salad-not-fully-using-my-cpu)

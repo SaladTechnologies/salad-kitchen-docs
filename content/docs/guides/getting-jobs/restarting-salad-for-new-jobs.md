@@ -19,4 +19,4 @@ overall number of Jobs available for you to run, and the overall earning potenti
 
 Keep running Salad as normal. If a new, more profitable, Container Job becomes available, Salad will automatically
 assign it to you. If you're not making enough to be profitable for you, consider pausing Salad until there is higher
-[Demand](/docs/faq/community/network-monitor) for your machine.
+[Demand](/faq/community/network-monitor) for your machine.

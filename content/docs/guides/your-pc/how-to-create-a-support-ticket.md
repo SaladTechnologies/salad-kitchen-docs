@@ -29,7 +29,7 @@ issues in order to keep your account secure._
 ---
 
 If you need to upload log files to your ticket, you can do so by following these instructions:
-[How to find your Salad log files](/docs/guides/using-salad/how-to-find-your-salad-log-files).
+[How to find your Salad log files](/guides/using-salad/how-to-find-your-salad-log-files).
 
 You can view your active, and past tickets and chats within the widget by selecting "previous conversations" on the main
 menu if available. You can also reply to your support tickets through here as well.

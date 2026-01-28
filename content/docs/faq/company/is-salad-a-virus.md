@@ -12,4 +12,4 @@ are unable to differentiate between maliciously installed plugins, and when it's
 balance.
 
 Because of this, you may need to whitelist us in your antivirus program to allow your Salad app to earn. You can learn
-how to whitelist Salad in your antivirus software by following our guides [here](/docs/troubleshooting/antivirus/).
+how to whitelist Salad in your antivirus software by following our guides [here](/troubleshooting/antivirus/).

@@ -17,9 +17,8 @@ well as the total number of rewards you've redeemed.
    ![Table of all machines](../../../../content/images/guides/using-salad/how-to-use-the-earnings-summary-2.png)
 3. Here, you can view the current earning rates for all of your Salad Machines, as well as when they were last seen.
 
-This list is broken down by [Machine ID](/docs/guides/using-salad/how-to-find-your-salad-machine-id). You're not
-currently able to name, or rename, your machines. The 'Last Seen' time is the last time that machine earned any Salad
-Balance.
+This list is broken down by [Machine ID](/guides/using-salad/how-to-find-your-salad-machine-id). You're not currently
+able to name, or rename, your machines. The 'Last Seen' time is the last time that machine earned any Salad Balance.
 
 ---
 
@@ -36,7 +35,7 @@ Balance.
    specific points in time.
 
 You're not currently able to rename your machines, but you can identify them by their
-[Machine ID](/docs/guides/using-salad/how-to-find-your-salad-machine-id).
+[Machine ID](/guides/using-salad/how-to-find-your-salad-machine-id).
 
 ---
 
@@ -53,4 +52,4 @@ You're not currently able to rename your machines, but you can identify them by 
    specific points in time.
 
 You're not currently able to rename your machines, but you can identify them by their
-[Machine ID](/docs/guides/using-salad/how-to-find-your-salad-machine-id).
+[Machine ID](/guides/using-salad/how-to-find-your-salad-machine-id).
