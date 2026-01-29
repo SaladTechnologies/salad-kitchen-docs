@@ -2,12 +2,14 @@
 title: Troubleshooting Salad App Connection Issues
 ---
 
-import { Callout } from 'fumadocs-ui/components/callout';
+import { Callout } from 'fumadocs-ui/components/callout'
 
 <Callout type="error">
 Salad does not offer support for Chefs running Salad in Virtual Machines (VMWare, VirtualBox, Proxmox, etc), which can cause Salad to stop working properly - our support team will not help investigate issues.
 
-Most Remote Desktops relying on RDP will cause the above issue - please uninstall these from your system and reinstall Salad should you encounter this issue.
+Most Remote Desktops relying on RDP will cause the above issue - please uninstall these from your system and reinstall
+Salad should you encounter this issue.
+
 </Callout>
 
 ## Use a Supported Web Browser
@@ -85,7 +87,6 @@ Simply follow these instructions for safely restarting a Windows machine:
 
 ## Using a recent version of Chrome?
 
-<<<<<<< HEAD
 Newer versions of Chrome now require an extra permission in order to finalize the login process. After installing Salad
 on your machine and logging in (or signing up), you may remain stuck on the following screen:
 
@@ -94,32 +95,18 @@ on your machine and logging in (or signing up), you may remain stuck on the foll
 In order to continue with the login process and ensure the app itself is logged in, you will need to allow "Local
 network access" to the site. In some cases, this option will be requested from you, and you should click "Allow" to
 authorize the login process, like so:
-=======
-Newer versions of Chrome now require an extra permission in order to finalize the login process. After installing Salad on your machine and logging in (or signing up), you may remain stuck on the following screen:
-
-![Screenshot of getting blocked on connecting to Salad](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-8.png)
-
-In order to continue with the login process and ensure the app itself is logged in, you will need to allow "Local network access" to the site. In some cases, this option will be requested from you, and you should click "Allow" to authorize the login process, like so:
->>>>>>> 6dbea9f ([feat] Implement new Chrome login/connection troubleshooting section)
 
 ![Screenshot of Chrome asking for network access](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-9.png)
 
 Should the browser not display this tooltip, you can also manually authorize it by:
-<<<<<<< HEAD
 
-=======
->>>>>>> 6dbea9f ([feat] Implement new Chrome login/connection troubleshooting section)
 - In the top left, next to the URL, click the "toggle" symbol
 - Then, towards the bottom of the tooltip, click "Site Settings"
 
 ![Screenshot of Chrome site settings button](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-10.png)
 
-<<<<<<< HEAD
 - At the "Privacy and Security" page (which you should be automatically redirected to), scroll to the bottom until you
   find the "Local network access" permission, and set it to "Allow"
-=======
-- At the "Privacy and Security" page (which you should be automatically redirected to), scroll to the bottom until you find the "Local network access" permission, and set it to "Allow"
->>>>>>> 6dbea9f ([feat] Implement new Chrome login/connection troubleshooting section)
 
 ![Screenshot of Chrome privacy & security options](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-11.png)
 
@@ -131,24 +118,17 @@ Should the browser not display this tooltip, you can also manually authorize it 
 
 ### Why does Salad need this permission?
 
-<<<<<<< HEAD
 When you press the login button in the app, Salad sends a request to your browser to start the login process, and then
 waits for confirmation from the browser that you are logged in to receive the account information. Any access required
 by a website to a local machine (including to services running directly on your machine - like Salad) now need to be
 approved via this permission. Salad only uses this permission to complete the login process, and does not actively
 access other machines or services on your machine.
 
-> If you are not comfortable with keeping this option in an allowed state, you can also set it to blocked (or Ask) once
-> the login process has ended - in which case you will need to repeat this process the next time the app requests you to
-> log in.
-=======
-When you press the login button in the app, Salad sends a request to your browser to start the login process, and then waits for confirmation from the browser that you are logged in to receive the account information.
-Any access required by a website to a local machine (including to services running directly on your machine - like Salad) now need to be approved via this permission. Salad only uses this permission to complete the login process, and does not actively access other machines or services on your machine.
-
 <Callout type="info">
-If you are not comfortable with keeping this option in an allowed state, you can also set it to blocked (or Ask) once the login process has ended - in which case you will need to repeat this process the next time the app requests you to log in.
+  If you are not comfortable with keeping this option in an allowed state, you can also set it to blocked (or Ask) once
+  the login process has ended - in which case you will need to repeat this process the next time the app requests you to
+  log in.
 </Callout>
->>>>>>> 6dbea9f ([feat] Implement new Chrome login/connection troubleshooting section)
 
 ---
 
