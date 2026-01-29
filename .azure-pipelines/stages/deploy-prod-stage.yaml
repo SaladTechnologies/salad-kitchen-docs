@@ -12,7 +12,7 @@ stages:
         displayName: Deploy to Production Site
         variables:
           - group: Netlify
-        environment: Netlify Web App
+        environment: Netlify Docs
         strategy:
           runOnce:
             deploy:
