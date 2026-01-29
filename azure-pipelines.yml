@@ -1,7 +1,7 @@
 trigger:
   branches:
     include:
-      - master
+      - main
   paths:
     exclude:
       - .vscode
@@ -11,7 +11,7 @@ trigger:
 pr:
   branches:
     include:
-      - master
+      - main
   paths:
     exclude:
       - .vscode
@@ -25,8 +25,8 @@ stages:
   - ${{ if or(ne(variables['Build.SourceBranch'], 'refs/heads/master'), eq(variables['Build.Reason'], 'PullRequest')) }}:
       - template: .azure-pipelines/stages/deploy-preview-stage.yaml
         parameters:
-          workingDirectory: $(Build.Repository.LocalPath)/$(workingDirectory)
+          workingDirectory: $(Build.Repository.LocalPath)
   - ${{ if and(eq(variables['Build.SourceBranch'], 'refs/heads/master'), ne(variables['Build.Reason'], 'PullRequest')) }}:
       - template: .azure-pipelines/stages/deploy-prod-stage.yaml
         parameters:
-          workingDirectory: $(Build.Repository.LocalPath)/$(workingDirectory)
+          workingDirectory: $(Build.Repository.LocalPath)
