@@ -2,11 +2,17 @@
 title: Troubleshooting Salad App Connection Issues
 ---
 
-> Salad does not offer support for Chefs running Salad in Virtual Machines (VMWare, VirtualBox, Proxmox, etc), which can
-> cause Salad to stop working properly - our support team will not help investigate issues.
+import { Callout } from 'fumadocs-ui/components/callout'
 
-> Most Remote Desktops relying on RDP will cause the above issue - please uninstall these from your system and reinstall
-> Salad should you encounter this issue.
+<Callout type="error">
+
+Salad does not offer support for Chefs running Salad in Virtual Machines (VMWare, VirtualBox, Proxmox, etc), which can
+cause Salad to stop working properly - our support team will not help investigate issues.
+
+Most Remote Desktops relying on RDP will cause the above issue - please uninstall these from your system and reinstall
+Salad should you encounter this issue.
+
+</Callout>
 
 ## Use a Supported Web Browser
 
@@ -120,9 +126,11 @@ by a website to a local machine (including to services running directly on your 
 approved via this permission. Salad only uses this permission to complete the login process, and does not actively
 access other machines or services on your machine.
 
-> If you are not comfortable with keeping this option in an allowed state, you can also set it to blocked (or Ask) once
-> the login process has ended - in which case you will need to repeat this process the next time the app requests you to
-> log in.
+<Callout type="info">
+If you are not comfortable with keeping this option in an allowed state, you can also set it to blocked (or Ask) once
+the login process has ended - in which case you will need to repeat this process the next time the app requests you to
+log in.
+</Callout>
 
 ---
 
