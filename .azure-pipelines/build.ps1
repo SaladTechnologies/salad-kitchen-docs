@@ -23,7 +23,7 @@ try {
     $destination404Path = Join-Path -Path $projectRoot -ChildPath 'dist/client' -AdditionalChildPath '404.html'
     if (Test-Path -Path $source404Path) {
         Copy-Item -Path $source404Path -Destination $destination404Path -Force
-        Show-LogSuccess -Content '404 page copied successfully.'
+        Show-LogInfo -Content '404 page copied successfully.'
     }
     else {
         Show-LogWarning -Content '404 page not found; skipping copy.'
