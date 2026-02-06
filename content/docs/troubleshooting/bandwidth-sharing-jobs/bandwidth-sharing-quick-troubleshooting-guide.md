@@ -10,6 +10,7 @@ title: Bandwidth Sharing Quick Troubleshooting Guide
   - Bandwidth Regions
     - 🇦🇺 Australia
     - 🇦🇹 Austria
+    - 🇧🇷 Brazil
     - 🇨🇦 Canada
     - 🇨🇴 Colombia
     - 🇨🇿 Czech Republic
@@ -19,6 +20,7 @@ title: Bandwidth Sharing Quick Troubleshooting Guide
     - 🇩🇪 Germany
     - 🇬🇧 Great Britain
     - 🇬🇷 Greece
+    - 🇭🇰 Hong Kong
     - 🇭🇺 Hungary
     - 🇮🇸 Iceland
     - 🇮🇳 India
@@ -29,12 +31,14 @@ title: Bandwidth Sharing Quick Troubleshooting Guide
     - 🇳🇱 Netherlands
     - 🇳🇴 Norway
     - 🇵🇭 Philippines
+    - 🇵🇱 Poland
     - 🇵🇹 Portugal
     - 🇷🇴 Romania
     - 🇸🇬 Singapore
     - 🇸🇰 Slovakia
     - 🇸🇪 Sweden
     - 🇨🇭 Switzerland
+    - 🇹🇼 Taiwan
     - 🇹🇭 Thailand
     - 🇺🇦 Ukraine
     - 🇺🇸 USA
