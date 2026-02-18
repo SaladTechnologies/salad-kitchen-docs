@@ -29,9 +29,6 @@
 /article/52-i-live-outside-the-us-can-i-still-redeem-rewards-with-salad /rewards/rewards-faq/i-live-outside-the-us-can-i-still-redeem-rewards-with-salad 301!
 /article/135-getting-started-with-salad-the-basics /guides/getting-started/getting-started-with-salad-the-basics 301!
 /article/228-faq-on-paypal-rewards* /rewards/redeeming-your-rewards/how-to-redeem-paypal 301!
-/hc/en-us/* / 301!
-/article/* / 301!
-/category/* / 301!
 /hc/en-us/articles/4404070392980 /rewards/rewards-support/my-reward-says-its-already-been-claimed 301!
 /hc/en-us/articles/4404070392980-My-reward-says-it-s-already-been-claimed /rewards/rewards-support/my-reward-says-its-already-been-claimed 301!
 /article/193-my-reward-says-its-already-been-claimed /rewards/rewards-support/my-reward-says-its-already-been-claimed 301!
@@ -558,4 +555,8 @@
 /hc/en-us/sections/360013183691-General / 301!
 /category/21-general / 301!
 /hc/en-us/sections/360013129112-General-Reward-Support / 301!
-/category/20-general-reward-support / 301!
+/category/20-general-reward-support /rewards/rewards-support/i-redeemed-an-item-and-havent-gotten-it-yet-whats-going-on 301!
+
+/hc/en-us/* / 301!
+/article/* / 301!
+/category/* / 301!
