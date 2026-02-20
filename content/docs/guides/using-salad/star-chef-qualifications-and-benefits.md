@@ -13,7 +13,8 @@ prioritizes Star Chefs to receive the most profitable jobs available at a given 
 ## **How Do I Become a Star Chef?**
 
 In short, Chop a lot of Salad. **_Chefs who Chop for 3000 minutes (~50 hours) a week will receive priority for
-high-paying jobs_**, provided that they have the hardware to handle the job.
+high-paying jobs_**, provided that they have the hardware to handle the job. (Only time spent on active 
+workloads counts: Jobs, Proof of Work, and Bandwidth Sharing)
 
 ## **Can Anyone Qualify for Star Chef?**
 
