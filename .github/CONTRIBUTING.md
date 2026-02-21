@@ -46,8 +46,8 @@ Studio Code documentation][vscode-extensions] on recommended extensions to learn
 
 Fourth, create a new branch for your changes, make your modifications, and commit them with a clear message.
 
-Finally, create a pull request from your brnach against this repository. We will review your changes
-and provide feedback or merge them as appropriate.
+Finally, create a pull request from your branch against this repository. We will review your changes and provide
+feedback or merge them as appropriate.
 
 Additionally, please consider taking a moment to read Miguel de Icaza's blog post titled [Open Source Contribution
 Etiquette][etiquette-1] and Ilya Grigorik's blog post titled [Don't "Push" Your Pull Requests][etiquette-2].
