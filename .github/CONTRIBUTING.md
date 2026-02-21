@@ -39,14 +39,14 @@ Interested in changing the world?
 First, setup your local development environment. You need [Visual Studio Code][vscode-dl] and a recent version of
 [Node.js][nodejs-dl] installed (we recommend the latest LTS version).
 
-Second, fork this repository and clone your fork to your local machine.
+Second, clone this repository to your local machine.
 
 Third, open the project in Visual Studio Code and install the recommended workspace extensions. Refer to the [Visual
 Studio Code documentation][vscode-extensions] on recommended extensions to learn more.
 
 Fourth, create a new branch for your changes, make your modifications, and commit them with a clear message.
 
-Finally, push your changes to your fork and create a pull request against this repository. We will review your changes
+Finally, create a pull request from your brnach against this repository. We will review your changes
 and provide feedback or merge them as appropriate.
 
 Additionally, please consider taking a moment to read Miguel de Icaza's blog post titled [Open Source Contribution
