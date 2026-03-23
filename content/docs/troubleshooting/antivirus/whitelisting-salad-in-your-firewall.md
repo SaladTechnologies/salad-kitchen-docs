@@ -7,7 +7,6 @@ are having troubles connecting to the Salad pools. Due to the large number of po
 configurations, we may not be able to provide a guide specific for your service. If we don't have one for you, we have
 provided the required addresses to whitelist:
 
-- prohashing.com
 - nicehash.com
 - 104.21.61.81
 - 172.65.223.147
