@@ -133,11 +133,12 @@ access other machines or services on your machine.
 
 ## Using Pihole or other DNS Sinkholes?
 
-If you are using a DNS Sinkhole - such as pihole - in your home network, certain blocklists - especially restrictive 
+If you are using a DNS Sinkhole - such as pihole - in your home network, certain blocklists - especially restrictive
 ones - can prevent access to Salad Servers.
 
 As such, it is recommended to review your DNS sinkhole settings to either remove problematic blocklists, or add an
 exception for Salad services by using regex rules in the form:
+
 - `(\.|^)salad\.com$`
 - `(\.|^)salad\.io$`
 
