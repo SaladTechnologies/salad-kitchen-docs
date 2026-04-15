@@ -68,3 +68,5 @@ xmrig
 xmrnicehash
 zhash
 złoty
+Pihole
+pihole
