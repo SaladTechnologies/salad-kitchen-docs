@@ -10,9 +10,11 @@ title: Bandwidth Sharing Quick Troubleshooting Guide
   - Bandwidth Regions
     - 🇦🇺 Australia
     - 🇦🇹 Austria
+    - 🇧🇪 Belgium
     - 🇧🇷 Brazil
     - 🇨🇦 Canada
     - 🇨🇴 Colombia
+    - 🇭🇷 Croatia
     - 🇨🇿 Czech Republic
     - 🇩🇰 Denmark
     - 🇫🇮 Finland
