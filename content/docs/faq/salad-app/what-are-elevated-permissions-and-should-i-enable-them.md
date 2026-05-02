@@ -13,7 +13,7 @@ when needed, or if it's going to increase your earnings. You can enable this fea
 
 # Should I enable them?
 
-If you run Salad with with older RX 400-500 AMD GPU enabled, we do recommend enabling Elevated Permissions. It also
+If you run Salad with an older RX 400-500 AMD GPU enabled, we do recommend enabling Elevated Permissions. It also
 allows us to automatically enable certain driver settings to boost your earnings by a significant amount. It's also
 possible we may add more workloads in the future that rely on Elevated Permissions, so even if you don't have an AMD GPU
 we still recommend enabling it if required to allow Salad to always run the most profitable workload for your machine.
