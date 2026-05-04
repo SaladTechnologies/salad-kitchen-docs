@@ -2,8 +2,11 @@
 title: Linux Onboarding
 ---
 
-We currently offer limited (beta) support for Linux installations. We only support a few distributions at this time but
-plan on expanding it.
+We currently offer limited **closed** beta support for Linux installations. We only support a few distributions at this
+time but plan on expanding it.
+
+If you are interested in testing the Linux build, fill out
+[this Google Forms document](https://forms.gle/J8eCtCagVMi9yL2S7).
 
 ## Prerequisites
 
@@ -16,7 +19,7 @@ plan on expanding it.
 
 ## Account Authentication
 
-1. Contact Salad at support@salad.com and request a Linux client JWT token.
+1. If accepted, the team will grant you a Linux client JWT token.
 
 We use a (JWT) token to authenticate a client and are provisioning these manually at this time. Please contact us and
 ask for a Linux Token or JWT.
