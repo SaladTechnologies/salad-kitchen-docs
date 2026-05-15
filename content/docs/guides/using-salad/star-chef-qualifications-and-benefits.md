@@ -6,7 +6,7 @@ title: 'Becoming a Star Chef: Qualifications and Benefits'
 
 Star Chefs are a cut above, as they represent the most trusted Chefs in the Salad Kitchen. These users have proven their
 reliability on our share-computing network day in and day out. In return for this loyalty and dependability, Salad
-prioritizes Star Chefs to receive the most profitable jobs available at a given time.
+prioritizes Star Chefs to receive container workloads available on the network at a given time.
 
 ---
 
