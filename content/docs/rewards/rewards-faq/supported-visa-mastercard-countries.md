@@ -209,7 +209,7 @@ Supported Countries:
 - 🇹🇴 Tonga
 - 🇹🇹 Trinidad and Tobago
 - 🇹🇳 Tunisia
-- 🇹🇷 Turkey
+- 🇹🇷 Turkey (Visa Only)
 - 🇹🇲 Turkmenistan
 - 🇹🇨 Turks and Caicos Islands
 - 🇹🇻 Tuvalu
