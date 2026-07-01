@@ -20,19 +20,19 @@ saved to your account and a RENDER token account on that wallet.
 
 ## Step 2: Set up your RENDER token account
 
-Your wallet needs a RENDER associated token account (ATA) before you redeem. If it does not exist, the redemption fails
-and the tokens are not delivered.
+Your wallet must have a RENDER associated token account (ATA) before you redeem. If it does not exist, the redemption fails. You only need to set this up once per wallet.
 
-**RENDER mint:** `rndrizKT3MK1iimdxRdWabcF7Zg7AR5T4nud4EkHBof`
+**RENDER mint:** rndrizKT3MK1iimdxRdWabcF7Zg7AR5T4nud4EkHBof
 
-Create it once per wallet with the Solana CLI:
+Create it with the Solana CLI:
 
 ```
 spl-token create-account rndrizKT3MK1iimdxRdWabcF7Zg7AR5T4nud4EkHBof
 ```
 
-The account is also created automatically the first time the wallet receives or swaps into RENDER. The wallet needs a
-small amount of SOL for rent and the fee, and it must be the same address you save to Salad.
+The ATA is also created the first time your wallet swaps into or receives RENDER from another source. Creating the account costs a small amount of SOL in rent.
+
+Receiving your redemption costs you nothing. Salad covers the network fee to send your RENDER. You only need SOL in this wallet if you later decide to move or swap your RENDER yourself.
 
 ## Step 3: Redeem
 
