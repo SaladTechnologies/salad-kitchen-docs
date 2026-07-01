@@ -2,7 +2,8 @@
 title: How to Redeem RENDER on Salad
 ---
 
-RENDER is available on the Salad Storefront as an SPL token on Solana. Redeeming it requires a Solana wallet address saved to your account and a RENDER token account on that wallet.
+RENDER is available on the Salad Storefront as an SPL token on Solana. Redeeming it requires a Solana wallet address
+saved to your account and a RENDER token account on that wallet.
 
 ## Step 1: Add a Solana wallet
 
@@ -19,15 +20,19 @@ RENDER is available on the Salad Storefront as an SPL token on Solana. Redeeming
 
 ## Step 2: Set up your RENDER token account
 
-Your wallet needs a RENDER associated token account (ATA) before you redeem. If it does not exist, the redemption fails and the tokens are not delivered.
+Your wallet needs a RENDER associated token account (ATA) before you redeem. If it does not exist, the redemption fails
+and the tokens are not delivered.
 
 **RENDER mint:** `rndrizKT3MK1iimdxRdWabcF7Zg7AR5T4nud4EkHBof`
 
 Create it once per wallet with the Solana CLI:
+
 ```
 spl-token create-account rndrizKT3MK1iimdxRdWabcF7Zg7AR5T4nud4EkHBof
 ```
-The account is also created automatically the first time the wallet receives or swaps into RENDER. The wallet needs a small amount of SOL for rent and the fee, and it must be the same address you save to Salad.
+
+The account is also created automatically the first time the wallet receives or swaps into RENDER. The wallet needs a
+small amount of SOL for rent and the fee, and it must be the same address you save to Salad.
 
 ## Step 3: Redeem
 
@@ -39,4 +44,6 @@ The account is also created automatically the first time the wallet receives or 
 
 ## Step 4: Find your transaction on Solscan
 
-The transaction hash is your Solana transaction signature, included in the confirmation email. Open it, or paste it into solscan.io, to view the transaction. You can also find it in your wallet's activity: select the RENDER transfer and choose View on Solscan.
+The transaction hash is your Solana transaction signature, included in the confirmation email. Open it, or paste it into
+solscan.io, to view the transaction. You can also find it in your wallet's activity: select the RENDER transfer and
+choose View on Solscan.
