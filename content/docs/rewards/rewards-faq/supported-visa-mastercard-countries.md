@@ -2,9 +2,9 @@
 title: Supported Prepaid Visa & Mastercard Countries
 ---
 
-Salad uses a third party provider to source Prepaid Visa and Mastercard rewards. Some countries are not eligible to purchase 
-Prepaid Visa or Mastercard rewards from our vendor. Refer to the list below to understand where Prepaid Visa and Mastercard
-rewards are supported.
+Salad uses a third party provider to source Prepaid Visa and Mastercard rewards. Some countries are not eligible to
+purchase Prepaid Visa or Mastercard rewards from our vendor. Refer to the list below to understand where Prepaid Visa
+and Mastercard rewards are supported.
 
 Note that purchasing these rewards if your country is not listed here may prevent you from receiving the reward.
 
