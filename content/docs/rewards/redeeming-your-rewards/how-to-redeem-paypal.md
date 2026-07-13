@@ -4,7 +4,7 @@ title: How to Redeem PayPal
 
 Ensure you are located in one of the supported countries before purchasing the reward:
 
-- [https://support.salad.com/article/616-supported-paypal-countries](https://support.salad.com/article/616-supported-paypal-countries)
+- [https://support.salad.com/rewards/redeeming-your-rewards/supported-paypal-countries](https://support.salad.com/rewards/redeeming-your-rewards/supported-paypal-countries)
 
 PayPal provides an easy way to cash out your Salad Balance to your own bank accounts in your home currency. You can
 redeem it from our [Storefront](https://salad.com/store/search?q=PayPal&size=n_20_n).
