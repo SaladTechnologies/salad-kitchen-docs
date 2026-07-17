@@ -38,10 +38,12 @@ title: Bandwidth Sharing Quick Troubleshooting Guide
     - 🇷🇴 Romania
     - 🇸🇬 Singapore
     - 🇸🇰 Slovakia
+    - 🇪🇸 Spain
     - 🇸🇪 Sweden
     - 🇨🇭 Switzerland
     - 🇹🇼 Taiwan
     - 🇹🇭 Thailand
+    - 🇹🇷 Turkey
     - 🇺🇦 Ukraine
     - 🇺🇸 USA
 
