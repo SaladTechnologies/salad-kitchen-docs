@@ -36,6 +36,7 @@ title: Bandwidth Sharing Quick Troubleshooting Guide
     - 🇵🇱 Poland
     - 🇵🇹 Portugal
     - 🇷🇴 Romania
+    - 🇷🇸 Serbia
     - 🇸🇬 Singapore
     - 🇸🇰 Slovakia
     - 🇪🇸 Spain
