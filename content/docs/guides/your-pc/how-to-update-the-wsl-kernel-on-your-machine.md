@@ -14,5 +14,5 @@ these steps to resolve it.
 2. Run the update command:
    1. Type `wsl --update` into the open Powershell window and hit enter to update the WSL kernel.
 
-Once WSL has been updated the Degraded notification should go away. If you continue to see the notification, take a
-screen shot, and reach out to [Salad Support](/contact).
+Once WSL has been updated, restart your PC, open Salad, and the Degraded notification should go away. If you 
+continue to see the notification, take a screen shot, and reach out to [Salad Support](/contact).
