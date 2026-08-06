@@ -70,3 +70,4 @@ zhash
 złoty
 Pihole
 pihole
+GDDR6X
