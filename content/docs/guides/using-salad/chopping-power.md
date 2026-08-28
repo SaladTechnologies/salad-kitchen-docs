@@ -51,12 +51,6 @@ free-up. Doing so will give your machine more opportunities to work jobs.
 
 NVIDIA GPUs with at least 12GB of VRAM.
 
-### Become a Star Chef!
-
-Chefs who Chop Salad for more than 50 hours a week will be awarded Star Chef status. That means you are a trusted
-machine on the Salad network and will be prioritized for our highest paying jobs. Learn more about Star Chef,
-[here](/guides/using-salad/star-chef-qualifications-and-benefits).
-
 Don't worry if you don't meet all Chopping Power conditions. The Chopping Power bar is a great way to see if you're
 machine is optimized to earn, but there are plenty of jobs available to chefs who don't have in-demand hardware or
 Bandwidth sharing available in their area.

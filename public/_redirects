@@ -1,4 +1,5 @@
 #Redirects from what the browser requests to what we serve
+/guides/using-salad/star-chef-qualifications-and-benefits /guides/using-salad/chopping-power 301!
 /article/155-how-to-whitelist-salad-in-eset-nod32 /troubleshooting/antivirus/how-to-whitelist-salad-in-eset-node32 301!
 /article/218-whitelist-salad-in-norton-firewall /troubleshooting/antivirus/whitelist-salad-in-norton-firewall 301!
 /category/971-antivirus /troubleshooting/antivirus 301!
