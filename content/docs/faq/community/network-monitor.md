@@ -81,8 +81,8 @@ not tied to what those jobs are paying. Chefs should make an informed decision u
 
 ## How can I get into those top 25% of earners?
 
-Increasing your chopping time is the easiest way to improve your earning potential, especially if you achieve Star Chef
-status. Beyond that, follow any requirements or suggestions in your Chopping Power checklist inside the app.
+Increasing your chopping time is the easiest way to improve your earning potential. Beyond that, follow any requirements
+or suggestions in your Chopping Power checklist inside the app.
 
 ---
 

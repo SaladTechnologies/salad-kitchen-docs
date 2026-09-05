@@ -103,7 +103,7 @@ Schedule your Chopping in advance for the week.
 
 ## Account Activity
 
-Account related achievements like Star Chef, Chopping Power and Target Rewards.
+Account related achievements like Chopping Power and Target Rewards.
 
 ![Salad Settings showing accout notification options](../../../../content/images/guides/using-salad/salad-app-settings-15.png)
 
