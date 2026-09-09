@@ -13,6 +13,7 @@ title: Bandwidth Sharing Quick Troubleshooting Guide
     - 🇧🇪 Belgium
     - 🇧🇷 Brazil
     - 🇨🇦 Canada
+    - 🇨🇱 Chile
     - 🇨🇴 Colombia
     - 🇭🇷 Croatia
     - 🇨🇿 Czech Republic
@@ -26,12 +27,15 @@ title: Bandwidth Sharing Quick Troubleshooting Guide
     - 🇭🇺 Hungary
     - 🇮🇸 Iceland
     - 🇮🇳 India
+    - 🇮🇩 Indonesia
+    - 🇮🇱 Israel
     - 🇮🇹 Italy
     - 🇯🇵 Japan
     - 🇱🇹 Lithuania
     - 🇲🇽 Mexico
     - 🇳🇱 Netherlands
     - 🇳🇴 Norway
+    - 🇵🇪 Peru
     - 🇵🇭 Philippines
     - 🇵🇱 Poland
     - 🇵🇹 Portugal
@@ -39,6 +43,7 @@ title: Bandwidth Sharing Quick Troubleshooting Guide
     - 🇷🇸 Serbia
     - 🇸🇬 Singapore
     - 🇸🇰 Slovakia
+    - 🇿🇦 South Africa
     - 🇪🇸 Spain
     - 🇸🇪 Sweden
     - 🇨🇭 Switzerland
@@ -47,6 +52,8 @@ title: Bandwidth Sharing Quick Troubleshooting Guide
     - 🇹🇷 Turkey
     - 🇺🇦 Ukraine
     - 🇺🇸 USA
+    - 🇻🇪 Venezuela
+    - 🇻🇳 Vietnam
 
 ##### I enabled Bandwidth sharing, but I don't see any earnings.
 
