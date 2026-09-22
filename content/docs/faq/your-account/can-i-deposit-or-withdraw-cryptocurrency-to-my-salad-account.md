@@ -1,5 +1,5 @@
 ---
-title: Can I Deposit or Withdraw Cryptocurrency to/from my Salad Account?
+title: Can I Deposit or Withdraw Cryptocurrency to my Salad Account?
 ---
 
 Your Salad account is not a cryptocurrency wallet, and cannot be used like one. We do offer some cryptocurrency rewards
