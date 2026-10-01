@@ -2,7 +2,7 @@
 title: Can I use multiple GPUs?
 ---
 
-By GPUs, we specifically refer here to dedicated also called _discreet_ GPUs, such as NVIDIA and AMD Radeon RX series of
+By GPUs, we specifically refer here to dedicated also called _discrete_ GPUs, such as NVIDIA and AMD Radeon RX series of
 GPUs. Integrated graphics (Intel UHD, AMD Radeon Graphics, etc) are not supported individually and do not interfere with
 multi-GPU setups.
 
