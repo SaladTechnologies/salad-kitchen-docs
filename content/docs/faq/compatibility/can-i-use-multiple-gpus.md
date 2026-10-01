@@ -8,9 +8,9 @@ multi-GPU setups.
 
 ---
 
-At this time, Salad does **not** support multiple GPUs within one machine. This included the following configurations:
+At this time, Salad does **not** support multiple GPUs within one machine. This includes the following configurations:
 
-- Two or more of the exact same GPU (including SLI, Crossfire, etc)
+- Two or more of the same GPU (including with SLI, Crossfire, etc)
 - Two differing GPUs of the same brand (for example, a 3060 and a 4090)
 - Two differing GPUs (different brands)
 
