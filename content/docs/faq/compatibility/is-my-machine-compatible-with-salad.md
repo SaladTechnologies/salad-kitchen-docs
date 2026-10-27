@@ -12,9 +12,9 @@ available, and what each entail:
 
 ### Container Workloads
 
-For Container Workloads, Salad supports most of the popular NVIDIA GPUs, and more recent dedicated AMD GPUs, with a
-recommended minimum amount of 8GB of VRAM. This means that you'll need at least an RTX 2070 and up to be able to Chop
-containers.
+For Container Workloads, Salad supports most NVIDIA GPUs - and some recent dedicated AMD GPUs - with a minimum amount of
+4GB of VRAM, though we _highly recommend_ 8GB of VRAM or more for optimal performance. Salad does not currently support
+Intel dedicated GPUs for container workloads.
 
 Hardware demand from our clients decides what machines will be assigned a workload, so some older GPUs may work such as
 the GTX 1650/Ti, though demand is likely to be low and fluctuate.
@@ -28,30 +28,26 @@ Some examples of supported Graphics Cards:
 - NVIDIA GeForce RTX 4060/Ti
 - NVIDIA GeForce RTX 5060/Ti
 - NVIDIA GeForce RTX 5090
+- NVIDIA RTX A5000
 
 A list of in-demand hardware and their earning rates can be found on our
 [Network Monitor](https://salad.com/earn/demand) page.
 
 ### Cryptomining
 
+Salad can also utilize your GPU to run Cryptomining workloads during periods of low demand for your hardware. These
+workloads can be toggled within the application (Performance -> Configure Hardware -> Advanced Options -> Crypto
+Mining).
+
 For Cryptomining Workloads, Salad supports most Dedicated GPUs with at least 2GB of VRAM from recent generations. This
 generally means that GT/GTX 900 series NVIDIA GPUs, and R9 300 series AMD GPUs and up should work. There are a few
 exceptions to this however on older cards, and some may not work even if meeting the VRAM requirement of 2GB.
 
-Some examples of supported Graphics Cards:
+### Multi-GPU Systems
 
-- NVIDIA GeForce GTX 1070
-- NVIDIA GeForce RTX 4060
-- AMD Radeon RX 5700XT
-- AMD Radeon RX 7800XT
-
-Salad does **not** currently support Intel dedicated GPUs, or Intel integrated GPUs. Salad does support systems with
-only AMD Integrated Vega Graphics (Vega 2, 3, 5, 7, 8, 9, 10, 11, 12) installed, as long as they are the only GPU in the
-system. If you have a dedicated GPU along with your Integrated AMD GPU, it may not be used.
-
-In systems with multiple dedicated GPUs, Salad will prioritize the GPU that has an active workload available. **Multiple
-GPUs in the same machine cannot be utilized at the same time.** Chefs cannot run GPU heavy process on one GPU while
-Chopping on their secondary GPU, they must Chop Salad while AFK in order to receive the most profitable workloads.
+Salad does not officially support systems with multiple dedicated GPUs. In such configurations, Salad will prioritize
+the highest earning GPU. Chefs cannot run GPU heavy process on one GPU while Chopping on their secondary GPU, they must
+Chop Salad while AFK in order to receive the most profitable workloads.
 
 ---
 
@@ -61,17 +57,21 @@ Here's how to find your CPU if you don't know what your computer has:
 [How to Find My CPU](/guides/your-pc/how-to-find-your-gpu-or-cpu).
 
 Salad supports most 64-bit x86 Central Processing Units (CPUs) from within the past 10 years, providing they support
-[virtualization.](/guides/your-pc/how-to-enable-virtualization-support-on-your-machine) Quad-core and above CPUs will
-perform optimally while running Salad, users may run dual-core CPUs at their own risk.
+[virtualization](/guides/your-pc/how-to-enable-virtualization-support-on-your-machine). Salad requires a CPU with at
+least 4 cores and 8 threads, but we recommend using a CPU with at least 6 cores and 12 threads to maximize your earning
+potential.
 
 Some examples of supported CPUs:
 
-- Intel Core i5 8300H
-- Intel i5-12600K
-- AMD Ryzen 3 3100
+- Intel Core Ultra 7 270K Plus
+- Intel Core i5-12600K
+- AMD Ryzen 5 5600X
 - AMD Ryzen 7 7800X
 
 ## Memory
+
+Salad requires at least 16GB of RAM to run, but we recommend having at least 32GB of RAM to be compatible with most
+workloads.
 
 Salad is compatible with any type of memory, as long as you have enough of it. This means you can use any generation
 (DDR3, DDR4, DDR5), any speed (1600MT/s, 2133MT/s, 5600MT/s etc), and of any type (ECC, non-ECC, Unbuffered etc).
@@ -89,7 +89,7 @@ earn some Salad Balance!
 Bandwidth Sharing is currently limited in the supported countries, so you'll need to check if
 [your country is available](/troubleshooting/bandwidth-sharing-jobs/bandwidth-sharing-quick-troubleshooting-guide).
 
-While the exact requirements depend on client criteria and decisions, we recommend you have at least a 15 megabit per
+While the exact requirements depend on client criteria and decisions, we recommend you have at least a 50 megabit per
 second internet in both upload and download speeds, and less than 100ms latency to the nearest server.
 
 ---
