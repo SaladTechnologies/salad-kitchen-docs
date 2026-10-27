@@ -7,11 +7,14 @@ Salad. Generally, the higher end your PC components are, the more power they'll
 [your PC components](/guides/your-pc/how-to-find-your-gpu-or-cpu) by checking the manufacturers pages. The more often
 you run Salad, the more power will be consumed.
 
----
+## Calculating Profitability
 
-Most workloads on Salad will utilize your entire PC, so you'll be sitting at the higher power draw figures given. If
-you're running Bandwidth, or CPU-only containers however, they consume much less power and are likely to contribute very
-little to your power bill.
+On our download page, you can find a [profitability calculator](https://salad.com/download). This calculator will help
+you determine if running Salad is profitable for your machine based on your hardware's power consumption and electricity
+costs.
+
+Most containerized workloads on Salad will only utilize your GPU, but some workloads will utilize your CPU as well, so
+it's important to consider both when calculating your profitability.
 
 ---
 
