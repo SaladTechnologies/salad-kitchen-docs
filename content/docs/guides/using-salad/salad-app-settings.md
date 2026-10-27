@@ -85,7 +85,7 @@ Bypass your PCs idle-state to continue Chopping after activity is detected on yo
 
 ## Crypto Mining
 
-Accept or reject PoW jobs for your machine.
+Accept or reject Crypto Mining jobs for your machine.
 
 ![Salad Settings showing cryptomining options](../../../../content/images/guides/using-salad/salad-app-settings-12.png)
 
