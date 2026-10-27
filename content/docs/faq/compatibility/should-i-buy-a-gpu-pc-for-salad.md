@@ -13,10 +13,10 @@ thinking about getting components or machines "just for Salad."
 If you're upgrading or getting a new PC for other reasons, like work or gaming, and want to monetize that hardware's
 downtime with Salad, we do currently recommend the following minimum specifications for a PC to run Salad effectively:
 
-- **CPU**: 4 cores or more
-- **GPU**: NVIDIA RTX 2070 or better
+- **CPU**: 4 cores & 8 threads, 6 cores & 12 threads recommended
+- **GPU**: An NVIDIA GPU with 4GB of VRAM or some recent AMD GPUs (RX 7000 series & newer).
 - **RAM**: 16 GB or more
-- **Storage**: SSD with at least 100 GB free space
+- **Storage**: SSD with at least 70 GB free space
 
 You can find more information about earnings for different hardware on our
 [Network Monitor](https://salad.com/earn/demand).
