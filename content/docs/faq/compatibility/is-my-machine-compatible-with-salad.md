@@ -19,7 +19,7 @@ Intel dedicated GPUs for container workloads.
 Hardware demand from our clients decides what machines will be assigned a workload, so some older GPUs may work such as
 the GTX 1650/Ti, though demand is likely to be low and fluctuate.
 
-In addition to the GPU, containers require at least 8GB of RAM and 70GB of free storage space, as well as a 15 megabit
+In addition to the GPU, containers require at least 8GB of RAM and 70GB of free storage space, as well as a 50 megabit
 per second internet connection in both upload and download.
 
 Some examples of supported Graphics Cards:
