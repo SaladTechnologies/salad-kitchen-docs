@@ -14,7 +14,7 @@ running that are using these resources, Salad will automatically
 - High Resolution Video Playback (e.g. 4K or 8K video).
 - Streaming Applications (e.g. OBS Studio, Streamlabs OBS).
 - Virtual Machines (e.g. VMware, VirtualBox).
-- Other Mining Software (e.g. NiceHash).
+- Other GPU Compute Software
 - Benchmarking Software (e.g. 3DMark, Unigine Heaven).
 
 To run Salad, close all of these programs before starting. If you need to use these programs after manually starting
