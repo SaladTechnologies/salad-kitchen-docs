@@ -12,7 +12,8 @@ guide to do so.
 2. Search for [your GPU model](/faq/salad-app/what-gpu-or-cpu-is-salad-detecting) in the search bar in the middle of the
    page.
 3. Select your GPU model from the short list that should appear.
-4. Then, Select "Download" under the Game Ready Drivers, best for Gamers.
+4. Then, Select "Download" under the Game Ready Drivers, best for Gamers. Keep in mind, Salad has a minimum NVIDIA
+   driver version of 527.41.
 5. After you have clicked 'Download', your driver's installation file will start downloading. After it has downloaded,
    open the .exe file and let it load up a bit. After a few mins, you will be presented with this screen.
 
