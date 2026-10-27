@@ -17,4 +17,8 @@ At this time, Salad does **not** support multiple GPUs within one machine. This 
 While we don't actively prevent these machines from Chopping on the network, this configuration does not have active
 support and may experience degraded states, lower earnings, or difficulties to run the app.
 
+The highest-earning GPU will be prioritized for workload assignment, and any resource-intensive processes running on the
+secondary GPU may cause degraded states within the Salad application. This means that you cannot run GPU-heavy processes
+on one GPU while Chopping on the other GPU.
+
 Extensive support for multiple GPUs in one system is on our roadmap, though no estimate can be provided at this time.
