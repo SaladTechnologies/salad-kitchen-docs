@@ -36,3 +36,6 @@ up correctly. Make sure to check the following:
 - That you have a solid, stable [internet connection](/guides/your-pc/improve-internet-speed-container-jobs).
 - No other [intensive applications](/faq/salad-app/temporary-workload-block) are running on your machine, such as video
   games or rendering.
+- Your GPU is not power limited, thermal throttling, or exceeding a core temperature of 90C.
+- Your hardware is not being utilized by other applications which may prevent Salad's workloads from performing as
+  expected.
