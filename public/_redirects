@@ -1,5 +1,6 @@
 #Redirects from what the browser requests to what we serve
 /guides/using-salad/star-chef-qualifications-and-benefits /guides/using-salad/chopping-power 301!
+/guides/using-salad/salads-different-mining-states /guides/using-salad/salads-different-running-states 301!
 /article/155-how-to-whitelist-salad-in-eset-nod32 /troubleshooting/antivirus/how-to-whitelist-salad-in-eset-node32 301!
 /article/218-whitelist-salad-in-norton-firewall /troubleshooting/antivirus/whitelist-salad-in-norton-firewall 301!
 /category/971-antivirus /troubleshooting/antivirus 301!
@@ -111,10 +112,10 @@
 /hc/en-us/articles/4402402505236 /guides/using-salad/how-to-edit-your-profile 301!
 /hc/en-us/articles/4402402505236-How-to-edit-your-profile /guides/using-salad/how-to-edit-your-profile 301!
 /article/136-how-to-edit-your-profile /guides/using-salad/how-to-edit-your-profile 301!
-/hc/en-us/articles/360057558631-What-are-Salad-s-different-states-and-how-do-they-work- /guides/using-salad/salads-different-mining-states 301!
-/hc/en-us/articles/360057558631 /guides/using-salad/salads-different-mining-states 301!
-/hc/en-us/articles/360057558631-Salad-s-different-mining-states /guides/using-salad/salads-different-mining-states 301!
-/article/132-salads-different-mining-states /guides/using-salad/salads-different-mining-states 301!
+/hc/en-us/articles/360057558631-What-are-Salad-s-different-states-and-how-do-they-work- /guides/using-salad/salads-different-running-states 301!
+/hc/en-us/articles/360057558631 /guides/using-salad/salads-different-running-states 301!
+/hc/en-us/articles/360057558631-Salad-s-different-mining-states /guides/using-salad/salads-different-running-states 301!
+/article/132-salads-different-mining-states /guides/using-salad/salads-different-running-states 301!
 /hc/en-us/articles/360042395432 /guides/using-salad/how-to-enable-auto-launch 301!
 /hc/en-us/articles/360042395432-How-to-Enable-Auto-Launch /guides/using-salad/how-to-enable-auto-launch 301!
 /article/120-how-to-enable-auto-launch /guides/using-salad/how-to-enable-auto-launch 301!
