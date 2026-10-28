@@ -8,6 +8,9 @@ import type * as PageTree from 'fumadocs-core/page-tree'
 import { createClientLoader } from 'fumadocs-mdx/runtime/vite'
 import { DocsLayout } from 'fumadocs-ui/layouts/docs'
 import defaultMdxComponents from 'fumadocs-ui/mdx'
+import { Accordion, Accordions } from 'fumadocs-ui/components/accordion'
+import { Step, Steps } from 'fumadocs-ui/components/steps'
+import { Tab, Tabs } from 'fumadocs-ui/components/tabs'
 import { DocsBody, DocsDescription, DocsPage, DocsTitle } from 'fumadocs-ui/page'
 import { useMemo } from 'react'
 
@@ -60,6 +63,12 @@ const clientLoader = createClientLoader(docs.doc, {
           <MDX
             components={{
               ...defaultMdxComponents,
+              Accordion,
+              Accordions,
+              Step,
+              Steps,
+              Tab,
+              Tabs,
             }}
           />
         </DocsBody>
