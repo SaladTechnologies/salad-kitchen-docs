@@ -3,8 +3,12 @@ title: Can I Convert my Earnings into Cryptocurrency?
 ---
 
 Yes! You can redeem [RENDER Tokens](https://salad.com/store/search?q=RENDER&size=n_20_n), the native token of the Render
-Network, through our storefront and have them delivered directly to your Solana wallet. To learn more, check out our
-[How to Redeem RENDER on Salad](/rewards/redeeming-your-rewards/how-to-redeem-render-on-salad) guide.
+Network, through our storefront and have them delivered directly to your Solana wallet.
+
+Before your first redemption you need a Solana wallet with a small amount of SOL in it (around 0.01 to 0.02 SOL) to set
+up a RENDER token account, and turning RENDER into regular money usually requires an exchange account with identity
+verification. Our [How to Redeem RENDER on Salad](/rewards/redeeming-your-rewards/how-to-redeem-render-on-salad) guide
+walks through every step.
 
 ## Other Rewards
 
