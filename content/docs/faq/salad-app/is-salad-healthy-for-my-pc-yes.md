@@ -31,7 +31,7 @@ Chefs have earned over $10 million running Salad across more than 2 million down
 
 ## How to Keep an Eye on Temperatures
 
-- Keep your GPU core temperature under 83ºC (181ºF).
+- Keep your GPU core temperature under 90ºC (194ºF).
 - On cards with GDDR6X memory (RTX 3080 and 3090 class), also watch the memory junction temperature and keep it under
   about 95ºC. Hot memory is the most common failure point on heavily used cards.
 - Free tools like HWiNFO show both readings. If temperatures creep up over months, the cause is usually dust buildup or
@@ -43,10 +43,8 @@ Chefs have earned over $10 million running Salad across more than 2 million down
 
 Run your GPU and CPU at their factory settings unless you know what you are doing. Specifically:
 
-- Overclocking is not allowed. Pushing clocks past stock increases temperatures and power draw, causes instability and
-  failed jobs, and can damage hardware in rare cases.
-- Underclocking and power limiting are not allowed. Capping clock speeds or power below stock slows down workloads,
-  which causes job failures and lower earnings, and violates Salad's Terms of Service (ToS).
+- Underclocking or power limiting your card may make your machine fail our performance benchmarks, which will prevent
+  you from receiving Container Jobs.
 - Undervolting at stock clocks is allowed. It lowers heat and power draw without slowing your jobs. Test your undervolt
   thoroughly for stability before running Salad on it: an unstable undervolt causes crashed jobs, which cost you
   earnings and hurt your node's reliability.

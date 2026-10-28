@@ -32,7 +32,10 @@ up correctly. Make sure to check the following:
 - Your machine is [Container-ready](/troubleshooting/container-jobs/container-workloads-troubleshooting).
 - Salad is whitelisted in your [Firewall and Antivirus](/troubleshooting/antivirus).
 - You have all workload types enabled in your [Salad App Settings](/guides/using-salad/salad-app-settings), including
-  Proof of Work.
+  Crypto Mining
 - That you have a solid, stable [internet connection](/guides/your-pc/improve-internet-speed-container-jobs).
 - No other [intensive applications](/faq/salad-app/temporary-workload-block) are running on your machine, such as video
   games or rendering.
+- Your GPU is not power limited, thermal throttling, or exceeding a core temperature of 90C.
+- Your hardware is not being utilized by other applications which may prevent Salad's workloads from performing as
+  expected.

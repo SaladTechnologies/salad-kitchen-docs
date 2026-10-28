@@ -12,7 +12,7 @@ There is no required minimum **upload** speed requirement for Container Jobs on 
 least 10 Mbps **upload speed**.
 
 - Minimum required speeds:
-  - **Download**: 10 Mbps.
+  - **Download**: 50 Mbps.
   - **Upload**: No required minimum, but 10 Mbps recommended.
 - Recommended speeds for optimal performance:
   - **Download**: 100 Mbps or higher.
@@ -23,18 +23,18 @@ least 10 Mbps **upload speed**.
 ## **What is the Minimum Internet Speed for Bandwidth Sharing Jobs on Salad?**
 
 The minimum required network speed for [Bandwidth Sharing Jobs](/faq/jobs/what-is-bandwidth-sharing) can vary depending
-on your region. For most regions, a minimum **upload** speed of 8 Mbps is required. We recommend having at least 20 Mbps
-**upload** speed for consistent, and higher, earnings.
+on your region. For most regions, a minimum **upload** speed of 20 Mbps is required. We recommend having at least 50
+Mbps **upload** speed for consistent, and higher, earnings.
 
 For **download** speed, you will need to ensure it matches or exceeds your **upload** speed. For example, if you have an
 **upload** speed of 20 Mbps, you should also have a **download** speed of at least 20 Mbps.
 
 - Minimum required speeds:
-  - **Download**: 8 Mbps (or matching your upload speed).
-  - **Upload**: 8 Mbps.
+  - **Download**: 20 Mbps (or matching your upload speed).
+  - **Upload**: 20 Mbps.
 - Recommended speeds for optimal performance:
-  - **Download**: 20 Mbps or higher.
-  - **Upload**: 20 Mbps or higher.
+  - **Download**: 50 Mbps or higher.
+  - **Upload**: 50 Mbps or higher.
 
 ---
 

@@ -2,9 +2,9 @@
 title: How Power Limiting Impacts your Earnings
 ---
 
-Power limiting, or intentionally reducing the wattage, voltage, or power draw of your GPU, will decrease your earnings
-on Salad. Chefs who power limit their PC will receive a Degraded Notification, indicating they cannot run Container
-Workloads.
+Power limiting, or intentionally reducing the wattage, voltage, or power draw of your GPU, may prevent your machine from
+running Container Workloads on Salad. Chefs who power limit their PC will receive a Degraded Notification, indicating
+they cannot run Container Workloads.
 
 ---
 
@@ -42,8 +42,8 @@ in order to resolve the error message (14) you received in the Salad app and res
    1. For example, MSI Afterburner is common for many desktop PCs. Chefs can manage their GPU power output in MSI by
       changing their Power Limit settings. For more information, check out this
       [blog from MSI](https://www.msi.com/blog/msi-afterburner-overclocking-undervolting-guide#undervoltingguide). Keep
-      in mind this is an example of settings available to Chefs with MSI Afterburner. *Chefs should not follow these
-      steps to undervolt. Doing so could make them ineligible to receive Container workload*s.
+      in mind this is an example of settings available to Chefs with MSI Afterburner. Keep in mind, any settings changes
+      that negatively affect your GPU's performance may prevent you from receiving Container Workloads.
 
 If you're having trouble getting your settings back to normal, or you're still experiencing issues despite resetting it,
 please contact [Salad Support](/contact) and we can help troubleshoot.

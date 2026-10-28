@@ -9,7 +9,7 @@ automatically pause Salad when we detect this.
 ## **What kind of activities can trigger the notification?**
 
 - Running GPU intensive games.
-- Crypto mining with non-Salad miners.
+- High intensity GPU workloads such as local LLMs or cryptomining (outside of Salad).
 - Using programs like Adobe, Photoshop or 3-D rendering software like Blender.
 - Streaming high resolution video on Youtube or Netflix.
 

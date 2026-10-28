@@ -12,9 +12,9 @@ are some things you can do to increase your odds:
 2. It's possible there aren't currently any jobs available for your hardware, or other Chefs are already Chopping all
    the jobs. Check out our [Network Monitor](https://salad.com/earn/demand) to see how much demand your hardware has and
    then leave your Salad App Chopping to stay in the queue.
-3. Salad runs best when it's the only program using your GPU.  If you're gaming or using software that requires hardware
-   acceleration your earning rates will be negatively affected or may even prevent you from running jobs at all.
-   Reminder: Salad is best used when AFK!
+3. Salad runs best when it's the only program using your GPU. If you're gaming or using software that requires hardware
+   acceleration your earning rates will be negatively affected or may even prevent you from running jobs at all. Salad
+   is best used when AFK!
 
 ---
 
@@ -22,8 +22,10 @@ are some things you can do to increase your odds:
 
 If none of the above works and you never get an earning rate, consider these:
 
-1. Make sure Salad is not being blocked by your antivirus or firewall. You can follow our guide to solve this
-   [here](/troubleshooting/antivirus):
+1. Make sure Salad is not being blocked by your antivirus or firewall. To solve this, you can follow
+   [this guide](/troubleshooting/antivirus).
 2. If you're on a laptop, make sure you're plugged into power.
-3. Well, sometimes it's just not meant to be.  We can't offer any money for lost earning time, so if you're
+3. Read [Why am I not Receiving Any Jobs?](/faq/jobs/why-am-i-not-receiving-any-jobs) to make sure your machine is set
+   up correctly to run container jobs.
+4. Well, sometimes it's just not meant to be.  We can't offer any money for lost earning time, so if you're
    uncomfortable with this then please don't use Salad.

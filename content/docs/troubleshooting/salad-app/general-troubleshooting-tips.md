@@ -33,8 +33,9 @@ there are a few extra steps to try:
 7. Update your GPU Drivers.
    1. If you haven't updated your GPU drivers in a while, it's possible that Salad and its containers might not be
       compatible with the installed version. If Salad has recently stopped working after a recent driver update, you may
-      need to try reverting to an older driver version. This can sometimes happen if there was a bug or problem with the
-      latest release. You can find guides here on how to update your GPU drivers:
+      need to try reverting to an older driver version (NVIDIA Driver versions must be newer than 527.41). This can
+      sometimes happen if there was a bug or problem with the latest release. You can find guides here on how to update
+      your GPU drivers:
       1. [AMD drivers](/guides/your-pc/how-to-update-my-amd-drivers) if you own an AMD dedicated GPU
       2. [NVIDIA drivers](/guides/your-pc/how-to-update-my-nvidia-drivers) if you own an NVIDIA GPU
       3. Intel drivers if you own an Intel dedicated ARC GPU
@@ -44,6 +45,7 @@ there are a few extra steps to try:
       containers might be trying to use a system service that isn't available in your version. You can follow
       [Microsoft's guide](https://support.microsoft.com/en-us/windows/update-windows-3c5ae7fc-9fb6-9af1-1984-b5e0412c556a)
       to update your Windows install.
+   2. Then, start Salad and check if the issue persists. You may need to manually start Chopping on Salad again.
 
 9. Try installing additional Microsoft Redistributable packages.
    1. Normally these will have been installed already by previous applications or games on your PC, but it's possible

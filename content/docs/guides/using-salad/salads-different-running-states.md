@@ -18,3 +18,7 @@ Salad has 5 available "Running" states. These are:
 - Pause Indefinitely
   - Selecting this option will pause Salad until you manually start it again. Auto start will not kick in when you go
     idle.
+
+- Scheduled Chopping
+  - This option will allow you to schedule Salad to start and stop at specific times, defined in the application's
+    settings - found in Performance -> Advanced Options -> Scheduled Chopping.
