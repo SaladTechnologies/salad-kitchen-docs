@@ -10,5 +10,4 @@ your earnings and fix problems. Salad does not sell your data or share it with t
 The Salad app does not read your personal files, browsing or other applications. Jobs run inside isolated containers on
 your PC and have no access to the rest of your system.
 
-What is collected and why is set out in the [Privacy Policy](https://salad.com/privacy/). You can request a copy of your
-data, or have it erased, at any time - see [GDPR and privacy requests](/faq/your-account/gdpr-and-privacy-requests).
+What is collected and why is set out in the [Privacy Policy](https://salad.com/privacy/).
