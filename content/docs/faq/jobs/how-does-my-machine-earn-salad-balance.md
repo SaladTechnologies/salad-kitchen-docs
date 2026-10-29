@@ -1,37 +1,38 @@
 ---
-title: How Does my Machine Earn Salad balance?
+title: How does my machine earn Salad Balance?
+description: The three workload types Salad can run on your PC, and how the rate you are paid for a job is decided.
 ---
 
-Salad offers a range of opportunities to earn rewards. There are three primary types of workloads available: Container
-Workloads, Bandwidth sharing, and Mining. Each of these workloads has its unique benefits and requirements, catering to
-different preferences and resources. Read on to discover how you can maximize your earnings with Salad.
+Your machine earns Salad Balance by running work for SaladCloud customers. There are three workload types. Container
+jobs pay the most and are what Salad tries to run first; bandwidth sharing can run alongside them; mining is a backup
+for when nothing else is available.
 
----
+## Container jobs
 
-## Container Jobs
+Container jobs are the main way to earn. SaladCloud customers rent your GPU to run containerized workloads such as AI
+image generation, speech-to-text and other inference work. The container is downloaded to your machine before it runs,
+so you need a stable connection and enough free space on your C: drive. See
+[How do I get container jobs?](/faq/jobs/how-do-i-get-container-jobs) for the requirements.
 
-Container workloads allow Chefs to share their idle compute power to work containerized processes like the latest Stable
-Diffusion and Speech-To-Text transcription for SaladCloud customers. Containers must be downloaded onto your machine
-before they can run, which requires a stable internet connection and enough storage for the container. Not sure if
-you're machine is set up to work these jobs? Check out the [Chopping Power](/guides/using-salad/chopping-power) bar in
-the Salad app.
+Jobs are assigned automatically. They are often short, from minutes to a few hours, because customers scale their
+workloads up and down. Between jobs the app shows **Finding Job** while it waits for and downloads the next one. You are
+credited while the job runs, not when it finishes.
 
-Container payouts will vary by the day, hour and week. These jobs are not as consistent as Mining workloads, but they
-are usually much more profitable.
+### How the rate is decided
 
-## Bandwidth
+Each customer sets a **priority** for their workload, and that priority decides the rate you are paid while their job
+runs on your machine. The same GPU can therefore earn very different amounts from one job to the next. The
+[Network Monitor](/faq/jobs/network-monitor) shows the lowest and highest rate a job can pay on each GPU model, and the
+demand level for it. Earning anywhere inside that range means your machine is working as intended.
 
-Chefs in [eligible regions](/troubleshooting/bandwidth-sharing-jobs/bandwidth-sharing-quick-troubleshooting-guide) can
-share their excess bandwidth in exchange for Salad balance. These workloads pay out right away, and show up in your
-Earnings History. Additionally, this workload does not require any special type of hardware, you just need to reach the
-minimum network speed requirements. This can vary, but usually requires a minimum of 15 megabits per second of upload
-and download, and less than 100ms of latency.
+## Bandwidth sharing
 
-Bandwidth sharing can run with Container and Mining workloads at the same time. It's a great way to maximize your
-earnings!
+Chefs in [eligible regions](/troubleshooting/not-earning/bandwidth-sharing-troubleshooting) can share unused internet
+bandwidth for Salad Balance. It needs no special hardware, only a fast enough connection, and it runs at the same time
+as container jobs or mining. See [What is bandwidth sharing?](/faq/jobs/what-is-bandwidth-sharing)
 
 ## Mining
 
-Salad's fall back workload is crypto mining. We use safe, trusted crypto miners and pay out shares roughly every fifteen
-minutes. Mining workloads will run on most Chef machines, including AMD and Intel Dedicated GPUs which are not eligible
-for Container workloads.
+Mining only runs when no container job is available for your machine. It uses trusted open-source miners and pays per
+15-minute interval, but on modern cards it earns cents per day. See
+[Mining as a backup workload](/faq/jobs/mining-as-a-backup-workload) for what it pays and how to turn it off.

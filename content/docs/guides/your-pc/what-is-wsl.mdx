@@ -1,0 +1,96 @@
+---
+title: What is WSL?
+description:
+  What Windows Subsystem for Linux is, why Salad's container environment needs it, and how to check, update or repair
+  it.
+---
+
+WSL (Windows Subsystem for Linux) is a Windows feature that runs a Linux system inside a lightweight virtual machine.
+Salad uses WSL 2 to run its container environment, a Linux VM called **Salad Enterprise Linux**, which is where every
+container job runs.
+
+## Why Salad needs it
+
+Container jobs are Linux programs. Running them inside WSL keeps the job's data separate from the rest of your PC (the
+job cannot see your files, and you cannot see the job's), and gives every Chef's machine the same base to run from, so
+jobs behave the same everywhere.
+
+For the container environment to work, your PC needs three things:
+
+1. **Virtualization enabled in the BIOS.** See
+   [How to enable virtualization support](/guides/your-pc/how-to-enable-virtualization-support-on-your-machine).
+2. **The modern WSL package from Microsoft** (the Store/MSIX version), not only the WSL that ships inside Windows.
+3. **An interactive desktop session.** WSL cannot start while the PC sits at the sign-in screen or is connected over
+   Remote Desktop. See [Using remote desktop with Salad](/guides/your-pc/using-remote-desktop-with-salad).
+
+## How WSL gets installed
+
+The Salad app installs and configures WSL for you when you set up container jobs in **Settings**, then asks you to
+reboot. During that restart Windows may show "Updates are underway" or "Customizing features for you". That is normal;
+do not turn the PC off.
+
+## Check that WSL is installed correctly
+
+Open PowerShell and run:
+
+```
+wsl --version
+wsl -l -v
+```
+
+- `wsl --version` should print a **WSL version** line (plus kernel and Windows versions). If it prints usage text
+  instead of a version, you only have the old in-box WSL: see the Windows 10 note below.
+- `wsl -l -v` should list **salad-enterprise-linux** with **VERSION 2** once Salad has set up the container environment.
+
+## Common problems
+
+<Accordions type="single">
+<Accordion title="Windows 10: wsl --update says I am up to date, but Salad cannot create its environment">
+
+On Windows 10 the WSL built into Windows is not enough for Salad, and `wsl --update` can report "up to date" even though
+the modern package is missing. Install it directly:
+
+1. Download the latest `wsl.x.x.x.x.x64.msi` from the
+   [WSL releases page on GitHub](https://github.com/microsoft/WSL/releases).
+2. Run the installer and reboot.
+3. Run `wsl --version` to confirm a version number is now printed, then start Salad.
+
+</Accordion>
+<Accordion title="wsl --update fails with a 403 or a download error">
+
+Some networks block the update channel WSL uses by default. Run `wsl --update --web-download` in an administrator
+PowerShell instead, or install the `.msi` from the [WSL releases page](https://github.com/microsoft/WSL/releases).
+
+</Accordion>
+<Accordion title='"The file cannot be accessed by the system" when running wsl.exe'>
+
+This means the WSL app package itself is corrupt. Open **Settings > Apps > Installed apps**, find **Windows Subsystem
+for Linux**, open **Advanced options** and click **Repair** (then **Reset** if Repair does not help). If the entry is
+missing, reinstall from the `.msi` on the [WSL releases page](https://github.com/microsoft/WSL/releases). Reboot
+afterwards.
+
+</Accordion>
+<Accordion title="I see Salad Enterprise Linux in File Explorer">
+
+Once WSL is installed, a **Linux** entry with **salad-enterprise-linux** can appear in the File Explorer sidebar. It is
+the container environment. You cannot browse into it, and jobs inside it cannot reach the rest of your PC. Leave it
+alone.
+
+</Accordion>
+<Accordion title="Salad says my Windows is too old">
+
+The container environment needs an up-to-date Windows 10 or Windows 11. Run Windows Update and install everything
+offered, including feature updates, then try again.
+
+</Accordion>
+</Accordions>
+
+## Enabling WSL manually
+
+If Salad's setup fails, you can install WSL yourself: open PowerShell **as administrator**, run `wsl --install`, and
+reboot. Then run the container job setup again from the Salad app's Settings. Do not edit `.wslconfig` by hand unless a
+guide tells you to; see
+[Restoring .wslconfig to Salad default](/troubleshooting/pc-configuration/restoring-wslconfig-to-salad-default).
+
+If the container environment still fails to start or update, follow
+[Failed to update container environment](/troubleshooting/degraded-state/failed-to-update-container-environment).

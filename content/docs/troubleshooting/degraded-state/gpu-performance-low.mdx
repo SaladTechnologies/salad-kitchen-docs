@@ -1,0 +1,79 @@
+---
+title: GPU performance low
+description:
+  Fix Degraded State error 42 ("GPU performance is too low compared to similar GPUs") and error 23 ("GPU failed health
+  test").
+---
+
+**What it means.** As part of the compatibility check, Salad runs a short benchmark on your card and compares the result
+with what the same GPU model normally achieves on the network. **42** means your card scored below that; **23** means
+the health test didn't complete. Until a run passes, the machine isn't offered container jobs.
+
+**Why it happens.** The benchmark measures the whole machine's ability to feed the GPU, so the usual causes are:
+
+- Another program using the card during the test (see [High GPU usage](/troubleshooting/degraded-state/high-gpu-usage)).
+- A **power limit** or undervolt: the card can't reach its normal clocks. On laptops this comes from the vendor's power
+  mode, not from Windows. See [GPU power limit](/troubleshooting/degraded-state/gpu-power-limit).
+- **Heat**: the card throttles part-way through the test.
+- A damaged driver, or a driver reporting the card wrongly - common after an in-place driver update.
+- The card driving several high-resolution displays while being tested.
+- Hardware problems: a card in a slow PCIe slot, or a faulty card (error 23 in particular).
+
+## What to do
+
+<Steps>
+<Step>
+
+### Make sure nothing else is using the GPU
+
+Task Manager > Processes > sort by **GPU**. Close games, local AI tools, overlays and capture software. Fully exit tray
+programs.
+
+</Step>
+<Step>
+
+### Remove power limits and undervolts
+
+Set MSI Afterburner (or your vendor's tool) back to defaults: power limit 100%, core and memory offsets 0. On a laptop:
+vendor performance mode (ASUS Armoury Crate _Turbo_, MSI Center _Extreme Performance_, Lenovo Vantage _Performance_),
+the original charger, and Windows power mode _Best performance_. Full guide:
+[GPU power limit](/troubleshooting/degraded-state/gpu-power-limit).
+
+</Step>
+<Step>
+
+### Check temperatures and airflow
+
+If the card is hot before the test starts, it won't score well. Clear dust, check fans, and on laptops use a cooling
+pad. Let the card cool, then Retry.
+
+</Step>
+<Step>
+
+### Clean-reinstall the GPU driver
+
+With nothing running and no power limit, a low score usually means the driver: follow
+[How to reinstall your GPU drivers](/guides/your-pc/how-to-reinstall-gpu-drivers) and reboot.
+
+</Step>
+<Step>
+
+### Retry
+
+Click **Retry** on the notification or restart Salad. Each container job triggers a fresh check, so one good run is all
+it takes.
+
+</Step>
+</Steps>
+
+<Callout type="info" title="Laptops and the display GPU">
+  On laptops where the screen is wired straight to the NVIDIA card (ASUS "Ultimate", MSI "Discrete graphics" modes), the
+  card is never fully idle. If you keep failing with everything closed, try the hybrid/standard mode as a test so the
+  card is left entirely to Salad.
+</Callout>
+
+## Still stuck?
+
+Send [Salad Support](/contact) your GPU model, whether it's a laptop, any power-limit or undervolt settings, a Task
+Manager screenshot during the error, and your logs folder zipped
+([how to find it](/guides/using-salad/how-to-find-your-salad-log-files)).

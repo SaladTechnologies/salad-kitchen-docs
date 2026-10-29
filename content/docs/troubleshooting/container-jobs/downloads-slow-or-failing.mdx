@@ -1,0 +1,117 @@
+---
+title: Container downloads slow or failing
+description:
+  What to do when container jobs download at a few KB/s, restart from zero, or fail with 401, "connection reset" or "no
+  route to host" even though your internet is fast.
+---
+
+**What it means.** Each container job is downloaded from Salad's image registries into the container environment. Jobs
+range from under 100 MB to several GB. When a download runs at a trickle it never finishes in time, the network cancels
+the job and offers the next one - which looks like "it keeps downloading and never runs". The first download after a
+fresh install (the compatibility check) is affected too, so a slow path can block all paid jobs.
+
+**Why it happens.** Your general internet speed is rarely the cause; the download goes through the container
+environment's virtual network, and that path is what breaks. Most common first:
+
+1. **USB Wi-Fi adapters and unstable Wi-Fi.** The virtual switch that WSL uses sits on top of your adapter, and USB
+   Wi-Fi drivers are a well-known cause of crawling or dropping traffic inside WSL while Windows itself is fine.
+2. **VPN clients and security products** that filter network traffic (NordVPN, Tailscale, AnyConnect, Kaspersky, Norton,
+   Bitdefender, McAfee, Avast). They intermittently drop the environment's connections: "no route to host", "connection
+   reset by peer".
+3. **A slow route between your ISP and the registry**, on some mobile/5G and satellite connections or from some
+   countries. Everything else is fast but the registry download crawls.
+4. **The Hyper-V firewall** on recent Windows 11 builds blocking WSL traffic.
+5. **A custom `.wslconfig`** with networking changes.
+6. **Not enough free space on C:** for the image cache ("not enough storage to cache the image").
+
+<Callout type="info" title="About the 401 error">
+  A "401 Unauthorized" part-way through a download is a consequence of slowness, not an account problem. The permission
+  to download an image is valid for a limited time; if the download is still crawling when it runs out, the registry
+  refuses the rest. Fix the speed and the 401 goes away.
+</Callout>
+
+## What to do
+
+<Steps>
+<Step>
+
+### Use a wired connection if you possibly can
+
+Plug a cable from the router into the PC's Ethernet port and restart the PC. This alone fixes most crawling downloads,
+especially with USB Wi-Fi adapters.
+
+</Step>
+<Step>
+
+### Test with VPN and network protection off
+
+Disconnect VPN clients and pause your antivirus's web/network protection, Exit Salad from the tray icon, run
+`wsl --shutdown` in PowerShell, start Salad and watch one download. If it's fast now, add exclusions for `vmmem`,
+`wslservice.exe`, `C:\Program Files\Salad` and `C:\ProgramData\Salad` ([antivirus guides](/troubleshooting/antivirus)).
+
+</Step>
+<Step>
+
+### Check the Hyper-V firewall (Windows 11)
+
+In PowerShell as Administrator:
+
+```
+Get-NetFirewallHyperVVMSetting -Name '{40E0AC32-46A5-438A-A0B2-2B479E8F2E90}'
+```
+
+`DefaultOutboundAction` should be `Allow` or `NotConfigured`. If it's `Block`:
+
+```
+Set-NetFirewallHyperVVMSetting -Name '{40E0AC32-46A5-438A-A0B2-2B479E8F2E90}' -DefaultOutboundAction Allow
+```
+
+</Step>
+<Step>
+
+### Stuck on Wi-Fi? Turn off large send offload on the WSL adapter
+
+As Administrator (copy and paste - the command name has a hyphen):
+
+```
+Get-NetAdapter -IncludeHidden | Where-Object Name -like 'vEthernet (WSL*' | Disable-NetAdapterLso
+```
+
+```
+wsl --shutdown
+```
+
+Then start Salad. Also update the Wi-Fi adapter's driver from the manufacturer rather than the Windows default.
+
+</Step>
+<Step>
+
+### Rule out the route itself
+
+If downloads are slow on a wired connection with no VPN, test from a different network once - a phone hotspot on another
+carrier is enough. If the download completes there, the slow path is between your ISP and the registry. A different DNS
+or a change of ISP routing is outside what Salad can fix, but tell support: patterns by country help.
+
+</Step>
+<Step>
+
+### Free space and .wslconfig
+
+Keep at least 70 GB free on C: ([free up space](/faq/compatibility/can-i-move-salad-from-the-c-drive)) and reset
+`.wslconfig` if you've changed it
+([restore defaults](/troubleshooting/pc-configuration/restoring-wslconfig-to-salad-default)).
+
+</Step>
+</Steps>
+
+<Callout type="warn" title="Don't reinstall to fix downloads">
+  Reinstalling Salad or unregistering the container environment throws away everything downloaded so far, so the next
+  job starts from zero over the same slow path.
+</Callout>
+
+## Still stuck?
+
+Send [Salad Support](/contact): how the PC connects (wired, Wi-Fi, USB adapter, mobile), your country, which VPN or
+security products are installed, the Hyper-V firewall output, and your logs folder zipped
+([how to find it](/guides/using-salad/how-to-find-your-salad-log-files)). The logs record each download's speed, so we
+can see exactly where it stalls.

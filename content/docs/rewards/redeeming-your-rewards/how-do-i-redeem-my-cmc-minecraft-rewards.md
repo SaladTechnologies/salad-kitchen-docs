@@ -1,10 +1,12 @@
 ---
-title: How Do I Redeem My CMC Minecraft Rewards?
+title: How do I redeem my CMC Minecraft rewards?
+description: Activate a CMClient cosmetic key from Salad on the CMC website and apply it to your Minecraft nickname.
 ---
 
-Redeeming keys (aka coupons) is actually quite simple. CMC reward keys are redeemed on CMC's website.
+CMC reward keys are redeemed on CMC's website. Find your key in your
+[Reward Vault](/rewards/help/reward-vault-and-redemption-codes), then follow these steps.
 
-## CMC Cosmetic Redemption
+## CMC cosmetic redemption
 
 1. If you do not have a CMClient account, go to
    [https://cm-pack.pl/panel/sign-up.php](https://cm-pack.pl/panel/sign-up.php) and create an account with the same
@@ -17,9 +19,9 @@ Redeeming keys (aka coupons) is actually quite simple. CMC reward keys are redee
 4. Add the cosmetic to your nickname on the "Cosmetics" page
    [https://cm-pack.pl/panel/cosmetic](https://cm-pack.pl/panel/cosmetics.php).
 
-## Experiencing Issues with Your Reward?
+## Experiencing issues?
 
-If you are experiencing issues activating or using your reward (such as having trouble entering your key, or an issue
-with the services not outlined in the above guide), you can contact CMC directly for assistance through their support
-email: [support@cmclient.pl](mailto:support@cmclient.pl) or through their
-[official Discord](https://discord.com/invite/ksHzvmW).
+If the key is rejected or the cosmetic does not appear, contact CMC directly through their support email:
+[support@cmclient.pl](mailto:support@cmclient.pl) or through their
+[official Discord](https://discord.com/invite/ksHzvmW). See
+[Problems using a reward](/rewards/help/problems-using-a-reward) for what to send them and what to send Salad.

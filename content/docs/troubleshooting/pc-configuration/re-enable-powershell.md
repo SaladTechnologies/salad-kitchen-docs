@@ -1,37 +1,48 @@
 ---
-title: Re-enable Powershell
+title: Re-enable PowerShell
+description:
+  Fix a corrupt or disabled Windows PowerShell when Salad shows "Problem detecting hardware" or a storage calculation
+  error.
 ---
 
-Some Chefs may experience issues with Salad jobs and other subsystems if their PowerShell version is corrupted, or
-otherwise not working as expected. When running into issues with PowerShell or systems that rely on PowerShell, it is
-recommended to verify that it is correctly installed and functional before continuing.
+Salad runs PowerShell commands to read your hardware and prepare the container environment. When PowerShell is disabled,
+blocked or corrupt, Salad shows **Problem detecting hardware** or a **storage calculation error**, and the logs show
+PowerShell failing to start. See
+[Problem detecting hardware](/troubleshooting/degraded-state/problem-detecting-hardware) and
+[How to fix a storage calculation error](/troubleshooting/container-jobs/storage-calculation-error) for the full
+troubleshooting of those messages; this page is the PowerShell fix.
 
-**Re-enable via Optional Features (Windows 10)**
+## 1. Check that PowerShell opens
 
-In order to access the Optional Features on your System, there are 2 main methods:
+Press **Windows + R**, type `powershell` and press **Enter**. If a blue window opens and shows a prompt, PowerShell
+itself works, and the problem is more likely an antivirus or policy blocking scripts: see
+[Antivirus](/troubleshooting/antivirus). If it errors out or closes immediately, continue.
 
-- Using the Windows search bar, type `Turn Windows features on or off`, then press Enter
-- Press the Windows Key + R, then type `optionalfeatures.exe`, then press Enter.
+## 2. Toggle the PowerShell Windows feature
 
-Once you're on the Optional Features window, follow the following steps:
+1. Search for **Turn Windows features on or off** in the Start menu, or press **Windows + R** and run
+   `optionalfeatures.exe`.
+2. Find **Windows PowerShell 2.0** and untick it.
 
-- Scroll down and locate the "Windows PowerShell 2.0" entry.
-- Uncheck the "Windows PowerShell 2.0" feature.
-- Save and apply your changes.
-- Restart your Windows 10 computer.
-- ![Screenshot showing Windows Powershell 2.0 options in Windows Features](../../../../content/images/troubleshooting/pc-configuration/re-enable-powershell-1.png)
+   ![Screenshot showing Windows Powershell 2.0 options in Windows Features](../../../../content/images/troubleshooting/pc-configuration/re-enable-powershell-1.png)
 
-Afterwards, repeat the steps from above and re-enable the Windows PowerShell feature.
+3. Click **OK** and restart your PC.
+4. Open the same window again, tick **Windows PowerShell 2.0**, click **OK** and restart once more.
 
----
+## 3. Repair system files
 
-**Use Command Prompt to run a System Check:**
+If PowerShell still fails, run the System File Checker:
 
-In cases where the above does not work, Windows provides a set of commands that can find corrupt files and tries to
-repair them automatically. Running these commands can help identify the issue and fix it automatically on your system.
-
-1. Open a command prompt as administrator:
+1. Open Command Prompt as administrator.
 
    ![Screenshot showing how to open Command Prompt as admin](../../../../content/images/troubleshooting/pc-configuration/re-enable-powershell-2.png)
 
-2. Once open, type the following command and hit Enter: `sfc /scannow`
+2. Run `sfc /scannow` and wait for it to finish, then reboot.
+
+If SFC reports errors it could not fix, continue with the DISM commands on
+[Restoring DISM](/troubleshooting/pc-configuration/restoring-dism).
+
+## Still stuck?
+
+Send [Salad Support](/contact) your machine ID, a screenshot of the notification and your zipped logs. See
+[How to create a support ticket](/guides/your-pc/how-to-create-a-support-ticket).

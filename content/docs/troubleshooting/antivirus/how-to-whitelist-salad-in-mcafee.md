@@ -1,5 +1,6 @@
 ---
-title: How to Whitelist Salad in McAfee
+title: 'How to Whitelist Salad in McAfee'
+description: 'Step-by-step: add the Salad folders to the exclusions in McAfee so it stops blocking Salad.'
 ---
 
 **1. Open McAfee**

@@ -1,15 +1,16 @@
 ---
-title: 'How to View your Salad Achievements'
+title: How to view your Salad achievements
+description: Where to see the achievements you have earned on the Salad website and what is still left to unlock.
 ---
 
-Salad has Achievements that you can earn by completing certain tasks or goals while using the Salad App. You can view
-your Achievements and when you obtained them on the Salad web app.
+Achievements are earned by completing tasks and goals while using Salad. You can see them, and when you earned them, on
+the Salad website.
 
-1. Open your [Salad Account Profile](https://salad.com/account/summary) in your web browser.
+1. Open your [Salad account profile](https://salad.com/account/summary) in your web browser.
    ![Screenshot of Salad profile in a web browser](../../../../content/images/guides/using-salad/how-to-view-your-salad-achievements-1.png)
-2. Log in with your Salad account if you haven't already.
-3. In the left-hand menu, select 'Achievements'.
+2. Log in if you are not already logged in.
+3. In the left-hand menu, select **Achievements**.
    ![Screenshot of the achievements page showing achievements](../../../../content/images/guides/using-salad/how-to-view-your-salad-achievements-2.png)
 
-Here, you can view all of the Achievements you have earned, along with the date you earned them. You can also see the
-Achievements you have yet to earn and what you need to do to unlock them.
+The page lists every achievement you have earned with the date you earned it, plus the ones you have yet to unlock and
+what you need to do for each.

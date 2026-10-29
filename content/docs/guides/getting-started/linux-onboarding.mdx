@@ -1,15 +1,17 @@
 ---
-title: Linux Onboarding
+title: Linux onboarding
+description: Install and configure the closed-beta Linux build of Salad on a Debian-based fleet machine.
 ---
 
-<Callout type="info">
-  The Linux build is in early beta testing, and access is thus granted to specific users following a verification of
-  requirements. Users with large machine counts and able to sign a contract to acccess this beta are invited to contact
-  our support team at support@salad.com.
+<Callout type="warn" title="Closed beta">
+  The Linux build of Salad is a closed beta. Access is granted only to operators of large machine fleets who sign an
+  agreement with Salad. Individual Chefs cannot request a token, and requests sent to support for a JWT or token will be
+  declined. The Windows app is the supported way to earn with Salad. Fleet operators who want to discuss access can
+  contact our team at support@salad.com.
 </Callout>
 
-We currently offer limited (beta) support for Linux installations. We only support a few distributions at this time but
-plan on expanding it.
+Salad offers limited (beta) support for Linux installations on a small number of distributions. The instructions below
+assume you already have an agreement with Salad and a JWT token issued to you.
 
 ## Prerequisites
 
@@ -22,10 +24,9 @@ plan on expanding it.
 
 ## Account Authentication
 
-1. Contact Salad at support@salad.com and request a Linux client JWT token.
-
-We use a (JWT) token to authenticate a client and are provisioning these manually at this time. Please contact us and
-ask for a Linux Token or JWT.
+The Linux client authenticates with a JWT token. Tokens are provisioned manually as part of the fleet agreement; they
+are not issued to individual Chefs. If you are a fleet operator and have not received your token, contact
+support@salad.com using the address on your agreement.
 
 ---
 
@@ -70,7 +71,7 @@ apt install ./salad-public-bookworm.deb
 apt install -y salad-platform
 ```
 
-3. Get your JWT from support@salad.com (see above) and put it in the config file.
+3. Put the JWT you received as part of your agreement (see above) in the config file.
 
 ```sh
 cat > /etc/salad/crisper.ini << EOF

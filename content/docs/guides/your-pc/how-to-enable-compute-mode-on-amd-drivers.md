@@ -1,53 +1,42 @@
 ---
-title: How to Enable Compute Mode on AMD Drivers
+title: How to enable Compute mode on AMD drivers
+description:
+  Switch AMD RX 400 and 500 series cards to Compute workload mode in AMD Software so Salad can Chop at full speed.
 ---
 
-If you are using an AMD Graphics card from the RX 400/500 series, we advise that you enable Compute Mode in your AMD
-Radeon Settings, or you may suffer extremely reduced earnings. We advise turning this back to Graphics mode when
-intended to game, or you may see slightly reduced FPS in some titles.
+AMD RX 400 and 500 series cards (RX 470, 480, 570, 580 and 590) earn far less on Salad unless the driver's GPU workload
+is set to **Compute**. Switch it back to **Graphics** when you want to game, as Compute mode can cost a few FPS in some
+titles.
 
-These GPUs require Compute Mode to be enabled
+Before you start, [update your AMD drivers](/guides/your-pc/how-to-update-my-amd-drivers) and **stop Salad**.
 
-- RX 470
-- RX 480
-- RX 570
-- RX 580
-- RX 590
+## Option 1: let Salad do it
 
-To enable this feature, you will need to ensure you are updated to the most Recent AMD Drivers. If you are on older
-drivers, you can follow our guide here to [update your drivers](/guides/your-pc/how-to-update-my-amd-drivers). It is
-also important to make sure to **Turn Off Salad Before Starting.**
+1. Stop Salad.
+2. [Enable elevated permissions](/guides/using-salad/elevated-permissions) in the Salad app.
+3. Start Salad again.
 
----
+## Option 2: set it in AMD Software
 
-### Option 1:
-
-1. Pause Salad by clicking the Pause button in your Salad widget
-2. [Enable elevated permissions](/faq/salad-app/what-are-elevated-permissions-and-should-i-enable-them)
-3. Click Start again in your Salad widget
-
-### Option 2:
-
-1. Pause Salad by clicking the Pause button in your Salad widget
-2. Open Radeon Settings, and click the Gear icon at the top right
+1. Stop Salad.
+2. Open AMD Software and click the **gear icon** at the top right.
 
    ![screenshot of amd driver app](../../../../content/images/guides/your-pc/how-to-enable-compute-mode-on-amd-drivers-1.png)
 
-3. Click Graphics on the top left
+3. Click **Graphics** at the top left.
 
    ![screenshot of graphics tab](../../../../content/images/guides/your-pc/how-to-enable-compute-mode-on-amd-drivers-2.png)
 
-4. Scroll down and click Advanced
+4. Scroll down and click **Advanced**.
 
    ![screenshot of advanced options](../../../../content/images/guides/your-pc/how-to-enable-compute-mode-on-amd-drivers-3.png)
 
-5. Scroll down and select GPU Workload, and set it to "Compute"
+5. Find **GPU Workload** and set it to **Compute**.
 
    ![screenshot of enabling compute mode](../../../../content/images/guides/your-pc/how-to-enable-compute-mode-on-amd-drivers-4.png)
 
-6. Click OK to restart your GPU Drivers
+6. Click **OK** to restart the graphics driver.
 
    ![screenshot of clicking okay](../../../../content/images/guides/your-pc/how-to-enable-compute-mode-on-amd-drivers-5.png)
 
-Your screen will turn off and back on again, and then your Drivers should now be in Compute Mode. Starting Salad back up
-you should see Salad Chopping at full speed.
+Your screen goes black for a moment while the driver restarts. Start Salad again and it should Chop at full speed.

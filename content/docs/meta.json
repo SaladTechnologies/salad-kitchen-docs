@@ -1,4 +1,3 @@
 {
-  "defaultOpen": true,
-  "pages": ["index", "guides", "rewards", "faq", "troubleshooting"]
+  "pages": ["index", "guides", "troubleshooting", "rewards", "faq"]
 }

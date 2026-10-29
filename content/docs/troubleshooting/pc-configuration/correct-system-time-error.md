@@ -1,33 +1,38 @@
 ---
-title: Correct System Time Error
+title: Correct system time error
+description:
+  Fix a wrong Windows clock, which stops Salad from logging in, connecting to its servers or getting jobs, by turning on
+  automatic time sync.
 ---
 
-Some Chefs may experience issues with Salad workloads if their PC clock is set to the wrong time. Chefs should confirm
-that their PC is set to automatically update the time and date. If that does not resolve the issue, check that your PC
-is synchronized properly to your internet time server.
+Salad's connections to its servers are signed with the current time. If your PC clock is off by more than a few minutes,
+logins fail, the app shows connection or certificate errors, and jobs cannot be assigned. Check the clock in the taskbar
+against your phone; if it is wrong, or the time zone is wrong, follow the steps below.
 
-## Set Time Automatically in Windows
+## Set time automatically
 
-1. Right click on the date/time widget in your PCs taskbar and select **_Adjust date and time_**.
+1. Right-click the clock in the taskbar and choose **Adjust date and time**.
 
    ![Screenshot of Windows Taskbar opening Change date and Time options](../../../../content/images/troubleshooting/pc-configuration/correct-system-time-error-1.png)
 
-2. In Time and Date Settings, make sure that **_Set Time Automatically_** is toggled to **_On_**.
+2. Turn **Set time automatically** and **Set time zone automatically** on, and check that the time zone shown is yours.
 
    ![Screenshot showing Set Time Automatically option in Windows Settings](../../../../content/images/troubleshooting/pc-configuration/correct-system-time-error-2.png)
 
-## Check PC Time Synchronization
+## Force a sync with the internet time server
 
-1. Run Command, by hitting Windows + R key. In the command prompt, enter **timedate.cpl** and hit enter.
+1. Press **Windows + R**, type `timedate.cpl` and press **Enter**.
 
    ![Screenshot of Windows Run prompt](../../../../content/images/troubleshooting/pc-configuration/correct-system-time-error-3.png)
 
-2. Click into the **Internet Time** tab. Make sure that the clock was synchronized recently. It should synch roughly
-   every 24 hours.
+2. Open the **Internet Time** tab and check when the clock last synchronized. Windows normally syncs about once a day.
 
    ![Screenshot showing Internet Time settings in Windows](../../../../content/images/troubleshooting/pc-configuration/correct-system-time-error-4.png)
 
-3. If your PC time has not been synchronized lately, you may need to change the internet time server your PC is
-   attempting to sync to. Choose one of the time servers available, and hit **Update Now**.
+3. If it has not synced recently or reports an error, click **Change settings**, pick another server from the list (for
+   example `time.windows.com` or `time.nist.gov`) and click **Update now**.
 
    ![Screenshot of dropdown options in Internet Time settings in Windows](../../../../content/images/troubleshooting/pc-configuration/correct-system-time-error-5.png)
+
+Restart Salad after the clock is corrected. If the clock drifts again after every reboot, the motherboard's CMOS battery
+is probably flat; it is a cheap coin cell that any PC shop can replace.

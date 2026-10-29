@@ -1,36 +1,30 @@
 ---
-title: How to Check if your Salad Installer is Safe
+title: How to check if your Salad installer is safe
+description: Verify the file hash of your Salad installer against the official GitHub release so you know it is genuine.
 ---
 
-It's important to make sure you've downloaded Salad from the right source, and that you have your hands on a legitimate
-bit of Salad Chopping software. Using third party builds of Salad, or downloading Salad from non-official sources, could
-result in your earnings being skimmed by bad actors, your account being breached, or possibly worse.
+Only download Salad from [salad.com/download](https://salad.com/download) or from the official
+[GitHub releases](https://github.com/SaladTechnologies/Salad-Applications/releases). Builds from anywhere else may have
+been tampered with to skim your earnings or steal your account.
 
----
+To confirm a downloaded installer is genuine, compare its hash with the one published on GitHub:
 
-You can verify if the version of Salad you downloaded is legit by following this guide here:
-
-1. Open up Windows Powershell.
+1. Open Windows PowerShell.
 
    ![opening Windows Powershell](../../../../content/images/guides/your-pc/how-to-check-if-your-salad-installer-is-safe-1.png)
 
-2. Navigate into the folder where your installer was downloaded. By default this is Downloads. You can do this by
-   entering `cd Downloads` and hitting enter.
+2. Go to the folder that holds the installer. For Downloads, type `cd Downloads` and press **Enter**.
 
    ![Screenshot of Windows Powershell in Downloads directory](../../../../content/images/guides/your-pc/how-to-check-if-your-salad-installer-is-safe-2.png)
 
-3. Once you're here, run the `Get-FileHash /file-name.exe | Format-List` command. For example:
-   `Get-FileHash Salad-1.8.6.exe | Format-List`. This will return the Hash for the selected file.
+3. Run `Get-FileHash <file name> | Format-List`, replacing `<file name>` with the installer's name, for example
+   `Get-FileHash Salad-1.8.6.exe | Format-List`. PowerShell prints the file's SHA256 hash.
 
    ![Screenshot of filehash command being run](../../../../content/images/guides/your-pc/how-to-check-if-your-salad-installer-is-safe-3.png)
 
-4. Then, compare the Hash to our [Github Release](https://github.com/SaladTechnologies/Salad-Applications/releases) page
-   to check if your installer, or main salad.exe application is legit. If it doesn't match you should immediately remove
-   it from your system, and run an Antivirus scan if installed.
+4. Compare it with the hash listed for the same version on the
+   [GitHub releases page](https://github.com/SaladTechnologies/Salad-Applications/releases). If they match, the
+   installer is genuine. If they do not, delete the file, run an antivirus scan, and download again from salad.com.
 
----
-
-Salad can safely be downloaded from two sources. Our official website, and our GitHub repository. The download domain
-for Salad is [https://salad.com/download](https://salad.com/download) (accessible via
-[https://salad.com](https://salad.com) and clicking the Download button), and our GitHub repository can be found
-here: [https://github.com/SaladTechnologies/Salad-Applications](https://github.com/SaladTechnologies/Salad-Applications)
+The same check works on the installed `Salad.exe`. If your antivirus flags the genuine installer, see
+[Antivirus](/troubleshooting/antivirus).

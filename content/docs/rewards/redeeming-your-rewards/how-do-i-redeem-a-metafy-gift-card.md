@@ -1,5 +1,7 @@
 ---
-title: How Do I Redeem a Metafy Gift Card and Memberships?
+title: How do I redeem a Metafy gift card or membership?
+description:
+  Use a Metafy gift card code from Salad when booking a coach, or apply a Metafy membership code to your account.
 ---
 
 Once you have purchased a Metafy gift card from the Salad Storefront, you'll receive a gift card code that can be
@@ -44,10 +46,11 @@ A user's gift card balance will never expire and cannot be transferred to anothe
 
 ### Metafy Memberships
 
-Chefs can purchase Metafy memberships with their Salad balance and apply them directly to their Metafy account. Once the
-membership is purchased, chefs will receive an email with a redemption code and link.
+Metafy memberships redeemed with Salad Balance are applied directly to your Metafy account. After redeeming, you receive
+an email with a redemption code and link.
 
-1. Click on the Metafy membership url sent via email, or your Salad reward vault. The URL will take you to this page:
+1. Open the Metafy membership URL from the email or your
+   [Reward Vault](/rewards/help/reward-vault-and-redemption-codes). It takes you to this page:
 
    ![Screenshot of Metafy website landing page](../../../../content/images/rewards/redeeming-your-rewards/metafy-gift-card-8.png)
 
@@ -58,5 +61,10 @@ membership is purchased, chefs will receive an email with a redemption code and 
 
    ![Screenshot of checkout page on Metafy website](../../../../content/images/rewards/redeeming-your-rewards/metafy-gift-card-9.png)
 
-_Metafy renews monthly, and users can cancel any time. If you do not wish to for an additional month make sure to cancel
-your membership your Metafy account page._
+_Metafy renews monthly and you can cancel at any time. If you do not want to pay for an additional month, cancel the
+membership from your Metafy account page._
+
+## Experiencing issues?
+
+If Metafy rejects the code or the membership does not apply, contact Metafy support from their site. See
+[Problems using a reward](/rewards/help/problems-using-a-reward) for what to send them and what to send Salad.

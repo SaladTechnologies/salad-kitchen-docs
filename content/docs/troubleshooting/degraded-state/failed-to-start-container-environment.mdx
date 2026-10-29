@@ -1,0 +1,94 @@
+---
+title: Failed to start container environment
+description:
+  Fix Degraded State errors -2 and -3, where Salad's Linux container environment can't be imported into WSL or its
+  service won't start.
+---
+
+**What it means.** Salad runs container jobs inside its own Linux environment ("Salad Enterprise Linux") under WSL 2.
+Error **-2** means the environment couldn't be imported into WSL; error **-3** means it imported but the service inside
+it failed to start. Either way, container jobs can't run until it's fixed.
+
+**Why it happens.** Nearly always one of these, most common first:
+
+1. A custom `.wslconfig` file. In particular `networkingMode=mirrored` and custom `kernelCommandLine` settings break the
+   environment's networking, so its service fails on every start.
+2. A VPN client or security product (Tailscale, Cisco AnyConnect, Kaspersky, Norton and similar) holding a network
+   address the environment needs when it starts.
+3. A damaged WSL package or an incomplete earlier import.
+4. Virtualization turned off in the BIOS, or another virtualization product (some Android emulators, VirtualBox with
+   Hyper-V disabled) taking it over.
+5. Not enough free space on the C: drive for the environment to be created.
+
+## What to do
+
+<Steps>
+<Step>
+
+### Reset .wslconfig to Salad's defaults
+
+Open `C:\Users\<your user>\.wslconfig` in Notepad. Keep only the `[wsl2]` section with the `memory=` line Salad wrote
+and remove everything else, especially `networkingMode` and `kernelCommandLine`. Save, then run `wsl --shutdown` in
+PowerShell. Full steps:
+[Restoring .wslconfig to Salad default](/troubleshooting/pc-configuration/restoring-wslconfig-to-salad-default).
+
+</Step>
+<Step>
+
+### Start Salad with VPNs disconnected
+
+Disconnect VPN clients and pause the network protection module of third-party antivirus, then Exit Salad from the tray
+icon, run `wsl --shutdown`, and start Salad again. If that fixes it, add an exclusion for Salad and WSL (`vmmem`,
+`wslservice.exe`) in the security product, or start Salad before connecting the VPN.
+
+</Step>
+<Step>
+
+### Check virtualization and conflicting software
+
+Confirm virtualization is enabled ([how to check](/faq/compatibility/does-my-pc-support-virtualization)) and close
+Android emulators ([known conflicts](/troubleshooting/container-jobs/virtualization-conflicts-android-emulators)).
+
+</Step>
+<Step>
+
+### Remove a half-imported environment
+
+If the environment shows up in `wsl -l -v` as **Installing** or won't start, remove it so Salad can import it fresh. In
+PowerShell as Administrator:
+
+```
+wsl --shutdown
+```
+
+```
+wsl --unregister salad-enterprise-linux
+```
+
+Then start Salad and leave it for 15-20 minutes. Everything inside the environment is Salad's; nothing of yours is lost.
+
+</Step>
+<Step>
+
+### Repair WSL itself
+
+Run `wsl --update` as Administrator and reboot. If WSL commands print "The file cannot be accessed by the system",
+repair the package: **Settings > Apps > Installed apps > Windows Subsystem for Linux > Advanced options > Repair**, or
+reinstall it from [Microsoft's WSL releases](https://github.com/microsoft/WSL/releases).
+
+</Step>
+<Step>
+
+### Last resort: reinstall Salad
+
+Only after the steps above: [uninstall Salad](/guides/using-salad/how-to-uninstall-salad), reboot, reinstall from
+[salad.com/download](https://salad.com/download).
+
+</Step>
+</Steps>
+
+## Still stuck?
+
+Send [Salad Support](/contact) a screenshot of the notification with the error number, the contents of your
+`.wslconfig`, which VPN or security products are installed, and your logs folder zipped
+([how to find it](/guides/using-salad/how-to-find-your-salad-log-files)).

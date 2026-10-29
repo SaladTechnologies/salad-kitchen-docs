@@ -1,0 +1,80 @@
+---
+title: How to reinstall your GPU drivers
+description:
+  Remove your GPU driver completely with DDU and clean-install the latest version to fix GPU detection and
+  degraded-state problems.
+---
+
+A clean reinstall removes every trace of the current GPU driver and installs a fresh copy. It fixes most problems that a
+plain update does not, because an update keeps the old driver's leftover files and settings.
+
+## When to do this
+
+- Salad shows a degraded state with code **-1**, **11** or **19**: see
+  [Degraded state error codes](/troubleshooting/degraded-state/error-codes).
+- Salad reports **GPU performance low** while nothing else is using the GPU: see
+  [GPU performance low](/troubleshooting/degraded-state/gpu-performance-low).
+- Salad [does not detect your GPU](/guides/your-pc/what-gpu-or-cpu-is-salad-detecting) even though Windows does, or the
+  driver keeps reporting errors or crashing.
+
+Check whether you have an NVIDIA, AMD or Intel GPU first:
+[How to find your GPU or CPU specifications](/guides/your-pc/how-to-find-your-gpu-or-cpu).
+
+<Steps>
+<Step>
+
+### Download the new driver first
+
+Get the latest driver from the manufacturer before you uninstall anything, so you are not stuck without a working
+display driver:
+
+- [NVIDIA drivers](https://www.nvidia.com/en-us/drivers/)
+- [AMD drivers](https://www.amd.com/en/support/download/drivers.html)
+- [Intel Driver & Support Assistant](https://www.intel.com/content/www/us/en/support/detect.html)
+
+Stop Salad before you continue.
+
+</Step>
+<Step>
+
+### Uninstall the current driver
+
+The most thorough method is Display Driver Uninstaller (DDU), a free tool trusted by the PC community for years:
+
+1. Download DDU from [guru3d.com](https://www.guru3d.com/download/display-driver-uninstaller-download) and extract it.
+2. Open DDU. In the drop-down on the right, choose **GPU** and then your GPU brand.
+3. Click **Clean and restart**. DDU removes the driver and reboots your PC.
+
+If you would rather not use DDU, uninstall the driver from Windows instead: open **Settings > Apps > Installed apps**,
+uninstall the NVIDIA, AMD or Intel graphics driver package, and restart.
+
+After the reboot your screen may look blurry or oversized and only one monitor may work. That is normal until the new
+driver is installed.
+
+</Step>
+<Step>
+
+### Clean-install the new driver
+
+Run the installer you downloaded in step 1:
+
+- **NVIDIA:** choose **Custom (Advanced)**, then tick **Perform a clean installation**.
+- **AMD:** choose **Factory Reset** when the installer offers it.
+- **Intel:** follow the assistant's prompts.
+
+</Step>
+<Step>
+
+### Reboot and test
+
+Restart your PC once more, then start Salad and let it run. Check the **Performance** tab to confirm your GPU is
+detected.
+
+</Step>
+</Steps>
+
+## Still stuck?
+
+If the same degraded state or detection problem comes back after a clean reinstall, run Windows Update, then send
+[Salad Support](/contact) your machine ID, a screenshot of the exact notification and your zipped logs. See
+[How to create a support ticket](/guides/your-pc/how-to-create-a-support-ticket).

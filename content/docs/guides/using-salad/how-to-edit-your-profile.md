@@ -1,31 +1,31 @@
 ---
-title: How to Edit Your Profile
+title: How to edit your profile
+description: Where to change your Salad username, avatar, linked accounts and passkey on the Salad website.
 ---
 
-You can access your Salad profile by:
+Your profile is managed on the Salad website, not in the app.
 
-1. Opening your favorite Web Browser
+1. Open your web browser.
 
    ![opened Web Browser](../../../../content/images/guides/using-salad/how-to-edit-your-profile-1.png)
 
-2. Navigate to [https://salad.com/account/summary](https://salad.com/account/summary)
+2. Go to [https://salad.com/account/summary](https://salad.com/account/summary).
 
    ![navigated to Salad account homepage](../../../../content/images/guides/using-salad/how-to-edit-your-profile-2.png)
 
-3. Log into your account (if currently logged out)
+3. Log in if you are not already logged in.
 
    ![Logging into a Salad account](../../../../content/images/guides/using-salad/how-to-edit-your-profile-3.png)
 
----
+From your profile you can:
 
-Once logged into your account, you can:
-
-- Edit your Salad Username.
-- Change your Profile Avatar.
-  - Updating your Profile Avatar can take up to an hour to reflect in your Salad Widget
-
-- Attach a Minecraft username for some Minecraft rewards.
-- Connect a Google account for Google Single Sign On (SSO).
-- Add a [Passkey](/guides/using-salad/salad-app-passkeys) to your account.
+- Edit your Salad username.
+- Change your avatar. A new avatar can take up to an hour to appear in the Salad app.
+- Attach a Minecraft username, needed for some Minecraft rewards.
+- Connect a Google account for Google sign-in.
+- Add a [passkey](/guides/using-salad/salad-app-passkeys) to your account.
 
 ![image showing available options on your Salad Profile](../../../../content/images/guides/using-salad/how-to-edit-your-profile-4.png)
+
+You cannot change the email address on your account; see
+[Can I change the email address for my account?](/faq/your-account/can-i-change-the-email-address-for-my-account).

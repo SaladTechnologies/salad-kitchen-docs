@@ -1,0 +1,51 @@
+---
+title: Earning less than expected
+description:
+  Why a GPU listed as high demand can still be paid at the low end of its range, what "priority" means, and how to tell
+  a normal dip from a problem.
+---
+
+**The short answer.** Your rate depends on the _priority_ of the job you're running, which the customer chooses - not on
+the _demand_ number you see on the Network Monitor. A machine on a high-demand GPU earning at the bottom of its range is
+usually running a lower-priority job, and nothing is wrong with the PC.
+
+## Demand and priority are different things
+
+- **Demand** on the [Network Monitor](https://salad.com/earn/demand) is how much of a GPU model is in use across the
+  network. It's about the model, not your job.
+- **Priority** is set by each customer per workload, and it decides the rate paid while that job runs. Priority tends to
+  rise with demand, because low-priority jobs get replaced when cards are scarce, but there's no guarantee: a GPU can be
+  in high demand while most of its jobs are low or medium priority.
+- The Network Monitor shows the **lowest and highest** rate a running container can pay for your card. Anywhere in that
+  range means the machine is working as intended.
+
+[More on how this works](/faq/jobs/network-monitor).
+
+## Common reasons the rate dropped
+
+1. **The high-priority job you had finished** and the next one assigned was lower priority. Rates change job to job.
+2. **Jobs are shorter today.** Customers scale down; between jobs you earn nothing for a few minutes.
+3. **A mining or bandwidth job is running instead of a container job.** Those pay far less; see
+   [Job running but no earnings](/troubleshooting/not-earning/job-running-but-no-earnings).
+4. **The estimated rate is a projection**, not what you were paid. It assumes the current job runs for 24 hours.
+   [How estimated earnings work](/faq/jobs/how-estimated-earnings-work).
+5. **Something is holding the machine back** so it only qualifies for lower-priority work: a Degraded notification, a
+   power limit, another program using the GPU, or a weak speed-test result. Check the bell icon and
+   [Degraded State](/troubleshooting/degraded-state).
+
+## What you can do
+
+Assignment is automatic. What you control is availability and stability: keep the machine online and idle, on a wired
+connection, with nothing else on the GPU, and leave it running rather than restarting for new jobs. Reliable machines
+are the ones high-priority jobs land on.
+
+<Callout type="info" title="Chopping Power and Star Chef">
+  [Chopping Power](/guides/using-salad/chopping-power) shows whether your setup makes all its resources available. It's
+  a readiness measure, not a rate guarantee: a 4/4 machine still only earns what the current job pays.
+</Callout>
+
+## Still think something's wrong?
+
+If your rate is **below** the Network Monitor's minimum for your card for a full day, or the earnings history shows long
+gaps while the app says a job is running, contact [Salad Support](/contact) with your machine ID and the dates. We can
+compare your machine's record with the network's.

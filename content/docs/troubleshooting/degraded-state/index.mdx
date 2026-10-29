@@ -1,0 +1,112 @@
+---
+title: Degraded State
+description:
+  What the Degraded State notification in the Salad app means, how to read the error code, and which guide fixes each
+  one.
+---
+
+"Degraded" means your machine is online and Chopping, but a check has failed, so it is not being offered container jobs
+(the best-paying work). Nothing is broken on Salad's side: the app found something on your PC that would stop a
+customer's job from running, and it tells you what, so you can fix it and get back to full earnings.
+
+## How to read the notification
+
+Open the notification from the bell icon in the Salad app or from the Earn page. It has a title (for example "GPU Power
+Limit Set"), a short explanation and, in most cases, an error number at the end ("Error 14"). The title tells you which
+guide below to follow; the number is what support will ask for if you get stuck.
+
+After you fix the cause, click **Retry** in the notification or restart Salad. The check runs again before every
+container job, so the Degraded badge clears on its own once it passes.
+
+<Callout type="info" title="Reinstalling rarely fixes this">
+  Most Degraded notifications are caused by something outside the Salad app: a driver, a Windows setting, another
+  program using the GPU, or a laptop power mode. Reinstalling Salad doesn't change any of those. Follow the guide for
+  your notification first.
+</Callout>
+
+## Find your notification
+
+<Cards>
+  <Card
+    title="Error codes at a glance"
+    href="/troubleshooting/degraded-state/error-codes"
+    description="Every code the app can show, with a one-line meaning and the page that fixes it."
+  />
+</Cards>
+
+### The container environment won't start or update
+
+<Cards>
+  <Card
+    title="Failed to update container environment"
+    href="/troubleshooting/degraded-state/failed-to-update-container-environment"
+    description="WSL update required, or Salad can't tell that WSL is installed."
+  />
+  <Card
+    title="Failed to start container environment"
+    href="/troubleshooting/degraded-state/failed-to-start-container-environment"
+    description="Errors -2 and -3: the Linux environment can't be imported or started."
+  />
+  <Card
+    title="Failed to start workload"
+    href="/troubleshooting/degraded-state/failed-to-start-workload"
+    description="Errors -1, -4, -5, -7: the environment runs, but a job can't be downloaded or started."
+  />
+  <Card
+    title="Container networking issues"
+    href="/troubleshooting/degraded-state/container-networking-issues"
+    description="Errors 31 (TCP) and 32 (UDP/DNS): the container environment can't reach the internet."
+  />
+</Cards>
+
+### Something about the GPU
+
+<Cards>
+  <Card
+    title="Salad cannot access your GPU"
+    href="/troubleshooting/degraded-state/salad-cannot-access-your-gpu"
+    description="Errors 11, 12, 19, 21, 22: the GPU isn't visible inside the container environment."
+  />
+  <Card
+    title="Insufficient VRAM / High VRAM activity"
+    href="/troubleshooting/degraded-state/insufficient-vram"
+    description="Errors 13, 18, 24, 25: too much of the card's memory is already in use."
+  />
+  <Card
+    title="High GPU usage or temperature"
+    href="/troubleshooting/degraded-state/high-gpu-usage"
+    description="Errors 16, 17, 41: the card is busy or hot when the check runs."
+  />
+  <Card
+    title="GPU performance low"
+    href="/troubleshooting/degraded-state/gpu-performance-low"
+    description="Errors 42 and 23: the benchmark scored below similar GPUs."
+  />
+  <Card
+    title="GPU power limit set"
+    href="/troubleshooting/degraded-state/gpu-power-limit"
+    description="Errors 14 and 15: the card is held below its normal power, often by a laptop power mode."
+  />
+  <Card
+    title="GPU temporarily disabled"
+    href="/troubleshooting/degraded-state/gpu-temporarily-disabled"
+    description="A game or another intensive program was detected while Chopping."
+  />
+</Cards>
+
+### Hardware detection
+
+<Cards>
+  <Card
+    title="Problem detecting hardware"
+    href="/troubleshooting/degraded-state/problem-detecting-hardware"
+    description="The app can't read your PC's hardware inventory."
+  />
+</Cards>
+
+## Still degraded after following the guide?
+
+Send [Salad Support](/contact) three things: your machine ID (the first 8 characters are enough), a screenshot of the
+notification showing the error number, and your logs folder zipped
+([how to find it](/guides/using-salad/how-to-find-your-salad-log-files)). Send the logs soon after the problem - they
+rotate after a few days.

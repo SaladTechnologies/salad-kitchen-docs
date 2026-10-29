@@ -1,0 +1,68 @@
+---
+title: 'Job running but no earnings'
+description:
+  "What to check when Salad shows a job running (GPU busy) but your balance isn't increasing: miners that pay cents, a
+  stale display, or a job that isn't actually running."
+---
+
+**Most of the time this is one of three things:**
+
+1. **The running job is the crypto miner**, which pays very little on modern cards - a few cents a day - so the balance
+   barely moves even though the GPU is at 100%.
+2. **The app's display hasn't refreshed**: the job finished or changed and the window still shows the old state.
+3. **The job isn't running at all**: it's stuck downloading or repeatedly restarting, and the activity indicator is
+   misleading.
+
+## Tell them apart
+
+<Steps>
+<Step>
+
+### Look at the Earnings Summary, not the Earn page
+
+Open your [Earnings Summary](/guides/using-salad/earnings-summary) and look at the last few hours. Small, regular
+credits mean the machine is paid for what it's doing (probably mining). No credits at all for several hours means the
+job isn't really running - go to step 3.
+
+</Step>
+<Step>
+
+### Check which workload is running
+
+On the **Earn** page the job name shows whether it's a container job or a miner. Miners run only when no container job
+is available for your hardware. If you'd rather the card waited for container jobs instead of mining for cents, turn
+mining off under **Settings > Workload Types** ([details](/faq/jobs/mining-as-a-backup-workload)). Turning it off
+doesn't bring container jobs sooner; it just stops the low-paying fallback.
+
+</Step>
+<Step>
+
+### Refresh the display
+
+Close the Salad window with the X and reopen it from the tray icon. Don't choose **Exit** - that stops the running job.
+If the display now matches the Earnings Summary, nothing was wrong.
+
+</Step>
+<Step>
+
+### If nothing has been credited for hours
+
+Check the bell icon for a Degraded notification ([Degraded State](/troubleshooting/degraded-state)), then look at the
+activity indicator: stuck on _Downloading_ means a download problem
+([Downloads slow or failing](/troubleshooting/container-jobs/downloads-slow-or-failing)); flipping between
+_Initializing_ and _Running_ every few minutes means the job keeps restarting
+([Jobs keep failing or restarting](/troubleshooting/not-earning/why-do-jobs-keep-failing-or-restarting)).
+
+</Step>
+</Steps>
+
+<Callout type="info" title="Earnings are credited while the job runs">
+  Container jobs pay as they go, not at the end. If a job ran for hours and you were paid nothing, the machine wasn't
+  actually running it - the logs will show why.
+</Callout>
+
+## Still stuck?
+
+Send [Salad Support](/contact) your machine ID, the job name shown on the Earn page, the hours you expected earnings for
+(with time zone), and your logs folder zipped ([how to find it](/guides/using-salad/how-to-find-your-salad-log-files)).
+We can see what the machine ran and what it was paid for, hour by hour.

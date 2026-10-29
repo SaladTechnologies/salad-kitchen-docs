@@ -1,5 +1,6 @@
 ---
-title: How to Whitelist Salad in AVG
+title: 'How to Whitelist Salad in AVG'
+description: 'Step-by-step: add the Salad folders to the exceptions list in AVG so it stops blocking Salad.'
 ---
 
 ### 1. Open AVG

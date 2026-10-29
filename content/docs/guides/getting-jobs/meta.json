@@ -2,15 +2,13 @@
   "title": "Getting Jobs",
   "icon": "MyIcon",
   "pages": [
-    "configure-auto-start",
-    "workload-preferences",
-    "close-games-and-other-programs",
-    "disable-sleep-mode",
-    "enable-all-hardware",
-    "getting-bandwidth-sharing-jobs",
+    "index",
     "getting-container-jobs",
+    "getting-bandwidth-sharing-jobs",
     "getting-cryptomining-jobs",
-    "restarting-salad-for-new-jobs",
-    "schedule-chopping"
+    "close-games-and-other-programs",
+    "workload-preferences",
+    "how-to-set-up-a-demand-alert",
+    "restarting-salad-for-new-jobs"
   ]
 }

@@ -1,18 +1,16 @@
 ---
-title: 'Getting Bandwidth Sharing Jobs'
+title: Getting bandwidth sharing jobs
+description: Which countries and internet speeds qualify for bandwidth sharing jobs and how to enable them.
 ---
 
-Salad offers a variety of job types, including [Bandwidth Sharing Jobs](/faq/jobs/what-is-bandwidth-sharing). These jobs
-utilize your idle, spare internet connection bandwidth to Chop Salad Balance. They can run alongside other Jobs and
-automatically start whilst Chopping if you're eligible, and it's enabled.
+[Bandwidth sharing jobs](/faq/jobs/what-is-bandwidth-sharing) use your spare upload bandwidth to earn Salad Balance.
+They run alongside other jobs and start automatically while you are Chopping, as long as you are eligible and have them
+enabled.
 
----
+## Where can I get bandwidth sharing jobs?
 
-## **Where can I get Bandwidth Sharing Jobs?**
-
-In order to be eligible for Bandwidth Sharing Jobs, your machine must be in a supported region, have a fast enough
-internet connection, and have Video Streaming enabled in your
-[Salad App Settings](/guides/using-salad/salad-app-settings). The current compatible regions are:
+Your machine must be in a supported country, have a fast enough connection, and have Video Streaming enabled under
+Workload Types in your [Salad app settings](/guides/using-salad/salad-app-settings). The supported countries are:
 
 - 🇦🇺 Australia
 - 🇦🇹 Austria
@@ -45,17 +43,16 @@ internet connection, and have Video Streaming enabled in your
 - 🇺🇦 Ukraine
 - 🇺🇸 USA
 
-If your country is not currently in this list, you will not be able to receive Bandwidth Sharing Jobs at this time.
-Check back regularly though, as we are working to expand to more regions. Bandwidth Sharing is also subject to demand,
-and the required bandwidth may increase or decrease throughout the day. You may not see Bandwidth Sharing demand at all
-times. Bandwidth Sharing Jobs will not work with a VPN or Proxy enabled.
+If your country is not listed you can't receive bandwidth sharing jobs yet; more regions are added over time. Demand
+also varies through the day, so you won't always see bandwidth sharing running. Bandwidth sharing does not work through
+a VPN or proxy.
 
----
+## How fast does my internet need to be?
 
-## **How Fast does my Internet Speed Need to be?**
+The minimum varies by region, but you generally need an upload speed of at least 8 Mbps, with a download speed that
+matches or exceeds it. Check yours with a service like [Speedtest](https://www.speedtest.net/). See
+[What is the minimum recommended internet speed for Salad?](/faq/compatibility/what-is-the-minimum-recommended-internet-speed-for-salad)
+for more.
 
-The minimum internet speed required for Bandwidth Sharing Jobs can vary depending on region, but generally an upload
-speed of at least 8 Mbps is required. You can check your internet speed using a service like
-[Speedtest](https://www.speedtest.net/). If your upload speed is below the minimum requirement, you may not be eligible
-for Bandwidth Sharing Jobs. Your download speed should match or exceed your upload speed. More information about minimum
-network speeds can be found [here](/faq/compatibility/what-is-the-minimum-recommended-internet-speed-for-salad).
+If you meet the requirements but bandwidth sharing never runs, see
+[Bandwidth sharing troubleshooting](/troubleshooting/not-earning/bandwidth-sharing-troubleshooting).

@@ -2,15 +2,18 @@
   "title": "Compatibility",
   "icon": "MyIcon",
   "pages": [
-    "what-is-the-minimum-recommended-internet-speed-for-salad",
-    "do-you-support-macos-and-linux",
+    "index",
     "is-my-machine-compatible-with-salad",
-    "can-i-use-multiple-gpus",
-    "why-is-salad-not-fully-using-my-cpu",
-    "should-i-enable-my-gpu-my-cpu-or-both",
+    "do-you-support-macos-and-linux",
+    "what-is-the-minimum-recommended-internet-speed-for-salad",
     "does-my-pc-support-virtualization",
-    "incompatible-configurations",
-    "misrepresenting-hardware-on-salad",
-    "should-i-buy-a-gpu-pc-for-salad"
+    "can-i-use-multiple-gpus",
+    "mixed-nvidia-and-amd-gpus",
+    "should-i-enable-my-gpu-my-cpu-or-both",
+    "why-is-salad-not-fully-using-my-cpu",
+    "can-i-move-salad-from-the-c-drive",
+    "is-salad-safe-for-my-pc",
+    "should-i-buy-a-gpu-pc-for-salad",
+    "misrepresenting-hardware-on-salad"
   ]
 }

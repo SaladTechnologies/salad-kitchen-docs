@@ -1,0 +1,34 @@
+---
+title: My earning rate has dropped to 0
+description: Why the earning rate shows 0 between jobs, when that's normal, and what to check when it never comes back.
+---
+
+The earning rate shows what the **current** job pays. Between jobs it is 0, and that's expected: customers start and
+stop workloads throughout the day, and your machine waits in the queue for the next one. Dips of minutes to a couple of
+hours are normal, and rates differ from job to job because each customer sets a [priority](/faq/jobs/network-monitor)
+for their workload.
+
+## Give it time, but check these
+
+1. **Demand.** Look up your card on the [Network Monitor](https://salad.com/earn/demand). Low demand means longer waits.
+   Leave Salad running; restarting doesn't help.
+2. **Degraded notifications.** Open the bell icon. Any Degraded notification stops container jobs until it's fixed:
+   [Degraded State](/troubleshooting/degraded-state).
+3. **Other programs.** Games, local AI tools and anything hardware-accelerated keep jobs away. Salad works best when the
+   PC is idle.
+4. **Laptops.** Plug in the original charger and use the vendor's performance mode
+   ([GPU power limit](/troubleshooting/degraded-state/gpu-power-limit)).
+5. **Antivirus and firewall.** Make sure Salad is [whitelisted](/troubleshooting/antivirus).
+6. **The checklist.** Everything on
+   [Not getting container jobs](/troubleshooting/not-earning/not-getting-container-jobs).
+
+## Never had a rate at all?
+
+If the machine has been Chopping for a day or more and the rate has always been 0, something is stopping it qualifying.
+Go to [Finding Job for hours](/troubleshooting/not-earning/finding-job-for-hours), which ends with exactly what to send
+support.
+
+<Callout type="info">
+  Salad can't compensate for time without jobs. Earnings depend on customer demand for your hardware, and no machine is
+  guaranteed a container job around the clock.
+</Callout>

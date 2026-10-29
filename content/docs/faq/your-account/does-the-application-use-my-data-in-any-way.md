@@ -1,7 +1,13 @@
 ---
-title: Does the Application Use My Data in Any Way?
+title: Does the application use my data in any way?
+description: What data the Salad app collects, what it is used for, and how to request or erase it.
 ---
 
-Salad only collects data relevant to improving our user experience, like: runtime, selected rewards, GPU model, in-app
-activity etc... We will never sell or share this data with a third party for viewing and reviewing the data. We employ
-the latest cyber security solutions to keep your information safe.
+Salad collects only the data it needs to run the service and improve the app: things like how long you Chop, your GPU
+model and other hardware details, the rewards you select, and in-app activity. This is used to assign jobs, work out
+your earnings and fix problems. Salad does not sell your data or share it with third parties for their own use.
+
+The Salad app does not read your personal files, browsing or other applications. Jobs run inside isolated containers on
+your PC and have no access to the rest of your system.
+
+What is collected and why is set out in the [Privacy Policy](https://salad.com/privacy/).

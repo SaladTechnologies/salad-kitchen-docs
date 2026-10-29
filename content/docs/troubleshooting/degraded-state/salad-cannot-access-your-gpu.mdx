@@ -1,0 +1,75 @@
+---
+title: 'Salad cannot access your GPU'
+description:
+  'Fix Degraded State errors 11, 12, 19, 21 and 22 ("Salad cannot access your GPU", "GPU drivers out of date"): the GPU
+  isn''t usable from inside the container environment.'
+---
+
+**What it means.** Before each container job, Salad checks that the GPU can be used from inside the container
+environment. Errors **11/21** mean the card wasn't found there at all; **12/22** mean it was found but its status
+couldn't be read; **19** (and -7) mean the installed driver is too old or damaged for container jobs.
+
+**Why it happens.** Windows can use the card perfectly well while the container environment can't. The link between the
+two is the NVIDIA driver, and it is the cause in nearly every case: a corrupt or partial driver install, a driver update
+that didn't take, or WSL losing the card until it's restarted. Less often: the card is an integrated GPU or an
+unsupported model, or a second GPU is confusing the check.
+
+## What to do
+
+<Steps>
+<Step>
+
+### Restart the container environment
+
+Exit Salad from the tray icon, open PowerShell and run `wsl --shutdown`, then start Salad. If the card had simply
+"dropped out" of WSL, this is enough. If the error comes back within a day, continue.
+
+</Step>
+<Step>
+
+### Confirm the card is supported and dedicated
+
+Integrated graphics (Intel UHD, AMD Radeon Graphics built into a CPU) can't run container jobs. Check that your card is
+listed on the [Network Monitor](https://salad.com/earn/demand) and see
+[Is my machine compatible](/faq/compatibility/is-my-machine-compatible-with-salad).
+
+</Step>
+<Step>
+
+### Do a clean reinstall of the GPU driver
+
+Even when the driver is "up to date", a clean reinstall is the fix most of the time:
+[How to reinstall your GPU drivers](/guides/your-pc/how-to-reinstall-gpu-drivers). For NVIDIA, choose _Custom_ and tick
+_Perform a clean installation_. Reboot afterwards.
+
+</Step>
+<Step>
+
+### Check what the container environment sees
+
+In PowerShell (no admin):
+
+```
+wsl -d salad-enterprise-linux --exec /usr/lib/wsl/lib/nvidia-smi
+```
+
+A table with your card means the fix worked; click **Retry** on the notification. "No devices were found" or an
+initialization error means the driver still isn't reaching WSL - run `wsl --update` as Administrator, reboot, and check
+again.
+
+</Step>
+<Step>
+
+### Two dedicated GPUs?
+
+Only one GPU can earn. Disable the other in Salad under **Settings > Configure Hardware**, or physically, so the check
+tests the right card. See [Can I use multiple GPUs](/faq/compatibility/can-i-use-multiple-gpus).
+
+</Step>
+</Steps>
+
+## Still stuck?
+
+Send [Salad Support](/contact) the output of the `nvidia-smi` command above, your GPU model and driver version
+([how to find them](/guides/your-pc/how-to-find-your-gpu-or-cpu)), and your logs folder zipped
+([how to find it](/guides/using-salad/how-to-find-your-salad-log-files)).

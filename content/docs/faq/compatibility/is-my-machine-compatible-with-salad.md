@@ -1,102 +1,69 @@
 ---
-title: Is My Machine Compatible With Salad?
+title: 'Is my machine compatible with Salad?'
+description:
+  'The full list of what Salad needs from your PC: GPU, CPU, RAM, storage, internet, operating system and
+  virtualization.'
 ---
 
-## Graphics Cards (GPUs)
+Salad runs on Windows PCs with one dedicated GPU that SaladCloud customers are asking for. Here is everything that is
+checked, in order of how often it is the problem. The [Chopping Power](/guides/using-salad/chopping-power) bar in the
+app tells you which of these your own machine is missing.
 
-Here's how to find your GPU if you don't know what your computer has:
-[How to Find My GPU](/guides/your-pc/how-to-find-your-gpu-or-cpu).
+## GPU
 
-To understand what Graphics Cards (GPUs) are supported on Salad, let's review the different GPU Chopping modes that are
-available, and what each entail:
+Not sure what you have? See [How to find your GPU or CPU](/guides/your-pc/how-to-find-your-gpu-or-cpu).
 
-### Container Workloads
+- **It must be listed on the [Network Monitor](/faq/jobs/network-monitor).** Customers request specific GPU models, and
+  the Network Monitor lists every model they currently ask for, with its demand level and rate range. A card that isn't
+  listed won't receive container jobs.
+- **It must be a dedicated card.** Integrated graphics (Intel UHD/Iris, the Radeon Graphics built into AMD CPUs) are not
+  eligible and don't count as a GPU.
+- **Only one GPU is used.** A second dedicated card doesn't add earnings and can cause errors. See
+  [Can I use multiple GPUs?](/faq/compatibility/can-i-use-multiple-gpus) Mixing NVIDIA and AMD, or pairing a modern card
+  with a very old one, blocks jobs: see [Mixed NVIDIA and AMD GPUs](/faq/compatibility/mixed-nvidia-and-amd-gpus).
+- **AMD:** only the AMD cards listed on the Network Monitor are supported, using the AMD Edition of the Salad app.
+  Workstation and pro cards (for example the AMD AI PRO R9700) are not supported.
+- **Laptops** are supported if the GPU is in demand, but vendor power modes often cap the GPU and trigger a power limit
+  notification. See [How power limiting impacts your earnings](/troubleshooting/degraded-state/gpu-power-limit).
+- Run the card at factory settings. Power limiting or underclocking blocks container jobs.
 
-For Container Workloads, Salad supports most NVIDIA GPUs - and some recent dedicated AMD GPUs - with a minimum amount of
-4GB of VRAM, though we _highly recommend_ 8GB of VRAM or more for optimal performance. Salad does not currently support
-Intel dedicated GPUs for container workloads.
+## CPU
 
-Hardware demand from our clients decides what machines will be assigned a workload, so some older GPUs may work such as
-the GTX 1650/Ti, though demand is likely to be low and fluctuate.
+Any 64-bit x86 CPU from roughly the last ten years that supports virtualization, with at least 4 cores and 8 threads; 6
+cores and 12 threads recommended. Both Intel and AMD are fine.
 
-In addition to the GPU, containers require at least 8GB of RAM and 70GB of free storage space, as well as a 50 megabit
-per second internet connection in both upload and download.
+## RAM
 
-Some examples of supported Graphics Cards:
+32 GB or more for container jobs. Any generation and speed of memory is fine, as long as there is enough of it.
 
-- NVIDIA GeForce RTX 3070/Ti
-- NVIDIA GeForce RTX 4060/Ti
-- NVIDIA GeForce RTX 5060/Ti
-- NVIDIA GeForce RTX 5090
-- NVIDIA RTX A5000
+## Storage
 
-A list of in-demand hardware and their earning rates can be found on our
-[Network Monitor](https://salad.com/earn/demand) page.
+At least 70 GB free on your **C:** drive. Salad installs itself and its container environment on C: and cannot use
+another drive; see [Can I move Salad from the C drive?](/faq/compatibility/can-i-move-salad-from-the-c-drive) An SSD is
+strongly recommended.
 
-### Cryptomining
+## Internet
 
-Salad can also utilize your GPU to run Cryptomining workloads during periods of low demand for your hardware. These
-workloads can be toggled within the application (Performance -> Configure Hardware -> Advanced Options -> Crypto
-Mining).
+At least 10 Mbps download, with 100 Mbps recommended for access to more jobs. Bandwidth sharing has its own
+requirements. See
+[What is the minimum recommended internet speed?](/faq/compatibility/what-is-the-minimum-recommended-internet-speed-for-salad)
 
-For Cryptomining Workloads, Salad supports most Dedicated GPUs with at least 2GB of VRAM from recent generations. This
-generally means that GT/GTX 900 series NVIDIA GPUs, and R9 300 series AMD GPUs and up should work. There are a few
-exceptions to this however on older cards, and some may not work even if meeting the VRAM requirement of 2GB.
+## Operating system
 
-### Multi-GPU Systems
+Windows 10 or Windows 11, kept up to date. Linux is a closed beta for large fleet operators only, and there is no macOS
+version. See [Do you support macOS and Linux?](/faq/compatibility/do-you-support-macos-and-linux)
 
-Salad does not officially support systems with multiple dedicated GPUs. In such configurations, Salad will prioritize
-the highest earning GPU. Chefs cannot run GPU heavy process on one GPU while Chopping on their secondary GPU, they must
-Chop Salad while AFK in order to receive the most profitable workloads.
+## Virtualization and WSL
 
----
+Container jobs run inside WSL (Windows Subsystem for Linux), which needs hardware virtualization enabled in your
+BIOS/UEFI. Check with [Does my PC support virtualization?](/faq/compatibility/does-my-pc-support-virtualization) and
+enable it with
+[How to enable virtualization support](/guides/your-pc/how-to-enable-virtualization-support-on-your-machine). Salad sets
+up WSL for you; see [What is WSL?](/guides/your-pc/what-is-wsl)
 
-## Processors (CPUs)
+## If your machine isn't eligible
 
-Here's how to find your CPU if you don't know what your computer has:
-[How to Find My CPU](/guides/your-pc/how-to-find-your-gpu-or-cpu).
-
-Salad supports most 64-bit x86 Central Processing Units (CPUs) from within the past 10 years, providing they support
-[virtualization](/guides/your-pc/how-to-enable-virtualization-support-on-your-machine). Salad requires a CPU with at
-least 4 cores and 8 threads, but we recommend using a CPU with at least 6 cores and 12 threads to maximize your earning
-potential.
-
-Some examples of supported CPUs:
-
-- Intel Core Ultra 7 270K Plus
-- Intel Core i5-12600K
-- AMD Ryzen 5 5600X
-- AMD Ryzen 7 7800X
-
-## Memory
-
-Salad requires at least 16GB of RAM to run, but we recommend having at least 32GB of RAM to be compatible with most
-workloads.
-
-Salad is compatible with any type of memory, as long as you have enough of it. This means you can use any generation
-(DDR3, DDR4, DDR5), any speed (1600MT/s, 2133MT/s, 5600MT/s etc), and of any type (ECC, non-ECC, Unbuffered etc).
-
-As described in the CPU section however, you need to be running a modern version of Windows 10 or Windows 11. Some older
-platforms that use DDR3 or DDR4 may not be capable of running Windows 11 officially.
-
----
-
-## Bandwidth Sharing
-
-In addition to compute workloads that utilize your CPU or your GPU, Salad can also leverage your internet bandwidth to
-earn some Salad Balance!
-
-Bandwidth Sharing is currently limited in the supported countries, so you'll need to check if
-[your country is available](/troubleshooting/bandwidth-sharing-jobs/bandwidth-sharing-quick-troubleshooting-guide).
-
-While the exact requirements depend on client criteria and decisions, we recommend you have at least a 50 megabit per
-second internet in both upload and download speeds, and less than 100ms latency to the nearest server.
-
----
-
-We recommend enabling as much hardware in your system as you can, to maximize your chances of finding a compatible
-workload. We are always adding new workloads, so we recommend leaving your hardware enabled, even if it isn't currently
-supported. We may add a new workload that is compatible with your machine in the future.
-
-If you're unable to find your machine's CPU or GPU, or think that something else may be causing your PC to be
-incompatible with Salad, feel free to visit our Community Support on [Discord.](http://discord.gg/salad)
+Enable the hardware you have anyway: CPU-only jobs and [bandwidth sharing](/faq/jobs/what-is-bandwidth-sharing) don't
+need a GPU, and demand changes over time. If Salad doesn't recognize your hardware correctly, see
+[What GPU or CPU is Salad detecting?](/guides/your-pc/what-gpu-or-cpu-is-salad-detecting), then contact
+[Salad Support](/contact).

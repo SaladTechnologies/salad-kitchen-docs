@@ -3,19 +3,18 @@
   "icon": "MyIcon",
   "pages": [
     "index",
-    "how-to-whitelist-salad-in-malwarebytes",
-    "how-to-whitelist-salad-in-norton-antivirus",
     "how-to-whitelist-salad-in-windows-defender",
+    "how-to-whitelist-salads-miners-in-windows-firewall",
     "how-to-whitelist-salad-in-avast-antivirus",
-    "how-to-whitelist-salad-in-bitdefender-antivirus-plus",
-    "how-to-whitelist-salad-in-mcafee",
     "how-to-whitelist-salad-in-avg",
     "how-to-whitelist-salad-in-avira",
+    "how-to-whitelist-salad-in-bitdefender-antivirus-plus",
     "how-to-whitelist-salad-in-eset-node32",
     "how-to-whitelist-salad-in-kaspersky",
+    "how-to-whitelist-salad-in-malwarebytes",
+    "how-to-whitelist-salad-in-mcafee",
+    "how-to-whitelist-salad-in-norton-antivirus",
     "my-antivirus-isnt-listed-here",
-    "how-to-whitelist-salads-miners-in-windows-firewall",
-    "whitelist-salad-in-norton-firewall",
     "whitelisting-salad-in-your-firewall"
   ]
 }

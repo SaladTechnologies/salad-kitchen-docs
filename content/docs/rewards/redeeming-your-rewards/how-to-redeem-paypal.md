@@ -1,49 +1,56 @@
 ---
-title: How to Redeem PayPal
+title: How to redeem PayPal
+description:
+  Claim a PayPal reward from Salad through the email sent by our reward partner Tremendous, and get the balance into
+  your PayPal account.
 ---
 
-Ensure you are located in one of the supported countries before purchasing the reward:
+PayPal rewards let you move your Salad Balance to your own PayPal account in your home currency. Redeem them from the
+[Storefront](https://salad.com/store/search?q=PayPal&size=n_20_n) like any other reward.
 
-- [https://support.salad.com/rewards/redeeming-your-rewards/supported-paypal-countries](https://support.salad.com/rewards/redeeming-your-rewards/supported-paypal-countries)
+Before you redeem, make sure you are in one of the
+[supported PayPal countries](/rewards/help/supported-paypal-countries): a reward redeemed from an unsupported country
+may not be claimable, and [redemptions are final](/rewards/help/i-want-a-refund).
 
-PayPal provides an easy way to cash out your Salad Balance to your own bank accounts in your home currency. You can
-redeem it from our [Storefront](https://salad.com/store/search?q=PayPal&size=n_20_n).
+## How delivery works
 
----
+There is no PayPal field in Salad. Shortly after you redeem, our reward partner Tremendous sends an email with a claim
+link to the email address on your Salad account. You enter your PayPal email on that claim page, not in Salad, and
+Tremendous sends the balance to that PayPal account.
 
-After you redeem your reward, follow these steps to receive your balance:
+## Claiming your PayPal reward
 
-1. Open your email to find the reward:
+1. Open the inbox of your Salad account's email address and find the reward email (check spam too).
 
    ![Screenshot of email container reward](../../../../content/images/rewards/redeeming-your-rewards/redeem-paypal-1.png)
 
-   PayPal Redemption Email
+2. Click the redeem button in the email. It opens the claim page.
 
-2. Click on the redeem button, which will bring you to the provider page:
+   ![Screenshot of Paypal redemption page](../../../../content/images/rewards/redeeming-your-rewards/redeem-paypal-2.png)
 
-   ![Screenshot of Paypal redemption page](../../../../content/images/rewards/redeeming-your-rewards/redeem-paypal-2.png))
-
-   Redeem Page for your PayPal Reward
-
-3. Click on the redeem button, you should see a new window open:
+3. Click redeem on the claim page. A new window opens with the transfer options.
 
    ![Screenshot showing Paypal transfer options](../../../../content/images/rewards/redeeming-your-rewards/redeem-paypal-3.png)
 
-   Redemption Window
+4. Select the country of your PayPal account, then pick the first transfer option. In most countries this is "PayPal
+   International"; in the United States it is "PayPal USA".
 
-4. Select your PayPal's account country, then click on the first transfer option (most cases, PayPal International -
-   except for USA where the option will be PayPal USA):
-5. ![Screenshot showing Paypal transfer options](../../../../content/images/rewards/redeeming-your-rewards/redeem-paypal-4.png)
+   ![Screenshot showing Paypal transfer options](../../../../content/images/rewards/redeeming-your-rewards/redeem-paypal-4.png)
 
-   Final PayPal Step
-
-6. Finally, enter the email that is linked to your PayPal account, and press "Transfer":
+5. Enter the email address linked to your PayPal account, check it carefully, and press **Transfer**.
 
    ![Screenshot of a submitted Paypal transfer](../../../../content/images/rewards/redeeming-your-rewards/redeem-paypal-5.png)
 
-Our provider will start to process the transfer and send the balance to your account!
+Tremendous then processes the transfer. Allow up to 24 hours for the balance to arrive in your PayPal account.
 
-> **_Note: as PayPal rewards have to go through a transaction page, please allow up to 24 hours for the transaction to
-> be completed and the balance received on your account._**
+## No email?
 
-Thanks for Chopping Chef!
+Follow the checklist in
+[I redeemed a reward but haven't received it](/rewards/help/i-redeemed-a-reward-but-havent-received-it). Salad Support
+can have the claim email resent, but cannot change the delivery method or pay out balance directly.
+
+## Experiencing issues?
+
+If the claim page gives an error, the transfer does not arrive after you pressed Transfer, or you entered the wrong
+PayPal email, use the help link on the claim page to contact Tremendous. See
+[Problems using a reward](/rewards/help/problems-using-a-reward) for what to send them and what to send Salad.

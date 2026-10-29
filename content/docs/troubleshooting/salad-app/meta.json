@@ -1,16 +1,5 @@
 {
   "title": "Salad App",
   "icon": "MyIcon",
-  "pages": [
-    "i-cant-get-salad-to-download",
-    "my-earning-rate-has-dropped-to-0",
-    "how-to-unblock-salad-with-your-isp",
-    "general-troubleshooting-tips",
-    "i-am-having-trouble-connecting-to-the-salad-app",
-    "unable-to-detect-hardware",
-    "i-cant-enter-my-email-address-to-log-in",
-    "passkey-troubleshoot-guide",
-    "fix-storage-calculation-error",
-    "advanced-troubleshooting"
-  ]
+  "pages": ["index", "general-troubleshooting-tips"]
 }

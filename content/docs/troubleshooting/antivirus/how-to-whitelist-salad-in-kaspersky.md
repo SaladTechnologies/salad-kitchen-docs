@@ -1,5 +1,7 @@
 ---
-title: How to Whitelist Salad in Kaspersky
+title: 'How to Whitelist Salad in Kaspersky'
+description:
+  'Step-by-step: add the Salad folders to the exclusions in Kaspersky, and what to do if Kaspersky still blocks Salad.'
 ---
 
 # KASPERSKY HAS A KNOWN INCOMPATIBILITY ISSUE WITH SALAD, YOU MAY NEED TO FULLY DISABLE IF THE BELOW STEPS DO NOT RESOLVE THE ISSUE.

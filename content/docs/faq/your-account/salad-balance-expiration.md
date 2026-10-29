@@ -1,36 +1,25 @@
 ---
-title: Does my Salad Balance Expire?
+title: Does my Salad Balance expire?
+description:
+  Your Salad Balance expires after 12 consecutive months without logging in or Chopping, and cannot be restored.
 ---
 
-Your Salad balance is a valuable resource that allows you to earn epic loot from the Salad store. However, it's
-essential to be aware that your balance comes with an expiration date. Don't worry! Keeping your balance is pretty
-straight forward. Read on for more information.
+Yes. Your Salad Balance expires if you go 12 consecutive months without logging in to Salad or Chopping. Once it has
+expired, the balance is set to zero and cannot be restored, not even by Salad Support.
 
-Your Salad balance can expire if you haven't logged into Salad or performed any chopping activities for a continuous
-12-month period. This means that if you take a year-long gap from Salad, you might risk losing your remaining balance.
+## Keeping your balance
 
----
+Any of these resets the 12-month clock:
 
-## **Preventing Balance Expiration**
+- Logging in to the Salad app or to [salad.com](https://salad.com).
+- Chopping any workload, for any length of time.
 
-The good news is that you can easily prevent your balance from expiring. To do so, all you need to do is log into Salad
-or chop any workload on the Salad app. Doing either will ensure your balance remains available for your use.
+Logging in once a year is enough, even if you have stopped Chopping.
 
-## **How Do I Know?**
+## Warning emails
 
-To keep you informed and avoid any unexpected surprises, Salad will send you a notification email as your balance
-approaches its expiration date. This email will be sent when you are 1 month away from expiry. It's a friendly reminder
-that your balance's expiration date is approaching.
+As the expiry date approaches, Salad emails the address on your account to warn you. Log in before the date in the email
+and your balance is kept. If the warning arrives and there is no activity before the deadline, the balance expires.
 
-## **Avoiding Expiration**
-
-To ensure your balance remains intact and available for use in the Salad store, we recommend logging in at least once a
-year. This is a straightforward action to take, even if you're taking a break from chopping. It's a small effort that
-goes a long way in protecting your balance.
-
----
-
-## **Consequences of Inactivity**
-
-If there's no activity during the 30-day window provided in the email, your balance will expire. This means your account
-will be reduced to a balance of 0. We don't be able to restore this balance if you start using Salad again afterwards.
+If you want to keep using the balance but are not Chopping any more, redeem it from the
+[Storefront](https://salad.com/store) before it expires.

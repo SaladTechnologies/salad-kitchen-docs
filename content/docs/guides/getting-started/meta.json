@@ -2,13 +2,12 @@
   "title": "Getting Started",
   "icon": "MyIcon",
   "pages": [
+    "index",
     "downloading-salad",
     "how-to-register-and-log-into-salad",
     "setting-up-the-salad-app",
     "getting-your-first-job",
     "redeeming-your-first-reward",
-    "getting-started-with-salad-the-basics",
-    "digital-hygiene-and-your-salad-balance",
     "linux-onboarding"
   ]
 }

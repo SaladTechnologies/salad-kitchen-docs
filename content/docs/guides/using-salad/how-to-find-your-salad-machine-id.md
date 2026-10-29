@@ -1,22 +1,25 @@
 ---
-title: How to Find your Salad Machine ID
+title: How to find your Salad machine ID
+description: Where to find the machine ID that Salad Support asks for, in the app and on the earnings summary.
 ---
 
-Chefs with multiple PCs on their account are now able to breakdown earnings per machine. This feature can be toggled on
-or off on the [Earning Summary Page](/guides/using-salad/how-to-see-your-earnings-history). Chefs can list up to 20
-machines on the histogram.
+Every PC registered to your account gets a Salad machine ID. Support uses it to look up your machine, so when you
+contact [Salad Support](/contact) about a problem, include it. Support only needs the **first 8 characters** of the ID.
 
-![Screenshot of the earning dashboard showing Machine IDs](../../../../content/images/guides/using-salad/how-to-find-your-salad-machine-id-1.png)
+## In the Salad app
 
-A Salad Machine ID is assigned to each machine registered to the Chef's account and can be located within the Salad app.
-To find the Machine ID, follow these steps.
-
-1. Open the Salad App.
-2. Click on the App menu on the upper left side of the Salad app and go to Settings.
-3. Scroll to the bottom of the Settings page, the machine ID is listed at the bottom of the page next to the current
-   Salad version.
+1. Open the Salad app.
+2. Click the app menu in the top left corner and open **Settings**.
+3. Scroll to the bottom of the Settings page. The machine ID is listed there, next to the current Salad version.
 
 ![Screenshot of the Salad app settings page showing the Machine ID](../../../../content/images/guides/using-salad/how-to-find-your-salad-machine-id-2.png)
 
-Chefs may find unknown Machine IDs listed. This can happen if one of the Chefs machines is on an older version of Salad
-or after hardware changes.
+## On the earnings summary
+
+The [earnings summary](/guides/using-salad/earnings-summary) lists every machine on your account by its machine ID, so
+you can also find it there, and use it to tell your machines apart when breaking earnings down per machine.
+
+![Screenshot of the earning dashboard showing Machine IDs](../../../../content/images/guides/using-salad/how-to-find-your-salad-machine-id-1.png)
+
+You may see machine IDs you don't recognize. This happens when one of your PCs runs an older version of Salad, or after
+a hardware change, which gives the PC a new ID.

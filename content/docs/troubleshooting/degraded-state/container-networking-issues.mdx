@@ -1,0 +1,94 @@
+---
+title: 'Container networking issues'
+description:
+  'Fix Degraded State errors 31 (TCP) and 32 (UDP/DNS), "Container workloads are unable to access critical network
+  services": the container environment can''t reach the internet even though Windows can.'
+---
+
+**What it means.** Before offering a container job, Salad tests the network from _inside_ the container environment: a
+connection to Salad's services over TCP (error **31** if it can't connect) and a small DNS query over UDP (error **32**
+if it gets no answer). Windows can be fully online while the container environment is not, because its traffic goes
+through a virtual network switch that other software can interfere with.
+
+**Why it happens.** Most common first:
+
+1. **A VPN or "network protection" security product** on the PC (Tailscale, Cisco AnyConnect, NordVPN, Kaspersky,
+   Norton, Bitdefender, McAfee, Avast network shield). They hook the virtual switch and drop or reroute the
+   environment's traffic.
+2. **DNS filtering** on the router or by the ISP ("secure DNS", parental controls, DNS redirect), or a Pi-hole, which
+   blocks DNS queries to outside servers - this is the usual cause of **32** on its own.
+3. **The Hyper-V firewall** on recent Windows 11 builds blocking outbound traffic from WSL.
+4. **A custom `.wslconfig`** with `networkingMode=mirrored` or other networking changes.
+5. The Wi-Fi link changing (roaming, reconnecting) while the environment was up, so it lost its route.
+
+## What to do
+
+<Steps>
+<Step>
+
+### Restart the environment first
+
+Exit Salad from the tray icon, run `wsl --shutdown` in PowerShell, start Salad. A lost route after a Wi-Fi change is
+fixed by this alone.
+
+</Step>
+<Step>
+
+### Test with the VPN and network protection off
+
+Disconnect VPN clients and pause your antivirus's network/web protection, then Retry. If that works, add exclusions for
+`vmmem`, `wslservice.exe`, `C:\Program Files\Salad` and `C:\ProgramData\Salad` in the product, or keep it off while
+Chopping. See [Antivirus](/troubleshooting/antivirus).
+
+</Step>
+<Step>
+
+### Check outside DNS (error 32)
+
+In PowerShell run `nslookup salad.com 1.1.1.1` and `nslookup salad.com 8.8.8.8`. If both time out, your router or ISP
+blocks DNS to outside servers: turn off DNS filtering/"secure DNS"/parental controls on the router, or ask your ISP. If
+both answer, the block is on the PC - back to step 2. Pi-hole users: see
+[Troubleshooting connection issues](/troubleshooting/connection-and-login/i-am-having-trouble-connecting-to-the-salad-app).
+
+</Step>
+<Step>
+
+### Check the Hyper-V firewall (Windows 11)
+
+In PowerShell as Administrator:
+
+```
+Get-NetFirewallHyperVVMSetting -Name '{40E0AC32-46A5-438A-A0B2-2B479E8F2E90}'
+```
+
+`DefaultOutboundAction` should be `Allow` or `NotConfigured`. If it says `Block`, run:
+
+```
+Set-NetFirewallHyperVVMSetting -Name '{40E0AC32-46A5-438A-A0B2-2B479E8F2E90}' -DefaultOutboundAction Allow
+```
+
+</Step>
+<Step>
+
+### Reset .wslconfig
+
+Remove any `networkingMode`, `dnsTunneling`, `firewall` or `kernelCommandLine` lines you added:
+[Restoring .wslconfig to Salad default](/troubleshooting/pc-configuration/restoring-wslconfig-to-salad-default). Then
+`wsl --shutdown` and start Salad.
+
+</Step>
+<Step>
+
+### Prefer a wired connection
+
+USB Wi-Fi adapters and roaming Wi-Fi links are a known cause of the environment losing its network. A cable to the
+router removes that variable. See [Improve your internet connection](/guides/your-pc/improve-internet-speed).
+
+</Step>
+</Steps>
+
+## Still stuck?
+
+Send [Salad Support](/contact) which VPN and security products are installed, your router model, the two `nslookup`
+results, the Hyper-V firewall output, and your logs folder zipped
+([how to find it](/guides/using-salad/how-to-find-your-salad-log-files)).

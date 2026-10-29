@@ -1,43 +1,39 @@
 ---
-title: How to Claim a Bonus
+title: How to claim a bonus
+description: How to claim earning multipliers, avatars and other bonuses from the Salad website.
 ---
 
-# Claiming your most recent Bonus:
+Bonuses are claimed on the Salad website.
 
-1\. Hover your mouse over your profile at the top right to open the dropdown navigation menu.
+## Claiming your most recent bonus
 
-![selecting your profile from the Salad web app](../../../../content/images/guides/using-salad/how-to-claim-a-bonus-1.png)
+1. Hover over your profile at the top right to open the dropdown menu.
 
-2\. If you only have one bonus sitting waiting to be claimed, you can claim it directly from this popup by clicking
-"Claim" on it on the far right.
+   ![selecting your profile from the Salad web app](../../../../content/images/guides/using-salad/how-to-claim-a-bonus-1.png)
 
-![clicking claim on a bonus](../../../../content/images/guides/using-salad/how-to-claim-a-bonus-2.png)
+2. If one bonus is waiting, click **Claim** on the right of it to claim it directly from the menu.
 
-# **Claiming other bonuses, or viewing your full Bonus page:**
+   ![clicking claim on a bonus](../../../../content/images/guides/using-salad/how-to-claim-a-bonus-2.png)
 
-1\. To navigate to the full bonuses page, hover over your profile.
+## Claiming other bonuses
 
-![selecting your profile from the Salad web app](../../../../content/images/guides/using-salad/how-to-claim-a-bonus-3.png)
+1. Hover over your profile to open the dropdown menu.
 
-2\. With the navigation bar open, click the "Bonuses" page in the middle column. If you already have a bonus lined up in
-the navigation menu, you can also click "See All" underneath it, to navigate to the same page.
+   ![selecting your profile from the Salad web app](../../../../content/images/guides/using-salad/how-to-claim-a-bonus-3.png)
 
-![clicking "see all" on the bonuses screen](../../../../content/images/guides/using-salad/how-to-claim-a-bonus-4.png)
+2. Click **Bonuses** in the middle column, or **See All** under a bonus already shown in the menu.
 
-3\. On this page you can view all the available bonuses for you to claim, and you can claim one by simply clicking
-"Claim". This will instantly apply it to your account.
+   ![clicking "see all" on the bonuses screen](../../../../content/images/guides/using-salad/how-to-claim-a-bonus-4.png)
 
-![clicking claim on a bonus](../../../../content/images/guides/using-salad/how-to-claim-a-bonus-5.png)
+3. The page lists every bonus available to you. Click **Claim** on one to apply it to your account immediately.
 
----
+   ![clicking claim on a bonus](../../../../content/images/guides/using-salad/how-to-claim-a-bonus-5.png)
 
-If you have claimed a Profile Avatar, you can enable it by following this guide here:
+## Good to know
 
-[How to edit your profile](/guides/using-salad/how-to-edit-your-profile)
-
-If you try to claim a bonus multiplier whilst you have one already active, it will replace your existing bonus rather
-than stacking. You will be asked if you are sure when trying to do this.
-
-If you have claimed a game key or reward as your bonus, you can find it by navigating to your Reward Vault.
-
-[Where to find your Reward Redemption Code](/guides/using-salad/where-to-find-your-reward-redemption-code)
+- Claiming an earning multiplier while another is active **replaces** the active one; they don't stack. Salad asks you
+  to confirm before replacing it.
+- A claimed avatar is enabled from your profile; see
+  [How to edit your profile](/guides/using-salad/how-to-edit-your-profile).
+- A game key or reward claimed as a bonus goes to your Reward Vault; see
+  [Reward Vault and redemption codes](/rewards/help/reward-vault-and-redemption-codes).
