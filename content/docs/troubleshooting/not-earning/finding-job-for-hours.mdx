@@ -1,0 +1,83 @@
+---
+title: Salad shows "Finding Job" for hours
+description:
+  What "Finding Job" means, how long it can normally last, how to tell low demand from a problem on your PC, and what to
+  check before contacting support.
+---
+
+**What it means.** "Finding Job" is the app waiting for the network to assign a container job and downloading it when
+one arrives. It appears between every two jobs, and jobs are often short: customers start and stop workloads through the
+day, so a machine can cycle through many jobs with short waits in between. That's normal and you're paid for every
+minute a job runs.
+
+**How long is normal?** A few minutes between jobs is typical. An hour or two happens when demand for your GPU dips.
+Many hours with nothing - on a GPU the [Network Monitor](https://salad.com/earn/demand) shows as in demand - is worth
+checking.
+
+## First, check whether it's really idle
+
+Open your [Earnings Summary](/guides/using-salad/earnings-summary). If balance was credited in the last hour, the
+machine is running a job and the app's display is behind. Close the window with the X and reopen it from the tray icon
+(don't use **Exit** - that stops the running job).
+
+## What to check, in order
+
+<Steps>
+<Step>
+
+### Degraded notifications
+
+Open the bell icon. Any Degraded notification means a check is failing and no container jobs are offered until it's
+fixed. Follow the guide for it under [Degraded State](/troubleshooting/degraded-state).
+
+</Step>
+<Step>
+
+### Demand for your GPU
+
+On the [Network Monitor](https://salad.com/earn/demand), find your exact card. Low or moderate demand means longer
+waits; the machine is fine. Set up a [demand alert](/guides/getting-jobs/how-to-set-up-a-demand-alert) and leave Salad
+running - restarting it does not move you up the queue and
+[can hurt your chances](/guides/getting-jobs/restarting-salad-for-new-jobs).
+
+</Step>
+<Step>
+
+### The first job after a fresh install
+
+A new install (or reinstall) must complete a short compatibility check - a download of roughly 60 MB that has to finish
+once - before paid jobs are offered. On a slow or filtered connection that alone can take a long time; see
+[Downloads slow or failing](/troubleshooting/container-jobs/downloads-slow-or-failing).
+
+</Step>
+<Step>
+
+### The basics
+
+Both GPU and CPU enabled under **Settings > Configure Hardware**; at least 70 GB free on C:; virtualization on; no VPN
+or proxy; nothing else using the GPU; the PC not asleep (see
+[Disable sleep mode](/guides/using-salad/how-to-disable-sleep-mode)). The full list is on
+[Not getting container jobs](/troubleshooting/not-earning/not-getting-container-jobs).
+
+</Step>
+<Step>
+
+### Your connection
+
+Salad runs a speed test at startup and the network uses it when assigning jobs. If the test ran while your connection
+was still coming back after an outage or a router reboot, the reading sticks until Salad restarts. Once the line is back
+to normal, Exit Salad from the tray icon and start it again so the test reruns.
+
+</Step>
+</Steps>
+
+<Callout type="warn" title="Please don't reinstall to get jobs">
+  Reinstalling, unregistering the WSL environment or clearing Salad's folders resets the compatibility check and the
+  image cache, so the next jobs start from zero downloads. It doesn't change what the network offers you.
+</Callout>
+
+## Still nothing after a day?
+
+Send [Salad Support](/contact) your machine ID, the time the wait started with your time zone, and your logs folder
+zipped ([how to find it](/guides/using-salad/how-to-find-your-salad-log-files)). We can see whether the network offered
+your machine jobs that didn't start, or simply had none for your hardware.

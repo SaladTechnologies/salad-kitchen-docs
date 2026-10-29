@@ -1,18 +1,16 @@
 ---
-title: What is the Activity Indicator?
+title: What is the activity indicator?
+description: What the Finding, Downloading, Initializing and Running Job statuses in the Salad app mean.
 ---
 
-Finished setting up Salad and just started Chopping? Salad will let you know what it's up to, whether it's looking for
-your next workload, downloading, or running.
+The activity indicator in the Salad app tells you what Salad is doing right now: looking for a job, downloading one,
+starting it, or running it.
 
 ![Screenshot of the activity indicator in the Salad app](../../../../content/images/guides/using-salad/what-is-the-activity-indicator-1.png)
 
-Salad will try its best to let you know what it's doing, so that you have maximum control over the application and your
-machine.
-
 ---
 
-## **Finding Job**
+## Finding Job
 
 When you're not running anything, Salad will display the "Finding Job" message, meaning that the app is actively
 scouring the network for a workload that matches your machine's hardware. Note that the time it takes to look for a
@@ -20,9 +18,12 @@ workload can vary depending on the amount of workloads available, the amount of 
 Chopping, as well as your [Salad's Chopping settings](/guides/using-salad/salad-app-settings) (broader settings such as
 enabling adult workloads, cryptomining, and bandwidth sharing can increase your earning potential).
 
+Seeing "Finding Job" between jobs is normal: every job ends eventually and Salad has to be matched to the next one. If
+it lasts much longer than usual, see [Finding Job for hours](/troubleshooting/not-earning/finding-job-for-hours).
+
 ---
 
-## **Downloading Job**
+## Downloading Job
 
 When we find a workload, the status will update to "Downloading Job". This means that you've successfully gotten a job,
 and Salad is gathering the necessary files from the internet. The amount of time spent on Downloading varies based on
@@ -30,7 +31,7 @@ your network speed as well as the size of the workload being downloaded.
 
 ---
 
-## **Initializing Job**
+## Initializing Job
 
 Once it's done downloading, Salad will display the "Initializing Job" status. At this point, the files are on your
 machine and Salad needs to unpack them and start the engine to get the workload running. This step typically takes a few
@@ -38,7 +39,7 @@ seconds to complete, though it can last up to a few minutes.
 
 ---
 
-## **Running Job**
+## Running Job
 
 In the next and final step, Salad will display "Running Job". At this point, the job is running and your machine should
 start generating balance.

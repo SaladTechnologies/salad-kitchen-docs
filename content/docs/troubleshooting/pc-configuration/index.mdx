@@ -1,0 +1,37 @@
+---
+title: 'PC configuration'
+description:
+  'Fixes for Windows-side problems that stop Salad from running: downloads, .wslconfig, DISM, PowerShell and the system
+  clock.'
+---
+
+Salad relies on a few parts of Windows being in a healthy state. These pages fix the Windows-side problems that most
+often stop Salad from downloading, starting its container environment or detecting your hardware.
+
+<Cards>
+  <Card
+    title="I can't get Salad to download"
+    href="/troubleshooting/pc-configuration/i-cant-get-salad-to-download"
+    description="Browser blocks, antivirus and other reasons the installer will not download."
+  />
+  <Card
+    title="Restoring .wslconfig to Salad default"
+    href="/troubleshooting/pc-configuration/restoring-wslconfig-to-salad-default"
+    description="Undo manual WSL settings that break the container environment."
+  />
+  <Card
+    title="Restoring DISM"
+    href="/troubleshooting/pc-configuration/restoring-dism"
+    description="Repair Windows system files when Salad reports a storage calculation error."
+  />
+  <Card
+    title="Re-enable PowerShell"
+    href="/troubleshooting/pc-configuration/re-enable-powershell"
+    description="Fix a broken PowerShell behind hardware-detection and storage errors."
+  />
+  <Card
+    title="Correct system time error"
+    href="/troubleshooting/pc-configuration/correct-system-time-error"
+    description="Sync the Windows clock so Salad can connect and get jobs."
+  />
+</Cards>

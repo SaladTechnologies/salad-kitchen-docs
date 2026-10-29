@@ -1,23 +1,22 @@
 ---
-title: 'What are Batch Jobs in Salad, and How are they Different?'
+title: What are batch jobs?
+description: What a batch job is on Salad, and how it differs from a long-running container job.
 ---
 
-A Batch Job is a type of [Container Job](https://Community.salad.com/new-feature-container-environments-now-available/)
-that is short-lived on the network. These are jobs that typically only run for a few hours or days, and then complete.
-Once a Batch Job is complete, that Job will not be available on the network again.
+A batch job is a container job that has a fixed amount of work to do and then ends. It typically runs for a few hours or
+days across many machines at once, and once the customer's work is finished the job is gone from the network.
 
----
+## How batch jobs differ from other container jobs
 
-## **How are Batch Jobs Different from Other Container Jobs?**
+A typical batch job is something like password recovery with a tool such as HashCat, or a one-off data processing run:
+it needs a lot of GPUs for a while, and once the result is found there is nothing left to do. While a batch job is
+active it usually wants a large number of machines, so it is easy to get one; when it completes, your machine goes back
+to **Finding Job**.
 
-A common example of a Batch Job is to run a service like [HashCat](https://hardcidr.com/posts/saladcat/). This is an
-encryption cracking tool that is often used to recover lost passwords and by security researchers. This type of job
-needs a lot of compute power to run, but once the password is found, the Job is no longer needed, and therefore ends.
-While Batch Jobs are active on the network, they usually require large quantities of machines, and so are
-highly-available.
+Most other container jobs are long-running services, such as serving an AI model, that keep processing new requests for
+weeks or months. Those are scaled up and down by the customer as their traffic changes, which is why even a long-running
+job can come and go from your machine. It is common to receive the same job again later.
 
-While Batch Jobs are usually short, most other
-[Container Jobs](https://Community.salad.com/new-feature-container-environments-now-available/) are long-running. These
-longer Container Jobs can often run for weeks or months at a time, and are usually used for workloads that require
-continuous processing power, or regularly receive new data to work on. It's common to regularly receive the same Jobs.
-An example of this is to serve AI Inference or Machine Learning models.
+Both kinds pay at the rate set by the customer's chosen priority; see
+[How does my machine earn Salad Balance?](/faq/jobs/how-does-my-machine-earn-salad-balance) When a job ends on your
+machine, it is credited for the time it ran, and Salad looks for the next one automatically.

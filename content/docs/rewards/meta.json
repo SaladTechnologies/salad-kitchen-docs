@@ -1,5 +1,5 @@
 {
   "title": "Rewards",
   "icon": "MyIcon",
-  "pages": ["redeeming-your-rewards", "rewards-faq", "rewards-support"]
+  "pages": ["help", "redeeming-your-rewards"]
 }

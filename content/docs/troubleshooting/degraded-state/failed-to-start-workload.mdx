@@ -1,0 +1,87 @@
+---
+title: Failed to start workload
+description:
+  Fix the "Failed to start workload" Degraded State notification (errors -1, -4, -5, -7, -10), where the container
+  environment runs but a job can't be downloaded or started.
+---
+
+**What it means.** Your container environment is up, but a job couldn't be downloaded (-4) or started (-1, -5, -7, -10).
+The error number tells you which half failed.
+
+## Error -4: the job couldn't be downloaded
+
+The job's files come from Salad's image registries. A download that never finishes or keeps restarting is almost always
+a network path problem on the PC rather than the app. Go to
+[Downloads slow or failing](/troubleshooting/container-jobs/downloads-slow-or-failing).
+
+## Errors -1, -5, -7, -10: the job downloaded but wouldn't start
+
+By far the most common cause is the GPU driver. Container jobs reach your card through your normal Windows NVIDIA
+driver; if that driver is damaged, only half-updated, or temporarily lost by WSL, the job fails at start with "-1" or
+"-7" even though games run fine. The second most common cause is a program that already has the GPU.
+
+<Steps>
+<Step>
+
+### Check whether the container environment can see your GPU
+
+In PowerShell (no admin):
+
+```
+wsl -d salad-enterprise-linux --exec /usr/lib/wsl/lib/nvidia-smi
+```
+
+A table listing your card means the driver link works - skip to step 3. An error means the environment has lost the
+card: continue with step 2.
+
+</Step>
+<Step>
+
+### Restart the container environment, then reinstall the driver
+
+Exit Salad from the tray icon, run `wsl --shutdown` in PowerShell, and start Salad again. If the error returns, do a
+clean reinstall of the NVIDIA driver: [How to reinstall your GPU drivers](/guides/your-pc/how-to-reinstall-gpu-drivers)
+(choose _Perform a clean installation_), then reboot. Don't install any Linux NVIDIA driver inside WSL - the Windows
+driver is all that's needed.
+
+</Step>
+<Step>
+
+### Free the GPU
+
+Close games, local AI tools (Ollama, LM Studio, Stable Diffusion), video editors and mining software outside Salad. If
+you have two dedicated GPUs, only one can earn; disable the other in Salad under **Settings > Configure Hardware**
+([why](/faq/compatibility/can-i-use-multiple-gpus)).
+
+</Step>
+<Step>
+
+### Docker Desktop: turn off Resource Saver
+
+If Docker Desktop is installed, its Resource Saver setting pauses the WSL machinery Salad relies on. Open Docker
+Desktop > Settings > Resources and disable **Resource Saver**.
+
+</Step>
+<Step>
+
+### Update WSL and retry
+
+As Administrator: `wsl --update`, then `wsl --shutdown`, then start Salad and leave it for 30-40 minutes so it can
+download and start a job. Turn off VPNs and network filters for the test.
+
+</Step>
+<Step>
+
+### Last resort: reinstall Salad
+
+[Uninstall Salad](/guides/using-salad/how-to-uninstall-salad), reboot, reinstall from
+[salad.com/download](https://salad.com/download). Do this only after the steps above - it doesn't touch the driver,
+which is usually the cause.
+
+</Step>
+</Steps>
+
+## Still stuck?
+
+Send [Salad Support](/contact) the notification screenshot with the error number, the output of the `nvidia-smi` command
+from step 1, and your logs folder zipped ([how to find it](/guides/using-salad/how-to-find-your-salad-log-files)).

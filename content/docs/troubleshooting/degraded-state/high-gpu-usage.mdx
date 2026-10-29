@@ -1,0 +1,71 @@
+---
+title: High GPU usage, temperature, or the check can't run
+description:
+  Fix Degraded State errors 16 ("High GPU usage"), 17 ("High GPU temperature") and 41 ("Unable to run compatibility
+  test").
+---
+
+**What it means.** Salad samples your graphics card for a short while before offering a container job. **16** means the
+card was busy, **17** means it was too hot, and **41** means the check couldn't run at all (usually because the card was
+unavailable).
+
+**Why it happens.**
+
+- **Error 16** - something else is using the card: a game, a local AI model, mining software outside Salad, a rendering
+  job, or video encoding. On machines with **two dedicated GPUs** the check sees the other card working and reports 16
+  even when "nothing" is running.
+- **Error 17** - the card starts the check already hot from a previous job, a game, or poor airflow. Laptops in quiet
+  power modes throttle and heat up faster.
+- **Error 41** - the card was temporarily unreachable (driver reset, crash recovery) or another program had exclusive
+  control of it.
+
+## What to do
+
+<Steps>
+<Step>
+
+### Close everything using the GPU
+
+Task Manager (**Ctrl + Shift + Esc**) > **Processes**, enable the **GPU** column and sort by it. Close games, Ollama/LM
+Studio, Stable Diffusion, OBS, video editors and any miner. Fully exit programs that sit in the system tray.
+
+</Step>
+<Step>
+
+### Two dedicated GPUs: let Salad use one
+
+Disable the second card in **Settings > Configure Hardware** so the check runs on a free card. Salad can only earn with
+one GPU per PC ([details](/faq/compatibility/can-i-use-multiple-gpus)).
+
+</Step>
+<Step>
+
+### Error 17: cool the card down
+
+Make sure fans spin, vents and heatsinks are clear of dust, and the case has airflow. On laptops, use the vendor's
+performance mode and a hard surface or cooling pad. Give the card a few minutes to cool, then Retry.
+
+</Step>
+<Step>
+
+### Error 41 or repeated 16 with nothing running
+
+Exit Salad from the tray icon, run `wsl --shutdown` in PowerShell, and start Salad again. If it keeps happening, do a
+clean driver reinstall: [How to reinstall your GPU drivers](/guides/your-pc/how-to-reinstall-gpu-drivers).
+
+</Step>
+<Step>
+
+### Retry
+
+Click **Retry** on the notification. If a program only runs while you're at the PC, the next automatic check (when Salad
+starts Chopping after you go idle) will usually pass on its own.
+
+</Step>
+</Steps>
+
+## Still stuck?
+
+Send [Salad Support](/contact) a screenshot of Task Manager sorted by GPU while the error shows, your GPU model(s), the
+notification with its number, and your logs folder zipped
+([how to find it](/guides/using-salad/how-to-find-your-salad-log-files)).

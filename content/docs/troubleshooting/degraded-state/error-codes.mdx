@@ -1,0 +1,57 @@
+---
+title: Degraded State error codes
+description:
+  Reference table of every error code shown in Salad's Degraded State notifications, what each one means and where to
+  fix it.
+---
+
+Every Degraded State notification ends with a number. Find yours below. The codes come from two places: negative codes
+are raised by the Salad app on Windows while it sets up or starts a job; positive codes come from the compatibility
+check that runs inside the container environment before each container job.
+
+## Container environment and job start (negative codes)
+
+| Code | Notification title                    | What it means                                                  | Guide                                                                                                          |
+| ---- | ------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| -1   | Failed to start workload              | A job stopped for a reason the app couldn't classify.          | [Failed to start workload](/troubleshooting/degraded-state/failed-to-start-workload)                           |
+| -2   | Failed to start container environment | The Linux environment could not be imported into WSL.          | [Failed to start container environment](/troubleshooting/degraded-state/failed-to-start-container-environment) |
+| -3   | Failed to start container environment | The environment imported but its service failed to start.      | [Failed to start container environment](/troubleshooting/degraded-state/failed-to-start-container-environment) |
+| -4   | Failed to start workload              | The job's files could not be downloaded.                       | [Downloads slow or failing](/troubleshooting/container-jobs/downloads-slow-or-failing)                         |
+| -5   | Failed to start workload              | The job downloaded but could not be started.                   | [Failed to start workload](/troubleshooting/degraded-state/failed-to-start-workload)                           |
+| -7   | GPU drivers out of date               | The job could not be given access to the GPU (driver problem). | [Salad cannot access your GPU](/troubleshooting/degraded-state/salad-cannot-access-your-gpu)                   |
+| -10  | Failed to start workload              | The job took too long to start and was cancelled.              | [Failed to start workload](/troubleshooting/degraded-state/failed-to-start-workload)                           |
+
+Any other number means a failure the app couldn't classify ("Unable to run container workload"); codes -6, -8, -9 and
+-11 are rare and usually clear on the next attempt. If one keeps coming back, send support your logs.
+
+## Compatibility check (positive codes)
+
+| Code | Notification title                     | What it means                                                                       | Guide                                                                                        |
+| ---- | -------------------------------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| 11   | Salad cannot access your GPU           | The GPU isn't visible inside the container environment.                             | [Salad cannot access your GPU](/troubleshooting/degraded-state/salad-cannot-access-your-gpu) |
+| 12   | Salad cannot access your GPU           | The GPU responded, but its status couldn't be read.                                 | [Salad cannot access your GPU](/troubleshooting/degraded-state/salad-cannot-access-your-gpu) |
+| 13   | Insufficient VRAM                      | Too much of the card's memory is already in use.                                    | [Insufficient VRAM](/troubleshooting/degraded-state/insufficient-vram)                       |
+| 14   | GPU power limit set                    | The card's power limit is set below what it supports.                               | [GPU power limit](/troubleshooting/degraded-state/gpu-power-limit)                           |
+| 15   | GPU power unavailable                  | The card's power settings couldn't be read at all.                                  | [GPU power limit](/troubleshooting/degraded-state/gpu-power-limit)                           |
+| 16   | High GPU usage                         | The card was busy when the check ran.                                               | [High GPU usage](/troubleshooting/degraded-state/high-gpu-usage)                             |
+| 17   | High GPU temperature                   | The card was too hot when the check ran.                                            | [High GPU usage](/troubleshooting/degraded-state/high-gpu-usage)                             |
+| 18   | Insufficient VRAM / High VRAM activity | Something is reading and writing the card's memory heavily.                         | [Insufficient VRAM](/troubleshooting/degraded-state/insufficient-vram)                       |
+| 19   | GPU drivers out of date                | The installed driver is too old, or not compatible with the CUDA version jobs need. | [Salad cannot access your GPU](/troubleshooting/degraded-state/salad-cannot-access-your-gpu) |
+| 21   | Salad cannot access your GPU           | Same cause as 11, found by a different part of the check.                           | [Salad cannot access your GPU](/troubleshooting/degraded-state/salad-cannot-access-your-gpu) |
+| 22   | Salad cannot access your GPU           | Same cause as 12, found by a different part of the check.                           | [Salad cannot access your GPU](/troubleshooting/degraded-state/salad-cannot-access-your-gpu) |
+| 23   | GPU failed health test                 | The card didn't complete the health test.                                           | [GPU performance low](/troubleshooting/degraded-state/gpu-performance-low)                   |
+| 24   | Insufficient VRAM                      | Same as 13, measured during the benchmark.                                          | [Insufficient VRAM](/troubleshooting/degraded-state/insufficient-vram)                       |
+| 25   | Insufficient VRAM                      | Same as 13, measured on a second pass.                                              | [Insufficient VRAM](/troubleshooting/degraded-state/insufficient-vram)                       |
+| 31   | Container networking issues            | The container environment couldn't reach Salad's services (TCP).                    | [Container networking issues](/troubleshooting/degraded-state/container-networking-issues)   |
+| 32   | Container networking issues            | The container environment couldn't resolve names on the internet (UDP/DNS).         | [Container networking issues](/troubleshooting/degraded-state/container-networking-issues)   |
+| 41   | Unable to run compatibility test       | The check itself couldn't run on your GPU.                                          | [High GPU usage](/troubleshooting/degraded-state/high-gpu-usage)                             |
+| 42   | GPU performance low                    | The benchmark scored below similar GPUs.                                            | [GPU performance low](/troubleshooting/degraded-state/gpu-performance-low)                   |
+| 101  | GPU ECC enabled                        | Error-correcting memory is on, which reduces usable VRAM.                           | [How to disable ECC](/guides/your-pc/how-to-disable-ecc)                                     |
+
+## Notifications without a number
+
+| Notification                           | Guide                                                                                                            |
+| -------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Failed to update container environment | [Failed to update container environment](/troubleshooting/degraded-state/failed-to-update-container-environment) |
+| Problem detecting hardware             | [Problem detecting hardware](/troubleshooting/degraded-state/problem-detecting-hardware)                         |
+| Your GPU is temporarily disabled       | [GPU temporarily disabled](/troubleshooting/degraded-state/gpu-temporarily-disabled)                             |

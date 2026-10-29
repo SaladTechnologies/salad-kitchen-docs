@@ -1,61 +1,56 @@
 ---
-title: How to Create a Support Ticket
+title: How to create a support ticket
+description:
+  What to include in a Salad support ticket (machine ID, screenshot, logs, what you tried) and how to send it from the
+  app or the website.
 ---
 
-## Salad Ticket Requirements
+Salad Support can solve most problems in one reply if the first message contains everything needed to look at your
+machine. Gather these before you write:
 
-Before you submit a support ticket, please make sure you provide the following information to help us assist you as
-quickly as possible:
+## What to include
 
-- A description of the issue you're experiencing, including any error messages you may have received.
-- Relevant information such as your machine's hardware (CPU, GPU, RAM, etc) and/or machine ID. If you are submitting a
-  ticket from the Salad Application, this will be automatically included.
+1. **Your machine ID**, at least the first 8 characters. Find it in the Salad app:
+   [How to find your Salad machine ID](/guides/using-salad/how-to-find-your-salad-machine-id).
+2. **A screenshot of the exact notification or error**, not a description of it. The wording and any code in it matter.
+3. **Your logs folder, zipped.** See
+   [How to find your Salad log files](/guides/using-salad/how-to-find-your-salad-log-files). Attach the zip to the
+   ticket; do not paste log text into the message.
+4. **What you already tried**, including any guide from this site you followed, so Support does not send you through the
+   same steps again.
+5. **When it started**, with your time zone, and whether anything changed around then (Windows update, new driver, new
+   antivirus, hardware change).
 
-You may also find a quicker solution to your issue by searching our [Knowledge Base](https://support.salad.com/hc/en-us)
-before submitting a ticket.
+Write from the email address linked to your Salad account. For account questions Support may not be able to help from a
+different address.
 
-## How to Submit a Support Ticket
+## Send it from the Salad app
 
-### Using the Salad Application
-
-1. Open the Salad Application and click your profile icon in the top left corner of the widget, then select "Get Help"
-   from the drop-down menu.
+1. Open the Salad app, click your profile picture at the top left and choose **Get Help**.
 
    ![Screenshot of Salad Application profile icon dropdown](../../../../content/images/guides/your-pc/how-to-create-a-support-ticket-3.png)
 
-2. A window will open where you can describe your issue and submit your ticket. Please make sure to include all relevant
-   information so we can assist you as quickly as possible. Once you've filled out the form, click the "Next" button and
-   you'll be asked if you want to include your machine details before submitting the ticket.
+2. Describe the problem, click **Next**, and accept the option to include your machine details. They are attached
+   automatically, so you can skip the machine ID.
 
    ![Screenshot of Salad Application support ticket window](../../../../content/images/guides/your-pc/how-to-create-a-support-ticket-4.png)
 
-3. Salad Support will respond to your ticket via email, so please make sure to check your inbox for a response!
+3. Support replies by email, so watch the inbox of your Salad account address.
 
-### Using the Salad Website
+## Send it from the website
 
-1. Navigate to [https://support.salad.com](https://support.salad.com) or any page on
-   [https://salad.com/store](https://salad.com/store).
+1. Open any page on [salad.com](https://salad.com) and click the **Support** button at the bottom right.
 
    ![Screenshot of Salad Support website](../../../../content/images/guides/your-pc/how-to-create-a-support-ticket-1.png)
 
-2. Click the "Support" widget at the bottom right, this will open a window.
+2. Choose **Send a message**, fill in the form and attach your screenshot and log zip.
 
    ![Screenshot of Salad Support contact widget](../../../../content/images/guides/your-pc/how-to-create-a-support-ticket-2.png)
 
-3. Let us know what your issue is, and hit the "Send a message" button to submit your ticket.
+3. Your open and past conversations are listed in the same widget under **Previous conversations**, where you can also
+   reply.
 
-If you are unable to access this page, or cannot see the "Contact Us" option, you can instead send us an email to
-[support@salad.com](mailto:support@salad.com?subject=I%20need%20help%20with%20Salad%21&body=Hi%20there%21%20I%20need%20help%20with..).
+If the widget does not load, email [support@salad.com](mailto:support@salad.com) with the same information and
+attachments. Other ways to reach us (Discord, Reddit) are on the [contact page](/contact).
 
-Simply click the email address, and it'll pop open your default mail client ready to send us an email! Alternatively you
-can enter it as the "To" address in your favorite mail service. _You will need to make sure you submit your ticket from
-the same email address that's connected to your Salad account, or we may not be able to provide assistance on some
-issues in order to keep your account secure._
-
----
-
-If you need to upload log files to your ticket, you can do so by following these instructions:
-[How to find your Salad log files](/guides/using-salad/how-to-find-your-salad-log-files).
-
-You can view your active, and past tickets and chats within the widget by selecting "previous conversations" on the main
-menu if available. You can also reply to your support tickets through here as well.
+If Support asks for a HAR file, see [How to create a HAR file](/guides/your-pc/how-to-create-a-har-file).

@@ -1,35 +1,33 @@
 ---
-title: Why Is My Earning Rate Sporadic/Random?
+title: Why is my earning rate sporadic?
+description: Why your Salad earning rate rises, falls and sometimes drops to zero over a day or week.
 ---
 
-Salad offers three types of workloads for chefs to share their compute resources and earn rewards: Container workloads,
-Bandwidth sharing, and GPU crypto mining. Depending on the quality of your hardware, the needs of the Salad network, and
-your internet connection, Chefs may be able to get one or a combination of all three workloads.
+Because your rate is decided job by job, and jobs come and go. A rate that changes through the day is normal; a rate
+that stays at zero for a long time is not.
 
----
+## Container jobs
 
-[Container workloads](/faq/jobs/how-do-i-get-container-jobs) rely on both the hardware you have installed, and
-[Demand](https://salad.com/earn/demand) from customers. The more powerful your hardware is, and the more jobs are
-available, the more Salad Balance and more consistently you will earn. As demand can fluctuate, it's normal to see your
-earning rates rise and fall throughout the day or week.
+Each job pays the rate set by its customer's priority, so your next job can pay more or less than the last one. Jobs are
+often short, and customers scale up and down, so between jobs you sit in **Finding Job** earning nothing. How long those
+gaps last depends on demand for your GPU model, which changes hour to hour. See
+[Network Monitor](/faq/jobs/network-monitor) for how demand and priority interact.
 
----
+## Bandwidth sharing
 
-[High bandwidth](https://salad.com/blog/high-bandwidth-jobs/) jobs require chefs to have super-fast internet connections
-and are not available in every region. Demand can also be dependent on the time of day, so you're likely to see higher
-earnings during certain portions of the day.
+[Bandwidth sharing](/faq/jobs/what-is-bandwidth-sharing) depends on demand in your region, which follows the time of
+day, so earnings are higher during some hours than others.
 
----
+## Mining
 
-Profitability for [mining](/faq/salad-app/what-miners-does-salad-currently-use) workloads depends on the strength of the
-crypto markets. These workloads usually run continuously, but the amount earned and the frequency of payouts can
-fluctuate based on
-[share tracking](https://medium.com/salad-technologies/the-salad-guide-to-cryptocurrency-share-tracking-ce97763edf6)
-mechanics. Luck plays a role in cryptocurrency mining, resulting in variability in earnings during each payout period.
-However, over a longer period, such as a day or a week, earnings should average out if there are no changes in the
-crypto markets.
+If [mining](/faq/jobs/mining-as-a-backup-workload) is enabled as a backup, it credits every 15 minutes or so, but some
+intervals are empty because mining is random. On modern cards it is cents per day either way.
 
----
+## What is not normal
 
-Chefs should ensure that as much of their equipment as possible is enabled to make the most of their idle machine power
-and earn rewards, regardless of the combination of workloads they choose to Chop.
+- A job running for hours with **no** earnings: see
+  [Job running but no earnings](/troubleshooting/not-earning/job-running-but-no-earnings).
+- Rate dropped to zero and stays there: see
+  [My earning rate has dropped to 0](/troubleshooting/not-earning/my-earning-rate-has-dropped-to-0).
+- Hours in Finding Job on an in-demand GPU: see
+  [Finding Job for hours](/troubleshooting/not-earning/finding-job-for-hours).

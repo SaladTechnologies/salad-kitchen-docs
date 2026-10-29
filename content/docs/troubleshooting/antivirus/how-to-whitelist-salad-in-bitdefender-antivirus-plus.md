@@ -1,5 +1,7 @@
 ---
-title: How to Whitelist Salad in Bitdefender Antivirus PLUS
+title: 'How to Whitelist Salad in Bitdefender Antivirus PLUS'
+description:
+  'Step-by-step: add the Salad folders to the exceptions in Bitdefender Antivirus Plus so it stops blocking Salad.'
 ---
 
 **1. Open Bitdefender**

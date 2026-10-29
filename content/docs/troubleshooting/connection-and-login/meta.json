@@ -1,0 +1,12 @@
+{
+  "title": "Connection & Login",
+  "pages": [
+    "index",
+    "i-am-having-trouble-connecting-to-the-salad-app",
+    "i-cant-enter-my-email-address-to-log-in",
+    "passkey-troubleshooting",
+    "i-lost-my-passkey",
+    "how-to-unblock-salad-with-your-isp",
+    "bt-troubleshooting-guide"
+  ]
+}

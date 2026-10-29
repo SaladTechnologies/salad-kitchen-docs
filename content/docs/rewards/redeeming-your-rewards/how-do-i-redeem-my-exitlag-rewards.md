@@ -1,10 +1,12 @@
 ---
-title: How Do I Redeem My ExitLag Rewards?
+title: How do I redeem my ExitLag rewards?
+description: Apply an ExitLag prepaid subscription code from Salad to your ExitLag account.
 ---
 
-Redeeming keys (aka coupons) is actually quite simple. ExitLag subscription keys are redeemed on ExitLag's website.
+ExitLag subscription keys are redeemed on ExitLag's website. Find your key in your
+[Reward Vault](/rewards/help/reward-vault-and-redemption-codes), then follow these steps.
 
-## ExitLag Subscription Redemption
+## ExitLag subscription redemption
 
 1. Create an account on ExitLag's website at [https://www.exitlag.com/en/](https://www.exitlag.com/en/).
 2. You will receive an email—at the address you provided when creating your account—asking you to confirm your account.
@@ -14,8 +16,8 @@ Redeeming keys (aka coupons) is actually quite simple. ExitLag subscription keys
 5. Click on "Prepaid codes" on the left-hand side navigation bar.
 6. Enter the code you received from Salad in the field that says "Prepaid Code" and then click "Apply Code".
 
-## Experiencing Issues with Your Reward?
+## Experiencing issues?
 
-If you are experiencing issues activating or using your reward (such as having trouble entering your key, or an issue
-with the services not outlined in the above guide), you can contact ExitLag directly for assistance on their
-[official support page](https://www.exitlag.com/en/support).
+If the code is rejected or the subscription does not activate, contact ExitLag directly on their
+[official support page](https://www.exitlag.com/en/support). See
+[Problems using a reward](/rewards/help/problems-using-a-reward) for what to send them and what to send Salad.

@@ -1,5 +1,6 @@
 ---
-title: How to Whitelist Salad in Avast Antivirus
+title: 'How to Whitelist Salad in Avast Antivirus'
+description: 'Step-by-step: add the Salad folders to the exceptions list in Avast Antivirus so it stops blocking Salad.'
 ---
 
 1. Open Avast.

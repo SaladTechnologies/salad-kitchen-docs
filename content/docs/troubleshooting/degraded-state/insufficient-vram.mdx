@@ -1,0 +1,69 @@
+---
+title: 'Insufficient VRAM and high VRAM activity'
+description:
+  'Fix Degraded State errors 13, 24, 25 ("Insufficient VRAM") and 18 ("High VRAM activity"): too much of your GPU''s
+  memory is in use when the compatibility check runs.'
+---
+
+**What it means.** A customer's job needs the whole of your graphics card's memory (VRAM). Before offering you a job,
+Salad measures how much of it is already in use. **13, 24 and 25** mean too much was taken; **18** means something was
+reading and writing VRAM heavily at the time. The check isn't about how much VRAM the card has - a 12 GB card passes
+when it's free - it's about what else is holding it.
+
+**Why it happens.** Something is using the card while Salad checks it:
+
+- A game, a local AI model (Ollama, LM Studio, Stable Diffusion), a video editor, OBS, a browser with hardware
+  acceleration and many tabs, or wallpaper engines.
+- Windows itself on high-resolution or multiple monitors, plus RGB and monitoring overlays.
+- A second dedicated GPU: the check may land on the busy card.
+- ECC memory enabled on workstation cards, which reserves part of the VRAM (error 101 - see
+  [How to disable ECC](/guides/your-pc/how-to-disable-ecc)).
+
+## What to do
+
+<Steps>
+<Step>
+
+### See what's using the GPU
+
+Open Task Manager (**Ctrl + Shift + Esc**), go to **Performance > GPU** and look at _Dedicated GPU memory usage_. On the
+**Processes** tab, right-click a column header, enable **GPU** and **GPU engine**, and sort by GPU. Close anything above
+a few percent, or anything holding more than a small amount of dedicated memory.
+
+</Step>
+<Step>
+
+### Close background GPU users
+
+Local AI tools and overlays keep models and buffers in VRAM even when idle. Quit them fully (tray icon > Exit), not just
+the window. Salad is designed to run while you're away from the PC with everything else closed.
+
+</Step>
+<Step>
+
+### Check for a second GPU
+
+With two dedicated cards, disable the one you don't want Salad to use under **Settings > Configure Hardware**
+([why](/faq/compatibility/can-i-use-multiple-gpus)).
+
+</Step>
+<Step>
+
+### Retry
+
+Click **Retry** on the notification, or restart Salad. The check runs again before the next job.
+
+</Step>
+</Steps>
+
+<Callout type="info" title="Nothing running, still failing?">
+  A driver that reports memory wrongly can also trigger this. If Task Manager shows the card nearly empty and the error
+  persists, do a clean reinstall of the GPU driver: [How to reinstall your GPU
+  drivers](/guides/your-pc/how-to-reinstall-gpu-drivers).
+</Callout>
+
+## Still stuck?
+
+Send [Salad Support](/contact) a screenshot of Task Manager's GPU page taken while the error shows, the notification
+with its error number, and your logs folder zipped
+([how to find it](/guides/using-salad/how-to-find-your-salad-log-files)).

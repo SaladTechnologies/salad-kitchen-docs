@@ -1,0 +1,114 @@
+---
+title: GPU power limit set
+description:
+  Fix Degraded State error 14 ("GPU Power Limit Set") and error 15 ("GPU Power Unavailable") on desktops and laptops,
+  including vendor power modes like Armoury Crate.
+---
+
+**What it means.** Customers pay for a card's full performance, so before each container job Salad compares the power
+your GPU is currently _allowed_ to draw with what the card supports. Error **14** means the allowed limit is set well
+below the card's maximum; error **15** means the power settings couldn't be read at all (usually a driver problem).
+Either one stops container jobs until it's fixed.
+
+**Why it happens.**
+
+- **Desktop:** a power limit or undervolt set in MSI Afterburner, the vendor's tuning app (ASUS GPU Tweak, EVGA
+  Precision), or a saved "quiet" profile that re-applies at startup.
+- **Laptop:** the vendor's **operating mode** (Silent, Balanced, Performance) caps the GPU's power budget. The "GPU
+  mode" / MUX switch setting (Ultimate, Standard, Eco) does **not** control power - it only chooses which GPU drives the
+  screen, so changing it won't clear the error. Running on battery or on a USB-C charger also cuts the limit sharply.
+- **Error 15:** the driver can't report power at all, typically after a bad driver install.
+
+## What to do
+
+<Tabs items={['Laptop', 'Desktop']}>
+<Tab value="Laptop">
+
+<Steps>
+<Step>
+
+### Set the vendor's operating mode to maximum performance
+
+- ASUS: Armoury Crate > **Operating Mode > Turbo** (in _Manual_ mode, push the GPU power sliders - base power and
+  Dynamic Boost - to maximum).
+- MSI: MSI Center > User Scenario > **Extreme Performance**.
+- Lenovo: Lenovo Vantage / Legion Toolkit > **Performance** mode.
+- Razer, Acer, Dell, HP: the equivalent in Synapse, PredatorSense/NitroSense, Alienware Command Center or OMEN Gaming
+  Hub.
+
+</Step>
+<Step>
+
+### Use the original charger
+
+Plug in the barrel-plug charger that came with the laptop. Battery and USB-C power limit the GPU hard.
+
+</Step>
+<Step>
+
+### Windows power mode
+
+**Settings > System > Power & battery > Power mode > Best performance.** This one is often the missing piece even when
+the vendor mode is already on Turbo.
+
+</Step>
+<Step>
+
+### Check and retry
+
+Open a Command Prompt and run `nvidia-smi -q -d POWER`. _Current Power Limit_ should sit at or near _Max Power Limit_.
+Then restart Salad or click **Retry**.
+
+</Step>
+</Steps>
+
+</Tab>
+<Tab value="Desktop">
+
+<Steps>
+<Step>
+
+### Reset your tuning software
+
+In MSI Afterburner or your vendor's app, set **Power Limit** to 100% and all offsets to 0 (the _Reset_ button). Check
+that no profile is set to apply at Windows startup.
+
+</Step>
+<Step>
+
+### Check with nvidia-smi
+
+Open a Command Prompt and run `nvidia-smi -q -d POWER`. _Current Power Limit_ should match _Max Power Limit_ (or be
+close to the card's rated power). If it's much lower with nothing applied, a profile is still loading somewhere - check
+the startup tab of your tuning app and Windows Startup apps.
+
+</Step>
+<Step>
+
+### Error 15: reinstall the driver
+
+If the command prints N/A for the limits, or Salad reports error 15, do a clean driver reinstall:
+[How to reinstall your GPU drivers](/guides/your-pc/how-to-reinstall-gpu-drivers).
+
+</Step>
+<Step>
+
+### Retry
+
+Click **Retry** on the notification or restart Salad.
+
+</Step>
+</Steps>
+
+</Tab>
+</Tabs>
+
+<Callout type="warn" title="Undervolting">
+  Undervolting that keeps the card at its stock clocks is fine for gaming but still shows up as a reduced power limit to
+  the check. If you want container jobs, run the card at stock while Chopping.
+</Callout>
+
+## Still stuck?
+
+Send [Salad Support](/contact) the output of `nvidia-smi -q -d POWER`, your laptop or GPU model and the operating mode
+you've set, and your logs folder zipped ([how to find it](/guides/using-salad/how-to-find-your-salad-log-files)).

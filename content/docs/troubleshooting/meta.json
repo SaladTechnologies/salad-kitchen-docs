@@ -1,6 +1,14 @@
 {
   "title": "Troubleshooting",
-  "description": "Guides on how to use Salad",
   "icon": "MyIcon",
-  "pages": ["antivirus", "container-jobs", "bandwidth-sharing-jobs", "mining-jobs", "salad-app", "pc-configuration"]
+  "pages": [
+    "index",
+    "degraded-state",
+    "not-earning",
+    "container-jobs",
+    "connection-and-login",
+    "antivirus",
+    "pc-configuration",
+    "salad-app"
+  ]
 }

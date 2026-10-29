@@ -1,70 +1,40 @@
 ---
-title: Should I buy a GPU/PC for Salad?
+title: Should I buy a GPU or PC for Salad?
+description: Why we don't recommend buying hardware just for Salad, and what to look for if you are upgrading anyway.
 ---
 
-We're glad to hear that you're interested in helping expand the Salad network! However, we don't recommend that you buy
-a GPU or PC specifically for Salad.
+We don't recommend it. Salad runs on an interruptible network where jobs and rates follow customer demand, so there is
+no way to guarantee that hardware bought for Salad will pay for itself. Buy for your own needs first, and use Salad to
+earn from the hardware's idle time.
 
-Due to the nature of our
-[distributed and interruptible network](https://docs.salad.com/container-engine/explanation/core-concepts/architectural-overview),
-you can't guarantee that investing into hardware will pay off. It's better to prioritize your own needs and wants before
-thinking about getting components or machines "just for Salad."
+## If you're upgrading anyway
 
-If you're upgrading or getting a new PC for other reasons, like work or gaming, and want to monetize that hardware's
-downtime with Salad, we do currently recommend the following minimum specifications for a PC to run Salad effectively:
+If you're getting a new PC or GPU for work or gaming and want it to earn on the side, aim for:
 
-- **CPU**: 4 cores & 8 threads, 6 cores & 12 threads recommended
-- **GPU**: An NVIDIA GPU with 4GB of VRAM or some recent AMD GPUs (RX 7000 series & newer).
-- **RAM**: 16 GB or more
-- **Storage**: SSD with at least 70 GB free space
+- **GPU:** a dedicated card that is in demand on the [Network Monitor](/faq/jobs/network-monitor), which also shows the
+  rate range for each model. One card only: a second GPU doesn't add earnings.
+- **CPU:** 4 cores and 8 threads minimum, 6 cores and 12 threads recommended.
+- **RAM:** 32 GB for container jobs.
+- **Storage:** an SSD with at least 70 GB free on C:.
 
-You can find more information about earnings for different hardware on our
-[Network Monitor](https://salad.com/earn/demand).
+Full details are in [Is my machine compatible with Salad?](/faq/compatibility/is-my-machine-compatible-with-salad)
 
----
+## Why not buy for Salad?
 
-## Why Shouldn't I Buy a GPU or PC for Salad?
+Return on investment is the time it takes to earn back the cost of the hardware plus electricity and maintenance. You
+would need the hardware cost, the hourly rate for that GPU, your daily Chopping hours and your electricity rate, and the
+second of those changes day to day with job availability and the priorities customers choose. You could easily spend
+more than you ever Chop back.
 
-When buying PC hardware as an investment for running workloads on Salad, you need to understand your "Return on
-Investment" (ROI). On Salad, ROI would be the time it takes to earn back the money you spent on your machine, as well as
-operating costs like electricity and maintenance. To calculate this, you would need to know:
+## Haven't other people made it pay?
 
-- The cost of the GPU or PC.
-- The earnings per hour for the hardware you plan to use.
-- The number of hours you will run Salad every day.
-- Your electricity rates.
+Some Chefs have paid off machines and built up large balances, and you may see impressive totals on social media or in
+Discord. Keep in mind that those Chefs often run many machines, optimize them for power efficiency, have very cheap
+electricity, or had the hardware already. Unless that describes you, treat Salad as nice extra cash from a PC you
+already own, not as an investment.
 
-Because Salad's earnings can vary day-to-day due to job availability and the needs of the network, there's no way to
-guarantee a specific ROI. This means you could end up spending more on the hardware than you Chop back in Salad Balance.
+## What to do instead
 
----
-
-## Have Other People Gotten Positive ROI on Salad PCs?
-
-Many Chefs have paid off machines and stacked up some serious Salad Balance over the years. You may be enticed to buy a
-"Salad Rig" after seeing some ludicrous earning rates or total balances on social media or in our community server, but
-keep in mind a few key factors:
-
-- Some Chefs own whole farms or data centers of GPUs.
-- They likely cost optimize their rigs for power efficiency.
-- They may have much lower electricity rates or operating costs.
-- The hardware may be free, from work, or long ago paid for.
-
-Unless you are in a similar camp, it's best to simply prioritize your personal interests and budget before you think
-about buying something purpose-built for Salad.
-
----
-
-## What Should I do Instead?
-
-If you're looking to earn with Salad, we recommend continuing to use the PC you already own. There are a few things you
-can do to maximize your earnings:
-
-- Run Salad as often as possible. The longer you run it, the more likely you are to get the best jobs.
-- Keep your PC well-maintained. Regular cleaning and ensuring proper cooling can help your hardware run to its full
-  potential.
-- [And other tips.](/faq/jobs/how-can-i-earn-more-with-salad)
-
-Ultimately, Salad is a tool to help you monetize your idle compute power. While we're working to make it as stable and
-reliable as possible, for most Chefs the earnings are firmly in the "nice extra cash" camp and not the "investment
-vehicle" category.
+Run the PC you have as often as possible, keep it clean and cool, and follow the tips in
+[How can I earn more with Salad?](/faq/jobs/how-can-i-earn-more-with-salad) Before buying anything, check
+[Calculating profitability and electricity costs](/faq/jobs/calculating-profitability-and-electricity-costs).

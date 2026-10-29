@@ -1,50 +1,32 @@
 ---
-title: What is the Minimum Recommended Internet Speed for Salad?
+title: What is the minimum recommended internet speed for Salad?
+description: The internet speeds you need for container jobs and for bandwidth sharing, and how to test yours.
 ---
 
-In order to be eligible for Salad's
-[Container Jobs](https://Community.salad.com/new-feature-container-environments-now-available/), you'll need a required
-minimum **download** speed of 10 Megabits per second (Mbps). We recommend having at least 100 Mbps **download** speed to
-ensure optimal performance and access to a wider range of Jobs, as some Jobs may require higher speeds to keep. Having a
-slow internet connection may, in some instances, lead to Customers reallocating to a different, faster machine.
+## Container jobs
 
-There is no required minimum **upload** speed requirement for Container Jobs on Salad. However, we recommend having at
-least 10 Mbps **upload speed**.
+- **Download:** at least 10 Mbps required; 100 Mbps or more recommended. Faster connections qualify for more jobs, and a
+  slow one can lead a customer to reallocate the job to a faster machine.
+- **Upload:** no required minimum; 10 Mbps or more recommended.
 
-- Minimum required speeds:
-  - **Download**: 50 Mbps.
-  - **Upload**: No required minimum, but 10 Mbps recommended.
-- Recommended speeds for optimal performance:
-  - **Download**: 100 Mbps or higher.
-  - **Upload**: 10 Mbps or higher.
+Salad runs its own speed test when it starts, and the result is usually lower than what a browser speed test reports,
+because it measures a real transfer to Salad's servers rather than to the nearest test server. That lower number is what
+the Chopping Power check uses. If it falls short, see
+[How to improve internet speed for container jobs](/guides/your-pc/improve-internet-speed).
 
----
+## Bandwidth sharing
 
-## **What is the Minimum Internet Speed for Bandwidth Sharing Jobs on Salad?**
+Requirements vary by region. For most regions:
 
-The minimum required network speed for [Bandwidth Sharing Jobs](/faq/jobs/what-is-bandwidth-sharing) can vary depending
-on your region. For most regions, a minimum **upload** speed of 20 Mbps is required. We recommend having at least 50
-Mbps **upload** speed for consistent, and higher, earnings.
+- **Upload:** at least 20 Mbps required; 50 Mbps or more recommended for consistent earnings.
+- **Download:** at least as fast as your upload.
 
-For **download** speed, you will need to ensure it matches or exceeds your **upload** speed. For example, if you have an
-**upload** speed of 20 Mbps, you should also have a **download** speed of at least 20 Mbps.
+See [What is bandwidth sharing?](/faq/jobs/what-is-bandwidth-sharing) and
+[Bandwidth sharing troubleshooting](/troubleshooting/not-earning/bandwidth-sharing-troubleshooting).
 
-- Minimum required speeds:
-  - **Download**: 20 Mbps (or matching your upload speed).
-  - **Upload**: 20 Mbps.
-- Recommended speeds for optimal performance:
-  - **Download**: 50 Mbps or higher.
-  - **Upload**: 50 Mbps or higher.
+## Testing your connection
 
----
-
-## **How Fast is my Internet Connection?**
-
-You can test your internet speed quickly from your web browser. Here are a few popular options:
-
-- [Speedtest by Ookla](https://www.speedtest.net/).
-- [Fast.com by Netflix](https://fast.com/).
-- [Google Speed Test](https://www.google.com/search?q=speed+test) (just type "speed test" into Google).
-
-If you find that your internet speed is below the minimum or recommended levels, consider reaching out to your Internet
-Service Provider (ISP) to explore options for upgrading your plan or improving your connection.
+Any browser speed test works, such as [Speedtest by Ookla](https://www.speedtest.net/) or [Fast.com](https://fast.com/).
+Test over the connection your PC actually uses (ideally a wired one), and remember that Salad's own measurement will
+read lower. If you are below the minimums, a wired connection and a quieter network help more than most people expect;
+otherwise it is a conversation with your ISP.

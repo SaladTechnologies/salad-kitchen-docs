@@ -1,40 +1,38 @@
 ---
-title: How to Redeem Prepaid Mastercards on Salad
+title: How to redeem prepaid Mastercards on Salad
+description:
+  Claim, register and start using a prepaid Mastercard reward from Salad, including adding it to a mobile wallet or
+  requesting a physical card.
 ---
 
-Prepaid Mastercards are now available on the Salad Storefront, unlocking greater flexibility for Chefs to use their
-Salad Balance.
+Prepaid Mastercards let you spend your Salad Balance almost anywhere Mastercard is accepted. Before you redeem, check
+the [supported countries](/rewards/help/supported-visa-mastercard-countries): Mastercard is not available everywhere,
+and [redemptions are final](/rewards/help/i-want-a-refund).
 
-Here's how to get started once you redeem your Prepaid Mastercard on the Salad Storefront:
+Once you have redeemed a prepaid Mastercard on the Storefront:
 
-1. **Redeem your Reward from Salad**
-   1. After redeeming your reward from the Salad Storefront, check your Salad sign-up email and locate the redemption
-      link and instructions
+1. **Find the reward email.** Our reward partner Tremendous sends a redemption link and instructions to the email
+   address on your Salad account. Check spam if you do not see it. No email? See
+   [I redeemed a reward but haven't received it](/rewards/help/i-redeemed-a-reward-but-havent-received-it).
+2. **Redeem the card.** Click the link in the email and enter the provided code to redeem the card.
+3. **Register the card.** Accept the cardholder agreement, then enter your street address. Pick the correct address from
+   the drop-down menu; the city, state and ZIP code fill in automatically.
+4. **Start using it.** The card is now active and can be used online or added to your mobile wallet.
+5. **Manage the card** at [My Prepaid Center](https://myprepaidcenter.com/home).
 
-2. **Redeem your Prepaid Mastercard**
-   1. Click the link from the email and enter the provided code to redeem the card
+## Adding the card to a mobile wallet
 
-3. **Register your Prepaid Mastercard**
-   1. After redemption, register the card and accept the cardholder agreement
-   2. Input the Street Address, which prompts a drop-down menu of potential addresses
-   3. Select the correct address, which automatically populates the City, State, and Zip Code fields
+You can add the card to Apple Pay or Google Pay with the wallet's scan function, or by entering the card number, expiry
+date and CVV manually. Wallet support can vary by region.
 
-4. **Your Prepaid Mastercard is ready to use**
-   1. The card is activated, and recipients can use it online or add it to their mobile wallet
+## Requesting a physical card (optional)
 
-5. **Manage your Prepaid Mastercard**
-   1. Manage your new Mastercard at [My Prepaid Center](https://myprepaidcenter.com/home).
+1. Request a plastic card from the main Card Details page.
+2. Fill in the shipping information for delivery.
+3. A $3 shipping charge is deducted from the card balance.
 
-Recipients can add the Mastercard to their mobile smartphone wallet using the Scan functionality in Apple Pay and Google
-Pay, or by entering the card number, expiration date, and CVV manually
+## Experiencing issues?
 
-Optional - How to Request a Physical Prepaid Mastercard:
-
-1. **Request physical Mastercard**
-   1. Recipients can request a plastic card from the main Card Details page
-
-2. **Your physical Mastercard is ready to use**
-   1. Don't forget to fill in shipping information for the physical card delivery
-
-3. **Ship your physical Mastercard**
-   1. Your Salad Balance will reflect a $3 deduction for shipping costs
+Using the card (declined payments, registration problems, wallet transfers) is handled by the card issuer through the
+claim page and My Prepaid Center, not by Salad. See [Problems using a reward](/rewards/help/problems-using-a-reward) and
+the [Prepaid Visa and Mastercard FAQ](/rewards/help/prepaid-visa-and-mastercard-faq).

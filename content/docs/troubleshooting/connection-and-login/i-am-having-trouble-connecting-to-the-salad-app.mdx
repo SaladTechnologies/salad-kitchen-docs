@@ -1,0 +1,167 @@
+---
+title: Trouble connecting to the Salad app
+description:
+  Fix the Salad app stuck on Connecting or a login that never completes - supported browsers, Chrome's local network
+  permission, restarts, DNS sinkholes and VPNs.
+---
+
+The app signs in through your web browser: it opens the Salad login page, and once you're logged in there the browser
+hands the session back to the app. "Connecting" that never finishes means that hand-off failed. Work through the
+sections in order; the first two fix most cases.
+
+<Callout type="error" title="Virtual machines and Remote Desktop">
+  Salad isn't supported inside virtual machines (VMware, VirtualBox, Proxmox and similar) and support can't investigate
+  issues there. Windows Remote Desktop and other RDP tools also break the app, because they replace the desktop session
+  - use a mirroring tool instead, see [Using remote desktop with
+  Salad](/guides/your-pc/using-remote-desktop-with-salad).
+</Callout>
+
+## Before anything else: VPNs, proxies and antivirus
+
+Disconnect any VPN or proxy and pause your antivirus's web protection, then try again. The app can't connect through a
+VPN, and several security products block the browser-to-app hand-off. If that fixes it, whitelist Salad
+([antivirus guides](/troubleshooting/antivirus)).
+
+## Use a Supported Web Browser
+
+Ensure that the web browser you're using is supported by Salad. Some supported browsers include:
+
+- [Google Chrome](https://www.google.com/chrome/)
+- [Microsoft Edge](https://www.microsoft.com/en-us/edge)
+- [Mozilla Firefox](https://www.firefox.com/)
+
+Some browsers have protection settings enabled which conflict with Salad, some popular examples include:
+
+- Brave Browser
+- Safari
+
+These, along with other privacy-centric browsers may pose similar problems.
+
+### Selecting a Supported Web Browser
+
+1. Find your Salad Widget in the System Tray or Overflow Tray
+
+   ![Finding the Salad app](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-1.png)
+
+2. Click the Salad Widget icon and open the Salad Widget Menu at the top left
+
+   ![Selecting your profile in the Salad app](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-2.png)
+
+3. Click 'Account' within the Salad Widget Menu, you should be redirected to the Salad Account Summary web browser page,
+   within your default web browser.
+
+   ![Screenshot of the salad web app](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-3.png)
+
+4. From here, you have two options:
+   1. If your device's default web browser is unsupported by Salad, simply copy and paste the URL above into a supported
+      web browser, such as Google Chrome, Firefox, or Microsoft Edge.
+   2. You can also temporarily, or permanently, change your device's default web browser to a supported web browser.
+      This will change where the Salad Account URL redirects to by default. Here's more on how to change your default
+      web browser:
+      1. [How to Make Google Chrome Your Default Web Browser](https://support.google.com/chrome/answer/95417?hl=en&co=GENIE.Platform%3DDesktop)
+      2. [How to Make Microsoft Edge Your Default Web Browser](https://support.microsoft.com/en-us/windows/change-default-apps-in-windows-e5d82cad-17d1-c53b-3505-f10a32e1894d)
+      3. [How to Make Mozilla Firefox Your Default Web Browser](https://support.mozilla.org/en-US/kb/how-change-your-default-browser-firefox-windows)
+
+---
+
+## Try Restarting the Salad App and/or Your Machine(s)
+
+Sometimes a simple restart can solve common connection issues. Please try these troubleshooting steps:
+
+### Restart your Salad App:
+
+1. Open the Windows System Tray or Overflow Tray and find the Salad Widget icon
+
+   ![Finding the Salad app](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-4.png)
+
+2. Right click the Salad Widget icon, then click "Exit"
+
+   ![Quitting the Salad app](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-5.png)
+
+3. Search for Salad in your Windows Search Bar
+
+   ![Windows search bar searching for Salad](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-6.png)
+
+4. Find the Salad App and click it to restart Salad. If the connection was successful your Salad Widget should
+   automatically open.
+
+   ![Screenshot showing the fully open Salad app](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-7.png)
+
+### Restart your Machine
+
+Simply follow these instructions for safely restarting a Windows machine:
+
+- [How to Restart (Reboot) Your Windows Machine](https://support.microsoft.com/en-us/windows/restart-reboot-Your-PC-110262aa-fc79-1c33-7b00-c140ae3a6dac)
+
+---
+
+## Using a recent version of Chrome?
+
+Newer versions of Chrome now require an extra permission in order to finalize the login process. After installing Salad
+on your machine and logging in (or signing up), you may remain stuck on the following screen:
+
+![Screenshot of getting blocked on connecting to Salad](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-8.png)
+
+In order to continue with the login process and ensure the app itself is logged in, you will need to allow "Local
+network access" to the site. In some cases, this option will be requested from you, and you should click "Allow" to
+authorize the login process, like so:
+
+![Screenshot of Chrome asking for network access](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-9.png)
+
+Should the browser not display this tooltip, you can also manually authorize it by:
+
+- In the top left, next to the URL, click the "toggle" symbol
+- Then, towards the bottom of the tooltip, click "Site Settings"
+
+![Screenshot of Chrome site settings button](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-10.png)
+
+- At the "Privacy and Security" page (which you should be automatically redirected to), scroll to the bottom until you
+  find the "Local network access" permission, and set it to "Allow"
+
+![Screenshot of Chrome privacy & security options](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-11.png)
+
+- You can then go back to the previous page (the Salad login page), and reload the tab
+
+![Screenshot of Chrome tab reload prompt](../../../../content/images/troubleshooting/salad-app/i-am-having-trouble-connecting-to-the-salad-app-12.png)
+
+- After the tab finishes to reload, the login process should now continue successfully
+
+### Why does Salad need this permission?
+
+When you press the login button in the app, Salad sends a request to your browser to start the login process, and then
+waits for confirmation from the browser that you are logged in to receive the account information. Any access required
+by a website to a local machine (including to services running directly on your machine - like Salad) now need to be
+approved via this permission. Salad only uses this permission to complete the login process, and does not actively
+access other machines or services on your machine.
+
+<Callout type="info">
+  If you are not comfortable with keeping this option in an allowed state, you can also set it to blocked (or Ask) once
+  the login process has ended - in which case you will need to repeat this process the next time the app requests you to
+  log in.
+</Callout>
+
+---
+
+## Using Pihole or other DNS Sinkholes?
+
+If you are using a DNS Sinkhole - such as pihole - in your home network, certain blocklists - especially restrictive
+ones - can prevent access to Salad Servers.
+
+As such, it is recommended to review your DNS sinkhole settings to either remove problematic blocklists, or add an
+exception for Salad services by using regex rules in the form:
+
+- `(\.|^)salad\.com$`
+- `(\.|^)salad\.io$`
+
+---
+
+## Check the date and time
+
+A PC clock that's wrong by more than a few minutes makes the secure connection fail. See
+[Correct system time error](/troubleshooting/pc-configuration/correct-system-time-error).
+
+## Still stuck?
+
+Send [Salad Support](/contact) which browser you use, whether a VPN or security product is installed, and your logs
+folder zipped ([how to find it](/guides/using-salad/how-to-find-your-salad-log-files)). If support asks for a HAR file
+of the login attempt, see [How to create a HAR file](/guides/your-pc/how-to-create-a-har-file).

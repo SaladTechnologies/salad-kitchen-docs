@@ -1,48 +1,43 @@
 ---
-title: 'Enable Virtualization by Motherboard: MSI (American Megatrends)'
+title: 'Enable virtualization by motherboard: MSI (American Megatrends)'
+description: Turn on Intel Virtualization Technology or AMD SVM Mode and IOMMU in the Aptio BIOS of an MSI motherboard.
 ---
 
-Depending on your hardware configuration, your motherboard manufacturer's software may dictate how and where BIOS
-settings can be accessed and modified. This guide details common BIOS setup patterns on machines equipped with a
-motherboard manufactured by MSI or American Megatrends.
+These steps cover MSI motherboards, which use the American Megatrends (Aptio) BIOS. The setup key is **Del**. Not sure
+which board you have? See [Identifying your motherboard](/guides/your-pc/identifying-your-motherboard). General guidance
+is in [How to enable virtualization support](/guides/your-pc/how-to-enable-virtualization-support-on-your-machine).
 
-*If you don't know what kind of motherboard you are using, please
-see* [Identifying Your Motherboard](/guides/your-pc/identifying-your-motherboard)_._
+## Intel processors
 
-**With Intel Processors**
-
-1. Restart or boot your computer.
-2. Immediately press the **Del** to enter the BIOS Setup Utility. You will be directed to a screen that says "Aptio
-   Setup Utility – American Megatrends, Inc."
+1. Restart your PC and press **Del** repeatedly as it boots. The BIOS shows "Aptio Setup Utility – American Megatrends,
+   Inc." at the top.
 
    ![Screenshot of BIOS](../../../../content/images/guides/your-pc/enable-virtualization-by-motherboard-msi-1.png)
 
-3. Using the arrow keys, navigate to the **Advanced** tab.
-4. Scroll down to find the **Intel Virtualization Technology** setting.
+2. Open the **Advanced** tab and scroll to **Intel Virtualization Technology**.
 
    ![Screenshot of BIOS](../../../../content/images/guides/your-pc/enable-virtualization-by-motherboard-msi-2.png)
 
-5. Enable this setting with the left or right arrow key.
-6. Press **F10** to save your configuration changes and exit.
+3. Set it to **Enabled**.
+4. Press **F10** to save and exit.
 
-**With AMD Processors**
+## AMD processors
 
-_On most systems equipped with an AMD processor and a motherboard from MSI, virtualization is enabled by default._
+On most MSI boards with an AMD CPU, virtualization is already enabled. If it is not:
 
-1. Restart or boot your computer.
-2. Immediately press the **Del** to enter the BIOS Setup Utility.
-3. Using the arrow keys, navigate to the **Advanced** tab.
-4. Enable IOMMU with the left or right arrow key.
+1. Restart your PC and press **Del** repeatedly as it boots.
+2. Open the **Advanced** tab.
+3. Set **IOMMU** to **Enabled**.
 
    ![Screenshot of BIOS](../../../../content/images/guides/your-pc/enable-virtualization-by-motherboard-msi-3.png)
 
-5. Enable SVM Mode with the left or right arrow key.\*
+4. Set **SVM Mode** to **Enabled**.
 
    ![Screenshot of BIOS](../../../../content/images/guides/your-pc/enable-virtualization-by-motherboard-msi-4.png)
 
-   \*_In the utility software of certain MSI motherboards (especially those produced since 2019), these virtualization
-   features may be listed under the **Overclocking** tab, within the **Advanced CPU Configuration** submenu._
+   On newer MSI boards (Click BIOS 5), SVM Mode is under the **OC** (Overclocking) tab, in **Advanced CPU
+   Configuration**.
 
    ![Screenshot of BIOS](../../../../content/images/guides/your-pc/enable-virtualization-by-motherboard-msi-5.png)
 
-6. Press **F10** to save your configuration changes and exit.
+5. Press **F10** to save and exit.

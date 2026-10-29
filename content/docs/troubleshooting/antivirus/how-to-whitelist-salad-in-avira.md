@@ -1,5 +1,6 @@
 ---
-title: How to Whitelist Salad in Avira
+title: 'How to Whitelist Salad in Avira'
+description: 'Step-by-step: add the Salad folders to the exceptions list in Avira so it stops blocking Salad.'
 ---
 
 ### 1. Open Avira

@@ -1,5 +1,6 @@
 ---
-title: How to Whitelist Salad in ESET-NODE32
+title: 'How to Whitelist Salad in ESET-NODE32'
+description: 'Step-by-step: add the Salad folders to the exclusions in ESET NOD32 so it stops blocking Salad.'
 ---
 
 ### 1. Open ESET-NODE32

@@ -1,5 +1,6 @@
 ---
-title: How to Whitelist Salad in Norton Antivirus
+title: 'How to Whitelist Salad in Norton Antivirus'
+description: 'Step-by-step: add the Salad folders to the exclusions in Norton so it stops blocking Salad.'
 ---
 
 **1. Open Norton360.**

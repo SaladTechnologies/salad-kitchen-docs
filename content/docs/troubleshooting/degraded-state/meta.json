@@ -1,0 +1,18 @@
+{
+  "title": "Degraded State",
+  "pages": [
+    "index",
+    "error-codes",
+    "failed-to-update-container-environment",
+    "failed-to-start-container-environment",
+    "failed-to-start-workload",
+    "salad-cannot-access-your-gpu",
+    "insufficient-vram",
+    "high-gpu-usage",
+    "gpu-performance-low",
+    "gpu-power-limit",
+    "container-networking-issues",
+    "problem-detecting-hardware",
+    "gpu-temporarily-disabled"
+  ]
+}

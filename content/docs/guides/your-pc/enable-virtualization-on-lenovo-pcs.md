@@ -1,60 +1,53 @@
 ---
-title: Enable Virtualization on Lenovo PCs
+title: Enable virtualization on Lenovo PCs
+description: Turn on Intel Virtualization Technology or AMD-V in the BIOS of a Lenovo ThinkPad, IdeaPad or ThinkCentre.
 ---
 
-Many commercially available PCs allow users to manage their BIOS configuration directly from the startup screen. These
-step-by-step guides will help you access and adjust the BIOS settings on prebuilt PCs manufactured by Lenovo.
+These steps cover Lenovo prebuilt PCs. General guidance is in
+[How to enable virtualization support](/guides/your-pc/how-to-enable-virtualization-support-on-your-machine).
 
-## BIOS Setup Key
+## BIOS setup key
 
-Depending on your Lenovo machine, the default BIOS setup key may be **F1** or **F2.** Some systems require holding down
-the **Fn** key and repeatedly pressing the BIOS setup key up to ten times. You may need to try different key
-combinations to access BIOS settings on your machine.
+Depending on the model, the setup key is **F1** or **F2**. Some laptops need **Fn** held down while you press it, and
+you may need to press it repeatedly while the PC boots. Many Lenovo laptops also have a small **Novo** button or pinhole
+next to the power connector that boots straight into the BIOS menu.
 
-**Thinkpad (Intel Processor)**
+## ThinkPad (Intel)
 
-1. Restart or boot your computer.
-2. Immediately press the **BIOS setup key** (above) to enter the BIOS Setup Utility.
-3. Using the arrow keys, navigate to the **Security** tab.
-4. Select **Virtualization** from the menu.
+1. Restart your PC and press the setup key to open the BIOS Setup Utility.
+2. Open the **Security** tab, then **Virtualization**.
+
    ![Screenshot of BIOS](../../../../content/images/guides/your-pc/enable-virtualization-by-motherboard-lenovo-1.png)
-5. Using the arrow keys, select **Intel (R) Virtualization Technology** from the menu.
-6. Enable this feature with the left or right arrow key.
-7. Press **F10** once more to save your configuration and exit.
 
-**AMD Thinkpad V Technology**
+3. Set **Intel (R) Virtualization Technology** to **Enabled**.
+4. Press **F10** to save and exit.
 
-1. Restart or boot your computer.
-2. Immediately press the **BIOS setup key** (above) to enter the BIOS Setup Utility.
-3. Using the arrow keys, navigate to the **Security** tab.
-4. Select **Virtualization** from the menu.
+## ThinkPad (AMD)
+
+1. Restart your PC and press the setup key to open the BIOS Setup Utility.
+2. Open the **Security** tab, then **Virtualization**.
 
    ![Screenshot of BIOS](../../../../content/images/guides/your-pc/enable-virtualization-by-motherboard-lenovo-2.png)
 
-5. Enable **AMD V(TM) Technology** with the left or right arrow key.
-6. Press **F10** once more to save your configuration and exit.
+3. Set **AMD V(TM) Technology** to **Enabled**.
+4. Press **F10** to save and exit.
 
-**Ideapad (Intel Processor)**
+## IdeaPad (Intel)
 
-1. Restart or boot your computer.
-2. Immediately press the **BIOS setup key** (above) to enter the BIOS Setup Utility.
+1. Restart your PC and press the setup key to open the BIOS Setup Utility.
 
    ![Screenshot of BIOS](../../../../content/images/guides/your-pc/enable-virtualization-by-motherboard-lenovo-3.png)
 
-3. Using the arrow keys, navigate to the **Configuration** tab.
-4. Select **Intel Virtual Technology** from the menu.
-5. Enable this setting with the left or right arrow key.
-6. Press **F10** once more to save your configuration and exit.
+2. Open the **Configuration** tab.
+3. Set **Intel Virtual Technology** to **Enabled**.
+4. Press **F10** to save and exit.
 
-**ThinkCentre (Intel Processor)**
+## ThinkCentre (Intel)
 
-1. Restart or boot your computer.
-2. Immediately press the **BIOS setup key** (above) to enter the BIOS Setup Utility.
+1. Restart your PC and press the setup key to open the BIOS Setup Utility.
 
    ![Screenshot of BIOS](../../../../content/images/guides/your-pc/enable-virtualization-by-motherboard-lenovo-4.png)
 
-3. Using the arrow keys, navigate to the **Advanced** tab.
-4. Select **CPU Setup** from the menu.
-5. Using the arrow keys, select **Intel (R) Virtualization Technology** from the menu.
-6. Enable this setting with the left or right arrow key.
-7. Press **F10** once more to save your configuration and exit.
+2. Open the **Advanced** tab, then **CPU Setup**.
+3. Set **Intel (R) Virtualization Technology** to **Enabled**.
+4. Press **F10** to save and exit.

@@ -1,5 +1,8 @@
 ---
-title: Virtualization Conflicts with Android Emulators
+title: Virtualization conflicts with Android emulators
+description:
+  BlueStacks and Nox Player run their own virtualization that stops Salad's container environment from setting up - how
+  to remove them.
 ---
 
 Some Android emulators have been known to interfere with Salad's virtualization set-up. These programs run competing
@@ -13,9 +16,9 @@ known to conflict with Salad
 
 ---
 
-# How Do I Fix it?
+## How do I fix it?
 
-## Bluestacks
+### BlueStacks
 
 Chefs with Bluestacks installed will simply need to uninstall Bluestacks from their PC in order for Salad to function.
 
@@ -23,7 +26,7 @@ Chefs with Bluestacks installed will simply need to uninstall Bluestacks from th
 2. Open Installed apps, and search for Bluestacks.
 3. Select Bluestacks, and click 'More', then uninstall.
 
-## Nox Player
+### Nox Player
 
 Chefs with Nox Player installed will also need to remove Nox Player's registry keys after uninstalling.
 
@@ -36,5 +39,5 @@ Chefs with Nox Player installed will also need to remove Nox Player's registry k
 6. Right click to delete the DuoDianApp registry keys.
 7. Reboot your machine.
 
-Uninstalling the emulator should resolve the error message. If uninstalling does not help, contact
-[Salad Support](/contact).
+Uninstalling the emulator and rebooting resolves the error. If the container environment still won't set up, see
+[Failed to start container environment](/troubleshooting/degraded-state/failed-to-start-container-environment).

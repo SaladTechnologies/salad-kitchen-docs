@@ -1,5 +1,7 @@
 ---
 title: How to Whitelist Salad in Windows Defender
+description:
+  Whitelist Salad in Windows Defender from the Salad app or by hand, and what to do when Defender quarantines a miner.
 ---
 
 Even if you have disabled Windows Security/Defender, it may still be blocking Salad from getting your miners up and
@@ -56,3 +58,20 @@ You can also view a video walkthrough [here](https://vimeo.com/574423693).
    ![file explorer showing salad file path](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-windows-defender-8.png)
 
 6. Click Select Folder, and Salad has now been whitelisted! Open your Salad widget again to start Chopping.
+
+---
+
+## Defender removed a file from C:\ProgramData\Salad\workloads
+
+Windows Defender sometimes quarantines one of Salad's miners (XMRig, Rigel, T-Rex and others) and reports it as a
+"Trojan" or a "vulnerable driver". These are false positives: the miners are unmodified, well-known open-source programs
+that most antivirus products flag simply because they mine. Your PC is not infected, but Salad cannot earn from mining
+until the file is back. You have two choices:
+
+- **Whitelist the folder.** Add `C:\ProgramData\Salad` as a folder exclusion using the steps above, then open **Virus &
+  threat protection > Protection history**, find the quarantined item and choose **Restore** (or **Allow**). Restart
+  Salad; it downloads the miner again if needed.
+- **Turn mining off.** If you would rather not exclude miners, disable mining in the Salad app's
+  [Settings](/guides/using-salad/salad-app-settings). Salad then only runs container jobs, which Defender does not flag.
+
+Whitelisting does not weaken protection elsewhere on your PC; Defender keeps scanning every other folder.
