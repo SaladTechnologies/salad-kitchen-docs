@@ -76,6 +76,7 @@ keypair
 keygen
 dont
 UEFI
+CMOS
 Ollama
 Tweaker
 mstsc
