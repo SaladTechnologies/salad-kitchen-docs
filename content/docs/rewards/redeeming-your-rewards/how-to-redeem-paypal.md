@@ -1,8 +1,8 @@
 ---
 title: How to redeem PayPal
 description:
-  Claim a PayPal reward from Salad through the email sent by our reward partner Tremendous, and get the balance into
-  your PayPal account.
+  Claim a PayPal reward from Salad through the email sent by our reward partner, and get the balance into your PayPal
+  account.
 ---
 
 PayPal rewards let you move your Salad Balance to your own PayPal account in your home currency. Redeem them from the
@@ -14,9 +14,9 @@ may not be claimable, and [redemptions are final](/rewards/help/i-want-a-refund)
 
 ## How delivery works
 
-There is no PayPal field in Salad. Shortly after you redeem, our reward partner Tremendous sends an email with a claim
-link to the email address on your Salad account. You enter your PayPal email on that claim page, not in Salad, and
-Tremendous sends the balance to that PayPal account.
+There is no PayPal email field in Salad. Shortly after you redeem, our reward partner sends an email with a claim link
+to the email address on your Salad account. You enter your PayPal email on that claim page, not in Salad, and our
+partner sends the balance to that PayPal account.
 
 ## Claiming your PayPal reward
 
@@ -52,5 +52,5 @@ can have the claim email resent, but cannot change the delivery method or pay ou
 ## Experiencing issues?
 
 If the claim page gives an error, the transfer does not arrive after you pressed Transfer, or you entered the wrong
-PayPal email, use the help link on the claim page to contact Tremendous. See
+PayPal email, use the help link on the claim page to contact our partner. See
 [Problems using a reward](/rewards/help/problems-using-a-reward) for what to send them and what to send Salad.

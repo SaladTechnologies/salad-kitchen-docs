@@ -5,8 +5,8 @@ description:
 ---
 
 Salad is legit. Salad Technologies runs SaladCloud, a distributed cloud that rents the idle GPUs of Chefs like you to
-companies running AI inference and other container jobs. Those customers pay Salad; Salad pays you in Salad Balance,
-which you redeem in the Storefront. When no customer job is available, your PC falls back to
+companies running compute workloads requiring GPU, CPU, or bandwidth. Those customers pay Salad; Salad pays you in Salad
+Balance, which you redeem in the Storefront. When no customer job is available, your PC falls back to
 [mining as a backup workload](/faq/jobs/mining-as-a-backup-workload).
 
 Salad does not sell your data and has nothing to gain from scamming you: the business only works if Chefs keep their PCs

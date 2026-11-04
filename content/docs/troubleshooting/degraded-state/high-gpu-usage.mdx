@@ -5,15 +5,15 @@ description:
   test").
 ---
 
-**What it means.** Salad samples your graphics card for a short while before offering a container job. **16** means the
-card was busy, **17** means it was too hot, and **41** means the check couldn't run at all (usually because the card was
-unavailable).
+**What it means:** Salad samples your graphics card for a short while before offering a container job. **16** means the
+card was already being used too much, **17** means it was too hot, and **41** means the check couldn't run at all
+(usually because the card was unavailable).
 
-**Why it happens.**
+**Why it happens:**
 
 - **Error 16** - something else is using the card: a game, a local AI model, mining software outside Salad, a rendering
   job, or video encoding. On machines with **two dedicated GPUs** the check sees the other card working and reports 16
-  even when "nothing" is running.
+  even when "nothing" is running - your machine needs to be idle when Chopping.
 - **Error 17** - the card starts the check already hot from a previous job, a game, or poor airflow. Laptops in quiet
   power modes throttle and heat up faster.
 - **Error 41** - the card was temporarily unreachable (driver reset, crash recovery) or another program had exclusive

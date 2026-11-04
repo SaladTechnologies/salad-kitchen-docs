@@ -9,14 +9,14 @@ for when nothing else is available.
 
 ## Container jobs
 
-Container jobs are the main way to earn. SaladCloud customers rent your GPU to run containerized workloads such as AI
-image generation, speech-to-text and other inference work. The container is downloaded to your machine before it runs,
-so you need a stable connection and enough free space on your C: drive. See
+Container jobs are the main way to earn. SaladCloud customers rent your GPU to run containerized workloads such as
+molecular dynamics, AI image generation, speech-to-text, batch workloads, and many others. The container is downloaded
+to your machine before it runs, so you need a stable connection and enough free space on your C: drive. See
 [How do I get container jobs?](/faq/jobs/how-do-i-get-container-jobs) for the requirements.
 
-Jobs are assigned automatically. They are often short, from minutes to a few hours, because customers scale their
-workloads up and down. Between jobs the app shows **Finding Job** while it waits for and downloads the next one. You are
-credited while the job runs, not when it finishes.
+Jobs are assigned automatically. They can be short, from minutes to a few hours, because customers scale their workloads
+up and down - or long, lasting several days. Between jobs the app shows **Finding Job** while it waits for and downloads
+the next one. You are credited while the job runs, not when it finishes.
 
 ### How the rate is decided
 
@@ -29,10 +29,11 @@ demand level for it. Earning anywhere inside that range means your machine is wo
 
 Chefs in [eligible regions](/troubleshooting/not-earning/bandwidth-sharing-troubleshooting) can share unused internet
 bandwidth for Salad Balance. It needs no special hardware, only a fast enough connection, and it runs at the same time
-as container jobs or mining. See [What is bandwidth sharing?](/faq/jobs/what-is-bandwidth-sharing)
+as container jobs or mining, as well as standalone. See
+[What is bandwidth sharing?](/faq/jobs/what-is-bandwidth-sharing)
 
 ## Mining
 
 Mining only runs when no container job is available for your machine. It uses trusted open-source miners and pays per
-15-minute interval, but on modern cards it earns cents per day. See
+15-minute interval, but on modern cards it may earn only cents per day. See
 [Mining as a backup workload](/faq/jobs/mining-as-a-backup-workload) for what it pays and how to turn it off.

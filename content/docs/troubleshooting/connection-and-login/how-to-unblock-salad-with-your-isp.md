@@ -20,7 +20,7 @@ There are a few tactics Xfinity users can try to get unstuck. For starters:
 
 _Step #1 uses the default IP address for Xfinity routers. If you use a different static IP, swap in that address there.
 You'll need to be connected to your home network for this to work. To try from elsewhere, log in at the_
-[_MyXFi_](https://login.xfinity.com/login)_portal instead._
+[_MyXFi_](https://login.xfinity.com/login) _portal instead._
 
 Once you're in, try disabling any
 [parental control](https://www.xfinity.com/support/articles/set-up-parental-controls-with-comcast-networking) settings
@@ -53,13 +53,15 @@ If you disable your firewall, you may be vulnerable to intrusion on the web. Kee
 passwords, and turn the router firewall back on once you've confirmed the cause - see
 [Keeping your account secure](/faq/your-account/keeping-your-account-secure).
 
-**We recommend that all users follow the "Contact Your ISP" guide below**.
+**We recommend that all users follow the
+"[Contact Your ISP](/troubleshooting/connection-and-login/how-to-unblock-salad-with-your-isp#contact-your-isp)" guide
+below**.
 
 ---
 
 ## Other ISPs
 
-For ISPs not listed, these workarounds may help—but we can't make any promises as to their efficacy.
+For ISPs not listed, these workarounds may help - but we can't make any promises as to their efficacy.
 
 ### **Change DNS Settings**
 
@@ -113,7 +115,6 @@ steps to speed things along:
 1. Find out who your ISP is by visiting [**WhoIsMyISP**](https://www.whoismyisp.org/).
 2. Contact their customer support department.
 3. Request a whitelist for ([https://salad.io](https://salad.io)) and ([https://salad.com](https://salad.com)).
-4. Send them a link to our [Trustpilot reviews](https://www.trustpilot.com/review/salad.io).
 
 ---
 

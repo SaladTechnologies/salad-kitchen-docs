@@ -12,8 +12,8 @@ below. Work through the list; most Chefs who "never get containers" are missing 
    graphics don't qualify, and only one GPU per PC can earn ([multi-GPU](/faq/compatibility/can-i-use-multiple-gpus)).
 2. **GPU and CPU both enabled** under **Settings > Configure Hardware**
    ([how](/guides/using-salad/how-to-enable-and-disable-hardware)).
-3. **32 GB or more system RAM.** Salad gives the container environment a share of it; less than that rules out most
-   jobs.
+3. **16 GB or more system RAM (32GB+ recommended).** Salad gives the container environment a share of it; less than that
+   rules out most jobs.
 4. **At least 70 GB free on the C: drive**, more for larger jobs. Salad can't use other drives
    ([why](/faq/compatibility/can-i-move-salad-from-the-c-drive)).
 5. **Virtualization enabled** in the BIOS

@@ -14,3 +14,6 @@ the Salad website.
 
 The page lists every achievement you have earned with the date you earned it, plus the ones you have yet to unlock and
 what you need to do for each.
+
+Achievements do not currently grant rewards or bonuses, and are primarily cosmetic items showcasing your achievements in
+your Salad journey!

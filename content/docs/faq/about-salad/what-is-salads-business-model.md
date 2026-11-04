@@ -8,10 +8,13 @@ Salad makes money in two ways, and neither involves selling your data.
 
 ## SaladCloud customers
 
-SaladCloud sells GPU compute to companies that need it: AI inference, image and video generation, data processing and
-similar container jobs. Those jobs run on Chefs' idle GPUs at a fraction of what the big cloud providers charge, and the
-customers pay Salad for the compute. Salad passes a share of that to the Chefs whose machines ran the job, as Salad
-Balance. Container jobs are the core of the business and the main source of earnings for Chefs.
+SaladCloud sells GPU compute to companies that need it: Molecular Dynamics, AI inference, image and video generation,
+data processing and similar container jobs. Those jobs run on Chefs' idle GPUs at a fraction of what the big cloud
+providers charge, and the customers pay Salad for the compute. Salad passes the bulk of that to the Chefs whose machines
+ran the job, as Salad Balance. Container jobs are the core of the business and the main source of earnings for Chefs.
+
+SaladCloud also has other product lines such as CPU containers, the AI Gateway, or Bandwidth Sharing which function
+along the same principle.
 
 Customer demand goes up and down, so not every machine has a job all the time. When yours does not, it falls back to
 [mining as a backup workload](/faq/jobs/mining-as-a-backup-workload), which earns less but keeps something coming in.

@@ -26,12 +26,13 @@ Amazon, the game's store, and so on). The reward's description tells you where t
 ## Rewards delivered by email
 
 Cash-like rewards are not shown as a code in the Vault. PayPal, Venmo, prepaid Visa and Mastercard, and some gift cards
-are delivered by our reward partner Tremendous: shortly after you redeem, an email with a claim link arrives at your
-Salad account's email address, and you claim the reward there. See
+are delivered by our reward partners: shortly after you redeem, an email with a claim link arrives at your Salad
+account's email address, and you claim the reward there. See
 [How to redeem PayPal](/rewards/redeeming-your-rewards/how-to-redeem-paypal) for an example.
 
 ## Reward not there yet?
 
 Most rewards arrive within minutes, but some are issued by third-party providers and can take up to 24 hours. If nothing
 has shown up in the Vault or your inbox after that, follow
-[I redeemed a reward but haven't received it](/rewards/help/i-redeemed-a-reward-but-havent-received-it).
+[I redeemed a reward but haven't received it](/rewards/help/i-redeemed-a-reward-but-havent-received-it). Rewards that
+fail completely are automatically refunded to your Salad account balance.

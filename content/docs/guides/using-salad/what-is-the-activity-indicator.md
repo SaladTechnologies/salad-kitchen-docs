@@ -29,6 +29,8 @@ When we find a workload, the status will update to "Downloading Job". This means
 and Salad is gathering the necessary files from the internet. The amount of time spent on Downloading varies based on
 your network speed as well as the size of the workload being downloaded.
 
+You can review the download progress using the download indicators in the app.
+
 ---
 
 ## Initializing Job
@@ -42,7 +44,8 @@ seconds to complete, though it can last up to a few minutes.
 ## Running Job
 
 In the next and final step, Salad will display "Running Job". At this point, the job is running and your machine should
-start generating balance.
+start generating balance. Balance may take up to 15 minutes after the job has started to show in the earning dashboard,
+or through the estimation.
 
 Once the active container ends, Salad will return to a "Finding Job" status to let you know that we're actively looking
 for the next job to run on your machine.

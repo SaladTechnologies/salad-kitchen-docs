@@ -9,7 +9,8 @@ description: Where the Log Out button is on the Salad website.
    ![Finding the log out button on the Salad website](../../../../content/images/guides/using-salad/how-to-log-out-of-the-salad-app-1.png)
 
 Logging out of the website does not stop the Salad app from Chopping. To stop the app, see
-[Salad's running states](/guides/using-salad/salads-different-running-states).
+[Salad's running states](/guides/using-salad/salads-different-running-states). In order to log out of the app, follow
+the above log out steps, then uninstall Salad. Any reinstalled application will need to log in again.
 
 Logging out to switch between several accounts is a breach of the Terms of Service and leads to the accounts being
 banned; see [Can I create multiple accounts?](/faq/your-account/can-i-create-multiple-accounts).

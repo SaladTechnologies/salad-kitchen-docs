@@ -5,7 +5,7 @@ description:
 ---
 
 Yes. Your Salad Balance expires if you go 12 consecutive months without logging in to Salad or Chopping. Once it has
-expired, the balance is set to zero and cannot be restored, not even by Salad Support.
+expired, the balance is set to zero and cannot be restored, even if contacting Salad Support.
 
 ## Keeping your balance
 

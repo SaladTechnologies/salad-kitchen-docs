@@ -3,12 +3,12 @@
   "icon": "MyIcon",
   "pages": [
     "index",
+    "salad-app",
     "degraded-state",
     "not-earning",
     "container-jobs",
     "connection-and-login",
     "antivirus",
-    "pc-configuration",
-    "salad-app"
+    "pc-configuration"
   ]
 }

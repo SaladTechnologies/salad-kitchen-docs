@@ -10,7 +10,7 @@ messages, the code email couldn't be sent to your address:
 
 - "Login failed due to a spam blocklist preventing Salad from sending your one-time login code email."
 - "Something went wrong, please try again." / "...please try again later. If this issue persists, please reach out to
-  our support team at support@salad.com"
+  our support team at <support@salad.com>"
 
 The same error on every device and browser confirms it's the address, not the PC.
 

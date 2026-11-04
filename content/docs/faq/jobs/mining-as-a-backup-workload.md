@@ -19,7 +19,7 @@ never deal with pools, wallets or coins yourself.
 
 ## What it pays
 
-On a modern GPU, mining earns cents per day. It will never come close to the container rates on the
+On a modern GPU, mining may earn cents per day. It is generally much lower than container rates on the
 [Network Monitor](/faq/jobs/network-monitor), and on many machines it earns less than the electricity it uses. Treat it
 as a signal that your machine is online and waiting, not as income. If you want more Salad Balance, the lever is
 container jobs; see [How do I get container jobs?](/faq/jobs/how-do-i-get-container-jobs)
@@ -49,7 +49,7 @@ Salad chooses the miner, algorithm and coin automatically, going for the most pr
 stock settings. If that option fails, it falls back to the next best. You can't choose a coin or point Salad at your own
 pool, and only one GPU is mined on; if you have several very different cards, only the main one is used (see
 [Can I use multiple GPUs?](/faq/compatibility/can-i-use-multiple-gpus)). Salad is limited to the pools and algorithms it
-is integrated with, so a coin that looks more profitable on another site may simply not be available.
+is integrated with, so a coin that looks more profitable on another site may simply not be available to us.
 
 ## How often it pays
 
@@ -60,7 +60,7 @@ rate for your card.
 ## Why it doesn't match WhatToMine
 
 Sites like WhatToMine or NiceHash show a best-case estimate: a GPU running perfectly, 24 hours a day, with average luck
-and nothing else running. Real mining is random and rarely hits that. Salad also runs on stock clocks, uses only the
+and nothing else running. Real mining is random and may not hit that. Salad also runs on stock clocks, uses only the
 pools it supports, and accounts for the miner's dev fee, so your rate will be lower than those estimates.
 
 ## How to turn it off

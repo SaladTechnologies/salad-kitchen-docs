@@ -3,12 +3,17 @@ title: How to find your Salad log files
 description: Where the Salad log files are, which folder to zip, and how to send them to Salad Support.
 ---
 
-When you contact Salad Support about a problem, you will usually be asked for your log files. Support needs the **whole
-logs folder, zipped**, not a single file: the different subfolders record different parts of Salad and the problem is
-often only visible in one of them.
+When you contact Salad Support about a problem, you may be asked for your log files. Support needs the **whole logs
+folder, zipped**, not a single file: the different subfolders record different parts of Salad and the problem can be
+visible or identified through multiple files.
 
 Logs rotate after a short time and older entries are discarded, so collect and send them **as soon as possible after the
 problem happens**. Logs taken days later may no longer contain the moment that went wrong.
+
+<Callout type="warn" title="Reinstallation">
+  Reinstalling the Salad App will also delete local log files. If you run into an issue, we recommend first sending a
+  ticket to support with your logs, or making a copy of the log files in the event you need them later!
+</Callout>
 
 ## Get your logs from the Salad app
 
@@ -29,17 +34,16 @@ If the button does not work, open File Explorer and go to:
 ![screenshot of logs folder](../../../../content/images/guides/using-salad/where-to-find-your-salad-logs-4.png)
 
 ```
-C:\Users\<username>\AppData\Roaming\Salad\logs
+C:\ProgramData\Salad\logs
 ```
 
-Replace `<username>` with your Windows user name. The `AppData` folder is hidden by default; paste the path into the
-address bar, or type `%APPDATA%\Salad\logs` and press Enter. Zip the whole `logs` folder as above.
+Zip the whole `logs` folder as above.
 
 ## What is in the logs folder
 
 You don't need to pick files out, but it helps to know what is there:
 
-- The files in the root of the folder are the main Salad app logs. Support asks for these for most app and job problems.
+- The files in the root of the folder are the main Salad app logs. Support asks for these for many app and job problems.
 - `gpuz` and `gpuz-init` record the GPU sensor data (temperature, usage) and which GPUs were detected. They matter when
   a GPU is missing from the app.
 - `systeminformation` records the CPU and RAM Salad detected.

@@ -5,15 +5,15 @@ description:
   test").
 ---
 
-**What it means.** As part of the compatibility check, Salad runs a short benchmark on your card and compares the result
+**What it means:** As part of the compatibility check, Salad runs a short benchmark on your card and compares the result
 with what the same GPU model normally achieves on the network. **42** means your card scored below that; **23** means
 the health test didn't complete. Until a run passes, the machine isn't offered container jobs.
 
-**Why it happens.** The benchmark measures the whole machine's ability to feed the GPU, so the usual causes are:
+**Why it happens:** The benchmark measures the whole machine's ability to feed the GPU, so the usual causes are:
 
 - Another program using the card during the test (see [High GPU usage](/troubleshooting/degraded-state/high-gpu-usage)).
-- A **power limit** or undervolt: the card can't reach its normal clocks. On laptops this comes from the vendor's power
-  mode, not from Windows. See [GPU power limit](/troubleshooting/degraded-state/gpu-power-limit).
+- A **power limit** or undervolt: the card can't reach its normal clocks. On laptops this may come from the vendor's
+  power mode, not necessarily from Windows. See [GPU power limit](/troubleshooting/degraded-state/gpu-power-limit).
 - **Heat**: the card throttles part-way through the test.
 - A damaged driver, or a driver reporting the card wrongly - common after an in-place driver update.
 - The card driving several high-resolution displays while being tested.
@@ -27,7 +27,7 @@ the health test didn't complete. Until a run passes, the machine isn't offered c
 ### Make sure nothing else is using the GPU
 
 Task Manager > Processes > sort by **GPU**. Close games, local AI tools, overlays and capture software. Fully exit tray
-programs.
+programs - Salad is made to be run while the machine is idle.
 
 </Step>
 <Step>
@@ -44,8 +44,8 @@ the original charger, and Windows power mode _Best performance_. Full guide:
 
 ### Check temperatures and airflow
 
-If the card is hot before the test starts, it won't score well. Clear dust, check fans, and on laptops use a cooling
-pad. Let the card cool, then Retry.
+If the card is hot before the test starts, it may affect scoring as well. Clear dust, check fans, and on laptops use a
+cooling pad (or at least hard surface, in a well-ventilated area). Let the card cool, then Retry.
 
 </Step>
 <Step>

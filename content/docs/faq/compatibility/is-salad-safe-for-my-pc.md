@@ -31,23 +31,11 @@ are retired for being outdated long before they wear out.
 
 ## Overclocking, underclocking and undervolting
 
-Run your GPU and CPU at factory settings unless you know what you are doing.
+Run your GPU and CPU at factory settings.
 
 - **Power limiting or underclocking** makes your machine fail the performance check, triggers a "GPU Power Limit Set"
   notification and blocks container jobs. See
   [How power limiting impacts your earnings](/troubleshooting/degraded-state/gpu-power-limit).
-- **Undervolting at stock clocks** is allowed and lowers heat and power draw. Test it thoroughly first: an unstable
-  undervolt crashes jobs, which costs you earnings and hurts your machine's reliability record.
-
-## Sudden reboots or black screens under load
-
-If your PC restarts, black-screens or freezes while Chopping, Salad didn't cause it; the sustained load exposed a fault
-that games or stress tests would also find. Windows Reliability Monitor typically shows a display driver crash
-(`nvlddmkm` on NVIDIA) or an unexpected shutdown. The usual causes, in order: an overheating or dusty GPU, an unstable
-overclock or undervolt, a power supply that can't hold the card's peak draw, or a bad driver install. Reset clocks and
-voltages to stock, check temperatures,
-[reinstall your GPU drivers cleanly](/guides/your-pc/how-to-reinstall-gpu-drivers), and if it continues, test the power
-supply and the card itself.
 
 ## Maintain your PC
 

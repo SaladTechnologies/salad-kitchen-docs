@@ -27,7 +27,7 @@ adult content workload type off. Salad also asks you to opt in or out of workloa
 major updates.
 
 In countries where adult content is prohibited, Salad automatically disables adult-content workloads on every machine in
-that country. The toggle is not shown there and cannot be enabled.
+that country. The toggle is these cases cannot be enabled.
 
 ### Will my earnings decrease if I opt out of workloads with adult content?
 

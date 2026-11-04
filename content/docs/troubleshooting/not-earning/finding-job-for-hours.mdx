@@ -5,20 +5,19 @@ description:
   check before contacting support.
 ---
 
-**What it means.** "Finding Job" is the app waiting for the network to assign a container job and downloading it when
+**What it means:** "Finding Job" is the app waiting for the network to assign a container job and downloading it when
 one arrives. It appears between every two jobs, and jobs are often short: customers start and stop workloads through the
 day, so a machine can cycle through many jobs with short waits in between. That's normal and you're paid for every
 minute a job runs.
 
-**How long is normal?** A few minutes between jobs is typical. An hour or two happens when demand for your GPU dips.
-Many hours with nothing - on a GPU the [Network Monitor](https://salad.com/earn/demand) shows as in demand - is worth
-checking.
+**How long is normal?** A few minutes to a few hours between jobs is typical. Wait times may lengthen when demand for
+your GPU dips. Many hours or days with nothing - on a GPU the [Network Monitor](https://salad.com/earn/demand) shows as
+in demand - is worth checking.
 
 ## First, check whether it's really idle
 
 Open your [Earnings Summary](/guides/using-salad/earnings-summary). If balance was credited in the last hour, the
-machine is running a job and the app's display is behind. Close the window with the X and reopen it from the tray icon
-(don't use **Exit** - that stops the running job).
+machine is running a job and the app's display is behind or its metrics are being altered by conflicting states.
 
 ## What to check, in order
 
@@ -36,18 +35,18 @@ fixed. Follow the guide for it under [Degraded State](/troubleshooting/degraded-
 ### Demand for your GPU
 
 On the [Network Monitor](https://salad.com/earn/demand), find your exact card. Low or moderate demand means longer
-waits; the machine is fine. Set up a [demand alert](/guides/getting-jobs/how-to-set-up-a-demand-alert) and leave Salad
-running - restarting it does not move you up the queue and
-[can hurt your chances](/guides/getting-jobs/restarting-salad-for-new-jobs).
+waits; the machine is likely fine and hasn't been selected for a workload yet. Set up a
+[demand alert](/guides/getting-jobs/how-to-set-up-a-demand-alert) and leave Salad running - restarting it does not move
+you up the queue and [can hurt your chances](/guides/getting-jobs/restarting-salad-for-new-jobs).
 
 </Step>
 <Step>
 
 ### The first job after a fresh install
 
-A new install (or reinstall) must complete a short compatibility check - a download of roughly 60 MB that has to finish
-once - before paid jobs are offered. On a slow or filtered connection that alone can take a long time; see
-[Downloads slow or failing](/troubleshooting/container-jobs/downloads-slow-or-failing).
+A new install (or reinstall) must complete a short compatibility check and installation process - a download of roughly
+60 MB that has to finish once - before paid jobs are offered. On a slow or filtered connection that alone can take a
+long time; see [Downloads slow or failing](/troubleshooting/container-jobs/downloads-slow-or-failing).
 
 </Step>
 <Step>
@@ -65,8 +64,13 @@ or proxy; nothing else using the GPU; the PC not asleep (see
 ### Your connection
 
 Salad runs a speed test at startup and the network uses it when assigning jobs. If the test ran while your connection
-was still coming back after an outage or a router reboot, the reading sticks until Salad restarts. Once the line is back
-to normal, Exit Salad from the tray icon and start it again so the test reruns.
+was still coming back after an outage or a router reboot, the reading sticks until the check is run.
+
+You can review the measured speeds in `C:\ProgramData\Salad\logs\ndm`, within the latest log file. If speeds are lower
+than
+[our minimum speeds](http://localhost:3000/faq/compatibility/what-is-the-minimum-recommended-internet-speed-for-salad),
+restart the test by exiting Salad, and restarting the `Salad.Bowl.Service` process in Task Manager or by restarting your
+machine.
 
 </Step>
 </Steps>

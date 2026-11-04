@@ -58,7 +58,7 @@ All products start from Cybrancee's
 
    ![screenshot of Cybrancee order page](../../../../content/images/rewards/redeeming-your-rewards/cybrancee-web-hosting-1.png)
 
-2. Select "Salad – Website Hosting" and click "Order Now."
+2. Select "Salad - Website Hosting" and click "Order Now."
 
 3. Choose whether to register a new domain, transfer an existing one, or create a free subdomain on Cybrancee, and enter
    the URL in the text field.

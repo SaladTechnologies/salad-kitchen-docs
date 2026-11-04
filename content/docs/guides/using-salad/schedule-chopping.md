@@ -13,7 +13,7 @@ away from your PC so Salad earns without getting in your way.
 5. Then, for each day of the week, you'll see a square for each hour. You can toggle each square between Paused,
    No-Mining, and Auto-Start.
    - Paused means Salad will not run during these hours.
-   - No-Mining means Salad will run any job during these hours, except
+   - No-Mining means Salad will run any job during these hours, except Salad-run
      [Cryptomining Jobs](/guides/getting-jobs/getting-cryptomining-jobs).
    - Auto-Start means Salad will start Chopping any available job during these hours.
 

@@ -6,25 +6,25 @@ description:
 
 Container jobs are the best-paying work on Salad. They run inside an
 [isolated container environment](/guides/your-pc/what-is-wsl) on your PC, so the workload never touches your Windows
-installation. The Salad app fetches and runs them automatically when one is available for your hardware and your machine
-is set up correctly.
+installation. The Salad app fetches and runs them automatically when Salad is Chopping, one is available for your
+hardware, and your machine is set up correctly.
 
 ## What my PC needs
 
 To be offered container jobs, your machine must meet all of these:
 
-- **An in-demand GPU.** Check the [Network Monitor](/faq/jobs/network-monitor). Even a top-end card gets few container
+- **An in-demand GPU** - check the [Network Monitor](/faq/jobs/network-monitor). Even a top-end card gets few container
   jobs when there is no demand for it.
 - **One dedicated GPU.** Integrated graphics can't run container jobs, and Salad only uses one GPU per machine; see
   [Can I use multiple GPUs?](/faq/compatibility/can-i-use-multiple-gpus).
-- **32 GB or more of system RAM.**
+- **16 GB or more of system RAM.** (32GB or more is recommended, especially on high-end hardware)
 - **70 GB or more free on your C: drive.** Container jobs are large and Salad can't use
   [another drive](/faq/compatibility/can-i-move-salad-from-the-c-drive).
 - **Virtualization enabled** in your BIOS/UEFI; see
   [How to enable virtualization support on your machine](/guides/your-pc/how-to-enable-virtualization-support-on-your-machine).
 - **The container environment (WSL) installed.** Salad sets it up during onboarding; see
   [What is WSL?](/guides/your-pc/what-is-wsl) if it reports a problem.
-- **A download speed of at least 10 Mbps.** Faster is better: jobs are downloaded before they run. See
+- **A download speed of at least 20 Mbps.** Faster is better: jobs are downloaded before they run. See
   [What is the minimum recommended internet speed for Salad?](/faq/compatibility/what-is-the-minimum-recommended-internet-speed-for-salad).
 - **Salad actively Chopping with nothing else using the GPU.** Container jobs don't run while you are using
   [games or other GPU programs](/guides/getting-jobs/close-games-and-other-programs).

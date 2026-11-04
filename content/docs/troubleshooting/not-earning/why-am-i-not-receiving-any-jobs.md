@@ -10,9 +10,9 @@ something about the machine stops it qualifying. The first just needs patience; 
 
 ## Check demand first
 
-The [Network Monitor](/faq/jobs/network-monitor) shows current demand for each GPU model. If yours is low, waits are
-long and the machine is fine. Set up a [demand alert](/guides/getting-jobs/how-to-set-up-a-demand-alert) and leave Salad
-running - restarting doesn't move you up the queue.
+The [Network Monitor](/faq/jobs/network-monitor) shows current demand for each GPU model. If yours is low, waits can be
+long and the machine is probably fine. Set up a [demand alert](/guides/getting-jobs/how-to-set-up-a-demand-alert) and
+leave Salad running - restarting doesn't move you up the queue.
 
 When there's no container job for your hardware, Salad falls back to
 [bandwidth sharing](/guides/getting-jobs/getting-bandwidth-sharing-jobs) or
@@ -30,7 +30,9 @@ If your GPU is in demand and you still get nothing, go through this list:
 - **GPU and CPU enabled** in **Settings > Configure Hardware**, and the workload types you want enabled in
   [Settings](/guides/using-salad/salad-app-settings).
 - **Whitelisted** in your [antivirus and firewall](/troubleshooting/antivirus).
-- **Stable internet**, preferably wired: [Improve your internet connection](/guides/your-pc/improve-internet-speed).
+- **Stable internet**, preferably wired: [Improve your internet connection](/guides/your-pc/improve-internet-speed), and
+  above
+  [our minimum speeds](http://localhost:3000/faq/compatibility/what-is-the-minimum-recommended-internet-speed-for-salad).
 - **Nothing else using the GPU** - games, local AI tools, mining outside Salad
   ([why that matters](/troubleshooting/degraded-state/gpu-temporarily-disabled)).
 - **No power limit or overheating** on the GPU: [GPU power limit](/troubleshooting/degraded-state/gpu-power-limit).

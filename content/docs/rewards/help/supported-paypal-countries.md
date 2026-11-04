@@ -130,7 +130,7 @@ The countries listed above are regions in which the rewards can be claimed. For 
 able to directly convert the balance to the following currencies.
 
 Note that even if your currency is not present, but your country is listed above, you may still receive the balance.
-Balance should be delivered in USD.
+Balance should then be delivered in USD.
 
 - AUD - Australian dollar
 - CAD - Canadian dollar

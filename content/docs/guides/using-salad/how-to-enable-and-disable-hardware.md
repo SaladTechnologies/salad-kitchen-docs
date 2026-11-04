@@ -3,9 +3,9 @@ title: How to enable and disable hardware
 description: Choose which of your CPU, GPU and bandwidth Salad is allowed to use, and why you should enable all of it.
 ---
 
-You choose which hardware Salad is allowed to share. To earn the most, enable everything: container jobs need both the
-GPU and the CPU, and [Bandwidth Sharing](/faq/jobs/what-is-bandwidth-sharing) adds jobs that don't depend on your GPU at
-all.
+You choose which hardware Salad is allowed to share. To earn the most, enable everything: container jobs can be either
+for your GPU or CPU, and [Bandwidth Sharing](/faq/jobs/what-is-bandwidth-sharing) adds jobs that don't depend on your
+hardware at all.
 
 1. Open the Salad app.
 

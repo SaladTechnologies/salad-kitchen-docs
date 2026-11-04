@@ -37,8 +37,8 @@ After you have entered the Exceptions tab, click "Add an Exception".
 **6. Adding Salad as an Exception**
 
 After you have clicked "Add an Exception" you will be shown a dialogue box. In that dialogue box you'll want to navigate
-to the Salad Miners folder and select it, the filepath for this is "C:\\ProgramData\\Salad\\workloads" (without the
-quotations). Make sure to enable Antivirus protection for all 3 settings, as well as Online Threat Prevention.
+to the Salad Miners folder and select it, the filepath for this is `C:\ProgramData\Salad\workloads`. Make sure to enable
+Antivirus protection for all 3 settings, as well as Online Threat Prevention.
 
 ![adding salad file path](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-6.png)
 

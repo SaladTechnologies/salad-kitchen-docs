@@ -5,11 +5,11 @@ description:
   isn''t usable from inside the container environment.'
 ---
 
-**What it means.** Before each container job, Salad checks that the GPU can be used from inside the container
+**What it means:** Before each container job, Salad checks that the GPU can be used from inside the container
 environment. Errors **11/21** mean the card wasn't found there at all; **12/22** mean it was found but its status
 couldn't be read; **19** (and -7) mean the installed driver is too old or damaged for container jobs.
 
-**Why it happens.** Windows can use the card perfectly well while the container environment can't. The link between the
+**Why it happens:** Windows can use the card perfectly well while the container environment can't. The link between the
 two is the NVIDIA driver, and it is the cause in nearly every case: a corrupt or partial driver install, a driver update
 that didn't take, or WSL losing the card until it's restarted. Less often: the card is an integrated GPU or an
 unsupported model, or a second GPU is confusing the check.

@@ -11,10 +11,11 @@ That rests on a few commitments:
 
 - **Transparency.** We explain how the business works, where earnings come from and what data we collect, and we expect
   the community to hold us to it. See [What is Salad's business model?](/faq/about-salad/what-is-salads-business-model).
-- **Safety.** Jobs run in isolated containers, the app only collects what it needs, and you can request or erase your
-  data at any time - see
+- **Safety.** Jobs run in isolated containers, the app only collects what it needs. See
   [Does the application use my data in any way?](/faq/your-account/does-the-application-use-my-data-in-any-way).
 - **Empathy for Chefs.** Support, docs and the app are built around the people actually running it.
+
+See our [brand values](https://salad.com/about/) on our website for more detail about what we stand for.
 
 If you have a question about the business, the company or your data that these docs do not answer, ask
 [Salad Support](/contact).

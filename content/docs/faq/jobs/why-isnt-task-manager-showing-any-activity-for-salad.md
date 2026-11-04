@@ -16,4 +16,4 @@ If you want Task Manager to show it, open its **Performance** tab, select your G
 **3D** to **Compute** or **Cuda** using the drop-down above it.
 
 Low CPU usage is normal for many jobs; see
-[Why is Salad not fully using my CPU?](/faq/compatibility/why-is-salad-not-fully-using-my-cpu)
+[Why is Salad not fully using my Machine?](/faq/compatibility/why-is-salad-not-fully-using-my-machine)

@@ -17,7 +17,7 @@ This affects:
 
 ## Use a screen-mirroring tool instead
 
-Tools that mirror the existing desktop session, rather than creating a new one, work fine with Salad:
+Tools that mirror the existing desktop session, rather than creating a new one, usually work fine with Salad:
 
 - Parsec
 - AnyDesk

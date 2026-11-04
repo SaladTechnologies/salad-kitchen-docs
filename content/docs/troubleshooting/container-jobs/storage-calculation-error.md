@@ -12,7 +12,7 @@ get an answer from Windows, which happens when one of the two Windows tools it u
 - **DISM** (Deployment Image Servicing and Management), which Salad uses to prepare the container environment, is
   corrupted.
 
-It is not about how much space you have: a drive with 100 GB free can still show this error.
+It is not about how much space you have: a drive with 100 GB free or more can still show this error.
 
 ## What to do
 

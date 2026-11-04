@@ -4,13 +4,13 @@ description: Which programs stop Salad from using your GPU, and what to do when 
 ---
 
 Salad needs your whole graphics card (GPU), plus the CPU and RAM a job asks for. When another program is using the GPU,
-Salad automatically [pauses Chopping](/troubleshooting/degraded-state/gpu-temporarily-disabled) until it is closed.
-Programs that count as using the GPU include:
+Salad may automatically [pause Chopping](/troubleshooting/degraded-state/gpu-temporarily-disabled) until it is closed.
+Programs that count as using the GPU include, though may not be limited to:
 
 - Video games.
 - Local AI tools such as Ollama, LM Studio, and Stable Diffusion web UIs. These hold the GPU even when they look idle.
 - Overlays and monitoring tools such as game overlays, FPS counters, and some hardware monitors.
-- Applications with GPU acceleration (web browsers, Discord).
+- Applications with GPU acceleration
 - Video editing and rendering software (Adobe Premiere Pro, DaVinci Resolve).
 - 3D modelling software (Blender, Autodesk Maya).
 - High-resolution video playback (4K or 8K).
@@ -24,6 +24,9 @@ Close these before you start Chopping. If you need one of them while Salad is ru
 [Salad's running states](/guides/using-salad/salads-different-running-states)); this stops the job cleanly and frees
 your hardware. Resume when you are done, or let [auto start](/guides/using-salad/how-to-enable-auto-start) resume Salad
 the next time you go idle.
+
+Chopping while you are using your machine degrades the network's performance and may ultimately result in fewer
+workloads, for you or the entire network.
 
 If Salad keeps reporting that your GPU is in use when you have nothing open, see
 [GPU temporarily disabled](/troubleshooting/degraded-state/gpu-temporarily-disabled).

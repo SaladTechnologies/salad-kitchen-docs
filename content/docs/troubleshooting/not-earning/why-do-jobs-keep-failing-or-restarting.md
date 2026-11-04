@@ -6,14 +6,14 @@ description:
 ---
 
 If container jobs regularly stop, restart or last only a few minutes, and the app shows **no** Degraded notification,
-the cause is almost always on the customer's side rather than yours. You're paid for the time each job ran, and the
+the cause is almost always on the customer's side rather than yours. You're paid for the time each job runs, and the
 machine goes straight back into the queue.
 
 ## What's usually happening
 
 - **The customer ended or moved the job.** Customers scale their workloads up and down all day, and they can
   [reallocate](/troubleshooting/not-earning/how-does-reallocation-work) a job to another machine at any time. Short jobs
-  are normal.
+  can be expected on the network.
 - **The job itself has a problem.** A customer still testing a new workload may ship one that crashes or fails its own
   health check; it restarts a few times and is then withdrawn. Salad tells the customer automatically. Nothing for you
   to do.

@@ -20,7 +20,7 @@ updates are a common cause of broken system components.
 1. Search for "command prompt" in the Start menu and choose **Run as administrator**.
 2. Run these commands one at a time, waiting for each to finish:
 
-   ```
+   ```bash
    sfc /scannow
    Dism.exe /online /cleanup-image /CheckHealth
    Dism.exe /online /cleanup-image /ScanHealth

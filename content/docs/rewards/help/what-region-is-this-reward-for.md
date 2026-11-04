@@ -9,7 +9,7 @@ The Storefront stocks rewards for many regions. The region and currency are stat
 description, so check them before you redeem: there are [no refunds](/rewards/help/i-want-a-refund) for a reward bought
 for the wrong region.
 
-Region codes you will see in reward names:
+Region codes you may see in reward names:
 
 - AR - Argentina
 - CN - China
@@ -27,8 +27,8 @@ your region, see [Can I redeem rewards outside the US?](/rewards/help/can-i-rede
 
 ## Cash-like rewards
 
-PayPal, Venmo and prepaid Visa and Mastercard rewards are delivered through our reward partner Tremendous and can only
-be claimed in supported countries:
+PayPal, Venmo and prepaid Visa and Mastercard rewards are delivered through our reward partners and can only be claimed
+in supported countries:
 
 - [Supported PayPal countries](/rewards/help/supported-paypal-countries)
 - [Supported Venmo countries](/rewards/help/supported-venmo-countries)

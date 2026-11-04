@@ -7,7 +7,7 @@ description:
 
 Salad's connections to its servers are signed with the current time. If your PC clock is off by more than a few minutes,
 logins fail, the app shows connection or certificate errors, and jobs cannot be assigned. Check the clock in the taskbar
-against your phone; if it is wrong, or the time zone is wrong, follow the steps below.
+against online tools; if it is wrong, or the time zone is wrong, follow the steps below.
 
 ## Set time automatically
 

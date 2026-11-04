@@ -11,8 +11,8 @@ Prepaid Mastercard balance comes in denominations of USD $5, $10, $50 and $100.
 
 ## How the card is delivered
 
-Cards are delivered by our reward partner Tremendous. Shortly after you redeem, an email with a claim link arrives at
-the email address on your Salad account; follow the instructions on that link to get your card details. See
+Cards are delivered by our reward partners. Shortly after you redeem, an email with a claim link arrives at the email
+address on your Salad account; follow the instructions on that link to get your card details. See
 [How to redeem prepaid Mastercards on Salad](/rewards/redeeming-your-rewards/how-to-redeem-prepaid-mastercards-on-salad)
 for the steps, and
 [I redeemed a reward but haven't received it](/rewards/help/i-redeemed-a-reward-but-havent-received-it) if the email has

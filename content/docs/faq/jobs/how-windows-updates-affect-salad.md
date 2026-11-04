@@ -23,8 +23,5 @@ Windows updates can also replace or change your GPU driver, which can stop you r
 
 - **Check your GPU driver.** If your machine stops receiving jobs after an update,
   [reinstalling your GPU drivers](/guides/your-pc/how-to-reinstall-gpu-drivers) usually fixes it.
-- **Make sure Salad comes back on its own.** Enable [auto-launch](/guides/using-salad/how-to-enable-auto-launch) and
-  [auto-start](/guides/using-salad/how-to-enable-auto-start) so Salad starts Chopping again after the restart without
-  you.
 - **Expect Finding Job for a while.** Being back in the queue is normal; see
   [Finding Job for hours](/troubleshooting/not-earning/finding-job-for-hours) if it drags on.

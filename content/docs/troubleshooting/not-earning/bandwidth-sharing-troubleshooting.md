@@ -62,14 +62,16 @@ isn't there, bandwidth sharing isn't available in your country yet. Regions with
 
 ## I enabled it but see no earnings
 
-- Jobs go to the fastest, most stable connections first. If faster machines are ahead of you in the queue, you wait.
-  Bandwidth demand also varies; gaps between jobs are normal.
+- Jobs go to the fastest, most stable connections first. If faster machines are ahead of you in the queue, you may need
+  to wait. Bandwidth demand also varies; gaps between jobs are normal - the program may be active but does not need to
+  actively share data. You are paid per megabit transferred.
 - Keep Chopping. Spots open up over time.
 - Reduce other traffic on your connection while Chopping, and prefer a wired connection
   ([tips](/guides/your-pc/improve-internet-speed)).
 - Power-cycle your router (off, wait two minutes, on). Many ISPs assign a new public address, which helps if your old
   one had been flagged.
 - Bandwidth jobs still earn XP.
+- Run only on residential IP addresses - no Proxies, VPNs, or datacenter IPs can earn through bandwidth sharing.
 
 Still nothing after a few days with a good connection? Send [Salad Support](/contact) your machine ID and your logs
 folder zipped ([how to find it](/guides/using-salad/how-to-find-your-salad-log-files)).

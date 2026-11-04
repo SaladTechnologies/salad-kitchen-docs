@@ -8,10 +8,10 @@ days across many machines at once, and once the customer's work is finished the 
 
 ## How batch jobs differ from other container jobs
 
-A typical batch job is something like password recovery with a tool such as HashCat, or a one-off data processing run:
-it needs a lot of GPUs for a while, and once the result is found there is nothing left to do. While a batch job is
-active it usually wants a large number of machines, so it is easy to get one; when it completes, your machine goes back
-to **Finding Job**.
+A typical batch job is something like molecular dynamics, or password recovery with a tool such as HashCat, or a one-off
+data processing run: it needs a lot of GPUs for a while, and once the result is found there is nothing left to do. While
+a batch job is active it usually wants a large number of machines, so it is easy to get one; when it completes, your
+machine goes back to **Finding Job**.
 
 Most other container jobs are long-running services, such as serving an AI model, that keep processing new requests for
 weeks or months. Those are scaled up and down by the customer as their traffic changes, which is why even a long-running

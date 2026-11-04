@@ -20,7 +20,7 @@ estimate, and your actual earnings are combined across all of them.
 
 ## Why did I earn a different amount than estimated?
 
-- **The job ended.** Jobs are often short, and the estimate assumed it would run all day. While the app shows **Finding
+- **The job ended.** Jobs can be short, and the estimate assumed it would run all day. While the app shows **Finding
   Job**, nothing is earned and the estimate drops to zero.
 - **A different job paid a different rate.** Each job's rate is set by the customer's chosen priority, so your next job
   can pay more or less than the last. See [Network Monitor](/faq/jobs/network-monitor).

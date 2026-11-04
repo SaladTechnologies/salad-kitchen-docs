@@ -59,8 +59,10 @@ choose from. See [Workload preferences](/guides/getting-jobs/workload-preference
 
 ### Idle Chopping
 
-Enables or disables your GPU and CPU for Chopping. Keep both enabled: container jobs need the GPU and the CPU together.
-Change it only if you need to keep one component free for something else. See
+Enables or disables your GPU and CPU for Chopping. Disabling GPU will remove GPU container workloads and GPU crypto
+mining workloads, but will keep CPU containers. Conversely, disabling CPU only will keep GPU containers but disable CPU
+containers. Removing both will remove all hardware-based workloads. Change it only if you need to keep one component
+free for something else. See
 [How to enable and disable hardware](/guides/using-salad/how-to-enable-and-disable-hardware).
 
 ![Salad Settings showing idle chopping options](../../../../content/images/guides/using-salad/salad-app-settings-7.png)
@@ -68,7 +70,8 @@ Change it only if you need to keep one component free for something else. See
 ### Elevated Permissions
 
 Lets Salad run with administrator rights so it can manage the container environment and apply GPU settings that some
-jobs need. Enable it if Salad asks you to or if you see Degraded State notifications about it. See
+jobs need. Enable it if Salad asks you to or if you see Degraded State notifications about it. In general, this
+permission does not need to be set, and its state does not impact earnings. See
 [Elevated permissions](/guides/using-salad/elevated-permissions).
 
 ![Salad Settings showing elevated permission options](../../../../content/images/guides/using-salad/salad-app-settings-8.png)
@@ -76,7 +79,9 @@ jobs need. Enable it if Salad asks you to or if you see Degraded State notificat
 ### Job Types
 
 Lets Salad pick the most profitable jobs for your machine, or lets you opt out of specific types. Opting out reduces how
-often you get a job, so only turn a type off if you have a reason to.
+often you get a job, or the types of jobs you receive, so only turn a type off if you have a reason to. If you choose
+"Configure workload types manually" but keep all options enabled, note that the app will revert to automatic selection
+as these correspond to the same thing.
 
 ![Salad Settings showing available workload types to opt into](../../../../content/images/guides/using-salad/salad-app-settings-9.png)
 
@@ -90,17 +95,18 @@ Settings for Chefs who want finer control over when Salad runs.
 
 ### Auto-Stop
 
-By default Salad stops when it detects you using the PC. Turning Auto-Stop off keeps Salad Chopping through your
-activity. Change it if you are happy to share your PC while you use it for light tasks; leave it on if you game or use
-the GPU.
+By default Salad stops when it detects you using the PC. Turning Auto-Stop off keeps Salad Chopping through your mouse
+or keyboard activities. Change it if Salad regularly pauses when you move your mouse or use your keyboard on
+non-intensive tasks, to check on Salad, or by inadvertence.
 
 ![Salad Settings showing auto stop options](../../../../content/images/guides/using-salad/salad-app-settings-11.png)
 
 ### Crypto Mining
 
-Allows or blocks crypto mining jobs. Mining is a backup workload: it only runs when no container job is available for
-your machine, and it pays very little on modern cards. You can turn it off here (under Workload Types) if you don't want
-it; your container jobs are unaffected. See [Mining as a backup workload](/faq/jobs/mining-as-a-backup-workload).
+Allows or blocks Salad-run crypto mining jobs. Mining is a backup workload: it only runs when no container job is
+available for your machine. It generally pays little compared to container workloads on modern cards. You can turn it
+off here (under Workload Types) if you don't want it; your container jobs are unaffected. See
+[Mining as a backup workload](/faq/jobs/mining-as-a-backup-workload).
 
 ![Salad Settings showing cryptomining options](../../../../content/images/guides/using-salad/salad-app-settings-12.png)
 

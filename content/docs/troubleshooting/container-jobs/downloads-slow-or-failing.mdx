@@ -5,12 +5,12 @@ description:
   route to host" even though your internet is fast.
 ---
 
-**What it means.** Each container job is downloaded from Salad's image registries into the container environment. Jobs
-range from under 100 MB to several GB. When a download runs at a trickle it never finishes in time, the network cancels
-the job and offers the next one - which looks like "it keeps downloading and never runs". The first download after a
-fresh install (the compatibility check) is affected too, so a slow path can block all paid jobs.
+**What it means:** Each container job is downloaded from Salad's image registries into the container environment. Jobs
+range from under 100 MB to several GB. When a download runs at a trickle it never finishes in time, the network may
+cancel the job and offer the next one - which looks like "it keeps downloading and never runs". The first download after
+a fresh install (the compatibility check) is affected too, so a slow path can block all paid jobs.
 
-**Why it happens.** Your general internet speed is rarely the cause; the download goes through the container
+**Why it happens:** Your general internet speed is rarely the cause; the download goes through the container
 environment's virtual network, and that path is what breaks. Most common first:
 
 1. **USB Wi-Fi adapters and unstable Wi-Fi.** The virtual switch that WSL uses sits on top of your adapter, and USB
@@ -19,7 +19,7 @@ environment's virtual network, and that path is what breaks. Most common first:
    Bitdefender, McAfee, Avast). They intermittently drop the environment's connections: "no route to host", "connection
    reset by peer".
 3. **A slow route between your ISP and the registry**, on some mobile/5G and satellite connections or from some
-   countries. Everything else is fast but the registry download crawls.
+   countries farther away from our registry servers. Everything else is fast but the registry download crawls.
 4. **The Hyper-V firewall** on recent Windows 11 builds blocking WSL traffic.
 5. **A custom `.wslconfig`** with networking changes.
 6. **Not enough free space on C:** for the image cache ("not enough storage to cache the image").
@@ -35,7 +35,7 @@ environment's virtual network, and that path is what breaks. Most common first:
 <Steps>
 <Step>
 
-### Use a wired connection if you possibly can
+### Use a wired connection if you can
 
 Plug a cable from the router into the PC's Ethernet port and restart the PC. This alone fixes most crawling downloads,
 especially with USB Wi-Fi adapters.
@@ -43,7 +43,7 @@ especially with USB Wi-Fi adapters.
 </Step>
 <Step>
 
-### Test with VPN and network protection off
+### Run Salad without VPN and test network protection off
 
 Disconnect VPN clients and pause your antivirus's web/network protection, Exit Salad from the tray icon, run
 `wsl --shutdown` in PowerShell, start Salad and watch one download. If it's fast now, add exclusions for `vmmem`,

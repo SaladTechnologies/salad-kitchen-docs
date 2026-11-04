@@ -33,12 +33,13 @@ displays.
 ## Earning rate per machine
 
 Near the top of the page, the **All Machines** section lists every machine on your account with its current earning rate
-and when it was last seen. "Last seen" is the last time that machine earned any Salad Balance.
+and when it was last seen. "Last seen" is the last time that machine earned any Salad Balance - it does not correspond
+to the last time your machine was online or Chopping.
 
 ![Table of all machines](../../../../content/images/guides/using-salad/how-to-use-the-earnings-summary-2.png)
 
 Machines are identified by their [Machine ID](/guides/using-salad/how-to-find-your-salad-machine-id); you can't name or
-rename them.
+rename them at this time.
 
 ## Earnings history as a graph
 

@@ -14,5 +14,6 @@ Salad and one that was planted; it just sees the miner.
 To let Salad run, whitelist it in your antivirus. Our [antivirus guides](/troubleshooting/antivirus) cover the common
 products step by step.
 
-Only download Salad from [salad.com](https://salad.com). An installer from anywhere else may genuinely be modified, and
-Salad cannot vouch for it.
+Only download Salad from [salad.com](https://salad.com) or our
+[GitHub](https://github.com/SaladTechnologies/salad-applications). An installer from anywhere else may genuinely be
+modified, and Salad cannot vouch for it.

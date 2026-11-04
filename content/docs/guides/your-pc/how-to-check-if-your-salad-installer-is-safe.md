@@ -5,7 +5,7 @@ description: Verify the file hash of your Salad installer against the official G
 
 Only download Salad from [salad.com/download](https://salad.com/download) or from the official
 [GitHub releases](https://github.com/SaladTechnologies/Salad-Applications/releases). Builds from anywhere else may have
-been tampered with to skim your earnings or steal your account.
+been tampered with to skim your earnings, steal your account, or run malicious programs.
 
 To confirm a downloaded installer is genuine, compare its hash with the one published on GitHub:
 
@@ -13,7 +13,8 @@ To confirm a downloaded installer is genuine, compare its hash with the one publ
 
    ![opening Windows Powershell](../../../../content/images/guides/your-pc/how-to-check-if-your-salad-installer-is-safe-1.png)
 
-2. Go to the folder that holds the installer. For Downloads, type `cd Downloads` and press **Enter**.
+2. Go to the folder that holds the installer. For Downloads, type `cd Downloads` and press **Enter**. If you changed
+   download location on your machine, adapt the command to the correct directory.
 
    ![Screenshot of Windows Powershell in Downloads directory](../../../../content/images/guides/your-pc/how-to-check-if-your-salad-installer-is-safe-2.png)
 

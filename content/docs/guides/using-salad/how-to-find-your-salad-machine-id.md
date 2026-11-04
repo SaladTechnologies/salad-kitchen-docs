@@ -4,7 +4,7 @@ description: Where to find the machine ID that Salad Support asks for, in the ap
 ---
 
 Every PC registered to your account gets a Salad machine ID. Support uses it to look up your machine, so when you
-contact [Salad Support](/contact) about a problem, include it. Support only needs the **first 8 characters** of the ID.
+contact [Salad Support](/contact) about a problem, include it.
 
 ## In the Salad app
 
@@ -22,4 +22,4 @@ you can also find it there, and use it to tell your machines apart when breaking
 ![Screenshot of the earning dashboard showing Machine IDs](../../../../content/images/guides/using-salad/how-to-find-your-salad-machine-id-1.png)
 
 You may see machine IDs you don't recognize. This happens when one of your PCs runs an older version of Salad, or after
-a hardware change, which gives the PC a new ID.
+a hardware change, which may give the PC a new ID.

@@ -11,8 +11,8 @@ and [redemptions are final](/rewards/help/i-want-a-refund).
 
 Once you have redeemed a prepaid Mastercard on the Storefront:
 
-1. **Find the reward email.** Our reward partner Tremendous sends a redemption link and instructions to the email
-   address on your Salad account. Check spam if you do not see it. No email? See
+1. **Find the reward email.** Our reward partner sends a redemption link and instructions to the email address on your
+   Salad account. Check spam if you do not see it. No email? See
    [I redeemed a reward but haven't received it](/rewards/help/i-redeemed-a-reward-but-havent-received-it).
 2. **Redeem the card.** Click the link in the email and enter the provided code to redeem the card.
 3. **Register the card.** Accept the cardholder agreement, then enter your street address. Pick the correct address from
@@ -34,5 +34,5 @@ date and CVV manually. Wallet support can vary by region.
 ## Experiencing issues?
 
 Using the card (declined payments, registration problems, wallet transfers) is handled by the card issuer through the
-claim page and My Prepaid Center, not by Salad. See [Problems using a reward](/rewards/help/problems-using-a-reward) and
-the [Prepaid Visa and Mastercard FAQ](/rewards/help/prepaid-visa-and-mastercard-faq).
+claim page and partner site, not by Salad. See [Problems using a reward](/rewards/help/problems-using-a-reward) and the
+[Prepaid Visa and Mastercard FAQ](/rewards/help/prepaid-visa-and-mastercard-faq).

@@ -23,7 +23,7 @@ description: 'Step-by-step: add the Salad folders to the exclusions in Norton so
 
 ![adding an exclusion](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-norton-antivirus-5.png)
 
-**6. In the window that opens, you're going to enter C:\ProgramData\Salad to whitelist Salad, then click Add.**
+**6. In the window that opens, you're going to enter `C:\ProgramData\Salad` to whitelist Salad, then click Add.**
 
 ![Screenshot of Salad file path entered as an exclusion](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-norton-antivirus-6.png)
 

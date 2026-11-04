@@ -9,12 +9,13 @@ can pay and the current demand level; that is the realistic range for your card.
 
 ## What your earnings depend on
 
-- **Your GPU.** Customers request specific GPU models. In-demand cards get more jobs and higher rates.
+- **Your GPU.** Customers request specific GPU models. In-demand cards get more jobs and usually higher rates.
 - **Job priority.** Each customer sets a priority for their workload, and that priority sets the rate you are paid while
   their job runs. The same GPU earns different amounts on different jobs.
 - **Demand.** How much of your GPU model is in use across the network decides how often you get a job and how long you
   wait in **Finding Job** between them. Demand changes hour to hour and day to day.
-- **Uptime.** Jobs are assigned to machines that are online and Chopping. The more hours you run, the more jobs you get.
+- **Uptime.** Jobs are assigned to machines that are online and Chopping. The more hours you run, the more jobs you can
+  get.
 - **Your internet speed and region**, for [bandwidth sharing](/faq/jobs/what-is-bandwidth-sharing).
 - **Crypto market conditions**, only if you leave [mining](/faq/jobs/mining-as-a-backup-workload) enabled as a backup.
 

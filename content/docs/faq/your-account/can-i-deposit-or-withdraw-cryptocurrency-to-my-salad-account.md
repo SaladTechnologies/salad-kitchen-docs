@@ -4,7 +4,7 @@ description: No - your Salad account is not a cryptocurrency wallet. Balance is 
 ---
 
 No. Your Salad account is not a cryptocurrency wallet and cannot be used like one. You cannot deposit cryptocurrency
-into it, and you cannot withdraw your Salad Balance as cryptocurrency or as cash to a bank account.
+into it, and you cannot withdraw your Salad Balance directly as cryptocurrency or as cash to a bank account.
 
 Salad Balance is spent on rewards in the [Storefront](https://salad.com/store). Some of those rewards are
 cryptocurrency, such as [RENDER tokens](https://salad.com/store/search?q=RENDER&size=n_20_n) - see

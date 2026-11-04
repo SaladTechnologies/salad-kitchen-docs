@@ -23,7 +23,7 @@ below.![opening AVG exception settings](../../../../content/images/troubleshooti
 ### 4. Add the whitelist
 
 **A dialogue box will appear once you have clicked 'Add Exception'. In the opened window, enter the path
-"C:\\ProgramData\\Salad\\workloads", without the quotes.**
+`C:\ProgramData\Salad\workloads`.**
 
 **![adding an exception](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-avg-4.png)**
 
@@ -34,4 +34,4 @@ page with your newly added Exception.**
 
 ### 6. Run Salad
 
-\*\*Open up your Salad widget and click the start button. If this issue persists, contact [Salad Support](/contact).
+Open up your Salad widget and click the start button. If this issue persists, contact [Salad Support](/contact).

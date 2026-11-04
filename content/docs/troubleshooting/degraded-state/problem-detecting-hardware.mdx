@@ -5,14 +5,14 @@ description:
   PC's hardware inventory and the machine never registers.
 ---
 
-**What it means.** When Salad starts, it runs a small helper program that inventories your PC (CPU, GPU, memory, disks,
+**What it means:** When Salad starts, it runs a small helper program that inventories your PC (CPU, GPU, memory, disks,
 network) and reports it to the network. If that helper can't start, or starts and never finishes, the app shows this
 notification and the machine isn't offered jobs. The GPU itself is usually detected fine by a separate check - this is
 about the inventory.
 
 ![The "Problem detecting hardware" notification in the Salad app](../../../../content/images/troubleshooting/salad-app/unable-to-detect-hardware-1.png)
 
-**Why it happens.** In order of how often we see it:
+**Why it happens:** In order of how often we see it:
 
 1. The **Secondary Logon** Windows service is disabled, so the app can't launch its helper programs (often done by
    "debloat" or optimization tools).

@@ -13,28 +13,28 @@ app tells you which of these your own machine is missing.
 
 Not sure what you have? See [How to find your GPU or CPU](/guides/your-pc/how-to-find-your-gpu-or-cpu).
 
-- **It must be listed on the [Network Monitor](/faq/jobs/network-monitor).** Customers request specific GPU models, and
-  the Network Monitor lists every model they currently ask for, with its demand level and rate range. A card that isn't
-  listed won't receive container jobs.
+- **It must have 4GB of VRAM or more.** Customers request specific GPU models, and the Network Monitor lists most models
+  that are asked for, with its demand level and rate range. Some GPUs may be supported even if they are not in the
+  Network Monitor.
 - **It must be a dedicated card.** Integrated graphics (Intel UHD/Iris, the Radeon Graphics built into AMD CPUs) are not
   eligible and don't count as a GPU.
 - **Only one GPU is used.** A second dedicated card doesn't add earnings and can cause errors. See
   [Can I use multiple GPUs?](/faq/compatibility/can-i-use-multiple-gpus) Mixing NVIDIA and AMD, or pairing a modern card
-  with a very old one, blocks jobs: see [Mixed NVIDIA and AMD GPUs](/faq/compatibility/mixed-nvidia-and-amd-gpus).
+  with a very old one may blocks jobs: see [Mixed NVIDIA and AMD GPUs](/faq/compatibility/mixed-nvidia-and-amd-gpus).
 - **AMD:** only the AMD cards listed on the Network Monitor are supported, using the AMD Edition of the Salad app.
   Workstation and pro cards (for example the AMD AI PRO R9700) are not supported.
-- **Laptops** are supported if the GPU is in demand, but vendor power modes often cap the GPU and trigger a power limit
+- **Laptops** are supported for some variants, but vendor power modes often cap the GPU and trigger a power limit
   notification. See [How power limiting impacts your earnings](/troubleshooting/degraded-state/gpu-power-limit).
 - Run the card at factory settings. Power limiting or underclocking blocks container jobs.
 
 ## CPU
 
-Any 64-bit x86 CPU from roughly the last ten years that supports virtualization, with at least 4 cores and 8 threads; 6
-cores and 12 threads recommended. Both Intel and AMD are fine.
+Any 64-bit x86 CPU from roughly the last ten years that supports virtualization, with at least 2 cores and 2 threads; 4
+cores and 8 threads or above recommended. Both Intel and AMD are fine.
 
 ## RAM
 
-32 GB or more for container jobs. Any generation and speed of memory is fine, as long as there is enough of it.
+16 GB or more for container jobs. Any generation and speed of memory is fine, as long as there is enough of it.
 
 ## Storage
 
@@ -44,14 +44,14 @@ strongly recommended.
 
 ## Internet
 
-At least 10 Mbps download, with 100 Mbps recommended for access to more jobs. Bandwidth sharing has its own
+At least 20 Mbps download, with 100 Mbps recommended for access to more jobs. Bandwidth sharing has its own
 requirements. See
 [What is the minimum recommended internet speed?](/faq/compatibility/what-is-the-minimum-recommended-internet-speed-for-salad)
 
 ## Operating system
 
 Windows 10 or Windows 11, kept up to date. Linux is a closed beta for large fleet operators only, and there is no macOS
-version. See [Do you support macOS and Linux?](/faq/compatibility/do-you-support-macos-and-linux)
+version at this time. See [Do you support macOS and Linux?](/faq/compatibility/do-you-support-macos-and-linux)
 
 ## Virtualization and WSL
 

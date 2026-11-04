@@ -21,8 +21,8 @@ enabled during setup and on your machine's capabilities.
 
 ### Enable GPU + CPU
 
-Enable both CPU and GPU under [Workload Preferences](/guides/using-salad/how-to-enable-and-disable-hardware). Container
-jobs need both to run.
+Enable both CPU and GPU under [Workload Preferences](/guides/using-salad/how-to-enable-and-disable-hardware). To be
+eligible to all container jobs need both to run - though you can select CPU or GPU only depending on your earning needs.
 
 ### Set Bandwidth Settings
 

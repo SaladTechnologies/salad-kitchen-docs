@@ -3,17 +3,9 @@ title: Misrepresenting hardware on Salad
 description: Spoofing or faking your hardware breaks the Terms of Service and leads to a permanent ban.
 ---
 
-Spoofing or otherwise misrepresenting your hardware on Salad breaks our
-[Terms of Service](https://salad.com/terms/chefs/). Anyone found doing it is permanently banned.
-
-## What counts as hardware spoofing
-
-Any attempt to make Salad believe your machine has different hardware than it does, including:
-
-- Changing the reported model of your GPU or CPU, such as making an older card appear as a newer, in-demand model.
-- Faking the amount of VRAM, RAM, storage or other specifications.
-- Editing drivers, registry entries or system files to alter how hardware is identified.
-- Using third-party tools, scripts or virtual machines to disguise or fake hardware.
+Spoofing or otherwise misrepresenting your hardware (RAM, storage, GPU, CPU, etc) or software (drivers) through any
+means on Salad breaks our [Terms of Service](https://salad.com/terms/chefs/). Anyone found doing it is permanently
+banned.
 
 ## Why it matters
 

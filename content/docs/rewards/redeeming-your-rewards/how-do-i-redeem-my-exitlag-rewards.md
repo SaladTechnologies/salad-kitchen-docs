@@ -9,8 +9,8 @@ ExitLag subscription keys are redeemed on ExitLag's website. Find your key in yo
 ## ExitLag subscription redemption
 
 1. Create an account on ExitLag's website at [https://www.exitlag.com/en/](https://www.exitlag.com/en/).
-2. You will receive an email—at the address you provided when creating your account—asking you to confirm your account.
-   Use the link to confirm your account.
+2. You will receive an email - at the address you provided when creating your account - asking you to confirm your
+   account. Use the link to confirm your account.
 3. Log into your account at [https://www.exitlag.com/en/](https://www.exitlag.com/en/).
 4. Navigate to and click on "My Account" in the top right corner of ExitLag's website.
 5. Click on "Prepaid codes" on the left-hand side navigation bar.

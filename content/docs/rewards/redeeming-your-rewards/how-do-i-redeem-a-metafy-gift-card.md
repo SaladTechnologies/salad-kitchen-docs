@@ -40,7 +40,7 @@ below._
 7. Check out and wait for your coach to contact you.
 
 A user's gift card balance will never expire and cannot be transferred to another account. Check our Metafy's
-[Terms and Conditions](https://metafy.notion.site/Metafy-Terms-of-Service-16472ffe2d0443b1bce4ce4ff43b7a1f).
+[Terms and Conditions](https://metafy.gg).
 
 ---
 

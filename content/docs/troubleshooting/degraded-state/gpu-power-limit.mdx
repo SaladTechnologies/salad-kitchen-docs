@@ -5,12 +5,12 @@ description:
   including vendor power modes like Armoury Crate.
 ---
 
-**What it means.** Customers pay for a card's full performance, so before each container job Salad compares the power
-your GPU is currently _allowed_ to draw with what the card supports. Error **14** means the allowed limit is set well
-below the card's maximum; error **15** means the power settings couldn't be read at all (usually a driver problem).
-Either one stops container jobs until it's fixed.
+**What it means:** Customers pay for a card's full performance, so before each container job Salad compares the power
+your GPU is currently _allowed_ to draw with what the card supports. Error **14** means the allowed limit is set below
+what we support; error **15** means the power settings couldn't be read at all (usually a driver problem). Either one
+stops container jobs until it's fixed.
 
-**Why it happens.**
+**Why it happens:**
 
 - **Desktop:** a power limit or undervolt set in MSI Afterburner, the vendor's tuning app (ASUS GPU Tweak, EVGA
   Precision), or a saved "quiet" profile that re-applies at startup.

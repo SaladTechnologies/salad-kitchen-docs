@@ -25,9 +25,7 @@ Radeon Graphics built into an AMD CPU, are not eligible, don't count as a second
 
 Make the card you want to earn with the only one Salad sees:
 
-1. In the Salad app, open **Settings > Configure Hardware** and disable every GPU except the one you want to use. See
-   [How to enable and disable hardware](/guides/using-salad/how-to-enable-and-disable-hardware).
-2. If errors continue, remove the extra card physically, or disable it in Device Manager.
+1. Remove the extra card physically, or disable it in Device Manager.
 
 If you want to run several GPUs for Salad, put each in its own machine. Each machine earns independently on the same
 account.

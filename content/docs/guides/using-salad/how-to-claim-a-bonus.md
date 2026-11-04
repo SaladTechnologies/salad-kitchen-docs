@@ -37,3 +37,4 @@ Bonuses are claimed on the Salad website.
   [How to edit your profile](/guides/using-salad/how-to-edit-your-profile).
 - A game key or reward claimed as a bonus goes to your Reward Vault; see
   [Reward Vault and redemption codes](/rewards/help/reward-vault-and-redemption-codes).
+- Bonuses are handed out during specific events on the Salad Network.

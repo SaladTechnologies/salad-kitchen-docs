@@ -5,12 +5,12 @@ description:
   including the cases where wsl --update already says you're up to date.
 ---
 
-**What it means.** Before it can create its container environment, the Salad app checks that the modern version of
+**What it means:** Before it can create its container environment, the Salad app checks that the modern version of
 Windows Subsystem for Linux (WSL) is installed and then asks Windows to update it. This notification appears when that
 check fails or the update doesn't complete. Until it passes, no container jobs are offered.
 
-**Why it happens.** Most of the time it isn't an update problem at all. The app can't _see_ WSL, even when WSL works
-fine for you, for one of these reasons - in order of how often we see them:
+**Why it happens:** Many times it isn't an update problem, but the app can't _see_ WSL, even when WSL works fine for
+you, for one of these reasons - in order of how often we see them:
 
 1. Windows 10 is using its older, built-in WSL. `wsl --update` says "the most recent version is already installed", but
    the separate WSL package that Salad needs was never installed.
@@ -65,7 +65,7 @@ reboots for updates, set it to sign in automatically so it doesn't stop at the l
 ### Check the Secondary Logon service
 
 Press **Win + R**, type `services.msc`, find **Secondary Logon**, and make sure its startup type is not _Disabled_ (set
-it to _Manual_). Salad uses it to launch its helper programs; when it's disabled you'll also see "Problem detecting
+it to _Manual_). Salad uses it to launch its helper programs; when it's disabled you may also see "Problem detecting
 hardware".
 
 </Step>
@@ -83,6 +83,8 @@ If the entry isn't there, install the `.msi` from step 2.
 ### Run the update by hand and retry
 
 In PowerShell **as Administrator**:
+
+![Opening PowerShell as administrator from the Start menu](../../../../content/images/guides/your-pc/how-to-update-the-wsl-kernel-on-your-pc-1.png)
 
 ```
 wsl --update
@@ -108,5 +110,3 @@ Update blocker, disable it for the update.
 
 Send [Salad Support](/contact) the output of `wsl --version` and `wsl -l -v`, whether the PC is reached remotely, and
 your logs folder zipped ([how to find it](/guides/using-salad/how-to-find-your-salad-log-files)).
-
-![Opening PowerShell as administrator from the Start menu](../../../../content/images/guides/your-pc/how-to-update-the-wsl-kernel-on-your-pc-1.png)

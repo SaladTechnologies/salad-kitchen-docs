@@ -29,8 +29,6 @@ A premium icon is one of Creavite's free icons with your own background.
    pictures.
 3. Press the upload background button and select the background you'd like. Now is a good time to preview your icon, to
    make sure it looks like you're expecting it to. To do this, simply press the preview button, and wait up to a minute.
-   _Note: the preview in question is watermarked, and will not move. Once you've placed the order, the final render will
-   not be watermarked, nor will it be static, it will be a fully animated gif._
 4. Once you're happy with what it looks like, place the order button, and then the salad/boost button.
 5. You will now be prompted to enter your email and redemption key.
 6. Once you've entered them simply click order, and you'll get your icon delivered to your email within 20-30 minutes.

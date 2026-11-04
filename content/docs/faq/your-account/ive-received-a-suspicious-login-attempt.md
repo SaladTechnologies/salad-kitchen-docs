@@ -12,7 +12,7 @@ account or your Salad Balance.
 
 - Do not share the code with anyone, and never enter it anywhere except salad.com or the Salad app.
 - If the codes keep coming, or you are worried, add a [passkey](/guides/using-salad/salad-app-passkeys) to your account.
-  With a passkey, login codes are no longer used to sign in.
+  Redemptions can be protected by requiring the use of a passkey, as well as for significant account changes.
 - Run through the checklist in [Keeping your account secure](/faq/your-account/keeping-your-account-secure).
 
 If you think someone already has access to your account, contact [Salad Support](/contact).

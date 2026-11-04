@@ -26,10 +26,8 @@ For each GPU, from left to right:
 - **Moderate**: jobs are available, but there may still be idle periods because there are more Chefs than jobs.
 - **High**: Chefs with this GPU should get jobs fairly consistently, with minimal gaps.
 
-Even at Low or Moderate demand there are jobs for the GPU; you will just spend more time in **Finding Job** after one
-ends. Demand is a compound signal built from the GPU's utilization across the network, average earnings and average
-running time over the last 24 hours. A plain count of machines would not tell you whether it is worth bringing your
-hardware online, because a single 24-hour job may be served by several machines that come and go during the day.
+Even at Low or Moderate demand there are jobs for the GPU; you may just spend more time in **Finding Job** after one
+ends.
 
 ## Demand and priority are not the same thing
 
@@ -42,7 +40,7 @@ This is the most common source of confusion, so it is worth separating the two:
 
 Priority tends to rise with demand, because when a GPU model is scarce, low-priority jobs get pushed off machines to
 make room for higher-priority ones. But there is no guarantee. A GPU can be marked High demand while most of the jobs
-running on it are low or medium priority, so a busy card is not always a well-paid card.
+running on it are low or medium priority.
 
 ## Why am I paid less than the top rate?
 
@@ -63,6 +61,5 @@ set of jobs.
 
 ## Why do some averages sit above the reference rate range?
 
-The range only covers the GPU itself. Some jobs also request extra RAM or CPU and pay a little more for them. Usually
-that is a small addition, but at times a GPU may have enough of those jobs to pull its average above the reference
-range.
+The range only covers the GPU itself. Some machines may be earning from bandwidth sharing in parallel to their container
+workload, netting them more balance than the GPU container running by itself.

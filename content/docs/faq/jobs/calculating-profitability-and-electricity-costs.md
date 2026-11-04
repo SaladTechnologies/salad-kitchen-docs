@@ -32,7 +32,7 @@ real time.
 2. Find **GPU Power** or **Total Board Power** for your GPU, and **CPU Package Power** for your CPU.
 3. Add them together, then add roughly 50–100 W for the rest of the system (motherboard, memory, storage, fans).
 
-Software can't see power lost in your power supply, so real usage is somewhat higher than this total.
+Software can't see power lost in your power supply, so real usage may be slightly higher than this total.
 
 ### Option 3: Manufacturer specifications
 

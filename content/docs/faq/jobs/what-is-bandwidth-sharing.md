@@ -1,7 +1,6 @@
 ---
 title: What is bandwidth sharing?
-description:
-  How sharing your unused internet bandwidth earns Salad Balance, who can do it, and the small risks involved.
+description: How sharing your unused internet bandwidth earns Salad Balance, and who can do it.
 ---
 
 Bandwidth sharing is one of the three workloads Salad can run. Your unused upload and download capacity is used to relay
@@ -13,6 +12,9 @@ Whether you receive bandwidth jobs depends on your region and your internet spee
 and [Getting bandwidth sharing jobs](/guides/getting-jobs/getting-bandwidth-sharing-jobs) for setup. Speed requirements
 are in
 [What is the minimum recommended internet speed?](/faq/compatibility/what-is-the-minimum-recommended-internet-speed-for-salad)
+
+Bandwidth sharing is dependent on our client's demand - eligible machines may not receive the workload is the demand is
+already fulfilled.
 
 ## Privacy
 

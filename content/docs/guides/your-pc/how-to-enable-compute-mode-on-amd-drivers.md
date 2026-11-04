@@ -10,13 +10,7 @@ titles.
 
 Before you start, [update your AMD drivers](/guides/your-pc/how-to-update-my-amd-drivers) and **stop Salad**.
 
-## Option 1: let Salad do it
-
-1. Stop Salad.
-2. [Enable elevated permissions](/guides/using-salad/elevated-permissions) in the Salad app.
-3. Start Salad again.
-
-## Option 2: set it in AMD Software
+## Set it in AMD Software
 
 1. Stop Salad.
 2. Open AMD Software and click the **gear icon** at the top right.

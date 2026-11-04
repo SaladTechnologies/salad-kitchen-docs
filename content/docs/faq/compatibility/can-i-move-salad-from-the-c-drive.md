@@ -3,9 +3,9 @@ title: Can I move Salad from the C drive?
 description: Salad must live on your C drive and cannot be moved; here is why, and how to free up the space it needs.
 ---
 
-No. Salad has to be installed on your C: drive, and there is no supported way to move it: no setting in the app, and no
-manual method Support can help with. This applies to the Salad app, the WSL environment where container jobs run, and
-everything else Salad stores.
+No. Salad has to be installed on your C: drive, and there is no supported way to move it at this time: no setting in the
+app, and no manual method Support can help with. This applies to the Salad app, the WSL environment where container jobs
+run, and everything else Salad stores.
 
 ## Why it has to be on C:
 

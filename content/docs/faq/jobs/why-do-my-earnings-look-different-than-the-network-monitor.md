@@ -19,11 +19,11 @@ your rate is somewhere inside the range shown for your GPU, your machine is work
 - **You have a lower-priority job.** The range for your GPU covers every priority a customer can choose, and you cannot
   pick which one you get. Being at the bottom of the range for a while is normal. See
   [Network Monitor](/faq/jobs/network-monitor) for why demand and priority are separate things.
-- **You are between jobs.** While the app shows **Finding Job**, nothing is being earned. Gaps are common at Low or
+- **You are between jobs.** While the app shows **Finding Job**, nothing is being earned. Gaps are more common at Low or
   Moderate demand.
 - **You are only mining.** If no container job is available, Salad may fall back to
-  [mining](/faq/jobs/mining-as-a-backup-workload), which on modern cards pays cents per day and will sit well below the
-  container averages.
+  [mining](/faq/jobs/mining-as-a-backup-workload), which on modern cards may pay cents per day and will sit well below
+  the container averages.
 
 If your machine has not had a container job in a long time, or earns nothing while a job is running, start with
 [Not getting container jobs](/troubleshooting/not-earning/not-getting-container-jobs) and

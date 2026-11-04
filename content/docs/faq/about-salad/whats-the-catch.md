@@ -17,8 +17,8 @@ There is no hidden catch, but there are limitations worth knowing before you sta
   you Chop. See [How do I get container jobs?](/faq/jobs/how-do-i-get-container-jobs).
 - **Earnings depend on your hardware.** Newer GPUs with more VRAM get more and better-paying jobs. An old or low-end
   card may earn very little.
-- **Rewards are the only way out.** Salad Balance is spent in the Storefront on gift cards, games, PayPal and similar
-  rewards; it cannot be withdrawn to a bank account. Reward prices include a margin for Salad.
+- **Rewards are the way to cash out.** Salad Balance is spent in the Storefront on gift cards, games, PayPal and similar
+  rewards; it cannot be withdrawn to a bank account. Reward prices may include a margin for Salad.
 
 When no workload is running, Salad idles and uses very little power, so you are not paying for electricity while earning
 nothing.
