@@ -10,8 +10,8 @@ Salad is a Windows application. It supports Windows 10 and Windows 11, and nothi
 
 A Linux build is in progress, but it is a closed beta. It is not available to individual Chefs, and Salad Support can't
 grant access to it on request. If you run a fleet and want to apply, see
-[Linux onboarding](/guides/getting-started/linux-onboarding). Running the Windows app inside a virtual machine on Linux
-(or Windows) is not supported either; the GPU and virtualization stack has to be native.
+[Linux onboarding](/guides/using-salad/linux-onboarding). Running the Windows app inside a virtual machine on Linux (or
+Windows) is not supported either; the GPU and virtualization stack has to be native.
 
 ## macOS
 
