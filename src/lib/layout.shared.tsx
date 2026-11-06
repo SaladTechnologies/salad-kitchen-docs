@@ -2,6 +2,7 @@ import logoDark2xPng from '@/styles/logo-dark-2x.png'
 import logoDarkPng from '@/styles/logo-dark.png'
 import logoLight2xPng from '@/styles/logo-light-2x.png'
 import logoLightPng from '@/styles/logo-light.png'
+import { ThemeControls } from '@/components/background-pattern'
 import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared'
 import { Download, Mail } from 'lucide-react'
 
@@ -15,6 +16,9 @@ const DiscordIcon = () => (
 export function baseOptions(): BaseLayoutProps {
   return {
     githubUrl: 'https://github.com/SaladTechnologies/salad-kitchen-docs',
+    themeSwitch: {
+      component: <ThemeControls />,
+    },
     links: [
       {
         icon: <Mail />,

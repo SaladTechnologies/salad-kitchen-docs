@@ -1,3 +1,4 @@
+import { backgroundPatternInitScript } from '@/components/background-pattern'
 import SearchDialog from '@/components/search'
 import appCss from '@/styles/app.css?url'
 import { createRootRoute, HeadContent, Outlet, Scripts } from '@tanstack/react-router'
@@ -34,6 +35,11 @@ export const Route = createRootRoute({
       {
         rel: 'apple-touch-icon',
         href: '/favicon.png',
+      },
+    ],
+    scripts: [
+      {
+        children: backgroundPatternInitScript,
       },
     ],
   }),
