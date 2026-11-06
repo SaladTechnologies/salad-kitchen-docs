@@ -1,17 +1,18 @@
 ---
-title: Does My PC Support Virtualization?
+title: Does my PC support virtualization?
+description: How to check in Task Manager whether hardware virtualization is supported and enabled on your PC.
 ---
 
-Many modern computers support virtualization, and enable these features by default. You may check whether these features
-are supported on your machine as follows:
+Container jobs run inside WSL, which needs hardware virtualization. Most PCs from the last decade support it, but it is
+not always switched on. Here is how to check.
 
-1. With your computer on, press **Ctrl + Alt + Del**.
-2. Select **Task Manager** from the menu.
-3. Click the **Performance** tab.
-4. If necessary, click **CPU** from the column on the left.
+1. Press **Ctrl + Shift + Esc** to open Task Manager (or press **Ctrl + Alt + Del** and select **Task Manager**).
+2. Open the **Performance** tab.
+3. Select **CPU** in the left column.
    ![Screenshot of Task Manager](../../../../content/images/faq/compatibility/does-my-pc-support-virtualization-1.png)
-5. Below the chart you should see an attribute labeled "Virtualization" that displays the current status of
-   virtualization support as **Enabled** or **Disabled**.
+4. Below the graph, look for **Virtualization**. It shows **Enabled** or **Disabled**.
 
-If you do not see the "Virtualization" attribute listed in the information panel, it is likely that your hardware
-configuration does not support virtualization.
+- **Enabled:** you're set.
+- **Disabled:** your CPU supports it but it is turned off in the BIOS/UEFI. Follow
+  [How to enable virtualization support on your machine](/guides/your-pc/how-to-enable-virtualization-support-on-your-machine).
+- **Not listed at all:** your CPU most likely doesn't support virtualization, and the machine can't run container jobs.

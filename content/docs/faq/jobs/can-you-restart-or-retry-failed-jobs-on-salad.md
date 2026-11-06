@@ -1,45 +1,39 @@
 ---
-title: Can You Restart or Retry Failed Jobs on Salad?
+title: Can you restart or retry failed jobs on Salad?
+description: What Salad does automatically when a container job stops, and why you can't force a retry yourself.
 ---
 
-Salad automatically takes care of retrying failed
-[Container Jobs](https://Community.salad.com/new-feature-container-environments-now-available/). However, what may
-appear to be a "failed job," could also be a successful and intended "workload exit." Here are some examples of normal
-and expected workload exits:
+No, and you don't need to. Salad handles retries and reassignment automatically, and most things that look like a
+"failed job" are a normal job ending.
 
-- When an individual Container Job is fully completed
-- A SaladCloud Customer reallocates to different machines
-- A SaladCloud Customer decreases their requested machines
+## Normal reasons a job stops
 
-These workload exits are normal, and Salad manages them for you automatically. We'll immediately start working to find
-you another Container Job, no interaction necessary.
+- The job finished its work (common with [batch jobs](/faq/jobs/what-are-batch-jobs)).
+- The SaladCloud customer scaled down and needs fewer machines.
+- The customer [reallocated](/troubleshooting/not-earning/how-does-reallocation-work) the job to a different machine.
 
-However, some specific failure states are not addressable by our automatic reallocations. If this happens, we will send
-a degraded state error notification in the Salad App with instructions for resolution. There's no need to restart or
-retry yourself via the Salad App. We'll let you know when you need to take action, and what you need to do.
+In each case you are credited for the time the job ran, your machine goes back into the queue, and the app shows
+**Finding Job** while it waits for the next one. Nothing to do.
 
----
+## When Salad retries automatically
 
-## **When Will Salad Automatically Retry Failed Container Jobs?**
+If a job stops because of a temporary problem such as a network error or a brief glitch, Salad retries it for you,
+provided the customer has configured their workload to allow retries.
 
-Salad will automatically retry failed Container Jobs, provided that the customer has configured them properly for
-retries. The root causes of these failures are typically temporary issues, such as network errors or a brief systems
-glitch.
+## When it won't retry
 
----
+Some stops can't be retried:
 
-## **When Will Salad Not Automatically Retry Failed Container Jobs?**
+- The customer's container image or workload is misconfigured.
+- The workload is an unstable test the customer is still developing.
+- The customer's own reallocation rules moved the job off your machine, usually because it ran too slowly, didn't
+  produce the expected output, or your connection was too slow or had too much latency.
 
-As we mentioned above, some workload exits are not able to be retried. Common examples of this include:
+Those are the customer's decisions and are applied to every machine the same way. Your machine simply returns to the
+queue.
 
-- Misconfigured container images and/or workloads
-- Container Jobs featuring less stable testing workloads
+## When you need to act
 
-Our customers can also set their own parameters for reallocation. Typically these parameters are based on how well your
-machine(s) run their Container Job. Reallocations often stem from:
-
-- Container Jobs that are taking too long to complete.
-- Failing to produce the expected outputs
-- Insufficient latency or speeds
-
-Unfortunately you're not able to manually force Salad to retry any job.
+If something on your machine is blocking jobs, the app sends a degraded state notification telling you what to fix.
+Until you see one, there is nothing to restart. If jobs keep stopping shortly after starting, see
+[Why do jobs keep failing or restarting?](/troubleshooting/not-earning/why-do-jobs-keep-failing-or-restarting)

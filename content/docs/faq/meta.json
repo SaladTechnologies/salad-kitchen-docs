@@ -1,5 +1,5 @@
 {
   "title": "FAQ",
   "icon": "MyIcon",
-  "pages": ["jobs", "salad-app", "your-account", "compatibility", "community", "company"]
+  "pages": ["jobs", "compatibility", "your-account", "about-salad"]
 }

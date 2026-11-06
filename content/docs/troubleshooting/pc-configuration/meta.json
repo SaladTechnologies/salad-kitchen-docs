@@ -2,12 +2,11 @@
   "title": "PC Configuration",
   "icon": "MyIcon",
   "pages": [
+    "index",
     "i-cant-get-salad-to-download",
-    "bt-troubleshooting-guide",
-    "correct-system-time-error",
-    "re-enable-powershell",
-    "restoring-dism",
     "restoring-wslconfig-to-salad-default",
-    "using-remote-desktop-with-salad"
+    "restoring-dism",
+    "re-enable-powershell",
+    "correct-system-time-error"
   ]
 }

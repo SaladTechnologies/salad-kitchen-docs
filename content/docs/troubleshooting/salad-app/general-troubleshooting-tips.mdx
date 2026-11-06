@@ -1,0 +1,84 @@
+---
+title: General troubleshooting tips
+description:
+  The general checks that fix most unexplained Salad app problems, in order, and where to go when the app gives you a
+  specific notification.
+---
+
+If the app shows a notification, follow its guide first - [Degraded State](/troubleshooting/degraded-state) lists every
+one. These general steps are for when the app misbehaves without saying why. Try Salad again after each.
+
+<Steps>
+<Step>
+
+### Restart the app and the PC
+
+Exit Salad from the tray icon (right-click > Exit), then restart Windows. A surprising amount is fixed here.
+
+</Step>
+<Step>
+
+### Confirm the PC meets the requirements
+
+[Is my machine compatible with Salad?](/faq/compatibility/is-my-machine-compatible-with-salad) - a dedicated GPU on the
+Network Monitor, enough RAM and free space on C:, virtualization enabled, no VPN.
+
+</Step>
+<Step>
+
+### Whitelist Salad in your antivirus and firewall
+
+[Antivirus guides](/troubleshooting/antivirus). This covers the app, the container environment and the backup miners.
+
+</Step>
+<Step>
+
+### Update WSL and the container environment
+
+In PowerShell as Administrator run `wsl --update`, then `wsl --shutdown`, then start Salad. If WSL itself is missing or
+broken: [What is WSL?](/guides/your-pc/what-is-wsl).
+
+</Step>
+<Step>
+
+### Close everything else
+
+Salad needs the GPU to itself. Close games, local AI tools, overlays and capture software, and leave the PC idle.
+[Close games and other programs](/guides/getting-jobs/close-games-and-other-programs).
+
+</Step>
+<Step>
+
+### Update, or clean-reinstall, your GPU driver
+
+Many "random" failures are a damaged driver:
+[How to reinstall your GPU drivers](/guides/your-pc/how-to-reinstall-gpu-drivers). If Salad stopped working right after
+a driver update, a clean install of the previous version is worth a try.
+
+</Step>
+<Step>
+
+### Update Windows and the Visual C++ runtime
+
+Install pending Windows updates
+([Microsoft's guide](https://support.microsoft.com/en-us/windows/update-windows-3c5ae7fc-9fb6-9af1-1984-b5e0412c556a))
+and the [latest Visual C++ Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe), then reboot.
+
+</Step>
+<Step>
+
+### Last resort: reinstall Salad
+
+[Uninstall Salad](/guides/using-salad/how-to-uninstall-salad), reboot, install from
+[salad.com/download](https://salad.com/download). Reinstalling doesn't touch drivers, WSL or Windows settings, which is
+why it comes last.
+
+</Step>
+</Steps>
+
+## Still stuck?
+
+Contact [Salad Support](/contact) with a description of what happens, your machine ID, and your logs folder zipped
+([how to find it](/guides/using-salad/how-to-find-your-salad-log-files)).
+[How to create a support ticket](/guides/your-pc/how-to-create-a-support-ticket) lists everything that speeds up an
+answer.

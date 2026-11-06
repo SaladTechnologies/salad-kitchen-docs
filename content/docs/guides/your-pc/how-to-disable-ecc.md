@@ -1,67 +1,45 @@
 ---
-title: How to Disable ECC
+title: How to disable ECC
+description:
+  Turn off ECC memory on an NVIDIA GPU with nvidia-smi so the full VRAM is available to Salad's container jobs.
 ---
 
-ECC (or Error-Correcting Code) memory helps detect and correct memory errors, which is crucial for scientific computing
-and data centers but not always needed for other workloads. The problem? Enabling ECC slightly reduces available VRAM,
-which can dip below the threshold required for Salad's container workloads.
+ECC (error-correcting code) memory reserves part of a GPU's VRAM to detect and correct memory errors. That is useful in
+data centres but not for Salad, and the reserved VRAM can leave your card just below what some container jobs need.
+Disabling ECC gives Salad the full VRAM and makes you eligible for more jobs.
 
-Disabling ECC can ensure you get the most out of your GPU, and are eligible to all workloads in the network. Let's dig
-in and clear out that extra seasoning!
+ECC is mainly found on workstation and data-center NVIDIA cards (and on some high-end GeForce cards). AMD cards also
+support ECC, but turning it off depends on AMD's own tools.
 
----
+## Step 1: check whether ECC is enabled
 
-## Step 1: Check if ECC is Enabled on Your GPU
-
-Before we start tossing things out, let's make sure your GPU actually has ECC enabled. Here's how to check:
-
-### Windows &amp; Linux (NVIDIA GPUs):
-
-1. Open a terminal or Command Prompt.
-2. Run the following command:
+1. Open Command Prompt or PowerShell.
+2. Run:
 
 ```
 nvidia-smi --query-gpu=ecc.mode.current --format=csv
 ```
 
-1. If it says `Enabled`, ECC is active.
+If the result says `Enabled`, ECC is active. `N/A` means your GPU does not support ECC and there is nothing to change.
 
-(Note: AMD GPUs also support ECC, but disabling it depends on specific software tools.)
+## Step 2: disable ECC
 
----
-
-## Step 2: Disable ECC via NVIDIA-SMI
-
-Now, let's get into the kitchen and start making adjustments!
-
-1. Open a terminal or Command Prompt as an administrator.
-2. Run the following command:
+1. Open Command Prompt or PowerShell **as administrator**.
+2. Run:
 
 ```
 nvidia-smi -e 0
 ```
 
-1. You should see a confirmation message.
-2. Restart your system for the changes to take effect.
+3. You should see a confirmation. Restart your PC to apply the change.
 
----
+## Step 3: verify
 
-## Step 3: Verify ECC is Disabled
+Run the command from step 1 again. It should now say `Disabled`.
 
-Just like tasting your dressing before pouring it over the salad, you'll want to double-check your work:
+## Troubleshooting
 
-1. Run the same command from **Step 1**:
-
-```
-nvidia-smi --query-gpu=ecc.mode.current --format=csv
-```
-
-1. If it now says `Disabled` , you're good to go!
-
----
-
-## Troubleshooting:
-
-- **Command Not Found?** Ensure you have NVIDIA drivers and CUDA installed.
-- **Option Not Available?** Some workstation GPUs force ECC on and may not allow it to be disabled.
-- **Still Seeing ECC?** Try restarting your system and checking again.
+- **Command not found:** `nvidia-smi` is part of the NVIDIA driver.
+  [Reinstall your drivers](/guides/your-pc/how-to-reinstall-gpu-drivers) if it is missing.
+- **Option not available:** some workstation GPUs force ECC on and do not allow it to be turned off.
+- **Still enabled after a reboot:** run the command again as administrator and restart once more.

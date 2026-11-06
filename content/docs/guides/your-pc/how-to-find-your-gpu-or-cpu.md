@@ -1,51 +1,53 @@
 ---
-title: How to Find Your GPU or CPU Specifications
+title: How to find your GPU or CPU specifications
+description:
+  Find your GPU or CPU model, VRAM and driver version in Windows Task Manager or in the Salad app's Performance tab.
 ---
 
-You can find your GPU or CPU model plus additional specifications (such as VRAM) from either your Task Manager or via
-the Salad Widget. Here are instructions for both methods.
+You can find your GPU or CPU model and its details (VRAM, driver version, usage) in Windows Task Manager, or see what
+Salad itself has detected in the Salad app. Both methods are below.
 
----
+## Task Manager
 
-## **How to Check Your GPU and/or CPU Via Task Manager**
-
-1. Either right click your Windows Taskbar or search "task manager" to locate Task Manager.
+1. Right-click the Windows taskbar and choose **Task Manager**, or search for "task manager" in the Start menu.
 
    ![Buttons to open Task Manger](../../../../content/images/guides/your-pc/how-to-find-your-gpu-or-cpu-specifications-1.png)
 
-2. Click and open Task Manager, then navigate to the performance tab
+2. Open the **Performance** tab.
 
    ![performance tab of task manager](../../../../content/images/guides/your-pc/how-to-find-your-gpu-or-cpu-specifications-2.png)
 
-3. Find the GPU and/or CPU you would like to inspect and click it for more information
+3. Click the GPU or CPU you want to inspect.
 
    ![screenshot of performance tab in task manager](../../../../content/images/guides/your-pc/how-to-find-your-gpu-or-cpu-specifications-3.png)
 
-4. You should see all relevant device information displayed prominently within the Task Manager window, including VRAM,
-   device usage, driver version, temperature, and more. See below:
+4. The model name is in the top-right corner. For a GPU you also see dedicated VRAM, driver version, temperature and
+   current usage.
 
    ![Screenshot of GPU tab in task manager](../../../../content/images/guides/your-pc/how-to-find-your-gpu-or-cpu-specifications-4.png)
 
----
+## The Salad app
 
-## **How to Check Your GPU and/or CPU Via the Salad Widget:**
-
-1. Open the Salad widget
+1. Open the Salad app.
 
    ![opening the Salad app](../../../../content/images/guides/your-pc/how-to-find-your-gpu-or-cpu-specifications-5.png)
 
-2. Navigate to the "PERFORMANCE" tab
+2. Open the **Performance** tab.
 
    ![Performance tab in the Salad app](../../../../content/images/guides/your-pc/how-to-find-your-gpu-or-cpu-specifications-6.png)
 
-3. GPUs will appear with this icon next to them
+3. GPUs are marked with this icon.
 
    ![example of GPUs in the Performance tab](../../../../content/images/guides/your-pc/how-to-find-your-gpu-or-cpu-specifications-7.png)
 
-4. CPUs will appear with this icon next to them
+4. CPUs are marked with this icon.
 
    ![example of CPUs in the performance tab](../../../../content/images/guides/your-pc/how-to-find-your-gpu-or-cpu-specifications-8.png)
 
-If you are unable to find your CPU or GPU shown here, make sure you are updated to the latest version of the Salad
-application and try again. You can download the latest version of the Salad application direct from the
-[download website](https://salad.com/download). If this still doesn't work, please contact [Salad Support](/contact).
+The Salad app only lists hardware it has detected, so this view is also the quickest way to confirm
+[what GPU or CPU Salad is detecting](/guides/your-pc/what-gpu-or-cpu-is-salad-detecting). If your hardware is missing
+there but shows in Task Manager, [update Salad](/guides/using-salad/how-to-update-salad) and check that your
+[GPU drivers](/guides/your-pc/how-to-reinstall-gpu-drivers) are installed correctly.
+
+Related: [Identifying your CPU](/guides/your-pc/identifying-your-cpu) and
+[Identifying your motherboard](/guides/your-pc/identifying-your-motherboard).

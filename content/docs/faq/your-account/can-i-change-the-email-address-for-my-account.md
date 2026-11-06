@@ -1,9 +1,15 @@
 ---
-title: Can I Change the Email Address for my Account?
+title: Can I change the email address for my account?
+description: No - the email address on a Salad account cannot be changed. What to do if you are moving to a new email.
 ---
 
-Unfortunately you are not able to change the email address connected to your Salad Account. If you are intending to move
-to a new email address, we recommend spending the last of your Salad Balance and then sending a request to
-[Salad Support](/contact) to delete your account. You can then create a new one with your new email address.
+No. The email address a Salad account is registered to cannot be changed, and Salad Support cannot change it for you.
 
-We are unable to transfer any progress or information from old accounts.
+If you are moving to a new email address:
+
+1. Redeem your remaining Salad Balance from the [Storefront](https://salad.com/store).
+2. [Request deletion of your account](/faq/your-account/how-can-i-delete-my-account) from the old email address.
+3. Create a new Salad account with the new email address.
+
+Nothing carries over from the old account: balance, earnings history, machines and achievements all stay with the
+account they were earned on.

@@ -1,0 +1,29 @@
+---
+title: How to create a HAR file
+description:
+  Record the network requests of the Salad web app or the Salad app's developer console and export them as a HAR file
+  for Support.
+---
+
+A HAR file is a recording of the network requests between the Salad website and Salad's servers. Support may ask for one
+when a problem cannot be seen in your logs, for example a page that will not load or an action that fails silently.
+
+<Callout type="warn">
+
+A HAR file contains session tokens and other personal data. Only send it to Salad Support through your ticket, never
+post it publicly.
+
+</Callout>
+
+## From a web browser
+
+Use this for problems on the Salad Website (store, account pages, redemptions).
+
+1. Open the page where the problem happens in Chrome, Edge or Firefox.
+2. Press **F12** (or **Ctrl + Shift + I**) to open the developer tools and select the **Network** tab.
+3. Tick **Preserve log** and make sure recording is on (the circle at the top left is red).
+4. Click the **clear** button (the circle with a line through it) to empty the list.
+5. Reproduce the problem. Requests fill the list.
+6. Click the **export** button (a downward arrow, "Export HAR") and save the file somewhere you will find it.
+7. Attach the file to your support ticket. See
+   [how to create a support ticket](/guides/your-pc/how-to-create-a-support-ticket).

@@ -1,7 +1,101 @@
 ---
 title: Antivirus
-icon: Rocket
+description:
+  Why antivirus and firewall products flag Salad, which folders to whitelist, and step-by-step exclusion guides for each
+  major product.
 ---
 
-This section contains detailed guides to help you whitelist Salad in your Antivirus and Firewall. Select your Antivirus
-from the list to the left to get started.
+Antivirus products regularly stop Salad from running. The programs Salad downloads to earn you balance are well-known
+open-source miners (XMRig, Rigel, T-Rex and others), and almost every antivirus flags miners on sight, usually as a
+"Trojan", "PUA" or "vulnerable driver" detection, even though the files are unmodified releases. Salad's container
+environment is also a virtual machine, which some security suites treat as suspicious. Neither detection means your PC
+is infected; it means the antivirus does not know what Salad is.
+
+## What to whitelist
+
+Add these two folders to your antivirus exclusions:
+
+- `C:\Program Files\Salad` (the Salad app)
+- `C:\ProgramData\Salad` (the container environment and the miners, under `workloads`)
+
+If your product only accepts single files, add every `.exe` under `C:\ProgramData\Salad\workloads`. If you would rather
+not whitelist miners at all, turn mining off in the Salad app's [Settings](/guides/using-salad/salad-app-settings) and
+Salad runs container jobs only.
+
+## Guides by product
+
+<Cards>
+  <Card
+    title="Windows Defender"
+    href="/troubleshooting/antivirus/how-to-whitelist-salad-in-windows-defender"
+    description="Built into Windows; includes what to do when Defender removes a miner."
+  />
+  <Card
+    title="Avast"
+    href="/troubleshooting/antivirus/how-to-whitelist-salad-in-avast-antivirus"
+    description="Add Salad to Avast exceptions."
+  />
+  <Card
+    title="AVG"
+    href="/troubleshooting/antivirus/how-to-whitelist-salad-in-avg"
+    description="Add Salad to AVG exceptions."
+  />
+  <Card
+    title="Avira"
+    href="/troubleshooting/antivirus/how-to-whitelist-salad-in-avira"
+    description="Add Salad to Avira exceptions."
+  />
+  <Card
+    title="Bitdefender"
+    href="/troubleshooting/antivirus/how-to-whitelist-salad-in-bitdefender-antivirus-plus"
+    description="Add Salad to Bitdefender exceptions."
+  />
+  <Card
+    title="ESET NOD32"
+    href="/troubleshooting/antivirus/how-to-whitelist-salad-in-eset-node32"
+    description="Add Salad to ESET exclusions."
+  />
+  <Card
+    title="Kaspersky"
+    href="/troubleshooting/antivirus/how-to-whitelist-salad-in-kaspersky"
+    description="Add Salad to Kaspersky exclusions; known incompatibility notes."
+  />
+  <Card
+    title="Malwarebytes"
+    href="/troubleshooting/antivirus/how-to-whitelist-salad-in-malwarebytes"
+    description="Add Salad to the Malwarebytes allow list."
+  />
+  <Card
+    title="McAfee"
+    href="/troubleshooting/antivirus/how-to-whitelist-salad-in-mcafee"
+    description="Add Salad to McAfee exclusions."
+  />
+  <Card
+    title="Norton"
+    href="/troubleshooting/antivirus/how-to-whitelist-salad-in-norton-antivirus"
+    description="Add Salad to Norton exclusions."
+  />
+  <Card
+    title="My antivirus isn't listed here"
+    href="/troubleshooting/antivirus/my-antivirus-isnt-listed-here"
+    description="Generic steps and links for other products."
+  />
+</Cards>
+
+## Firewalls
+
+<Cards>
+  <Card
+    title="Whitelisting Salad in Windows Firewall"
+    href="/troubleshooting/antivirus/how-to-whitelist-salads-miners-in-windows-firewall"
+    description="Allow the miners through the Windows firewall."
+  />
+  <Card
+    title="Whitelisting Salad in your firewall"
+    href="/troubleshooting/antivirus/whitelisting-salad-in-your-firewall"
+    description="Third-party and router firewalls."
+  />
+</Cards>
+
+Once Salad is whitelisted, start it again. If it was blocked while downloading, see
+[I can't get Salad to download](/troubleshooting/pc-configuration/i-cant-get-salad-to-download).

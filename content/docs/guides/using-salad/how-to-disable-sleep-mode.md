@@ -1,25 +1,27 @@
 ---
-title: How to Disable Sleep Mode
+title: How to disable sleep mode
+description: Stop your PC from going to sleep while Salad is Chopping, from inside the Salad app.
 ---
 
-Disabling Sleep Mode on your PC will prevent your PC from automatically going to sleep whilst Chopping Salad. Disabling
-this will maximise your PCs chopping potential, so we recommend turning it off.
+Windows puts your PC to sleep after a short period of inactivity, and nothing can run while it sleeps, so a job in
+progress is interrupted. Disabling Sleep Mode in the Salad app keeps your PC awake while Salad runs. We recommend
+turning it off on any PC you want to earn with.
 
-1. Open your Salad Widget
+1. Open the Salad app.
 
    ![Opening the Salad app](../../../../content/images/guides/using-salad/how-to-disable-sleep-mode-1.png)
 
-2. Click your Profile Picture at the top left
+2. Click your profile picture in the top left corner.
 
    ![Selecting your profile in the Salad app](../../../../content/images/guides/using-salad/how-to-disable-sleep-mode-2.png)
 
-3. Click the "Settings" button
+3. Click **Settings**.
 
    ![Opening settings in the Salad app](../../../../content/images/guides/using-salad/how-to-disable-sleep-mode-3.png)
 
-4. Locate the Sleep Mode settings and click "Disable Sleep Mode"
+4. Find the Sleep Mode setting and click **Disable Sleep Mode**.
 
    ![finding the Sleep mode settings in Salad](../../../../content/images/guides/using-salad/how-to-disable-sleep-mode-4.png)
 
-Using this feature will only disable auto-sleep mode on your PC whilst plugged in. If you are using a laptop that is
-unplugged, it will still go to sleep as normal. You can still manually put your PC to sleep.
+This only prevents automatic sleep while the PC is plugged in. A laptop running on battery still goes to sleep as
+normal, and you can always put the PC to sleep manually.

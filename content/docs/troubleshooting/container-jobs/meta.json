@@ -2,8 +2,9 @@
   "title": "Container Jobs",
   "icon": "MyIcon",
   "pages": [
-    "container-workloads-troubleshooting",
-    "virtualization-conflicts-android-emulators",
-    "unable-to-start-container-faq"
+    "index",
+    "downloads-slow-or-failing",
+    "storage-calculation-error",
+    "virtualization-conflicts-android-emulators"
   ]
 }

@@ -1,16 +1,18 @@
 ---
-title: How Do I Redeem My Eneba Gift Cards?
+title: How do I redeem my Eneba gift cards?
+description:
+  Add an Eneba gift card code from Salad to your Eneba wallet, including creating an Eneba account if you do not have
+  one.
 ---
 
 Once you have purchased an Eneba gift card from the Salad Storefront, you'll receive an activation code to use on
-Eneba's global marketplace.
-[How do I find my activation code?](/guides/using-salad/where-to-find-your-reward-redemption-code)
+Eneba's global marketplace. [How do I find my activation code?](/rewards/help/reward-vault-and-redemption-codes)
 
 If you have an existing Eneba account, head to
 [https://www.eneba.com/redeem-gift-card](https://www.eneba.com/redeem-gift-card) and enter the activation code to add
 funds to your Eneba wallet.
 
-### Eneba Account Setup
+### Eneba account setup
 
 If you have not created an existing Eneba account, you will need to create one in order to store your gift card funds.
 Please follow the steps below to create your account.
@@ -37,5 +39,11 @@ profile" to confirm your contact details and select your preferred method of two
 ![Screenshot of the Eneba website saying to update your profile](../../../../content/images/rewards/redeeming-your-rewards/eneba-gift-cards-3.png)
 
 9. Enter the gift card code associated with your Eneba reward. You may find this listed in the
-[Reward Vault](/guides/using-salad/where-to-find-your-reward-redemption-code), or in the receipt sent to the email
-associated with your Salad account.
+[Reward Vault](/rewards/help/reward-vault-and-redemption-codes), or in the redemption email sent to the email address on
+your Salad account.
+
+## Experiencing issues?
+
+If Eneba rejects the code or the funds do not appear in your wallet, contact
+[Eneba support](https://www.eneba.com/contact). See [Problems using a reward](/rewards/help/problems-using-a-reward) for
+what to send them and what to send Salad.

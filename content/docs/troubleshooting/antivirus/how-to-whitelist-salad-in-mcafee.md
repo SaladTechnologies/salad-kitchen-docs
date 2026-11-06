@@ -1,5 +1,6 @@
 ---
-title: How to Whitelist Salad in McAfee
+title: 'How to Whitelist Salad in McAfee'
+description: 'Step-by-step: add the Salad folders to the exclusions in McAfee so it stops blocking Salad.'
 ---
 
 **1. Open McAfee**
@@ -39,10 +40,10 @@ In this page, you now need to click the "Excluded Files" drop down, and select "
 
 **7. Adding Salad as an Exclusion**
 
-After clicking on "Add file", you'll want to paste "C:\\ProgramData\\Salad\\workloads" into your filepath bar at the
-very top of the popped up File Explorer window. Inside this folder, you should see several more folders. These folders
-are where the miners are stored. Inside each of these folders, you will need to select the .exe file and whitelist them.
-As McAfee doesn't support folder exclusion you will need to add every file that has .exe as an exclusion. We recommend
+After clicking on "Add file", you'll want to paste `C:\ProgramData\Salad\workloads` into your filepath bar at the very
+top of the popped up File Explorer window. Inside this folder, you should see several more folders. These folders are
+where the miners are stored. Inside each of these folders, you will need to select the .exe file and whitelist them. As
+McAfee doesn't support folder exclusion you will need to add every file that has .exe as an exclusion. We recommend
 starting with the versions with the highest version numbers.
 
 ![file explorer with Salad file path](../../../../content/images/troubleshooting/antivirus/how-to-whitelist-salad-in-mcafee-5.png)

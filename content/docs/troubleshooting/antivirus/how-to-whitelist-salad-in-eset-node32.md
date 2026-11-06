@@ -1,5 +1,6 @@
 ---
-title: How to Whitelist Salad in ESET-NODE32
+title: 'How to Whitelist Salad in ESET-NODE32'
+description: 'Step-by-step: add the Salad folders to the exclusions in ESET NOD32 so it stops blocking Salad.'
 ---
 
 ### 1. Open ESET-NODE32
@@ -41,7 +42,7 @@ After you have clicked on 'Edit exclusions' you will be presented with a list of
 
 After you have clicked on 'Add', you will be presented with a new window. At first, make sure that you have set 'Type'
 as 'Exclude path'. And on the 'Path' box, you'll want to navigate to the Salad miner folder and select it, the default
-path for this is "C:\\ProgramData\\Salad\\workloads" and click 'Ok'.
+path for this is `C:\ProgramData\Salad\workloads` and click 'Ok'.
 
 ### 7. Click 'Save'
 

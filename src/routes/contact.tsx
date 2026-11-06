@@ -40,7 +40,7 @@ function Contact() {
                 <h2 className="mb-4 text-lg font-bold xl:text-5xl">Need help?</h2>
                 <p>
                   If you have questions or need assistance, reach out to us using our contact form. We aim to respond
-                  within 24 business hours.
+                  within 3 business days.
                 </p>
                 <a
                   href="#"
@@ -92,7 +92,7 @@ function Contact() {
               </li>
               <li className="space-y-3 border-t py-6 md:max-w-sm md:border-t-0 md:py-0 lg:max-w-none lg:border-t lg:px-12">
                 <h2 className="mt-8 mb-4 text-lg font-bold xl:text-5xl">Send us an email!</h2>
-                <p>Contact the Salad Support team directly via email. We aim to respond within 24 business hours.</p>
+                <p>Contact the Salad Support team directly via email. We aim to respond within 3 business days.</p>
                 <a
                   href={
                     'mailto:support@salad.com?subject=' +

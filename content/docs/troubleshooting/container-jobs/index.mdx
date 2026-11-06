@@ -1,0 +1,29 @@
+---
+title: 'Container Jobs'
+description:
+  'Problems that stop a container job from being downloaded or set up on your PC: slow downloads, storage errors and
+  virtualization conflicts.'
+---
+
+Container jobs are downloaded into Salad's Linux container environment and then started on your GPU. The pages here
+cover what goes wrong _before_ a job runs. If the app shows a Degraded notification, start with
+[Degraded State](/troubleshooting/degraded-state); if jobs download fine but you're not earning, see
+[Not Earning](/troubleshooting/not-earning).
+
+<Cards>
+  <Card
+    title="Downloads slow or failing"
+    href="/troubleshooting/container-jobs/downloads-slow-or-failing"
+    description="Jobs crawl at a few KB/s, restart from zero, 401 or 'no route to host' - how to find the cause on the network path."
+  />
+  <Card
+    title="Storage calculation error"
+    href="/troubleshooting/container-jobs/storage-calculation-error"
+    description="Salad can't work out your free space: PowerShell or DISM needs repairing."
+  />
+  <Card
+    title="Virtualization conflicts with Android emulators"
+    href="/troubleshooting/container-jobs/virtualization-conflicts-android-emulators"
+    description="BlueStacks and Nox Player stop the container environment from setting up."
+  />
+</Cards>

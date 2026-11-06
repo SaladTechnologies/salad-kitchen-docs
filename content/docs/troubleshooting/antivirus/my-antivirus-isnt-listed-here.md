@@ -1,10 +1,16 @@
 ---
-title: My Antivirus isn't Listed Here
+title: My antivirus isn't listed here
+description:
+  Generic steps and vendor links for whitelisting Salad in antivirus products that do not have their own guide.
 ---
 
-We have in-depth guides available for many common Antivirus options. If there isn't a guide for you, you can still
-follow the official whitelist guide from your Antivirus manufacturer. When you get to adding an exclusion, you'll need
-to add this path: `C:\ProgramData\Salad\workloads`.
+If there is no guide for your antivirus, follow your vendor's own instructions for adding an exclusion (sometimes called
+an exception, allow list or trusted folder) and add these two folders:
+
+- `C:\Program Files\Salad`
+- `C:\ProgramData\Salad`
+
+Vendor instructions for some products:
 
 - [Webroot](https://answers.webroot.com/Webroot/ukp.aspx?pid=17&app=vw&vw=1&solutionid=25&t=You-want-to-exclude-items-from-scans)
 - [Trend Micro](https://helpcenter.trendmicro.com/en-us/article/TMKA-14498)
@@ -17,22 +23,19 @@ to add this path: `C:\ProgramData\Salad\workloads`.
 - [VIPRE](https://success.vipre.com/endpoint-cloud-manage/endpoint-cloud-add-exclusion)
 - [SecureAge Apex](https://secureaplus.secureage.com/Main/resource/SecureAPlus3.4User%20Guidev3.0.pdf)
 
-If your Antivirus isn't listed above, we can still help. Whilst we can't provide an in-depth guide, you can follow these
-basic steps below that should still apply to your Antivirus.
+## If your product only accepts files
 
----
+Add every `.exe` under `C:\ProgramData\Salad\workloads`. Each [miner](/faq/jobs/mining-as-a-backup-workload) has its own
+subfolder there. You may need to repeat this when a miner is updated. If that is too much upkeep, turn mining off in the
+Salad app's [Settings](/guides/using-salad/salad-app-settings) and run container jobs only.
 
-## Whitelisting Salad's Miners
+## Restore anything already quarantined
 
-If Salad is being blocked by your Antivirus, you'll need to add a whitelist. The folder you need to whitelist is
-`C:\ProgramData\Salad\workloads` . If your Antivirus service does not support folder whitelists, you will need to add a
-whitelist for the individual [miner](/faq/salad-app/what-miners-does-salad-currently-use) `.exe` files. These can be
-found under `C:\ProgramData\Salad\workloads` . In this directory, you can find all of the folders for the miner plugins
-we use, you'll need to whitelist each of the files within these folders.
+After adding the exclusions, open your antivirus's quarantine or protection history, restore any Salad or miner files it
+removed, then start Salad again.
 
----
+## Web shields and firewalls
 
-## Disabling Web-Shields
-
-Your Antivirus may have a built-in web-shield or firewall service, if Salad is still being blocked after whitelisting
-the above path, you may need to disable this feature from your Antivirus, or add a whitelist for the miners.
+Many suites include a web shield or firewall that blocks the miners' connections separately from file scanning. If Salad
+still cannot start a miner after whitelisting the folders, allow the miner executables in that module too, or see
+[Whitelisting Salad in your firewall](/troubleshooting/antivirus/whitelisting-salad-in-your-firewall).

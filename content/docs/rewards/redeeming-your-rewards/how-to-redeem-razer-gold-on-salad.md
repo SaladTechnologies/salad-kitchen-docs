@@ -1,23 +1,26 @@
 ---
-title: How to Redeem Razer Gold on Salad
+title: How to redeem Razer Gold on Salad
+description:
+  Load a Razer Gold reward from Salad into your Razer Gold wallet and use it across games and entertainment brands.
 ---
 
-Salad Chefs can now redeem Razer Gold on the Salad Storefront! Razer Gold is a digital wallet for gamers, created by
-Razer and accepted by thousands of games and entertainment brands.
+Razer Gold is a digital wallet for gamers, created by Razer and accepted by thousands of games and entertainment brands.
+You can redeem Razer Gold from the Salad Storefront.
 
-Here's how to get started once you redeem your Razer Gold reward on the Salad Storefront:
+Once you have redeemed a Razer Gold reward:
 
-1. After redeeming the Razer Gold reward on Salad's Storefront, you will receive a confirmation email containing your
-   reward.
-2. Visit gold.razer.com and sign in with your Razer ID to create your Razer Gold Wallet.
-3. Add funds to your Razer Gold Wallet to start using it for purchases.
-4. Select Razer Gold as your payment method for any game on the catalog and check out to earn Razer Silver.
-5. Alternatively, you can redeem a Razer Gold gift card by selecting 'Razer Gold PIN' on the Reload Page.
+1. Find your Razer Gold PIN in your [Reward Vault](/rewards/help/reward-vault-and-redemption-codes) or in the
+   confirmation email sent to your Salad account's email address.
+2. Visit [gold.razer.com](https://gold.razer.com) and sign in with your Razer ID to create your Razer Gold wallet.
+3. On the Reload page, select **Razer Gold PIN** and enter the PIN from Salad to add the funds to your wallet.
+4. Select Razer Gold as your payment method for any game in the catalog and check out.
 
-When using Razer Gold on the Razer store, Chefs not only gain access to Razer's vast catalog of games and rewards, but
-can also earn points in Razer Silver, Razer's official rewards program. These points can be redeemed for more rewards,
-such as Razer gear and gift cards.
+Paying with Razer Gold also earns Razer Silver, Razer's rewards program, which you can spend on more rewards such as
+Razer gear and gift cards.
 
-If you're having trouble with your Salad confirmation email and/or Reward Vault, please
-[submit a support ticket](/contact). If you need help using your Razer Gold once it's redeemed, either check out
-[Razer Gold's FAQ](https://gold.razer.com/us/en/help) or [contact Razer for support](https://gold.razer.com/my/en/help).
+## Experiencing issues?
+
+If the PIN has not arrived in your Reward Vault or email, see
+[I redeemed a reward but haven't received it](/rewards/help/i-redeemed-a-reward-but-havent-received-it). If you need
+help using Razer Gold once it is redeemed, check [Razer Gold's help pages](https://gold.razer.com/us/en/help) or contact
+Razer there; see [Problems using a reward](/rewards/help/problems-using-a-reward).
