@@ -15,34 +15,52 @@ supported countries are:
 
 - 🇦🇺 Australia
 - 🇦🇹 Austria
+- 🇧🇪 Belgium
+- 🇧🇷 Brazil
 - 🇨🇦 Canada
+- 🇨🇱 Chile
 - 🇨🇴 Colombia
+- 🇭🇷 Croatia
 - 🇨🇿 Czech Republic
 - 🇩🇰 Denmark
+- 🇪🇨 Ecuador
 - 🇫🇮 Finland
 - 🇫🇷 France
 - 🇩🇪 Germany
 - 🇬🇧 Great Britain
 - 🇬🇷 Greece
+- 🇭🇰 Hong Kong
 - 🇭🇺 Hungary
 - 🇮🇸 Iceland
 - 🇮🇳 India
+- 🇮🇩 Indonesia
+- 🇮🇱 Israel
 - 🇮🇹 Italy
 - 🇯🇵 Japan
 - 🇱🇹 Lithuania
 - 🇲🇽 Mexico
 - 🇳🇱 Netherlands
 - 🇳🇴 Norway
+- 🇵🇪 Peru
 - 🇵🇭 Philippines
+- 🇵🇱 Poland
 - 🇵🇹 Portugal
 - 🇷🇴 Romania
+- 🇷🇸 Serbia
 - 🇸🇬 Singapore
 - 🇸🇰 Slovakia
+- 🇿🇦 South Africa
+- 🇪🇸 Spain
 - 🇸🇪 Sweden
 - 🇨🇭 Switzerland
+- 🇹🇼 Taiwan
 - 🇹🇭 Thailand
+- 🇹🇷 Turkey
 - 🇺🇦 Ukraine
+- 🇦🇪 United Arab Emirates
 - 🇺🇸 USA
+- 🇻🇪 Venezuela
+- 🇻🇳 Vietnam
 
 If your country is not listed you can't receive bandwidth sharing jobs yet; more regions are added over time. Demand
 also varies through the day, so you won't always see bandwidth sharing running. Bandwidth sharing does not work through
