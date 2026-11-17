@@ -19,6 +19,9 @@ Programs that count as using the GPU include, though may not be limited to:
 - Benchmarking tools (3DMark, Unigine Heaven).
 - Any other GPU compute software, including other mining or compute-sharing apps.
 
+For every game and program Salad checks for by name, see the
+[Intensive Process List](/guides/getting-jobs/intensive-process-list).
+
 Close these before you start Chopping. If you need one of them while Salad is running, pause Salad first by choosing
 **Pause Until Idle** or **Pause Indefinitely** in the app (see
 [Salad's running states](/guides/using-salad/salads-different-running-states)); this stops the job cleanly and frees
