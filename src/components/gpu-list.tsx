@@ -165,23 +165,30 @@ export const GpuList: FunctionComponent = () => {
                     const id = gpuId(gpu)
                     const isSaved = savedGpus.includes(id)
                     return (
-                      <tr key={id}>
+                      <tr
+                        className={`cursor-pointer ${isSaved ? 'bg-fd-primary/10' : ''}`}
+                        key={id}
+                        onClick={() => toggleSaved(id)}
+                      >
                         <td style={cellStyle}>
-                          <div className="flex items-center gap-2">
-                            <button
-                              aria-label={isSaved ? `Remove ${id} from my GPUs` : `Add ${id} to my GPUs`}
-                              aria-pressed={isSaved}
-                              className="text-lg"
-                              onClick={() => toggleSaved(id)}
-                              type="button"
-                            >
+                          <button
+                            aria-label={isSaved ? `Remove ${id} from my GPUs` : `Add ${id} to my GPUs`}
+                            aria-pressed={isSaved}
+                            className="flex w-full items-center gap-2 text-left"
+                            onClick={(event) => {
+                              event.stopPropagation()
+                              toggleSaved(id)
+                            }}
+                            type="button"
+                          >
+                            <span aria-hidden="true" className="text-lg">
                               {isSaved ? '★' : '☆'}
-                            </button>
+                            </span>
                             <span className="min-w-[5.5rem]">
                               {gpu.name}{' '}
                               <span className="text-fd-muted-foreground block sm:inline">({gpu.vram} GB)</span>
                             </span>
-                          </div>
+                          </button>
                         </td>
                         <td className={rateClass} style={rateStyle}>
                           {formatRate(gpu.lowest)}
