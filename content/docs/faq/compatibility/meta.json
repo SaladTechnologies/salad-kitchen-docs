@@ -4,6 +4,7 @@
   "pages": [
     "index",
     "is-my-machine-compatible-with-salad",
+    "compatible-gpus-and-earning-rates",
     "do-you-support-macos-and-linux",
     "what-is-the-minimum-recommended-internet-speed-for-salad",
     "does-my-pc-support-virtualization",

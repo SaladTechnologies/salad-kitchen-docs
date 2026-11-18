@@ -9,7 +9,7 @@ your CPU in some capacity, it can be included in the estimations in these cases.
 
 You can find the power ratings of [your GPU and CPU](/guides/your-pc/how-to-find-your-gpu-or-cpu) on the manufacturers'
 pages, or measure the real draw with a plug-in meter. Then use the profitability calculator on our
-[download page](https://salad.com/download), or follow
+[download page](https://salad.com/download/#epc-title), or follow
 [Calculating profitability and electricity costs](/faq/jobs/calculating-profitability-and-electricity-costs) for the
 full method.
 

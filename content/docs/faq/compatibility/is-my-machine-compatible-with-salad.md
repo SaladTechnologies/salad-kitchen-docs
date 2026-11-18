@@ -11,7 +11,8 @@ app tells you which of these your own machine is missing.
 
 ## GPU
 
-Not sure what you have? See [How to find your GPU or CPU](/guides/your-pc/how-to-find-your-gpu-or-cpu).
+Not sure what you have? See [How to find your GPU or CPU](/guides/your-pc/how-to-find-your-gpu-or-cpu). For the full
+list of supported cards, see [Compatible GPUs and earning rates](/faq/compatibility/compatible-gpus-and-earning-rates).
 
 - **It must have 4GB of VRAM or more.** Customers request specific GPU models, and the Network Monitor lists most models
   that are asked for, with its demand level and rate range. Some GPUs may be supported even if they are not in the
