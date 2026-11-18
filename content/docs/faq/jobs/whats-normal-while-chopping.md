@@ -62,6 +62,11 @@ A [Windows update](/faq/jobs/how-windows-updates-affect-salad) or any other rest
 your PC is back up, check that Salad is Chopping again, and expect a bit of "finding a job" before the next one shows
 up.
 
+## Chopping on a Laptop
+
+Laptops are compatible with Salad, but they're more susceptible to heat issues than desktops. You may need to take extra
+steps, like additional cooling, to keep yours stably Chopping. See [Heat and Fan Noise](/faq/jobs/heat-and-fan-noise).
+
 ## When to Take a Closer Look
 
 - A [Degraded notification](/troubleshooting/degraded-state) under the bell icon in the app.
