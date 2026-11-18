@@ -25,9 +25,10 @@ For more, see the [Network Monitor](/faq/jobs/network-monitor).
 
 ## Can I see the priority level of the job I'm running?
 
-Not directly. The app doesn't show a job's priority level, but you can work it out from your earning rate. The
-[Network Monitor](/faq/jobs/network-monitor) shows the lowest and highest rate a job on your card can pay. The closer
-your rate is to the top of that range, the higher the priority of the job you're running.
+Not directly. The app doesn't show a job's priority level, but you can work it out from your earning rate. Compare your
+current rate in the app to your card's four rates in
+[Compatible GPUs and earning rates](/faq/compatibility/compatible-gpus-and-earning-rates). The one it matches is the
+priority of the job you're running.
 
 ## Can I choose which priority level I get?
 
