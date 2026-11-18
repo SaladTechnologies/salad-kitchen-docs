@@ -28,26 +28,26 @@ const chipClass = (active: boolean): string =>
 export const GpuList: FunctionComponent = () => {
   const [query, setQuery] = useState('')
   const [group, setGroup] = useState<string | undefined>(undefined)
-  const [mine, setMine] = useState<string[]>([])
-  const [onlyMine, setOnlyMine] = useState(false)
+  const [savedGpus, setSavedGpus] = useState<string[]>([])
+  const [onlySaved, setOnlySaved] = useState(false)
   const deferredQuery = useDeferredValue(query)
 
   useEffect(() => {
     try {
       const saved: unknown = JSON.parse(window.localStorage.getItem(storageKey) ?? '[]')
       if (Array.isArray(saved)) {
-        setMine(saved.filter((name): name is string => typeof name === 'string'))
+        setSavedGpus(saved.filter((name): name is string => typeof name === 'string'))
       }
     } catch {
       // Saved GPUs are a convenience. Without storage the list still works.
     }
   }, [])
 
-  const toggleMine = (name: string): void => {
-    const next = mine.includes(name) ? mine.filter((saved) => saved !== name) : [...mine, name]
-    setMine(next)
+  const toggleSaved = (name: string): void => {
+    const next = savedGpus.includes(name) ? savedGpus.filter((saved) => saved !== name) : [...savedGpus, name]
+    setSavedGpus(next)
     if (next.length === 0) {
-      setOnlyMine(false)
+      setOnlySaved(false)
     }
 
     try {
@@ -60,7 +60,7 @@ export const GpuList: FunctionComponent = () => {
   const visible = useMemo(() => {
     const needle = deferredQuery.trim().toLowerCase()
     return allGpus.filter((gpu) => {
-      if (onlyMine && !mine.includes(gpu.name)) {
+      if (onlySaved && !savedGpus.includes(gpu.name)) {
         return false
       }
 
@@ -74,7 +74,7 @@ export const GpuList: FunctionComponent = () => {
         (gpu.aliases ?? []).some((alias) => alias.toLowerCase().includes(needle))
       )
     })
-  }, [deferredQuery, group, mine, onlyMine])
+  }, [deferredQuery, group, savedGpus, onlySaved])
 
   return (
     <div>
@@ -107,13 +107,13 @@ export const GpuList: FunctionComponent = () => {
           </button>
         ))}
         <button
-          aria-pressed={onlyMine}
-          className={chipClass(onlyMine)}
-          disabled={mine.length === 0}
-          onClick={() => setOnlyMine(!onlyMine)}
+          aria-pressed={onlySaved}
+          className={chipClass(onlySaved)}
+          disabled={savedGpus.length === 0}
+          onClick={() => setOnlySaved(!onlySaved)}
           type="button"
         >
-          ★ My GPUs ({mine.length})
+          ★ My GPUs ({savedGpus.length})
         </button>
       </div>
       <p aria-live="polite" className="text-fd-muted-foreground text-sm">
@@ -123,7 +123,7 @@ export const GpuList: FunctionComponent = () => {
         <table>
           <thead>
             <tr>
-              <th>Mine</th>
+              <th>Saved</th>
               <th>GPU</th>
               <th>High</th>
               <th>Medium</th>
@@ -133,18 +133,18 @@ export const GpuList: FunctionComponent = () => {
           </thead>
           <tbody>
             {visible.map((gpu) => {
-              const saved = mine.includes(gpu.name)
+              const isSaved = savedGpus.includes(gpu.name)
               return (
                 <tr key={gpu.name}>
                   <td>
                     <button
-                      aria-label={saved ? `Remove ${gpu.name} from my GPUs` : `Add ${gpu.name} to my GPUs`}
-                      aria-pressed={saved}
+                      aria-label={isSaved ? `Remove ${gpu.name} from my GPUs` : `Add ${gpu.name} to my GPUs`}
+                      aria-pressed={isSaved}
                       className="px-2 text-lg"
-                      onClick={() => toggleMine(gpu.name)}
+                      onClick={() => toggleSaved(gpu.name)}
                       type="button"
                     >
-                      {saved ? '★' : '☆'}
+                      {isSaved ? '★' : '☆'}
                     </button>
                   </td>
                   <td>{gpu.name}</td>
