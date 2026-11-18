@@ -1,34 +1,48 @@
 ---
 title: How priority levels work
 description:
-  What job priority is, who sets it, and why the same GPU can earn different amounts from one job to the next.
+  Why job priority exists, how it differs from demand, how to tell which level you are on, and how to get more High
+  priority jobs.
 ---
 
-Priority is the reason the same GPU can earn different amounts from one job to the next. Here's how it works.
+Every job on Salad has a priority level that the customer sets: Lowest, Low, Medium or High. The higher the priority,
+the more the job pays you.
 
-## Customers pick the priority
+## Why do priority levels exist?
 
-Every job comes with one of four priority levels: Lowest, Low, Medium or High. The customer chooses it when they submit
-the job. Each step up costs them more and pays you more. You can't pick a priority yourself, and you don't need to.
+Customers don't all need GPUs with the same urgency. Priority lets a customer who needs GPUs right now pay more to get
+them, and lets one who can wait pay less. A higher priority job gets first pick of the machines that fit it, and can
+take a machine from a lower priority job. For you, that means the more customers want your card, the more they pay for
+it.
 
-## Why a customer pays for higher priority
+## How is priority different from demand?
 
-Higher priority jobs get first pick of the machines that fit them. If a customer can't get enough GPUs at a lower
-priority, they can pay more to get them, and their job can take eligible machines away from lower priority jobs.
+Demand is how much of your GPU model is in use across the network. It tells you how likely you are to have a job at all.
+Priority is what that job pays while it runs. The two often rise together, because when a card is scarce, lower priority
+jobs get replaced by higher ones. But a card in high demand can still be running mostly Low or Medium priority jobs.
 
-## Your PC moves up without you
+For more, see the [Network Monitor](/faq/jobs/network-monitor).
 
-When a better-paying job needs your GPU and your machine fits, Salad moves you to it. You don't have to watch for it or
-restart anything. Just keep Chopping.
+## Can I see the priority level of the job I'm running?
 
-## Demand and priority are two different things
+Not directly. The app doesn't show a job's priority level, but you can work it out from your earning rate. The
+[Network Monitor](/faq/jobs/network-monitor) shows the lowest and highest rate a job on your card can pay. The closer
+your rate is to the top of that range, the higher the priority of the job you're running.
 
-Demand is how much of your GPU model is in use across the network, which tells you how likely you are to have a job at
-all. Priority decides what that job pays while it runs. The [Network Monitor](/faq/jobs/network-monitor) shows both: the
-demand for your GPU, and the lowest and highest rate a job on it can pay.
+## Can I choose which priority level I get?
 
-## Getting more High priority jobs
+No. The customer sets the priority and jobs are assigned automatically. You also don't need to chase it. When a higher
+priority job needs your GPU and your machine fits, Salad moves you to it.
 
-[There's no queue to climb](/faq/jobs/whats-normal-while-chopping#there-is-no-queue), so the only way to improve your
-odds is to be a world-class Chef. Run a lot, don't use the PC while you're Chopping, and have the hardware customers are
-asking for. More RAM helps, because some jobs require it and fewer machines can take them.
+## How do I get more High priority jobs?
+
+There's no queue to climb. Salad picks from the pool of available machines by compatibility, then reliability, and after
+that it's luck. What improves your odds is being a world-class Chef:
+
+- Run a lot.
+- Don't interrupt jobs all the time.
+- Don't use the PC while you're Chopping.
+- Have in-demand hardware.
+- Have good supporting hardware. More RAM means more chances at better jobs.
+
+For more, see [There is no queue](/faq/jobs/whats-normal-while-chopping#there-is-no-queue).
