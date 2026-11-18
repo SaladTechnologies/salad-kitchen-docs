@@ -1,20 +1,33 @@
 'use client'
 import rates from '@/data/gpu-earning-rates.json'
-import { useDeferredValue, useEffect, useMemo, useState, type FunctionComponent } from 'react'
+import { Fragment, useDeferredValue, useEffect, useMemo, useState, type FunctionComponent } from 'react'
 
 interface Gpu {
-  aliases?: string[]
   group: string
   high: number
   low: number
   lowest: number
   medium: number
   name: string
+  vram: number
 }
 
 const allGpus: Gpu[] = rates.gpus
-const groups = ['RTX 50', 'RTX 40', 'RTX 30', 'RTX 20', 'GTX', 'Laptop', 'AMD', 'Workstation']
+const groups = [
+  'RTX 50 series',
+  'RTX 40 series',
+  'RTX 30 series',
+  'RTX 20 series',
+  'GTX',
+  'AMD',
+  'Workstation',
+  'Laptops',
+]
 const storageKey = 'salad-my-gpus'
+const cellStyle = { paddingInline: '0.5rem' }
+const rateStyle = { paddingInline: '0.375rem' }
+const rateClass = 'text-xs sm:text-sm'
+const gpuId = (gpu: Gpu): string => `${gpu.name} (${gpu.vram} GB)`
 const formatRate = (rate: number): string => `$${rate.toFixed(3)}`
 
 const chipClass = (active: boolean): string =>
@@ -36,15 +49,15 @@ export const GpuList: FunctionComponent = () => {
     try {
       const saved: unknown = JSON.parse(window.localStorage.getItem(storageKey) ?? '[]')
       if (Array.isArray(saved)) {
-        setSavedGpus(saved.filter((name): name is string => typeof name === 'string'))
+        setSavedGpus(saved.filter((id): id is string => typeof id === 'string'))
       }
     } catch {
       // Saved GPUs are a convenience. Without storage the list still works.
     }
   }, [])
 
-  const toggleSaved = (name: string): void => {
-    const next = savedGpus.includes(name) ? savedGpus.filter((saved) => saved !== name) : [...savedGpus, name]
+  const toggleSaved = (id: string): void => {
+    const next = savedGpus.includes(id) ? savedGpus.filter((saved) => saved !== id) : [...savedGpus, id]
     setSavedGpus(next)
     if (next.length === 0) {
       setOnlySaved(false)
@@ -60,7 +73,7 @@ export const GpuList: FunctionComponent = () => {
   const visible = useMemo(() => {
     const needle = deferredQuery.trim().toLowerCase()
     return allGpus.filter((gpu) => {
-      if (onlySaved && !savedGpus.includes(gpu.name)) {
+      if (onlySaved && !savedGpus.includes(gpuId(gpu))) {
         return false
       }
 
@@ -68,13 +81,9 @@ export const GpuList: FunctionComponent = () => {
         return false
       }
 
-      return (
-        needle === '' ||
-        gpu.name.toLowerCase().includes(needle) ||
-        (gpu.aliases ?? []).some((alias) => alias.toLowerCase().includes(needle))
-      )
+      return needle === '' || gpuId(gpu).toLowerCase().includes(needle)
     })
-  }, [deferredQuery, group, savedGpus, onlySaved])
+  }, [deferredQuery, group, onlySaved, savedGpus])
 
   return (
     <div>
@@ -120,39 +129,76 @@ export const GpuList: FunctionComponent = () => {
         Showing {visible.length} of {allGpus.length} GPUs. Rates are in US dollars per hour.
       </p>
       <div className="overflow-x-auto">
-        <table>
+        <table className="text-sm">
           <thead>
             <tr>
-              <th>Saved</th>
-              <th>GPU</th>
-              <th>Lowest</th>
-              <th>Low</th>
-              <th>Medium</th>
-              <th>High</th>
+              <th style={cellStyle}>GPU</th>
+              <th className={rateClass} style={rateStyle}>
+                Lowest
+              </th>
+              <th className={rateClass} style={rateStyle}>
+                Low
+              </th>
+              <th className={rateClass} style={rateStyle}>
+                Medium
+              </th>
+              <th className={rateClass} style={rateStyle}>
+                High
+              </th>
             </tr>
           </thead>
           <tbody>
-            {visible.map((gpu) => {
-              const isSaved = savedGpus.includes(gpu.name)
+            {groups.map((name) => {
+              const gpus = visible.filter((gpu) => gpu.group === name)
+              if (gpus.length === 0) {
+                return null
+              }
+
               return (
-                <tr key={gpu.name}>
-                  <td>
-                    <button
-                      aria-label={isSaved ? `Remove ${gpu.name} from my GPUs` : `Add ${gpu.name} to my GPUs`}
-                      aria-pressed={isSaved}
-                      className="px-2 text-lg"
-                      onClick={() => toggleSaved(gpu.name)}
-                      type="button"
-                    >
-                      {isSaved ? '★' : '☆'}
-                    </button>
-                  </td>
-                  <td>{gpu.name}</td>
-                  <td>{formatRate(gpu.lowest)}</td>
-                  <td>{formatRate(gpu.low)}</td>
-                  <td>{formatRate(gpu.medium)}</td>
-                  <td>{formatRate(gpu.high)}</td>
-                </tr>
+                <Fragment key={name}>
+                  <tr>
+                    <th className="bg-fd-muted text-left" colSpan={5} scope="colgroup" style={cellStyle}>
+                      {name}
+                    </th>
+                  </tr>
+                  {gpus.map((gpu) => {
+                    const id = gpuId(gpu)
+                    const isSaved = savedGpus.includes(id)
+                    return (
+                      <tr key={id}>
+                        <td style={cellStyle}>
+                          <div className="flex items-center gap-2">
+                            <button
+                              aria-label={isSaved ? `Remove ${id} from my GPUs` : `Add ${id} to my GPUs`}
+                              aria-pressed={isSaved}
+                              className="text-lg"
+                              onClick={() => toggleSaved(id)}
+                              type="button"
+                            >
+                              {isSaved ? '★' : '☆'}
+                            </button>
+                            <span className="min-w-[5.5rem]">
+                              {gpu.name}{' '}
+                              <span className="text-fd-muted-foreground block sm:inline">({gpu.vram} GB)</span>
+                            </span>
+                          </div>
+                        </td>
+                        <td className={rateClass} style={rateStyle}>
+                          {formatRate(gpu.lowest)}
+                        </td>
+                        <td className={rateClass} style={rateStyle}>
+                          {formatRate(gpu.low)}
+                        </td>
+                        <td className={rateClass} style={rateStyle}>
+                          {formatRate(gpu.medium)}
+                        </td>
+                        <td className={rateClass} style={rateStyle}>
+                          {formatRate(gpu.high)}
+                        </td>
+                      </tr>
+                    )
+                  })}
+                </Fragment>
               )
             })}
           </tbody>

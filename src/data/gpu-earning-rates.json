@@ -2,479 +2,562 @@
   "asOf": "2026-11-01",
   "gpus": [
     {
-      "name": "RTX 5090 (32 GB)",
-      "group": "RTX 50",
-      "high": 0.48,
-      "medium": 0.387,
+      "name": "RTX 5090",
+      "vram": 32,
+      "group": "RTX 50 series",
+      "lowest": 0.2,
       "low": 0.293,
-      "lowest": 0.2
+      "medium": 0.387,
+      "high": 0.48
     },
     {
-      "name": "RTX 4090 (24 GB)",
-      "group": "RTX 40",
-      "high": 0.352,
-      "medium": 0.277,
-      "low": 0.203,
-      "lowest": 0.128
-    },
-    {
-      "name": "RTX 5080 (16 GB)",
-      "group": "RTX 50",
-      "high": 0.256,
-      "medium": 0.211,
+      "name": "RTX 5080",
+      "vram": 16,
+      "group": "RTX 50 series",
+      "lowest": 0.12,
       "low": 0.165,
-      "lowest": 0.12
+      "medium": 0.211,
+      "high": 0.256
     },
     {
-      "name": "RTX 4080 (16 GB)",
-      "group": "RTX 40",
-      "high": 0.216,
-      "medium": 0.173,
-      "low": 0.131,
-      "lowest": 0.088,
-      "aliases": ["4080 Super"]
-    },
-    {
-      "name": "RTX 5070 Ti (16 GB)",
-      "group": "RTX 50",
-      "high": 0.216,
-      "medium": 0.171,
+      "name": "RTX 5070 Ti",
+      "vram": 16,
+      "group": "RTX 50 series",
+      "lowest": 0.08,
       "low": 0.125,
-      "lowest": 0.08
+      "medium": 0.171,
+      "high": 0.216
     },
     {
-      "name": "RTX A5000 (24 GB)",
-      "group": "Workstation",
-      "high": 0.2,
-      "medium": 0.157,
-      "low": 0.115,
-      "lowest": 0.072
-    },
-    {
-      "name": "RTX 4070 Ti Super (16 GB)",
-      "group": "RTX 40",
-      "high": 0.192,
-      "medium": 0.152,
-      "low": 0.112,
-      "lowest": 0.072
-    },
-    {
-      "name": "RTX 5090 Laptop (24 GB)",
-      "group": "Laptop",
-      "high": 0.188,
-      "medium": 0.152,
-      "low": 0.116,
-      "lowest": 0.08
-    },
-    {
-      "name": "RTX 3090 Ti (24 GB)",
-      "group": "RTX 30",
-      "high": 0.176,
-      "medium": 0.144,
-      "low": 0.112,
-      "lowest": 0.08
-    },
-    {
-      "name": "RTX 3090 (24 GB)",
-      "group": "RTX 30",
-      "high": 0.16,
-      "medium": 0.131,
-      "low": 0.101,
-      "lowest": 0.072
-    },
-    {
-      "name": "RTX 4070 Ti (12 GB)",
-      "group": "RTX 40",
-      "high": 0.16,
-      "medium": 0.128,
+      "name": "RTX 5070",
+      "vram": 12,
+      "group": "RTX 50 series",
+      "lowest": 0.064,
       "low": 0.096,
-      "lowest": 0.064
-    },
-    {
-      "name": "RTX 5070 (12 GB)",
-      "group": "RTX 50",
-      "high": 0.16,
       "medium": 0.128,
-      "low": 0.096,
-      "lowest": 0.064
+      "high": 0.16
     },
     {
-      "name": "AMD RX 9070 XT (16 GB)",
-      "group": "AMD",
-      "high": 0.157,
-      "medium": 0.124,
-      "low": 0.088,
-      "lowest": 0.056
-    },
-    {
-      "name": "RTX 3080 Ti (12 GB)",
-      "group": "RTX 30",
-      "high": 0.156,
-      "medium": 0.125,
-      "low": 0.095,
-      "lowest": 0.064
-    },
-    {
-      "name": "RTX 5080 Laptop (16 GB)",
-      "group": "Laptop",
-      "high": 0.14,
-      "medium": 0.115,
-      "low": 0.089,
-      "lowest": 0.064
-    },
-    {
-      "name": "AMD RX 7900 XTX (24 GB)",
-      "group": "AMD",
-      "high": 0.134,
-      "medium": 0.107,
-      "low": 0.08,
-      "lowest": 0.053
-    },
-    {
-      "name": "RTX 4070 (12 GB)",
-      "group": "RTX 40",
-      "high": 0.132,
-      "medium": 0.107,
-      "low": 0.081,
+      "name": "RTX 5060 Ti",
+      "vram": 16,
+      "group": "RTX 50 series",
       "lowest": 0.056,
-      "aliases": ["4070 Super"]
-    },
-    {
-      "name": "RTX 4090 Laptop (16 GB)",
-      "group": "Laptop",
-      "high": 0.132,
-      "medium": 0.108,
-      "low": 0.084,
-      "lowest": 0.06
-    },
-    {
-      "name": "AMD RX 7900 XT (20 GB)",
-      "group": "AMD",
-      "high": 0.125,
-      "medium": 0.098,
-      "low": 0.07,
-      "lowest": 0.043
-    },
-    {
-      "name": "RTX 3080 (10 GB)",
-      "group": "RTX 30",
-      "high": 0.124,
-      "medium": 0.099,
-      "low": 0.073,
-      "lowest": 0.048
-    },
-    {
-      "name": "RTX 5060 Ti (16 GB)",
-      "group": "RTX 50",
-      "high": 0.124,
-      "medium": 0.101,
       "low": 0.079,
-      "lowest": 0.056
+      "medium": 0.101,
+      "high": 0.124
     },
     {
-      "name": "RTX 4060 Ti (16 GB)",
-      "group": "RTX 40",
-      "high": 0.112,
-      "medium": 0.096,
-      "low": 0.08,
-      "lowest": 0.064
-    },
-    {
-      "name": "RTX 4080 Laptop (12 GB)",
-      "group": "Laptop",
-      "high": 0.112,
-      "medium": 0.092,
-      "low": 0.072,
-      "lowest": 0.052
-    },
-    {
-      "name": "AMD RX 7800 XT (16 GB)",
-      "group": "AMD",
-      "high": 0.106,
-      "medium": 0.082,
-      "low": 0.058,
-      "lowest": 0.034
-    },
-    {
-      "name": "RTX 5060 Ti (8 GB)",
-      "group": "RTX 50",
-      "high": 0.104,
-      "medium": 0.087,
+      "name": "RTX 5060 Ti",
+      "vram": 8,
+      "group": "RTX 50 series",
+      "lowest": 0.054,
       "low": 0.071,
-      "lowest": 0.054
+      "medium": 0.087,
+      "high": 0.104
     },
     {
-      "name": "RTX 5070 Ti Laptop (12 GB)",
-      "group": "Laptop",
-      "high": 0.104,
-      "medium": 0.085,
-      "low": 0.067,
-      "lowest": 0.048
-    },
-    {
-      "name": "AMD RX 9060 XT (16 GB)",
-      "group": "AMD",
-      "high": 0.101,
-      "medium": 0.08,
-      "low": 0.06,
-      "lowest": 0.039
-    },
-    {
-      "name": "RTX 3070 (8 GB)",
-      "group": "RTX 30",
-      "high": 0.092,
-      "medium": 0.072,
-      "low": 0.052,
-      "lowest": 0.032
-    },
-    {
-      "name": "RTX 3070 Ti (8 GB)",
-      "group": "RTX 30",
-      "high": 0.092,
-      "medium": 0.077,
-      "low": 0.063,
-      "lowest": 0.048
-    },
-    {
-      "name": "RTX 5060 (8 GB)",
-      "group": "RTX 50",
-      "high": 0.092,
-      "medium": 0.079,
+      "name": "RTX 5060",
+      "vram": 8,
+      "group": "RTX 50 series",
+      "lowest": 0.052,
       "low": 0.065,
-      "lowest": 0.052
+      "medium": 0.079,
+      "high": 0.092
     },
     {
-      "name": "RTX 2080 Ti (11 GB)",
-      "group": "RTX 20",
-      "high": 0.088,
-      "medium": 0.075,
-      "low": 0.061,
-      "lowest": 0.048
-    },
-    {
-      "name": "RTX 4060 Ti (8 GB)",
-      "group": "RTX 40",
-      "high": 0.088,
-      "medium": 0.076,
-      "low": 0.064,
-      "lowest": 0.052
-    },
-    {
-      "name": "RTX 5070 Laptop (8 GB)",
-      "group": "Laptop",
-      "high": 0.084,
-      "medium": 0.069,
-      "low": 0.055,
-      "lowest": 0.04
-    },
-    {
-      "name": "RTX 3080 Ti Laptop (16 GB)",
-      "group": "Laptop",
-      "high": 0.08,
-      "medium": 0.065,
-      "low": 0.051,
-      "lowest": 0.036
-    },
-    {
-      "name": "RTX 3060 Ti (8 GB)",
-      "group": "RTX 30",
-      "high": 0.072,
-      "medium": 0.056,
-      "low": 0.04,
-      "lowest": 0.024
-    },
-    {
-      "name": "RTX 4060 (8 GB)",
-      "group": "RTX 40",
-      "high": 0.072,
-      "medium": 0.061,
-      "low": 0.051,
-      "lowest": 0.04
-    },
-    {
-      "name": "RTX 2080 (8 GB)",
-      "group": "RTX 20",
-      "high": 0.064,
-      "medium": 0.056,
-      "low": 0.048,
-      "lowest": 0.04,
-      "aliases": ["2080 Super"]
-    },
-    {
-      "name": "RTX 3060 (12 GB)",
-      "group": "RTX 30",
-      "high": 0.064,
-      "medium": 0.053,
-      "low": 0.043,
-      "lowest": 0.032
-    },
-    {
-      "name": "RTX 3060 (8 GB)",
-      "group": "RTX 30",
-      "high": 0.064,
-      "medium": 0.051,
-      "low": 0.037,
-      "lowest": 0.024
-    },
-    {
-      "name": "RTX 3080 Laptop (8 GB)",
-      "group": "Laptop",
-      "high": 0.064,
-      "medium": 0.053,
-      "low": 0.043,
-      "lowest": 0.032
-    },
-    {
-      "name": "RTX 4070 Laptop (8 GB)",
-      "group": "Laptop",
-      "high": 0.064,
-      "medium": 0.056,
-      "low": 0.048,
-      "lowest": 0.04
-    },
-    {
-      "name": "RTX 5060 Laptop (8 GB)",
-      "group": "Laptop",
-      "high": 0.064,
-      "medium": 0.052,
-      "low": 0.041,
-      "lowest": 0.029
-    },
-    {
-      "name": "RTX 2070 (8 GB)",
-      "group": "RTX 20",
-      "high": 0.056,
-      "medium": 0.043,
-      "low": 0.029,
-      "lowest": 0.016
-    },
-    {
-      "name": "RTX 3050 (8 GB)",
-      "group": "RTX 30",
-      "high": 0.056,
-      "medium": 0.045,
-      "low": 0.035,
-      "lowest": 0.024
-    },
-    {
-      "name": "RTX 4060 Laptop (8 GB)",
-      "group": "Laptop",
-      "high": 0.056,
-      "medium": 0.047,
-      "low": 0.037,
-      "lowest": 0.028
-    },
-    {
-      "name": "RTX 5050 (8 GB)",
-      "group": "RTX 50",
-      "high": 0.056,
-      "medium": 0.046,
+      "name": "RTX 5050",
+      "vram": 8,
+      "group": "RTX 50 series",
+      "lowest": 0.026,
       "low": 0.036,
-      "lowest": 0.026
+      "medium": 0.046,
+      "high": 0.056
     },
     {
-      "name": "RTX 5050 Laptop (8 GB)",
-      "group": "Laptop",
-      "high": 0.052,
-      "medium": 0.042,
-      "low": 0.033,
-      "lowest": 0.023
+      "name": "RTX 4090",
+      "vram": 24,
+      "group": "RTX 40 series",
+      "lowest": 0.128,
+      "low": 0.203,
+      "medium": 0.277,
+      "high": 0.352
     },
     {
-      "name": "RTX 2060 (6 GB)",
-      "group": "RTX 20",
-      "high": 0.05,
-      "medium": 0.038,
+      "name": "RTX 4080 Super",
+      "vram": 16,
+      "group": "RTX 40 series",
+      "lowest": 0.088,
+      "low": 0.131,
+      "medium": 0.173,
+      "high": 0.216
+    },
+    {
+      "name": "RTX 4080",
+      "vram": 16,
+      "group": "RTX 40 series",
+      "lowest": 0.088,
+      "low": 0.131,
+      "medium": 0.173,
+      "high": 0.216
+    },
+    {
+      "name": "RTX 4070 Ti Super",
+      "vram": 16,
+      "group": "RTX 40 series",
+      "lowest": 0.072,
+      "low": 0.112,
+      "medium": 0.152,
+      "high": 0.192
+    },
+    {
+      "name": "RTX 4070 Ti",
+      "vram": 12,
+      "group": "RTX 40 series",
+      "lowest": 0.064,
+      "low": 0.096,
+      "medium": 0.128,
+      "high": 0.16
+    },
+    {
+      "name": "RTX 4070 Super",
+      "vram": 12,
+      "group": "RTX 40 series",
+      "lowest": 0.056,
+      "low": 0.081,
+      "medium": 0.107,
+      "high": 0.132
+    },
+    {
+      "name": "RTX 4070",
+      "vram": 12,
+      "group": "RTX 40 series",
+      "lowest": 0.056,
+      "low": 0.081,
+      "medium": 0.107,
+      "high": 0.132
+    },
+    {
+      "name": "RTX 4060 Ti",
+      "vram": 16,
+      "group": "RTX 40 series",
+      "lowest": 0.064,
+      "low": 0.08,
+      "medium": 0.096,
+      "high": 0.112
+    },
+    {
+      "name": "RTX 4060 Ti",
+      "vram": 8,
+      "group": "RTX 40 series",
+      "lowest": 0.052,
+      "low": 0.064,
+      "medium": 0.076,
+      "high": 0.088
+    },
+    {
+      "name": "RTX 4060",
+      "vram": 8,
+      "group": "RTX 40 series",
+      "lowest": 0.04,
+      "low": 0.051,
+      "medium": 0.061,
+      "high": 0.072
+    },
+    {
+      "name": "RTX 3090 Ti",
+      "vram": 24,
+      "group": "RTX 30 series",
+      "lowest": 0.08,
+      "low": 0.112,
+      "medium": 0.144,
+      "high": 0.176
+    },
+    {
+      "name": "RTX 3090",
+      "vram": 24,
+      "group": "RTX 30 series",
+      "lowest": 0.072,
+      "low": 0.101,
+      "medium": 0.131,
+      "high": 0.16
+    },
+    {
+      "name": "RTX 3080 Ti",
+      "vram": 12,
+      "group": "RTX 30 series",
+      "lowest": 0.064,
+      "low": 0.095,
+      "medium": 0.125,
+      "high": 0.156
+    },
+    {
+      "name": "RTX 3080",
+      "vram": 10,
+      "group": "RTX 30 series",
+      "lowest": 0.048,
+      "low": 0.073,
+      "medium": 0.099,
+      "high": 0.124
+    },
+    {
+      "name": "RTX 3070 Ti",
+      "vram": 8,
+      "group": "RTX 30 series",
+      "lowest": 0.048,
+      "low": 0.063,
+      "medium": 0.077,
+      "high": 0.092
+    },
+    {
+      "name": "RTX 3070",
+      "vram": 8,
+      "group": "RTX 30 series",
+      "lowest": 0.032,
+      "low": 0.052,
+      "medium": 0.072,
+      "high": 0.092
+    },
+    {
+      "name": "RTX 3060 Ti",
+      "vram": 8,
+      "group": "RTX 30 series",
+      "lowest": 0.024,
+      "low": 0.04,
+      "medium": 0.056,
+      "high": 0.072
+    },
+    {
+      "name": "RTX 3060",
+      "vram": 12,
+      "group": "RTX 30 series",
+      "lowest": 0.032,
+      "low": 0.043,
+      "medium": 0.053,
+      "high": 0.064
+    },
+    {
+      "name": "RTX 3060",
+      "vram": 8,
+      "group": "RTX 30 series",
+      "lowest": 0.024,
+      "low": 0.037,
+      "medium": 0.051,
+      "high": 0.064
+    },
+    {
+      "name": "RTX 3050",
+      "vram": 8,
+      "group": "RTX 30 series",
+      "lowest": 0.024,
+      "low": 0.035,
+      "medium": 0.045,
+      "high": 0.056
+    },
+    {
+      "name": "RTX 2080 Ti",
+      "vram": 11,
+      "group": "RTX 20 series",
+      "lowest": 0.048,
+      "low": 0.061,
+      "medium": 0.075,
+      "high": 0.088
+    },
+    {
+      "name": "RTX 2080 Super",
+      "vram": 8,
+      "group": "RTX 20 series",
+      "lowest": 0.04,
+      "low": 0.048,
+      "medium": 0.056,
+      "high": 0.064
+    },
+    {
+      "name": "RTX 2080",
+      "vram": 8,
+      "group": "RTX 20 series",
+      "lowest": 0.04,
+      "low": 0.048,
+      "medium": 0.056,
+      "high": 0.064
+    },
+    {
+      "name": "RTX 2070",
+      "vram": 8,
+      "group": "RTX 20 series",
+      "lowest": 0.016,
+      "low": 0.029,
+      "medium": 0.043,
+      "high": 0.056
+    },
+    {
+      "name": "RTX 2060",
+      "vram": 6,
+      "group": "RTX 20 series",
+      "lowest": 0.016,
       "low": 0.027,
-      "lowest": 0.016
+      "medium": 0.038,
+      "high": 0.05
     },
     {
-      "name": "RTX 3060 Laptop (6 GB)",
-      "group": "Laptop",
-      "high": 0.04,
-      "medium": 0.033,
-      "low": 0.026,
-      "lowest": 0.018
-    },
-    {
-      "name": "RTX 4050 Laptop (6 GB)",
-      "group": "Laptop",
-      "high": 0.036,
-      "medium": 0.029,
-      "low": 0.023,
-      "lowest": 0.016
-    },
-    {
-      "name": "RTX 3050 Laptop (6 GB)",
-      "group": "Laptop",
-      "high": 0.034,
-      "medium": 0.028,
-      "low": 0.022,
-      "lowest": 0.016
-    },
-    {
-      "name": "GTX 1070 / 1080 / 1080 Ti (8 GB)",
+      "name": "GTX 1660 Super",
+      "vram": 6,
       "group": "GTX",
-      "high": 0.032,
-      "medium": 0.027,
+      "lowest": 0.016,
       "low": 0.021,
-      "lowest": 0.016
-    },
-    {
-      "name": "GTX 1660 (6 GB)",
-      "group": "GTX",
-      "high": 0.032,
       "medium": 0.027,
-      "low": 0.021,
-      "lowest": 0.016
+      "high": 0.032
     },
     {
-      "name": "GTX 1660 Super (6 GB)",
+      "name": "GTX 1660",
+      "vram": 6,
       "group": "GTX",
-      "high": 0.032,
+      "lowest": 0.016,
+      "low": 0.021,
       "medium": 0.027,
-      "low": 0.021,
-      "lowest": 0.016
+      "high": 0.032
     },
     {
-      "name": "RTX 3050 Ti Laptop (4 GB)",
-      "group": "Laptop",
-      "high": 0.028,
-      "medium": 0.023,
-      "low": 0.018,
-      "lowest": 0.013
-    },
-    {
-      "name": "GTX 1060 (6 GB)",
+      "name": "GTX 1650",
+      "vram": 4,
       "group": "GTX",
-      "high": 0.024,
-      "medium": 0.021,
+      "lowest": 0.012,
+      "low": 0.013,
+      "medium": 0.015,
+      "high": 0.016
+    },
+    {
+      "name": "GTX 1070, 1080, 1080 Ti",
+      "vram": 8,
+      "group": "GTX",
+      "lowest": 0.016,
+      "low": 0.021,
+      "medium": 0.027,
+      "high": 0.032
+    },
+    {
+      "name": "GTX 1060",
+      "vram": 6,
+      "group": "GTX",
+      "lowest": 0.016,
       "low": 0.019,
-      "lowest": 0.016
+      "medium": 0.021,
+      "high": 0.024
     },
     {
-      "name": "RTX 3050 Laptop (4 GB)",
-      "group": "Laptop",
-      "high": 0.024,
-      "medium": 0.02,
+      "name": "GTX 1050 Ti",
+      "vram": 4,
+      "group": "GTX",
+      "lowest": 0.012,
+      "low": 0.013,
+      "medium": 0.015,
+      "high": 0.016
+    },
+    {
+      "name": "AMD RX 9070 XT",
+      "vram": 16,
+      "group": "AMD",
+      "lowest": 0.056,
+      "low": 0.088,
+      "medium": 0.124,
+      "high": 0.157
+    },
+    {
+      "name": "AMD RX 9060 XT",
+      "vram": 16,
+      "group": "AMD",
+      "lowest": 0.039,
+      "low": 0.06,
+      "medium": 0.08,
+      "high": 0.101
+    },
+    {
+      "name": "AMD RX 7900 XTX",
+      "vram": 24,
+      "group": "AMD",
+      "lowest": 0.053,
+      "low": 0.08,
+      "medium": 0.107,
+      "high": 0.134
+    },
+    {
+      "name": "AMD RX 7900 XT",
+      "vram": 20,
+      "group": "AMD",
+      "lowest": 0.043,
+      "low": 0.07,
+      "medium": 0.098,
+      "high": 0.125
+    },
+    {
+      "name": "AMD RX 7800 XT",
+      "vram": 16,
+      "group": "AMD",
+      "lowest": 0.034,
+      "low": 0.058,
+      "medium": 0.082,
+      "high": 0.106
+    },
+    {
+      "name": "RTX A5000",
+      "vram": 24,
+      "group": "Workstation",
+      "lowest": 0.072,
+      "low": 0.115,
+      "medium": 0.157,
+      "high": 0.2
+    },
+    {
+      "name": "RTX 5090 Laptop",
+      "vram": 24,
+      "group": "Laptops",
+      "lowest": 0.08,
+      "low": 0.116,
+      "medium": 0.152,
+      "high": 0.188
+    },
+    {
+      "name": "RTX 5080 Laptop",
+      "vram": 16,
+      "group": "Laptops",
+      "lowest": 0.064,
+      "low": 0.089,
+      "medium": 0.115,
+      "high": 0.14
+    },
+    {
+      "name": "RTX 5070 Ti Laptop",
+      "vram": 12,
+      "group": "Laptops",
+      "lowest": 0.048,
+      "low": 0.067,
+      "medium": 0.085,
+      "high": 0.104
+    },
+    {
+      "name": "RTX 5070 Laptop",
+      "vram": 8,
+      "group": "Laptops",
+      "lowest": 0.04,
+      "low": 0.055,
+      "medium": 0.069,
+      "high": 0.084
+    },
+    {
+      "name": "RTX 5060 Laptop",
+      "vram": 8,
+      "group": "Laptops",
+      "lowest": 0.029,
+      "low": 0.041,
+      "medium": 0.052,
+      "high": 0.064
+    },
+    {
+      "name": "RTX 5050 Laptop",
+      "vram": 8,
+      "group": "Laptops",
+      "lowest": 0.023,
+      "low": 0.033,
+      "medium": 0.042,
+      "high": 0.052
+    },
+    {
+      "name": "RTX 4090 Laptop",
+      "vram": 16,
+      "group": "Laptops",
+      "lowest": 0.06,
+      "low": 0.084,
+      "medium": 0.108,
+      "high": 0.132
+    },
+    {
+      "name": "RTX 4080 Laptop",
+      "vram": 12,
+      "group": "Laptops",
+      "lowest": 0.052,
+      "low": 0.072,
+      "medium": 0.092,
+      "high": 0.112
+    },
+    {
+      "name": "RTX 4070 Laptop",
+      "vram": 8,
+      "group": "Laptops",
+      "lowest": 0.04,
+      "low": 0.048,
+      "medium": 0.056,
+      "high": 0.064
+    },
+    {
+      "name": "RTX 4060 Laptop",
+      "vram": 8,
+      "group": "Laptops",
+      "lowest": 0.028,
+      "low": 0.037,
+      "medium": 0.047,
+      "high": 0.056
+    },
+    {
+      "name": "RTX 4050 Laptop",
+      "vram": 6,
+      "group": "Laptops",
+      "lowest": 0.016,
+      "low": 0.023,
+      "medium": 0.029,
+      "high": 0.036
+    },
+    {
+      "name": "RTX 3080 Ti Laptop",
+      "vram": 16,
+      "group": "Laptops",
+      "lowest": 0.036,
+      "low": 0.051,
+      "medium": 0.065,
+      "high": 0.08
+    },
+    {
+      "name": "RTX 3080 Laptop",
+      "vram": 8,
+      "group": "Laptops",
+      "lowest": 0.032,
+      "low": 0.043,
+      "medium": 0.053,
+      "high": 0.064
+    },
+    {
+      "name": "RTX 3060 Laptop",
+      "vram": 6,
+      "group": "Laptops",
+      "lowest": 0.018,
+      "low": 0.026,
+      "medium": 0.033,
+      "high": 0.04
+    },
+    {
+      "name": "RTX 3050 Ti Laptop",
+      "vram": 4,
+      "group": "Laptops",
+      "lowest": 0.013,
+      "low": 0.018,
+      "medium": 0.023,
+      "high": 0.028
+    },
+    {
+      "name": "RTX 3050 Laptop",
+      "vram": 6,
+      "group": "Laptops",
+      "lowest": 0.016,
+      "low": 0.022,
+      "medium": 0.028,
+      "high": 0.034
+    },
+    {
+      "name": "RTX 3050 Laptop",
+      "vram": 4,
+      "group": "Laptops",
+      "lowest": 0.013,
       "low": 0.017,
-      "lowest": 0.013
-    },
-    {
-      "name": "GTX 1050 Ti (4 GB)",
-      "group": "GTX",
-      "high": 0.016,
-      "medium": 0.015,
-      "low": 0.013,
-      "lowest": 0.012
-    },
-    {
-      "name": "GTX 1650 (4 GB)",
-      "group": "GTX",
-      "high": 0.016,
-      "medium": 0.015,
-      "low": 0.013,
-      "lowest": 0.012
+      "medium": 0.02,
+      "high": 0.024
     }
   ]
 }
