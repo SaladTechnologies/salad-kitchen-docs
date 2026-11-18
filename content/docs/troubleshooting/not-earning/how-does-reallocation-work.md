@@ -6,8 +6,7 @@ description:
 ---
 
 Reallocation is when a SaladCloud customer moves their job from your machine to another one. Your machine stops the job,
-is paid for the time it ran, and goes back into the queue for the next job automatically. There's nothing you need to
-do.
+is paid for the time it ran, and is available for the next job automatically. There's nothing you need to do.
 
 ## Why customers reallocate
 

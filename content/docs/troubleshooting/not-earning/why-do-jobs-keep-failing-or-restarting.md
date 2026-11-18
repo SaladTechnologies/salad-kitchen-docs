@@ -7,7 +7,7 @@ description:
 
 If container jobs regularly stop, restart or last only a few minutes, and the app shows **no** Degraded notification,
 the cause is almost always on the customer's side rather than yours. You're paid for the time each job runs, and the
-machine goes straight back into the queue.
+machine is available for the next job right away.
 
 ## What's usually happening
 

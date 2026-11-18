@@ -3,6 +3,11 @@
   "icon": "MyIcon",
   "pages": [
     "index",
+    "whats-normal-while-chopping",
+    "salad-is-best-served-afk",
+    "how-priority-levels-work",
+    "heat-and-fan-noise",
+    "internet-and-data-use",
     "how-does-my-machine-earn-salad-balance",
     "how-much-can-i-earn-with-salad",
     "network-monitor",

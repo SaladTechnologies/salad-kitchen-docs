@@ -12,7 +12,7 @@ something about the machine stops it qualifying. The first just needs patience; 
 
 The [Network Monitor](/faq/jobs/network-monitor) shows current demand for each GPU model. If yours is low, waits can be
 long and the machine is probably fine. Set up a [demand alert](/guides/getting-jobs/how-to-set-up-a-demand-alert) and
-leave Salad running - restarting doesn't move you up the queue.
+leave Salad running - restarting doesn't get you a job any sooner.
 
 When there's no container job for your hardware, Salad falls back to
 [bandwidth sharing](/guides/getting-jobs/getting-bandwidth-sharing-jobs) or

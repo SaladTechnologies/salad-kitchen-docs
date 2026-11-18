@@ -5,9 +5,9 @@ description: Why Windows and Salad app updates stop your jobs, what happens afte
 
 Any restart stops the job you are running. When Windows installs an update and reboots, or when the Salad app itself
 updates, your current job is stopped and reallocated to another Chef. Customers expect their workloads to keep running,
-so a job can't wait for your machine to come back. Once Salad is Chopping again you are back in the queue like any other
-machine, and it can take a while before the next job arrives. You are not penalized for updating; you are credited for
-the time the job ran before it stopped.
+so a job can't wait for your machine to come back. Once Salad is Chopping again your machine is available for jobs again
+like any other, and it can take a while before the next job arrives. You are not penalized for updating; you are
+credited for the time the job ran before it stopped.
 
 Windows updates can also replace or change your GPU driver, which can stop you receiving jobs until the driver is fixed.
 
@@ -23,5 +23,5 @@ Windows updates can also replace or change your GPU driver, which can stop you r
 
 - **Check your GPU driver.** If your machine stops receiving jobs after an update,
   [reinstalling your GPU drivers](/guides/your-pc/how-to-reinstall-gpu-drivers) usually fixes it.
-- **Expect Finding Job for a while.** Being back in the queue is normal; see
+- **Expect Finding Job for a while.** Waiting for the next job is normal; see
   [Finding Job for hours](/troubleshooting/not-earning/finding-job-for-hours) if it drags on.
