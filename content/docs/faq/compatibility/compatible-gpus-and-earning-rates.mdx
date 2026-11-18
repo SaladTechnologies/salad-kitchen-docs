@@ -1,0 +1,37 @@
+---
+title: Compatible GPUs and Earning Rates
+description: Every GPU that can run GPU container jobs on Salad, with its hourly earning rate at each priority level.
+---
+
+import { GpuList } from '../../../../src/components/gpu-list'
+
+These are the GPUs that can run [GPU container jobs](/faq/jobs/how-do-i-get-container-jobs) on Salad, and what each one
+earns per hour while a job is running. The rate depends on the job's priority, which the customer sets. See
+[How Priority Levels Work](/faq/jobs/how-priority-levels-work).
+
+Rates are as of November 1, 2026. Search for your card, or star it to add it to My GPUs and see only your own cards.
+
+<GpuList />
+
+The RTX 4080 Super, RTX 4070 Super and RTX 2080 Super are counted with the RTX 4080, RTX 4070 and RTX 2080.
+
+## Understand Your Earnings
+
+- The [electricity calculator](https://salad.com/download) estimates your profit after power costs.
+- The [Network Monitor](https://salad.com/earn/demand) shows the demand for each GPU right now.
+- The [earning rates page](https://salad.com/earning-rates/) shows what each GPU has actually been earning on Salad.
+- [How Priority Levels Work](/faq/jobs/how-priority-levels-work) explains why the same GPU earns different rates.
+
+## If Your GPU Isn't Listed
+
+Cards not listed here can still earn, and potentially significantly, through
+[CPU jobs](/faq/compatibility/should-i-enable-my-gpu-my-cpu-or-both),
+[bandwidth sharing](/faq/jobs/what-is-bandwidth-sharing) and opting in to
+[background mining workloads](/faq/jobs/mining-as-a-backup-workload).
+
+## Think Your GPU Should Be Supported?
+
+If your GPU is unsupported currently and you believe it would qualify for
+[GPU container jobs](/faq/jobs/how-do-i-get-container-jobs), please reach out to us directly at
+[support@salad.com](mailto:support@salad.com). Please include the machine's other specs (CPU, RAM) and how many you
+have. If possible, leave the machine online on Salad as well. It helps us determine whether support is viable.
