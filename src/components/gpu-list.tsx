@@ -125,10 +125,10 @@ export const GpuList: FunctionComponent = () => {
             <tr>
               <th>Saved</th>
               <th>GPU</th>
-              <th>High</th>
-              <th>Medium</th>
-              <th>Low</th>
               <th>Lowest</th>
+              <th>Low</th>
+              <th>Medium</th>
+              <th>High</th>
             </tr>
           </thead>
           <tbody>
@@ -148,10 +148,10 @@ export const GpuList: FunctionComponent = () => {
                     </button>
                   </td>
                   <td>{gpu.name}</td>
-                  <td>{formatRate(gpu.high)}</td>
-                  <td>{formatRate(gpu.medium)}</td>
-                  <td>{formatRate(gpu.low)}</td>
                   <td>{formatRate(gpu.lowest)}</td>
+                  <td>{formatRate(gpu.low)}</td>
+                  <td>{formatRate(gpu.medium)}</td>
+                  <td>{formatRate(gpu.high)}</td>
                 </tr>
               )
             })}
