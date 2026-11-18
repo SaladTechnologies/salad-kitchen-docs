@@ -3,6 +3,8 @@
   "icon": "MyIcon",
   "pages": [
     "index",
+    "whats-normal-while-chopping",
+    "salad-is-best-served-afk",
     "how-does-my-machine-earn-salad-balance",
     "how-much-can-i-earn-with-salad",
     "network-monitor",

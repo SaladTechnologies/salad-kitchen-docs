@@ -62,9 +62,9 @@ isn't there, bandwidth sharing isn't available in your country yet. Regions with
 
 ## I enabled it but see no earnings
 
-- Jobs go to the fastest, most stable connections first. If faster machines are ahead of you in the queue, you may need
-  to wait. Bandwidth demand also varies; gaps between jobs are normal - the program may be active but does not need to
-  actively share data. You are paid per megabit transferred.
+- Jobs go to the fastest, most stable connections first. If faster connections are available, you may need to wait.
+  Bandwidth demand also varies; gaps between jobs are normal - the program may be active but does not need to actively
+  share data. You are paid per megabit transferred.
 - Keep Chopping. Spots open up over time.
 - Reduce other traffic on your connection while Chopping, and prefer a wired connection
   ([tips](/guides/your-pc/improve-internet-speed)).

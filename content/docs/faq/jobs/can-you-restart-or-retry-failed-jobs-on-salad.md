@@ -12,7 +12,7 @@ No, and you don't need to. Salad handles retries and reassignment automatically,
 - The SaladCloud customer scaled down and needs fewer machines.
 - The customer [reallocated](/troubleshooting/not-earning/how-does-reallocation-work) the job to a different machine.
 
-In each case you are credited for the time the job ran, your machine goes back into the queue, and the app shows
+In each case you are credited for the time the job ran, your machine is available for the next job, and the app shows
 **Finding Job** while it waits for the next one. Nothing to do.
 
 ## When Salad retries automatically
@@ -29,8 +29,8 @@ Some stops can't be retried:
 - The customer's own reallocation rules moved the job off your machine, usually because it ran too slowly, didn't
   produce the expected output, or your connection was too slow or had too much latency.
 
-Those are the customer's decisions and are applied to every machine the same way. Your machine simply returns to the
-queue.
+Those are the customer's decisions and are applied to every machine the same way. Your machine is simply available for
+the next job.
 
 ## When you need to act
 
