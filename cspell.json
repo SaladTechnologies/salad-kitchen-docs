@@ -8,7 +8,13 @@
       "path": "./dictionaries/salad-kitchen.txt"
     }
   ],
-  "ignorePaths": ["dictionaries/**", "node_modules/**", "public/_headers", "public/_redirects"],
+  "ignorePaths": [
+    "dictionaries/**",
+    "node_modules/**",
+    "public/_headers",
+    "public/_redirects",
+    "src/data/intensive-processes.json"
+  ],
   "language": "en,en-US",
   "version": "0.2"
 }

@@ -20,7 +20,7 @@ Programs that count as using the GPU include, though may not be limited to:
 - Any other GPU compute software, including other mining or compute-sharing apps.
 
 For every game and program Salad checks for by name, see the
-[Intensive Process List](/guides/getting-jobs/intensive-process-list).
+[intensive process list](/guides/getting-jobs/intensive-process-list).
 
 Close these before you start Chopping. If you need one of them while Salad is running, pause Salad first by choosing
 **Pause Until Idle** or **Pause Indefinitely** in the app (see
