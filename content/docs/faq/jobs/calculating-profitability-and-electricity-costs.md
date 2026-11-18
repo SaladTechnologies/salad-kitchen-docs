@@ -5,8 +5,8 @@ description: How to measure your machine's power draw and work out whether runni
 
 Running Salad uses electricity, so to know whether it is profitable you need to compare what your machine earns against
 what it costs to power. The easiest way is the profitability calculator on our
-[download page](https://salad.com/download). You need two numbers: your machine's power consumption in watts (W) and
-your electricity rate per kilowatt-hour (kWh).
+[download page](https://salad.com/download/#epc-title). You need two numbers: your machine's power consumption in watts
+(W) and your electricity rate per kilowatt-hour (kWh).
 
 ## Step 1: Find your machine's power consumption
 
@@ -51,7 +51,7 @@ them. If your rate changes through the day, use the rate for the hours you usual
 
 ## Step 3: Calculate your costs
 
-Enter both numbers into the [profitability calculator](https://salad.com/download), or work it out yourself:
+Enter both numbers into the [profitability calculator](https://salad.com/download/#epc-title), or work it out yourself:
 
 ```text
 Daily Cost = (Watts ÷ 1,000) × Hours Chopping per Day × Electricity Rate
