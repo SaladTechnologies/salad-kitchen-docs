@@ -13,8 +13,30 @@ and [Getting bandwidth sharing jobs](/guides/getting-jobs/getting-bandwidth-shar
 are in
 [What is the minimum recommended internet speed?](/faq/compatibility/what-is-the-minimum-recommended-internet-speed-for-salad)
 
-Bandwidth sharing is dependent on our client's demand - eligible machines may not receive the workload is the demand is
+Bandwidth sharing is dependent on our client's demand - eligible machines may not receive the workload if the demand is
 already fulfilled.
+
+## How much can bandwidth sharing earn?
+
+Think of it as a bonus on top of what your GPU or CPU earns. It runs at the same time as your other jobs. A few Chefs
+earn as much from bandwidth sharing as from GPU jobs, but that's uncommon.
+
+## Why isn't it always running?
+
+You earn for the data you transfer, and data only moves when a customer needs it in your region. Bandwidth sharing can
+be switched on and waiting with nothing to send. That's normal, and you don't need to restart anything.
+
+Bandwidth demand can't be forecast the way GPU demand can. It rises and falls through the day and differs by country.
+
+## Is my gateway dead?
+
+No. There's no such thing as a dead gateway. If the gateway you're on has no traffic, it only means there's nothing for
+you to do at that moment. Moving to a different gateway wouldn't get you a job, so there's no need to "re-roll" for one.
+
+## Where is it available?
+
+In [these countries](/guides/getting-jobs/getting-bandwidth-sharing-jobs), on a residential connection with no VPN or
+proxy. More are added over time.
 
 ## Privacy
 
