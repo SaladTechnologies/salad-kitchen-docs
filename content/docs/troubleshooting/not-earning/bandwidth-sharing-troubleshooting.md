@@ -23,6 +23,7 @@ isn't there, bandwidth sharing isn't available in your country yet. Regions with
 - 🇭🇷 Croatia
 - 🇨🇿 Czech Republic
 - 🇩🇰 Denmark
+- 🇪🇨 Ecuador
 - 🇫🇮 Finland
 - 🇫🇷 France
 - 🇩🇪 Germany
@@ -57,6 +58,7 @@ isn't there, bandwidth sharing isn't available in your country yet. Regions with
 - 🇹🇭 Thailand
 - 🇹🇷 Turkey
 - 🇺🇦 Ukraine
+- 🇦🇪 United Arab Emirates
 - 🇺🇸 USA
 - 🇻🇪 Venezuela
 - 🇻🇳 Vietnam
