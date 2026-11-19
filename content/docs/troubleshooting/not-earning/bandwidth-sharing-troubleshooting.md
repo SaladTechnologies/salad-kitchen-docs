@@ -40,6 +40,7 @@ isn't there, bandwidth sharing isn't available in your country yet. Regions with
 - 🇲🇽 Mexico
 - 🇳🇱 Netherlands
 - 🇳🇴 Norway
+- 🇵🇰 Pakistan
 - 🇵🇪 Peru
 - 🇵🇭 Philippines
 - 🇵🇱 Poland

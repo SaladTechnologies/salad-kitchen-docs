@@ -41,6 +41,7 @@ supported countries are:
 - 🇲🇽 Mexico
 - 🇳🇱 Netherlands
 - 🇳🇴 Norway
+- 🇵🇰 Pakistan
 - 🇵🇪 Peru
 - 🇵🇭 Philippines
 - 🇵🇱 Poland
