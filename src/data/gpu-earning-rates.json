@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-01",
+  "asOf": "2026-11-24",
   "gpus": [
     {
       "name": "RTX 5090",
@@ -9,6 +9,15 @@
       "low": 0.293,
       "medium": 0.387,
       "high": 0.48
+    },
+    {
+      "name": "RTX 5090 D",
+      "vram": 32,
+      "group": "RTX 50 series",
+      "lowest": 0.176,
+      "low": 0.269,
+      "medium": 0.363,
+      "high": 0.456
     },
     {
       "name": "RTX 5080",
@@ -81,6 +90,15 @@
       "low": 0.203,
       "medium": 0.277,
       "high": 0.352
+    },
+    {
+      "name": "RTX 4090 D",
+      "vram": 24,
+      "group": "RTX 40 series",
+      "lowest": 0.12,
+      "low": 0.192,
+      "medium": 0.264,
+      "high": 0.336
     },
     {
       "name": "RTX 4080 Super",
@@ -398,6 +416,96 @@
       "high": 0.106
     },
     {
+      "name": "RTX PRO 6000",
+      "vram": 96,
+      "group": "Workstation",
+      "lowest": 0.88,
+      "low": 1.28,
+      "medium": 1.68,
+      "high": 2.08
+    },
+    {
+      "name": "RTX PRO 5000",
+      "vram": 72,
+      "group": "Workstation",
+      "lowest": 0.24,
+      "low": 0.427,
+      "medium": 0.613,
+      "high": 0.8
+    },
+    {
+      "name": "RTX PRO 5000",
+      "vram": 48,
+      "group": "Workstation",
+      "lowest": 0.24,
+      "low": 0.427,
+      "medium": 0.613,
+      "high": 0.8
+    },
+    {
+      "name": "RTX PRO 4000",
+      "vram": 24,
+      "group": "Workstation",
+      "lowest": 0.096,
+      "low": 0.165,
+      "medium": 0.235,
+      "high": 0.304
+    },
+    {
+      "name": "RTX 6000 Ada",
+      "vram": 48,
+      "group": "Workstation",
+      "lowest": 0.184,
+      "low": 0.336,
+      "medium": 0.488,
+      "high": 0.64
+    },
+    {
+      "name": "RTX 5000 Ada",
+      "vram": 32,
+      "group": "Workstation",
+      "lowest": 0.136,
+      "low": 0.237,
+      "medium": 0.339,
+      "high": 0.44
+    },
+    {
+      "name": "RTX 4500 Ada",
+      "vram": 24,
+      "group": "Workstation",
+      "lowest": 0.072,
+      "low": 0.168,
+      "medium": 0.264,
+      "high": 0.36
+    },
+    {
+      "name": "RTX 4000 Ada",
+      "vram": 20,
+      "group": "Workstation",
+      "lowest": 0.064,
+      "low": 0.123,
+      "medium": 0.181,
+      "high": 0.24
+    },
+    {
+      "name": "RTX 2000 Ada",
+      "vram": 16,
+      "group": "Workstation",
+      "lowest": 0.032,
+      "low": 0.088,
+      "medium": 0.144,
+      "high": 0.2
+    },
+    {
+      "name": "RTX A6000",
+      "vram": 48,
+      "group": "Workstation",
+      "lowest": 0.12,
+      "low": 0.219,
+      "medium": 0.317,
+      "high": 0.416
+    },
+    {
       "name": "RTX A5000",
       "vram": 24,
       "group": "Workstation",
@@ -405,6 +513,24 @@
       "low": 0.115,
       "medium": 0.157,
       "high": 0.2
+    },
+    {
+      "name": "RTX A2000",
+      "vram": 12,
+      "group": "Workstation",
+      "lowest": 0.032,
+      "low": 0.083,
+      "medium": 0.133,
+      "high": 0.184
+    },
+    {
+      "name": "Quadro RTX 6000 / TITAN RTX",
+      "vram": 24,
+      "group": "Workstation",
+      "lowest": 0.048,
+      "low": 0.085,
+      "medium": 0.123,
+      "high": 0.16
     },
     {
       "name": "RTX 5090 Laptop",
@@ -522,6 +648,24 @@
       "low": 0.043,
       "medium": 0.053,
       "high": 0.064
+    },
+    {
+      "name": "RTX 3070 Ti Laptop",
+      "vram": 8,
+      "group": "Laptops",
+      "lowest": 0.03,
+      "low": 0.04,
+      "medium": 0.05,
+      "high": 0.06
+    },
+    {
+      "name": "RTX 3070 Laptop",
+      "vram": 8,
+      "group": "Laptops",
+      "lowest": 0.028,
+      "low": 0.037,
+      "medium": 0.047,
+      "high": 0.056
     },
     {
       "name": "RTX 3060 Laptop",

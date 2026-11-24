@@ -93,3 +93,4 @@ winmgmt
 isnt
 havent
 nvlddmkm
+quadro
