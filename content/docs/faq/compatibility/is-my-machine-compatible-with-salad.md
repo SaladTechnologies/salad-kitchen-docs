@@ -22,8 +22,9 @@ list of supported cards, see [Compatible GPUs and earning rates](/faq/compatibil
 - **Only one GPU is used.** A second dedicated card doesn't add earnings and can cause errors. See
   [Can I use multiple GPUs?](/faq/compatibility/can-i-use-multiple-gpus) Mixing NVIDIA and AMD, or pairing a modern card
   with a very old one may blocks jobs: see [Mixed NVIDIA and AMD GPUs](/faq/compatibility/mixed-nvidia-and-amd-gpus).
-- **AMD:** only the AMD cards listed on the Network Monitor are supported, using the AMD Edition of the Salad app.
-  Workstation and pro cards (for example the AMD AI PRO R9700) are not supported.
+- **Workstation, data center and AMD cards:** some are supported now. Check the full list in
+  [Compatible GPUs and earning rates](/faq/compatibility/compatible-gpus-and-earning-rates). AMD cards use the AMD
+  Edition of the Salad app.
 - **Laptops** are supported for some variants, but vendor power modes often cap the GPU and trigger a power limit
   notification. See [How power limiting impacts your earnings](/troubleshooting/degraded-state/gpu-power-limit).
 - Run the card at factory settings. Power limiting or underclocking blocks container jobs.
